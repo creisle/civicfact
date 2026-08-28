@@ -1,0 +1,42 @@
+{
+  "compute_dtype": "float16",
+  "early_stopping": {
+    "early_stopping_patience": 5
+  },
+  "eval_per_epoch": 20,
+  "log_per_epoch": 20,
+  "lora": {
+    "bias": "none",
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "r": 64,
+    "task_type": "CAUSAL_LM"
+  },
+  "quant": {
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": false,
+    "load_in_4bit": true
+  },
+  "save_per_epoch": 20,
+  "train": {
+    "bf16": false,
+    "ddp_find_unused_parameters": null,
+    "eval_accumulation_steps": 16,
+    "eval_strategy": "steps",
+    "fp16": false,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 0.0002,
+    "load_best_model_at_end": true,
+    "lr_scheduler_type": "constant",
+    "max_grad_norm": 0.3,
+    "max_steps": -1,
+    "num_train_epochs": 10,
+    "optim": "paged_adamw_32bit",
+    "per_device_eval_batch_size": 1,
+    "per_device_train_batch_size": 1,
+    "save_strategy": "steps",
+    "save_total_limit": 3,
+    "warmup_ratio": 0.03,
+    "weight_decay": 0.001
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "early_stopping": {
+        "early_stopping_patience": 200
+    },
+    "train": {
+        "bf16": false,
+        "disable_tqdm": true,
+        "eval_steps": 25,
+        "eval_strategy": "steps",
+        "fp16": true,
+        "greater_is_better": true,
+        "learning_rate": 0.0002,
+        "load_best_model_at_end": true,
+        "logging_steps": 25,
+        "metric_for_best_model": "f1",
+        "num_train_epochs": 10,
+        "per_device_eval_batch_size": 8,
+        "per_device_train_batch_size": 8,
+        "report_to": "none",
+        "save_steps": 25,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "warmup_ratio": 0.1
+    }
+}

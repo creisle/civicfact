@@ -1,0 +1,16 @@
+{
+    "device_map_type": "balanced_low_0",
+    "generation": {
+        "do_sample": true,
+        "temperature": 1,
+        "truncation": true,
+        "use_cache": true
+    },
+    "min_new_tokens": 100,
+    "quantization_config": {
+        "bnb_4bit_compute_dtype": "bfloat16",
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_use_double_quant": false,
+        "load_in_4bit": true
+    }
+}

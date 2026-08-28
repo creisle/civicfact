@@ -1,0 +1,1290 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24927325</article-id>
+      <article-id pub-id-type="pmc">4057395</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-46691</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0100041</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology and life sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>DNA</subject>
+              <subj-group>
+                <subject>DNA recombination</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Nucleic Acids</subject>
+              <subject>Proteins</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Molecular Cell Biology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Immunology</subject>
+            <subj-group>
+              <subject>Clinical Immunology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Oncology</subject>
+            <subj-group>
+              <subject>Cancers and Neoplasms</subject>
+              <subj-group>
+                <subject>Carcinomas</subject>
+                <subj-group>
+                  <subject>Endometrial Carcinoma</subject>
+                </subj-group>
+              </subj-group>
+              <subj-group>
+                <subject>Gynecological Tumors</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Basic Cancer Research</subject>
+              <subject>Cancer Treatment</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Women's Health</subject>
+            <subj-group>
+              <subject>Obstetrics and Gynecology</subject>
+              <subj-group>
+                <subject>Gynecologic Cancers</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Histochemistry and Cytochemistry Techniques</subject>
+            <subj-group>
+              <subject>Immunohistochemistry Techniques</subject>
+              <subj-group>
+                <subject>Immunohistochemical Analysis</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Immunologic Techniques</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Research Design</subject>
+            <subj-group>
+              <subject>Clinical Research Design</subject>
+              <subject>Cohort Studies</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Effect of MRE11 Loss on PARP-Inhibitor Sensitivity in Endometrial Cancer <italic>In Vitro</italic>
+</article-title>
+        <alt-title alt-title-type="running-head">PARP-Inhibition in MRE11-Null Endometrial Cancer</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Koppensteiner</surname>
+            <given-names>Romana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Samartzis</surname>
+            <given-names>Eleftherios P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Noske</surname>
+            <given-names>Aurelia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>von Teichman</surname>
+            <given-names>Adriana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dedes</surname>
+            <given-names>Ioannis</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gwerder</surname>
+            <given-names>Myriam</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Imesch</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ikenberg</surname>
+            <given-names>Kristian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moch</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fink</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stucki</surname>
+            <given-names>Manuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dedes</surname>
+            <given-names>Konstantin J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Division of Gynaecology, University Hospital of Zurich, Zurich, Switzerland</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Institute of Surgical Pathology, University Hospital of Zurich, Zurich, Switzerland</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Cotterill</surname>
+            <given-names>Sue</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>St. Georges University of London, United Kingdom</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>Konstantin.Dedes@usz.ch</email></corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: KJD DF MS HM. Performed the experiments: RK EPS AvT AN KI PI ID MG. Analyzed the data: KJD EPS PI HM MS ID MG. Contributed reagents/materials/analysis tools: KJD DF. Wrote the paper: RK KJD MS.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>6</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>6</issue>
+      <elocation-id>e100041</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>11</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>5</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2014 Koppensteiner et al</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Koppensteiner et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Aim of the study</title>
+          <p>To evaluate the frequency of MRE11/RAD50/NBS1 (MRN)-complex loss of protein expression in endometrial cancers (EC) and to determine whether loss of MRE11 renders the cancer cells sensitive to Poly(ADP-ribose) polymerase (PARP)-inhibitory treatment.</p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p>MRN expression was examined in 521 samples of endometrial carcinomas and in 10 cancer cell lines. A putative mutation hotspot in the form of an intronic poly(T) allele in MRE11 was sequenced in selected cases (n&#x200A;=&#x200A;26). Sensitivity to the PARP-inhibitor, BMN673 was tested in colony formation assays before and after MRE11 silencing using siRNA. Homologous recombination (HR) DNA repair was evaluated by RAD51-foci formation assay upon irradiation and drug treatment.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Loss of MRE11 protein was found in 30.7% of EC tumours and significantly associated with loss of RAD50, NBS1 and mismatch repair protein expression. One endometrial cell line showed a markedly reduced MRE11 expression due to a homozygous poly(T) mutation of MRE11, thereby exhibiting an increased sensitivity to BMN673. MRE11 depletion sensitizes MRE11 expressing EC cell lines to the treatment with BMN673. The increased sensitivity to PARP-inhibition correlates with reduced RAD51 foci formation upon ionizing radiation in MRE11-depleted cells.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>Loss of the MRE11 protein predicts sensitivity to PARP-inhibitor sensitivity in vitro, defining it as an additional synthetic lethal gene with PARP. The high incidence of MRE11 loss in ECs can be potentially exploited for PARP-inhibitor therapy. Furthermore, MRE11 protein expression using immunohistochemistry could be investigated as a predictive biomarker for PARP-inhibitor treatment.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>This study was partially funded by the Julius M&#xFC;ller Foundation and Zurich Cancer League. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Endometrial cancer (EC) is the fourth most common malignancy among women. The majority of ECs are diagnosed in early stage and are associated with very favourable overall prognosis <xref rid="pone.0100041-Dellinger1" ref-type="bibr">[1]</xref>. Treatment options, however, for advanced, recurrent or metastatic ECs, are limited and consist mainly of cytotoxic chemotherapy <xref rid="pone.0100041-Dellinger1" ref-type="bibr">[1]</xref>. Potential targeted treatments are under clinical investigations but have not yet been incorporated in routine clinical use <xref rid="pone.0100041-Dedes1" ref-type="bibr">[2]</xref>.</p>
+      <p>EC is a heterogeneous disease with distinct histological and molecular characteristics <xref rid="pone.0100041-Dedes1" ref-type="bibr">[2]</xref>. So far, EC have been classified into types I and II. This is based on the different histological properties (endometrioid vs. non-endometrioid) and on the clinical prognosis (favourable vs. poor) <xref rid="pone.0100041-Dedes1" ref-type="bibr">[2]</xref>, <xref rid="pone.0100041-Hecht1" ref-type="bibr">[3]</xref>. In addition, distinct molecular alterations occur preferentially in either type I or type II EC (reviewed in <xref rid="pone.0100041-Dedes1" ref-type="bibr">[2]</xref>). Whereas type I tumours are characterized by microsatellite instability (MSI) and polymutations in different types of genes, almost all type II tumours harbour mutations of the tumour suppressor gene <italic>TP53</italic>
+<xref rid="pone.0100041-Zhao1" ref-type="bibr">[4]</xref>. Recently, novel molecular subgroups have been described in a way akin to breast cancer <xref rid="pone.0100041-Kandoth1" ref-type="bibr">[5]</xref>. Based on their mutation profile and copy-number changes ECs are categorized into: the ultramutated, the hypermuted, the copy number low and the copy number high subgroup <xref rid="pone.0100041-Kandoth1" ref-type="bibr">[5]</xref>.</p>
+      <p>The hypermutated subgroup includes mostly endometrioid EC, all harbouring microsatellite instability (MSI). These tumours are known to develop mutations in various other genes (hypermutated genome) but also those involved in the DNA double strand break (DSB) repair machinery <xref rid="pone.0100041-Bilbao1" ref-type="bibr">[6]</xref>. One of the most common recurrent mutation is found in the <italic>MRE11 gene</italic>, whose product is a part of the MRE11-RAD50-NBS1 (MRN)- complex that is involved in the detection and repair of DNA double-strand breaks (DSBs) <xref rid="pone.0100041-Lamarche1" ref-type="bibr">[7]</xref>, <xref rid="pone.0100041-Stracker1" ref-type="bibr">[8]</xref>. <italic>MRE11</italic> germline mutations that cause a lethal phenotype in mice <xref rid="pone.0100041-Xiao1" ref-type="bibr">[9]</xref> are rarely encountered in humans and lead to an Ataxia telangiectasia-like disorder (ATLD) <xref rid="pone.0100041-Stewart1" ref-type="bibr">[10]</xref>. Somatic mutations in <italic>MRE11</italic>, however, are frequently detected in colorectal cancers with MSI and have also been suggested for MSI-positive ECs <xref rid="pone.0100041-Giannini1" ref-type="bibr">[11]</xref>. Mutations of the intronic poly(T) sequence of <italic>MRE11</italic> between exons 4 and 5 are frequent events in MSI positive colorectal und ECs <xref rid="pone.0100041-Giannini1" ref-type="bibr">[11]</xref>, <xref rid="pone.0100041-Giannini2" ref-type="bibr">[12]</xref>. In EC, MSI is present in more than 20% of tumours and is mainly caused by epigenetic silencing of the MMR gene <italic>MLH1</italic>
+<xref rid="pone.0100041-Esteller1" ref-type="bibr">[13]</xref>. This leads to changes in the number of nucleotide repeats found in coding and non-coding elements of many genes such as <italic>MRE11</italic>
+<xref rid="pone.0100041-Miturski1" ref-type="bibr">[14]</xref>.</p>
+      <p>Synthetic lethality occurs when two individually occurring mutations have no effect on cell viability, but cause cell death in combination <xref rid="pone.0100041-Brough1" ref-type="bibr">[15]</xref>, <xref rid="pone.0100041-Dedes2" ref-type="bibr">[16]</xref>. Inhibition of a synthetic lethal partner gene in cancer cells presenting a synthetic lethal mutation may prove an attractive strategy to develop specific anti-cancer drugs with minimal side effects in healthy tissue. Recent studies have revealed that cancers with loss of function of <italic>BRCA1</italic> or <italic>BRCA2</italic> show exquisite sensitivity to Poly(ADP-ribose) polymerase (PARP)-inhibitors <xref rid="pone.0100041-Audeh1" ref-type="bibr">[17]</xref>, <xref rid="pone.0100041-Tutt1" ref-type="bibr">[18]</xref>. Given that MRE11 is involved in DNA DSB repair through the MRN-complex, loss of function of this complex through inactivating mutations might lead to sensitivity to PARP-inhibitors <xref rid="pone.0100041-Oplustilova1" ref-type="bibr">[19]</xref>. PARP1, a DNA repair enzyme, has been implicated in the repair of DSBs. PARP inhibition leads to apoptosis or senescence in cells where DNA repair by homologous recombination (HR) is impaired (synthetic lethality). For this study we used a potent selective PARP1-inhibitor BMN673, that has shown very encouraging results in phase I/II trials <xref rid="pone.0100041-deBono1" ref-type="bibr">[20]</xref>.</p>
+      <p>Here we show that MRN is frequently lost in EC, which leads to increased PARP inhibitor sensitivity. This may be exploited for treatment of patients with EC harbouring loss of the MRN-complex. The goal of this study is to show the frequency of loss of MRE11 and MRN-complex in EC and whether this leads to increased sensitivity to PARP-inhibitors exploiting <italic>MRE11</italic> as a potential synthetic lethal gene.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Tissue Microarrays</title>
+        <p>Tissue microarrays (TMAs) with formalin-fixed and paraffin embedded endometrial carcinomas were constructed previously <xref rid="pone.0100041-Wild1" ref-type="bibr">[21]</xref>. Two cohorts from the Institutes of Surgical Pathology, University Hospitals Basel and Zurich (Switzerland) containing 339 (Basel-TMA) and 182 (Zurich-TMA) cancer samples were included in this study. Clinical and pathological characteristics were taken from the clinical databases and pathology records. Routine hematoxylin and eosin sections were performed for histopathological evaluation. The stage of tumours was assessed according to the International Federation of Gynaecology and Obstetrics (FIGO) and TNM staging system. Histological subtype and tumour grade were defined according to the WHO classification 2003. Follow-up data are known from 480 patients. The median follow-up time was 31.5 months (range, 1&#x2013;184) for the Basel cohort, and 45 months (range, 1&#x2013;124) for the Zurich cohort. Patients with localized disease were treated by hysterectomy and bilateral salpingectomy (with or without pelvic and paraaortic lymphadenectomy). Vaginal radiation therapy was postoperatively administered when invasion of the myometrium or tumour grade 3 was evident. The study was approved for both cohorts by the local scientific ethics committee (KEK-ZH-NR: 2010-0358). Baseline characteristics of patients with EC are summarized in <xref ref-type="table" rid="pone-0100041-t001">Table 1</xref>.</p>
+        <table-wrap id="pone-0100041-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Immunohistochemical expression of MRE11, RAD50, NBS1-p95, and mismatch repair proteins.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0100041-t001-1" xlink:href="pone.0100041.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Immunohistochemical expression</td>
+                  <td align="left" rowspan="1" colspan="1">n (%)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>MRE11 (n&#x200A;=&#x200A;430)</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">132 (30.7)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">298 (69.3)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>RAD50 (n&#x200A;=&#x200A;440)</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">107 (24.3)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">333 (75.7)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>NBS1-p95 (n&#x200A;=&#x200A;433)</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">127 (29.3)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">306 (58.7)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>MSH2/MSH6 (n&#x200A;=&#x200A;487)</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">112 (23.0)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">375 (77.0)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>MLH1/PMS2 (n&#x200A;=&#x200A;497)</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">139 (28.0)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">358 (72.0)</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s2b">
+        <title>Immunohistochemistry</title>
+        <p>After antigen retrieval, the slides were incubated with the following antibodies: MRE11 (clone 31H4, cell signalling, no. 4847, 1&#x2236;500), RAD50 (13B3/2C6, Abcam limited, no. ab89, 1&#x2236;500), NBS1 (cell signalling, no. 3002, 1&#x2236;50), MLH1 (G168-15, PharMingen, Becton Dickinson, 1&#x2236;100), MSH2 (25D12, Novocastra Lab. Ltd, 1&#x2236;100), PMS2 (A16-4, PharMingen, Becton Dickinson, 1&#x2236;300), and MSH6 (44, BD Biosciences, 1&#x2236;500). After incubation for 1 hour at room temperature, the staining of MRE11, RAD50, and NBS1 was further conducted with the Ventana Benchmark automated system (Ventana Medical Systems, USA) using Ventana reagents as well as UltraMap DAB detection kit. The antibodies against the mismatch repair proteins were incubated for 30 minutes and the staining procedure was carried out with the automated Leica BOND system using Bond Polymer Refine Detection Kit (Leica Biosystems). The expression analysis was performed by two pathologists (AN, KI). The nuclear immunoreactivity of MRE11, RAD50, and NBS1 was scored as: negative (0), weak (1), moderate (2) and strong (3). The protein expression of the mismatch repair genes was considered as positive when nuclear staining was evident. Stromal cells showing nuclear staining were used as a positive control.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Cancer Cell Lines and Growth Conditions</title>
+        <p>The EEC cell lines Hec-108 <xref rid="pone.0100041-Unoki1" ref-type="bibr">[22]</xref> and Hec-116 <xref rid="pone.0100041-Unoki1" ref-type="bibr">[22]</xref> were grown in MEM, HEC 1A (ATCC) in McCoy&#x2019;s, EFE-184 (DSMZ) in RPMI, AN3CA (ATCC) in DMEM, ARK-II <xref rid="pone.0100041-Santin1" ref-type="bibr">[23]</xref> in DMEM, SNG-II <xref rid="pone.0100041-Nozawa1" ref-type="bibr">[24]</xref> in DMEM, ECC-1 <xref rid="pone.0100041-Mo1" ref-type="bibr">[25]</xref> in RPMI 1640, and were a gift from Uwe Schirmer, DKFZ. HEC6-ST3 <xref rid="pone.0100041-Unoki1" ref-type="bibr">[22]</xref>, grown in MEM, and KLE (ATCC), grown in DMEM/F-12, were a gift from Jaqueline Galeas, UCSF. The media were supplemented with 10% (medium for ECC-1 with 5%) (v/v) fetal bovine serum and with either penicillin (100 U/ml)/streptomycin (60 mg/ml) or antibiotic-antimycotic, and maintained at 37&#xB0;C in a humidified atmosphere at 5% CO2. All cell culture material was purchased from Gibco by LifeTechnologies.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Immunoblotting</title>
+        <p>Whole-cell protein extracts were prepared from cells lysed with an SDS lysis buffer. Western blotting was performed with primary antibodies against MRE11 (D151, gift from Steve Jackson, Cambridge), RAD51 (rabbit polyclonal antibody, Santa Cruz Biotechnology), NBS1 (mouse monoclonal antibody, GeneTex), beta-tubulin (mouse monoclonal antibody, Sigma). Incubation with the primary antibody was followed by incubation with an HRP-conjugated secondary antibody (anti-mouse and anti-rabbit HRP from Sigma, anti-sheep HRP from SantaCruz) and chemiluminescent detection of proteins (Amersham).</p>
+      </sec>
+      <sec id="s2e">
+        <title>MRE11 Mutation Analysis</title>
+        <p>Thirteen MRE11 immunohistochemistry (IHC) positive and 13 IHC negative samples were chosen from the Zurich cohort for <italic>MRE11</italic> mutation analysis. Three tissue cylinders (diameter 0.6 mm) were punched from each paraffin block for DNA extraction. Genomic DNA was extracted using the DNeasy Blood &amp; Tissue Kit (Qiagen, Hilden, Germany). The concentrations of the obtained nucleic acids were measured using the Nanodrop (Thermo Fisher Scientific, Waltham, MA, USA). PCR was performed as previously described (Grannini et al., 2002) with a slight modification. Only 50 ng of genomic DNA were PCR-amplified. DNA sequencing was carried out by using the BigDye Terminator v1.1 Cycle Sequencing Kit (Applied Biosystems). The obtained sequences were analyzed for mutations in the poly(T)11 repeat region within the human <italic>MRE11</italic> intron 4 (<xref ref-type="table" rid="pone-0100041-t002">Table 2</xref>).</p>
+        <table-wrap id="pone-0100041-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>MRE11 mutation analysis in endometrioid and serous endometrial carcinoma samples.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0100041-t002-2" xlink:href="pone.0100041.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Sample No.</td>
+                  <td align="left" rowspan="1" colspan="1">Histological subtype</td>
+                  <td align="left" rowspan="1" colspan="1">p53 protein expression</td>
+                  <td align="left" rowspan="1" colspan="1">MRE11 protein expression</td>
+                  <td align="left" rowspan="1" colspan="1">MRE11 proteinintensity</td>
+                  <td align="left" rowspan="1" colspan="1">MRE11 poly(T) alleles</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en1</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en2</td>
+                  <td align="left" rowspan="1" colspan="1">Serous</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en3</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">positive (low)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en8</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en9</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en10</td>
+                  <td align="left" rowspan="1" colspan="1">Serous</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en11</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>10&#x2013;11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en12</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">positive (low)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>9&#x2013;10</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en13</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en14</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en15</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en16</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en17</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en18</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en19</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en20</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">positive (low)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en21</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en22</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">positive (low)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en23</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">positive (low)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en26</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>9</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en28</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en30</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>10&#x2013;11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en34</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en38</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">low</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>10&#x2013;11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en40</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">neg</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">en62</td>
+                  <td align="left" rowspan="1" colspan="1">Endom</td>
+                  <td align="left" rowspan="1" colspan="1">strong</td>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">T<sub>11</sub>
+</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>The immunohistochemistry status of p53 and MRE11 and the nuclear immunoreactivity of MRE11 are shown. Immunoreactivity of MRE11 was scored as: negative (0), weak (1), moderate (2), and strong (3).</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2f">
+        <title>Colony Formation Assays</title>
+        <p>Long-term survival assays were performed as previously described <xref rid="pone.0100041-Dedes3" ref-type="bibr">[26]</xref>. In brief, cells were seeded in six-well plates in triplicates at a concentration of 300&#x2013;2000 cells per well and treated with the inhibitor after 24 hours, being continuously exposed to the drug (10&#x2212;11 to 10&#x2212;6 M) dissolved in dimethyl sulfoxide (DMSO) (control: DMSO). Media and drug were replaced every 3 to 5 days. After 10 to 15 days, the cells were fixed with TCA 10% and stained with sulforhodamine B (SRB) (Sigma) and a colorimetric assay was performed as described previously <xref rid="pone.0100041-Dedes3" ref-type="bibr">[26]</xref>. The PARP inhibitor BMN673 was a gift from Biomarin Pharmaceuticals, USA. Mirin was purchased from Calbiochem.</p>
+      </sec>
+      <sec id="s2g">
+        <title>siRNA And Transfections</title>
+        <p>To knock down human <italic>MRE11</italic> we used three different siRNAs (Microsynth, Switzerland) using RNAimax (Gibco by LifeTechnologies) according to the manufacturer&#x2019;s instructions. The target sequences (sense) were: GCUAAUGACUCUGAUGAUATT <xref rid="pone.0100041-Ying1" ref-type="bibr">[27]</xref>, GAGCAUAACUCCAUAAGUATT <xref rid="pone.0100041-Adams1" ref-type="bibr">[28]</xref>, and GAUGCCAUUGAGGAAUUAGTT <xref rid="pone.0100041-Pichierri1" ref-type="bibr">[29]</xref>. As a control, cells were transfected with siRNA against luciferase (sense): CGUACGCGGAAUACUUCGATT. Cells were seeded 48 hours after transfection and treatment started 72 hours after transfection (PARP inhibitor, irradiation).</p>
+      </sec>
+      <sec id="s2h">
+        <title>Analysis of RAD51 Foci Formation</title>
+        <p>Nuclear RAD51 foci were visualized and quantified as previously described <xref rid="pone.0100041-Dedes3" ref-type="bibr">[26]</xref> and used as surrogate markers for induction of DNA DSBs and competent HR DNA repair, respectively. In brief, cells were grown on coverslips (12 mm, Thermo Scientific) and exposed to 10 Gy of IR. After 4&#x2013;6 hours recovery, the cells were fixed, permeabilized, and immunostained with primary antibodies against RAD51 (polyclonal rabbit antibody, Santa Cruz) and detected with alexa flour 488 (Invitrogen). Nuclei were counterstained with 4&#x2032;,6-diamidino-2- phenylindole (DAPI). The presence of RAD51 foci was evaluated in a minimum of 100 cells in three independent experiments with an automated inverted fluorescence microscope (LEICA&#x2013;DMI6000 B).</p>
+      </sec>
+      <sec id="s2i">
+        <title>Statistical Analysis</title>
+        <p>The statistical evaluation was performed with the SPSS software Version 21.0 (SPSS Inc., Chicago, IL, USA). The scoring data of MRE11, RAD50, and NBS1 were dichotomized into &#x201C;negative&#x201D; (no expression) and &#x201C;positive&#x201D; (weak, moderate, or strong expression). The statistical significance of the association between these molecules, and the mismatch repair protein expression as well as clinicopathological parameters was assessed by Chi<sup>2</sup> test for trends and Fisher&#x2019;s exact test. In addition, Spearman&#x2019;s correlation was used to evaluate an association between MRE11, RAD50, NBS1, and mismatch repair proteins. The probability of overall survival as a function of time was determined by the Kaplan-Meier method. Differences in the survival curves were compared by the log rank test. Sensitivity curves were calculated in GraphPad Prism Version 6 (GraphPad Software Inc., La Jolla, USA) and statistical differences between IC50 values were assessed using F-tests. Generally, p-values smaller 0.05 were considered as significant.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>MRN-complex Expression and the Association with Mismatch Repair Protein Status and Clinicopathological Factors</title>
+        <p>Immunohistochemical analysis of MRE11, RAD50, and NBS1 was successful in 456, 466, and 458 endometrial carcinomas, respectively, due to the lack of tumour tissue in some TMA spots. All molecules showed a nuclear staining pattern. Among the 521 endometrial carcinomas patients 30.7% (132/430) showed a complete loss of MRE11 (<xref ref-type="fig" rid="pone-0100041-g001">Fig. 1A</xref>, and <xref ref-type="table" rid="pone-0100041-t001">Table 1</xref>). Expression loss of MRE11 significantly correlated with protein loss of the other MRN-complex members RAD50 and NBS1. Loss of any MRN-complex protein was also significantly associated with mismatch repair protein expression as well as with FIGO stage and histologic grading (<xref ref-type="table" rid="pone-0100041-t003">Table 3</xref>). In Kaplan-Meier analysis, FIGO stage, histological subtype, grading and patient age were prognostic factors (log rank, p-value&lt;0.0001 for all parameters). However, protein expression of MRE11 (log rank, p&#x200A;=&#x200A;0.867), Rad50 (log rank, p&#x200A;=&#x200A;0.986) and NBS1 (log rank, p&#x200A;=&#x200A;0.991) was not associated with overall survival. Moreover, sequencing of the poly(T)11 allele of <italic>MRE11</italic> in genomic DNA from EC tumours (n&#x200A;=&#x200A;26; <xref ref-type="table" rid="pone-0100041-t002">Table 2</xref>) showed that mutations were more frequent in tumours with loss of MRE11 than in those expressing MRE11, but the mutation status was not highly predictive for the protein status of MRE11.</p>
+        <fig id="pone-0100041-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>MRE11 protein expression in endometrial carcinomas as assessed by immunihistochemistry.</title>
+            <p>A, negative (complete loss of MRE11 protein expression); B, + (weak nuclear expression); C, ++ (intermediate nuclear expression); D, +++ (strong nuclear expression).</p>
+          </caption>
+          <graphic xlink:href="pone.0100041.g001"/>
+        </fig>
+        <table-wrap id="pone-0100041-t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Association of MRE11 with RAD50, NBS1, mismatch repair protein status, and clinicopathological factors.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0100041-t003-3" xlink:href="pone.0100041.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Variable</td>
+                  <td align="left" rowspan="1" colspan="1">Mre11 negative</td>
+                  <td align="left" rowspan="1" colspan="1">Mre11 positive</td>
+                  <td align="left" rowspan="1" colspan="1">p-value</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>RAD50</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">87</td>
+                  <td align="left" rowspan="1" colspan="1">18</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">45</td>
+                  <td align="left" rowspan="1" colspan="1">280</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>NBS1</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">102</td>
+                  <td align="left" rowspan="1" colspan="1">25</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">29</td>
+                  <td align="left" rowspan="1" colspan="1">266</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>MSH2/MSH6</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">73</td>
+                  <td align="left" rowspan="1" colspan="1">26</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">54</td>
+                  <td align="left" rowspan="1" colspan="1">249</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>MLH1/PMS2</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">negative</td>
+                  <td align="left" rowspan="1" colspan="1">54</td>
+                  <td align="left" rowspan="1" colspan="1">66</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">positive</td>
+                  <td align="left" rowspan="1" colspan="1">76</td>
+                  <td align="left" rowspan="1" colspan="1">215</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>FIGO stage</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>0.009</bold>
+<xref ref-type="table-fn" rid="nt103">**</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">I</td>
+                  <td align="left" rowspan="1" colspan="1">55</td>
+                  <td align="left" rowspan="1" colspan="1">160</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">II</td>
+                  <td align="left" rowspan="1" colspan="1">17</td>
+                  <td align="left" rowspan="1" colspan="1">40</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">III</td>
+                  <td align="left" rowspan="1" colspan="1">29</td>
+                  <td align="left" rowspan="1" colspan="1">42</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IV</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">8</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Histologic subtype</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>0.69</bold>
+<xref ref-type="table-fn" rid="nt103">**</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">endometrioid</td>
+                  <td align="left" rowspan="1" colspan="1">113</td>
+                  <td align="left" rowspan="1" colspan="1">248</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">serous</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">28</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">clear cell</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">undifferentiated</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">carcinosarcoma</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Grading</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>0.019</bold>
+<xref ref-type="table-fn" rid="nt103">**</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">60</td>
+                  <td align="left" rowspan="1" colspan="1">159</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">33</td>
+                  <td align="left" rowspan="1" colspan="1">74</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">31</td>
+                  <td align="left" rowspan="1" colspan="1">41</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt102">
+              <label/>
+              <p>*Fisher&#x2019;s Exact test;</p>
+            </fn>
+            <fn id="nt103">
+              <label/>
+              <p>**chi-square for trends.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s3b">
+        <title>Loss of MRE11 is Associated with High Sensitivity to PARP Inhibition</title>
+        <p>Among a panel of EC cell lines, AN3CA exhibited almost complete MRE11 protein loss as well as markedly reduced levels of RAD50 and NBS1 (<xref ref-type="fig" rid="pone-0100041-g002">Fig. 2A</xref>). Sequencing of the intronic region of MRE11 in this cell line confirmed the previously described homozygous poly(T)9 mutation in AN3CA (<xref ref-type="fig" rid="pone-0100041-g002">Fig. 2B</xref>) <xref rid="pone.0100041-Giannini1" ref-type="bibr">[11]</xref>. Upon PARP-inhibitor treatment with BMN673, AN3CA shows the highest sensitivity among the panel of endometrial cancer cell lines tested (<xref ref-type="fig" rid="pone-0100041-g003">Fig. 3C</xref>).</p>
+        <fig id="pone-0100041-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Endometrial carcinoma cell lines with loss of MRE11 show increased sensitivity to PARP inhibitors.</title>
+            <p>A, Western blot demonstrating the expression status of MRE11, NBS1 and RAD50 in 10 endometrial carcinoma cell lines. Only the cell line AN3CA harbours a mutation of MRE11, which leads to a dramatically reduced expression of MRE11. Tubulin was used as loading control. B, Colony formation assays demonstrating the sensitivity to the PARP inhibitor (BMN673) in 10 endometrial carcinoma cell lines: all cell lines were treated in triplicates for 14 days. Survival is represented in percentage of the control (DMSO treated). The cell colonies were quantified using a colorimetric method (SRB).</p>
+          </caption>
+          <graphic xlink:href="pone.0100041.g002"/>
+        </fig>
+        <fig id="pone-0100041-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Decrease in MRE11 expression and function leads to increased sensitivity towards PARP inhibition in endometrial carcinoma cell lines.</title>
+            <p>A, Efficiency of siRNAs at different time points after transfection shown by western blotting. B, Sensitivity assay (colorimetric with SRB): all cell lines were treated with PARP inhibitor (BMN673) in triplicates for 14 days. Survival is represented in percentage of the control (DMSO treated). Knock down of MRE11 with three different sets of siRNAs lead to an increased sensitivity towards PARP inhibition in the endometrial carcinoma cell lines HEC1A (8-fold increase, p&lt;0.0001) and HEC-116 (6-fold increase, p&#x200A;=&#x200A;0.0006). C, Cell lines were treated with the MRE11-inhibitor mirin at a final concentration of 30 &#xB5;M in triplicates for 10 days. Survival was assessed by a colorimetric sensitivity assay (SRB) and is shown in percentage of the control (DMSO treated). Treatment with the MRE11-inhibitor mirin lead to increased sensitivity to PARP inhibition in both, HEC1A (2.6-fold increase, p&#x200A;=&#x200A;0.001) and HEC-116 (17-fold increase, p&lt;0.0001).</p>
+          </caption>
+          <graphic xlink:href="pone.0100041.g003"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>Knock-down and Inhibition of MRE11 Sensitizes Cells to BMN673 due to Impaired HR</title>
+        <p>Since loss of MRE11 expression in AN3CA was associated with significant sensitivity to PARP inhibition, we asked if depletion of MRE11 by siRNA would generally lead to an increased sensitivity to the PARP-inhibitor BMN673. To test this we used a panel of EC cell lines that expressed normal levels of MRE11 (<xref ref-type="fig" rid="pone-0100041-g002">Fig. 2A</xref>) and were also resistant to PARP inhibition (<xref ref-type="fig" rid="pone-0100041-g002">Fig. 2C</xref>). The efficiency of the siRNA treatment was evaluated by Western blotting. In both cell lines, transfection with MRE11 siRNA efficiently depleted endogenous MRE11 (<xref ref-type="fig" rid="pone-0100041-g003">Fig. 3A</xref>). We next assessed PARP inhibitor sensitivity in the MRE11-depleted cells by colony formation. Upon depletion of MRE11, we consistently observed a significant decrease in cell viability in the presence of BMN673 (<xref ref-type="fig" rid="pone-0100041-g003">Fig. 3B</xref>). In order to test if MRE11 nuclease activity is required for PARP inhibitor resistance, we cultured two cell lines in the presence of the MRE11 inhibitor mirin and treated them with BMN673 (<xref ref-type="fig" rid="pone-0100041-g003">Fig. 3C</xref>). In both cases mirin had a negative impact on the cell viability in response to PARP inhibition, strongly suggesting that MRE11 nuclease activity is required for PARP inhibitor resistance. To confirm that knock down of MRE11 leads to impaired HR, we determined the cells&#x2019; ability to form RAD51 foci in response to ionizing radiation (IR) (see <xref ref-type="fig" rid="pone-0100041-g004">Fig. 4A</xref>). Indeed, upon silencing of <italic>MRE11,</italic> fewer RAD51 foci per cell could be observed (<xref ref-type="fig" rid="pone-0100041-g004">Fig. 4B</xref>). The Capan-1 pancreatic cell line known to be HR-deficient due to a mutation of <italic>BRCA2</italic> served as a control (data not shown).</p>
+        <fig id="pone-0100041-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0100041.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Impaired RAD51 foci formation upon knockdown of MRE11.</title>
+            <p>A, Immunofluorescence images showing DAPI-stained nuclei (blue) and RAD51 foci (green) in representative fields of HEC-1A and HEC-116 endometrial carcinoma cells. Both wild-type MRE11 expressing cell lines were either treated with three different sets of siRNAs for MRE11 or with siRNA for luciferase (siLuc) as a control. The transfected cells were then exposed to 10 Gy of irradiation or not exposed, as indicated. B, RAD51 foci formation shown as a percentage of RAD51 foci positive cells (more than 5 foci per cell were assessed as positive) without treatment and 6 hours after 10 Gy of irradiation. A minimum of 100 cells was counted to determine RAD51 foci formation frequency in three independent experiments. **P&#x2264;0.01, ***P&#x2264;0.001.</p>
+          </caption>
+          <graphic xlink:href="pone.0100041.g004"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>This is the first report to show that not only the protein expression of MRE11 but also the expression of the other members of the MRN-complex, RAD50 and NBS1, are lost in a substantial proportion of the ECs. Furthermore, we observed a significant association between protein loss of all MRN members as well as mismatch repair protein status in this large dataset. Protein expression of the MRN-complex has not yet been studied in EC tumours. In bladder cancer, MRE11 has been shown to exhibit predictive properties for radiotherapy treatment <xref rid="pone.0100041-Choudhury1" ref-type="bibr">[30]</xref>. Furthermore, complete loss of MRN-complex in MSI positive colorectal cancers is a frequent event <xref rid="pone.0100041-Gao1" ref-type="bibr">[31]</xref>, whereas loss of MRE11 in breast tumours is found only in 9% of cases <xref rid="pone.0100041-Yuan1" ref-type="bibr">[32]</xref>.</p>
+      <p>Although a clear correlation between mutational status and loss of protein expression could not be found in this study, it is remarkable that a high correlation of protein loss of all MRN members as well as MSI status was found in this large dataset. Confounding results on the mutational status of the MRE11 polyT(11) allele may be related to known difficulties in sequencing of the MRE11 polyT(11) allele due to mispairing of the polymerase enzyme <xref rid="pone.0100041-Walsh1" ref-type="bibr">[33]</xref>.</p>
+      <p>A previous study revealed high frequency of alterations of DSB repair genes in MSI positive ECs, where MRE11 and RAD50 exhibited heterozygous and homozygous mutations in 51% and 17%, respectively, without examining the impact of the loss of the proteins <xref rid="pone.0100041-Bilbao1" ref-type="bibr">[6]</xref>. Mutations of the MRE11 polyT(11) allele are predominantly heterozygous mutations and it has been suggested that only those with mutations of two and more nucleotides as well as homozygous mutations have a functional impact in terms of loss of function <xref rid="pone.0100041-Giannini1" ref-type="bibr">[11]</xref>, <xref rid="pone.0100041-Giannini2" ref-type="bibr">[12]</xref>, <xref rid="pone.0100041-Ottini1" ref-type="bibr">[34]</xref>, <xref rid="pone.0100041-Vilar1" ref-type="bibr">[35]</xref>. In this report, we cannot confirm the high frequency of intronic mutations but provide evidence that MRE11 protein is lost in a substantial proportion of ECs. Recently, it has been shown that whole exon sequencing of MRE11 revealed mutations in 1.9% (2 of 107) of the EC tumours within the exons <xref rid="pone.0100041-Price1" ref-type="bibr">[36]</xref>. However, intronic mutations have not been assessed, explaining why the frequency of <italic>MRE11</italic> mutations is reported to be low not only in the study by Price et al. <xref rid="pone.0100041-Price1" ref-type="bibr">[36]</xref> but also in a recent one by The Cancer Genome Atlas Research Network <xref rid="pone.0100041-Kandoth1" ref-type="bibr">[5]</xref>.</p>
+      <p>PARP inhibitors have shown remarkable sensitivity in BRCA1/2-deficient tumour models <italic>in vitro</italic> as well as in clinical trials involving carriers of <italic>BRCA1/2</italic> germ line mutations. Further evolving evidence, however, suggests the potential for a broader scope for PARP inhibitor activity <xref rid="pone.0100041-Dedes2" ref-type="bibr">[16]</xref>. In fact, for EC we have previously proposed loss of PTEN expression as a potential biomarker for the treatment with PARP-inhibitors based on preclinical data <xref rid="pone.0100041-Dedes3" ref-type="bibr">[26]</xref> as well as on a clinical case report <xref rid="pone.0100041-Forster1" ref-type="bibr">[37]</xref>. Other studies however, have been questioning the role of <italic>PTEN</italic> in HR, suggesting that this might be a cell line specific phenomenon <xref rid="pone.0100041-Fraser1" ref-type="bibr">[38]</xref>, <xref rid="pone.0100041-Miyasaka1" ref-type="bibr">[39]</xref>. Nevertheless, the exact mechanism of the involvement of <italic>PTEN</italic> in HR DNA repair remains to be elucidated.</p>
+      <p>Loss of MRE11 expression has been suggested to sensitize colorectal <xref rid="pone.0100041-Vilar1" ref-type="bibr">[35]</xref>, <xref rid="pone.0100041-Fraser1" ref-type="bibr">[38]</xref>, <xref rid="pone.0100041-McPherson1" ref-type="bibr">[40]</xref>, breast <xref rid="pone.0100041-Daemen1" ref-type="bibr">[41]</xref> and haematological <xref rid="pone.0100041-Gaymes1" ref-type="bibr">[42]</xref> cancer cell lines to PARP-inhibitors due to impaired HR DNA repair. Our report suggests, for the first time, the potential use of PARP inhibitors in the treatment of endometrial cancer based on preclinical findings. There is increasing evidence that patients suffering from endometrial cancer and not expressing MRE11 could be treated with BMN673. This supports the use of MRE11 as a predictive biomarker for PARP treatment.</p>
+      <p>In conclusion, this study shows that i) complete loss of the MRN complex is a frequent event in EC, ii) loss of MRE11 expression as well as gene silencing and pharmacological inhibition of the nuclease activity leads to sensitivity to PARP-inhibition <italic>in vitro</italic>, and iii) loss of MRE11 is associated with deficient HR DNA repair demonstrated upon irradiation. Based on these findings, we propose that MRE11 expression may be used as a potential predictive biomarker for the effectiveness of PARP inhibitor treatment in endometrial cancers with MSI.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Martina Storz, Andr&#xE9; Fitsche and Sonja Brun-Schmid for excellent technical assistance, and Markus Rechsteiner for helpful discussions. We thank Steve Jackson for providing published reagents and Biomarin Pharmaceuticals for the gift of their PARP-inhibitor BMN673.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0100041-Dellinger1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dellinger</surname><given-names>TH</given-names></name>, <name><surname>Monk</surname><given-names>BJ</given-names></name> (<year>2009</year>) <article-title>Systemic therapy for recurrent endometrial cancer: a review of North American trials</article-title>. <source>Expert Rev Anticancer Ther</source>
+<volume>9</volume>: <fpage>905</fpage>&#x2013;<lpage>916</lpage>.<pub-id pub-id-type="pmid">19589030</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Dedes1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dedes</surname><given-names>KJ</given-names></name>, <name><surname>Wetterskog</surname><given-names>D</given-names></name>, <name><surname>Ashworth</surname><given-names>A</given-names></name>, <name><surname>Kaye</surname><given-names>SB</given-names></name>, <name><surname>Reis-Filho</surname><given-names>JS</given-names></name> (<year>2011</year>) <article-title>Emerging therapeutic targets in endometrial cancer</article-title>. <source>Nat Rev Clin Oncol</source>
+<volume>8</volume>: <fpage>261</fpage>&#x2013;<lpage>271</lpage>.<pub-id pub-id-type="pmid">21221135</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Hecht1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hecht</surname><given-names>JL</given-names></name>, <name><surname>Mutter</surname><given-names>GL</given-names></name> (<year>2006</year>) <article-title>Molecular and pathologic aspects of endometrial carcinogenesis</article-title>. <source>J Clin Oncol</source>
+<volume>24</volume>: <fpage>4783</fpage>&#x2013;<lpage>4791</lpage>.<pub-id pub-id-type="pmid">17028294</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Zhao1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhao</surname><given-names>S</given-names></name>, <name><surname>Choi</surname><given-names>M</given-names></name>, <name><surname>Overton</surname><given-names>JD</given-names></name>, <name><surname>Bellone</surname><given-names>S</given-names></name>, <name><surname>Roque</surname><given-names>DM</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Landscape of somatic single-nucleotide and copy-number mutations in uterine serous carcinoma</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>110</volume>: <fpage>2916</fpage>&#x2013;<lpage>2921</lpage>.<pub-id pub-id-type="pmid">23359684</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Kandoth1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kandoth</surname><given-names>C</given-names></name>, <name><surname>Schultz</surname><given-names>N</given-names></name>, <name><surname>Cherniack</surname><given-names>AD</given-names></name>, <name><surname>Akbani</surname><given-names>R</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Integrated genomic characterization of endometrial carcinoma</article-title>. <source>Nature</source>
+<volume>497</volume>: <fpage>67</fpage>&#x2013;<lpage>73</lpage>.<pub-id pub-id-type="pmid">23636398</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Bilbao1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bilbao</surname><given-names>C</given-names></name>, <name><surname>Ramirez</surname><given-names>R</given-names></name>, <name><surname>Rodriguez</surname><given-names>G</given-names></name>, <name><surname>Falcon</surname><given-names>O</given-names></name>, <name><surname>Leon</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Double strand break repair components are frequent targets of microsatellite instability in endometrial cancer</article-title>. <source>Eur J Cancer</source>
+<volume>46</volume>: <fpage>2821</fpage>&#x2013;<lpage>2827</lpage>.<pub-id pub-id-type="pmid">20638839</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Lamarche1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lamarche</surname><given-names>BJ</given-names></name>, <name><surname>Orazio</surname><given-names>NI</given-names></name>, <name><surname>Weitzman</surname><given-names>MD</given-names></name> (<year>2010</year>) <article-title>The MRN complex in double-strand break repair and telomere maintenance</article-title>. <source>FEBS Lett</source>
+<volume>584</volume>: <fpage>3682</fpage>&#x2013;<lpage>3695</lpage>.<pub-id pub-id-type="pmid">20655309</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Stracker1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stracker</surname><given-names>TH</given-names></name>, <name><surname>Petrini</surname><given-names>JH</given-names></name> (<year>2011</year>) <article-title>The MRE11 complex: starting from the ends</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>12</volume>: <fpage>90</fpage>&#x2013;<lpage>103</lpage>.<pub-id pub-id-type="pmid">21252998</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Xiao1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Xiao</surname><given-names>Y</given-names></name>, <name><surname>Weaver</surname><given-names>DT</given-names></name> (<year>1997</year>) <article-title>Conditional gene targeted deletion by Cre recombinase demonstrates the requirement for the double-strand break repair Mre11 protein in murine embryonic stem cells</article-title>. <source>Nucleic Acids Res</source>
+<volume>25</volume>: <fpage>2985</fpage>&#x2013;<lpage>2991</lpage>.<pub-id pub-id-type="pmid">9224597</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Stewart1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stewart</surname><given-names>GS</given-names></name>, <name><surname>Maser</surname><given-names>RS</given-names></name>, <name><surname>Stankovic</surname><given-names>T</given-names></name>, <name><surname>Bressan</surname><given-names>DA</given-names></name>, <name><surname>Kaplan</surname><given-names>MI</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>The DNA double-strand break repair gene hMRE11 is mutated in individuals with an ataxia-telangiectasia-like disorder</article-title>. <source>Cell</source>
+<volume>99</volume>: <fpage>577</fpage>&#x2013;<lpage>587</lpage>.<pub-id pub-id-type="pmid">10612394</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Giannini1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Giannini</surname><given-names>G</given-names></name>, <name><surname>Rinaldi</surname><given-names>C</given-names></name>, <name><surname>Ristori</surname><given-names>E</given-names></name>, <name><surname>Ambrosini</surname><given-names>MI</given-names></name>, <name><surname>Cerignoli</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Mutations of an intronic repeat induce impaired MRE11 expression in primary human cancer with microsatellite instability</article-title>. <source>Oncogene</source>
+<volume>23</volume>: <fpage>2640</fpage>&#x2013;<lpage>2647</lpage>.<pub-id pub-id-type="pmid">15048091</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Giannini2">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Giannini</surname><given-names>G</given-names></name>, <name><surname>Ristori</surname><given-names>E</given-names></name>, <name><surname>Cerignoli</surname><given-names>F</given-names></name>, <name><surname>Rinaldi</surname><given-names>C</given-names></name>, <name><surname>Zani</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Human MRE11 is inactivated in mismatch repair-deficient cancers</article-title>. <source>EMBO Rep</source>
+<volume>3</volume>: <fpage>248</fpage>&#x2013;<lpage>254</lpage>.<pub-id pub-id-type="pmid">11850399</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Esteller1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Esteller</surname><given-names>M</given-names></name>, <name><surname>Levine</surname><given-names>R</given-names></name>, <name><surname>Baylin</surname><given-names>SB</given-names></name>, <name><surname>Ellenson</surname><given-names>LH</given-names></name>, <name><surname>Herman</surname><given-names>JG</given-names></name> (<year>1998</year>) <article-title>MLH1 promoter hypermethylation is associated with the microsatellite instability phenotype in sporadic endometrial carcinomas</article-title>. <source>Oncogene</source>
+<volume>17</volume>: <fpage>2413</fpage>&#x2013;<lpage>2417</lpage>.<pub-id pub-id-type="pmid">9811473</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Miturski1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Miturski</surname><given-names>R</given-names></name>, <name><surname>Bogusiewicz</surname><given-names>M</given-names></name>, <name><surname>Ciotta</surname><given-names>C</given-names></name>, <name><surname>Bignami</surname><given-names>M</given-names></name>, <name><surname>Gogacz</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Mismatch repair genes and microsatellite instability as molecular markers for gynecological cancer detection</article-title>. <source>Exp Biol Med (Maywood)</source>
+<volume>227</volume>: <fpage>579</fpage>&#x2013;<lpage>586</lpage>.<pub-id pub-id-type="pmid">12192099</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Brough1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brough</surname><given-names>R</given-names></name>, <name><surname>Frankum</surname><given-names>JR</given-names></name>, <name><surname>Costa-Cabral</surname><given-names>S</given-names></name>, <name><surname>Lord</surname><given-names>CJ</given-names></name>, <name><surname>Ashworth</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>Searching for synthetic lethality in cancer</article-title>. <source>Curr Opin Genet Dev</source>
+<volume>21</volume>: <fpage>34</fpage>&#x2013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">21255997</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Dedes2">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dedes</surname><given-names>KJ</given-names></name>, <name><surname>Wilkerson</surname><given-names>PM</given-names></name>, <name><surname>Wetterskog</surname><given-names>D</given-names></name>, <name><surname>Weigelt</surname><given-names>B</given-names></name>, <name><surname>Ashworth</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Synthetic lethality of PARP inhibition in cancers lacking BRCA1 and BRCA2 mutations</article-title>. <source>Cell Cycle</source>
+<volume>10</volume>: <fpage>1192</fpage>&#x2013;<lpage>1199</lpage>.<pub-id pub-id-type="pmid">21487248</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Audeh1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Audeh</surname><given-names>MW</given-names></name>, <name><surname>Carmichael</surname><given-names>J</given-names></name>, <name><surname>Penson</surname><given-names>RT</given-names></name>, <name><surname>Friedlander</surname><given-names>M</given-names></name>, <name><surname>Powell</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Oral poly(ADP-ribose) polymerase inhibitor olaparib in patients with BRCA1 or BRCA2 mutations and recurrent ovarian cancer: a proof-of-concept trial</article-title>. <source>Lancet</source>
+<volume>376</volume>: <fpage>245</fpage>&#x2013;<lpage>251</lpage>.<pub-id pub-id-type="pmid">20609468</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Tutt1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tutt</surname><given-names>A</given-names></name>, <name><surname>Robson</surname><given-names>M</given-names></name>, <name><surname>Garber</surname><given-names>JE</given-names></name>, <name><surname>Domchek</surname><given-names>SM</given-names></name>, <name><surname>Audeh</surname><given-names>MW</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Oral poly(ADP-ribose) polymerase inhibitor olaparib in patients with BRCA1 or BRCA2 mutations and advanced breast cancer: a proof-of-concept trial</article-title>. <source>Lancet</source>
+<volume>376</volume>: <fpage>235</fpage>&#x2013;<lpage>244</lpage>.<pub-id pub-id-type="pmid">20609467</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Oplustilova1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Oplustilova</surname><given-names>L</given-names></name>, <name><surname>Wolanin</surname><given-names>K</given-names></name>, <name><surname>Mistrik</surname><given-names>M</given-names></name>, <name><surname>Korinkova</surname><given-names>G</given-names></name>, <name><surname>Simkova</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Evaluation of candidate biomarkers to predict cancer cell sensitivity or resistance to PARP-1 inhibitor treatment</article-title>. <source>Cell Cycle</source>
+<volume>11</volume>: <fpage>3837</fpage>&#x2013;<lpage>3850</lpage>.<pub-id pub-id-type="pmid">22983061</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-deBono1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>de Bono</surname><given-names>JS</given-names></name>, <name><surname>Mina</surname><given-names>LA</given-names></name>, <name><surname>Gonzalez</surname><given-names>M</given-names></name>, <name><surname>Curtin</surname><given-names>NJ</given-names></name>, <name><surname>Wang</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>First-in-human trial of novel oral PARP inhibitor BMN 673 in patients with solid tumors</article-title>. <source>J Clin Oncol</source>
+<volume>31</volume>: <fpage>abstr 2580</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Wild1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wild</surname><given-names>PJ</given-names></name>, <name><surname>Ikenberg</surname><given-names>K</given-names></name>, <name><surname>Fuchs</surname><given-names>TJ</given-names></name>, <name><surname>Rechsteiner</surname><given-names>M</given-names></name>, <name><surname>Georgiev</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>p53 suppresses type II endometrial carcinomas in mice and governs endometrial tumour aggressiveness in humans</article-title>. <source>EMBO Mol Med</source>
+<volume>4</volume>: <fpage>808</fpage>&#x2013;<lpage>824</lpage>.<pub-id pub-id-type="pmid">22678923</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Unoki1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Unoki</surname><given-names>M</given-names></name>, <name><surname>Nakamura</surname><given-names>Y</given-names></name> (<year>2003</year>) <article-title>EGR2 induces apoptosis in various cancer cell lines by direct transactivation of BNIP3L and BAK</article-title>. <source>Oncogene</source>
+<volume>22</volume>: <fpage>2172</fpage>&#x2013;<lpage>2185</lpage>.<pub-id pub-id-type="pmid">12687019</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Santin1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Santin</surname><given-names>AD</given-names></name>, <name><surname>Rose</surname><given-names>GS</given-names></name>, <name><surname>Hiserodt</surname><given-names>JC</given-names></name>, <name><surname>Fruehauf</surname><given-names>J</given-names></name>, <name><surname>Eck</surname><given-names>LM</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Effects of cytokines combined with high-dose gamma irradiation on the expression of major histocompatibility complex molecules and intercellular adhesion molecule-1 in human ovarian cancers</article-title>. <source>Int J Cancer</source>
+<volume>65</volume>: <fpage>688</fpage>&#x2013;<lpage>694</lpage>.<pub-id pub-id-type="pmid">8598323</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Nozawa1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Nozawa</surname><given-names>S</given-names></name>, <name><surname>Sakayori</surname><given-names>M</given-names></name>, <name><surname>Ohta</surname><given-names>K</given-names></name>, <name><surname>Iizuka</surname><given-names>R</given-names></name>, <name><surname>Mochizuki</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>1989</year>) <article-title>A monoclonal antibody (MSN-1) against a newly established uterine endometrial cancer cell line (SNG-II) and its application to immunohistochemistry and flow cytometry</article-title>. <source>Am J Obstet Gynecol</source>
+<volume>161</volume>: <fpage>1079</fpage>&#x2013;<lpage>1086</lpage>.<pub-id pub-id-type="pmid">2478021</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Mo1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mo</surname><given-names>B</given-names></name>, <name><surname>Vendrov</surname><given-names>AE</given-names></name>, <name><surname>Palomino</surname><given-names>WA</given-names></name>, <name><surname>DuPont</surname><given-names>BR</given-names></name>, <name><surname>Apparao</surname><given-names>KB</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>ECC-1 cells: a well-differentiated steroid-responsive endometrial cell line with characteristics of luminal epithelium</article-title>. <source>Biol Reprod</source>
+<volume>75</volume>: <fpage>387</fpage>&#x2013;<lpage>394</lpage>.<pub-id pub-id-type="pmid">16707768</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Dedes3">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dedes</surname><given-names>KJ</given-names></name>, <name><surname>Wetterskog</surname><given-names>D</given-names></name>, <name><surname>Mendes-Pereira</surname><given-names>AM</given-names></name>, <name><surname>Natrajan</surname><given-names>R</given-names></name>, <name><surname>Lambros</surname><given-names>MB</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>PTEN deficiency in endometrioid endometrial adenocarcinomas predicts sensitivity to PARP inhibitors</article-title>. <source>Sci Transl Med</source>
+<volume>2</volume>: <fpage>53ra75</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Ying1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ying</surname><given-names>S</given-names></name>, <name><surname>Hamdy</surname><given-names>FC</given-names></name>, <name><surname>Helleday</surname><given-names>T</given-names></name> (<year>2012</year>) <article-title>Mre11-dependent degradation of stalled DNA replication forks is prevented by BRCA2 and PARP1</article-title>. <source>Cancer Res</source>
+<volume>72</volume>: <fpage>2814</fpage>&#x2013;<lpage>2821</lpage>.<pub-id pub-id-type="pmid">22447567</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Adams1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Adams</surname><given-names>KE</given-names></name>, <name><surname>Medhurst</surname><given-names>AL</given-names></name>, <name><surname>Dart</surname><given-names>DA</given-names></name>, <name><surname>Lakin</surname><given-names>ND</given-names></name> (<year>2006</year>) <article-title>Recruitment of ATR to sites of ionising radiation-induced DNA damage requires ATM and components of the MRN protein complex</article-title>. <source>Oncogene</source>
+<volume>25</volume>: <fpage>3894</fpage>&#x2013;<lpage>3904</lpage>.<pub-id pub-id-type="pmid">16474843</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Pichierri1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pichierri</surname><given-names>P</given-names></name>, <name><surname>Franchitto</surname><given-names>A</given-names></name>, <name><surname>Rosselli</surname><given-names>F</given-names></name> (<year>2004</year>) <article-title>BLM and the FANC proteins collaborate in a common pathway in response to stalled replication forks</article-title>. <source>EMBO J</source>
+<volume>23</volume>: <fpage>3154</fpage>&#x2013;<lpage>3163</lpage>.<pub-id pub-id-type="pmid">15257300</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Choudhury1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Choudhury</surname><given-names>A</given-names></name>, <name><surname>Nelson</surname><given-names>LD</given-names></name>, <name><surname>Teo</surname><given-names>MT</given-names></name>, <name><surname>Chilka</surname><given-names>S</given-names></name>, <name><surname>Bhattarai</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>MRE11 expression is predictive of cause-specific survival following radical radiotherapy for muscle-invasive bladder cancer</article-title>. <source>Cancer Res</source>
+<volume>70</volume>: <fpage>7017</fpage>&#x2013;<lpage>7026</lpage>.<pub-id pub-id-type="pmid">20843819</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Gao1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gao</surname><given-names>J</given-names></name>, <name><surname>Zhang</surname><given-names>H</given-names></name>, <name><surname>Arbman</surname><given-names>G</given-names></name>, <name><surname>Sun</surname><given-names>XF</given-names></name> (<year>2008</year>) <article-title>RAD50/MRE11/NBS1 proteins in relation to tumour development and prognosis in patients with microsatellite stable colorectal cancer</article-title>. <source>Histol Histopathol</source>
+<volume>23</volume>: <fpage>1495</fpage>&#x2013;<lpage>1502</lpage>.<pub-id pub-id-type="pmid">18830935</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Yuan1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yuan</surname><given-names>SS</given-names></name>, <name><surname>Hou</surname><given-names>MF</given-names></name>, <name><surname>Hsieh</surname><given-names>YC</given-names></name>, <name><surname>Huang</surname><given-names>CY</given-names></name>, <name><surname>Lee</surname><given-names>YC</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Role of MRE11 in cell proliferation, tumor invasion, and DNA repair in breast cancer</article-title>. <source>J Natl Cancer Inst</source>
+<volume>104</volume>: <fpage>1485</fpage>&#x2013;<lpage>1502</lpage>.<pub-id pub-id-type="pmid">22914783</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Walsh1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Walsh</surname><given-names>PS</given-names></name>, <name><surname>Fildes</surname><given-names>NJ</given-names></name>, <name><surname>Reynolds</surname><given-names>R</given-names></name> (<year>1996</year>) <article-title>Sequence analysis and characterization of stutter products at the tetranucleotide repeat locus vWA</article-title>. <source>Nucleic Acids Res</source>
+<volume>24</volume>: <fpage>2807</fpage>&#x2013;<lpage>2812</lpage>.<pub-id pub-id-type="pmid">8759015</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Ottini1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ottini</surname><given-names>L</given-names></name>, <name><surname>Falchetti</surname><given-names>M</given-names></name>, <name><surname>Saieva</surname><given-names>C</given-names></name>, <name><surname>De Marco</surname><given-names>M</given-names></name>, <name><surname>Masala</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>MRE11 expression is impaired in gastric cancer with microsatellite instability</article-title>. <source>Carcinogenesis</source>
+<volume>25</volume>: <fpage>2337</fpage>&#x2013;<lpage>2343</lpage>.<pub-id pub-id-type="pmid">15319296</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Vilar1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vilar</surname><given-names>E</given-names></name>, <name><surname>Bartnik</surname><given-names>CM</given-names></name>, <name><surname>Stenzel</surname><given-names>SL</given-names></name>, <name><surname>Raskin</surname><given-names>L</given-names></name>, <name><surname>Ahn</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>MRE11 deficiency increases sensitivity to poly(ADP-ribose) polymerase inhibition in microsatellite unstable colorectal cancers</article-title>. <source>Cancer Res</source>
+<volume>71</volume>: <fpage>2632</fpage>&#x2013;<lpage>2642</lpage>.<pub-id pub-id-type="pmid">21300766</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Price1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Price</surname><given-names>JC</given-names></name>, <name><surname>Pollock</surname><given-names>LM</given-names></name>, <name><surname>Rudd</surname><given-names>ML</given-names></name>, <name><surname>Fogoros</surname><given-names>SK</given-names></name>, <name><surname>Mohamed</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Sequencing of Candidate Chromosome Instability Genes in Endometrial Cancers Reveals Somatic Mutations in ESCO1, CHTF18, and MRE11A</article-title>. <source>PLoS One</source>
+<volume>8</volume>: <fpage>e63313</fpage>.<pub-id pub-id-type="pmid">23755103</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Forster1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Forster</surname><given-names>MD</given-names></name>, <name><surname>Dedes</surname><given-names>KJ</given-names></name>, <name><surname>Sandhu</surname><given-names>S</given-names></name>, <name><surname>Frentzas</surname><given-names>S</given-names></name>, <name><surname>Kristeleit</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Treatment with olaparib in a patient with PTEN-deficient endometrioid endometrial cancer</article-title>. <source>Nat Rev Clin Oncol</source>
+<volume>8</volume>: <fpage>302</fpage>&#x2013;<lpage>306</lpage>.<pub-id pub-id-type="pmid">21468130</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Fraser1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fraser</surname><given-names>M</given-names></name>, <name><surname>Zhao</surname><given-names>H</given-names></name>, <name><surname>Luoto</surname><given-names>KR</given-names></name>, <name><surname>Lundin</surname><given-names>C</given-names></name>, <name><surname>Coackley</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>PTEN deletion in prostate cancer cells does not associate with loss of RAD51 function: implications for radiotherapy and chemotherapy</article-title>. <source>Clin Cancer Res</source>
+<volume>18</volume>: <fpage>1015</fpage>&#x2013;<lpage>1027</lpage>.<pub-id pub-id-type="pmid">22114138</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Miyasaka1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Miyasaka</surname><given-names>A</given-names></name>, <name><surname>Oda</surname><given-names>K</given-names></name>, <name><surname>Ikeda</surname><given-names>Y</given-names></name>, <name><surname>Wada-Hiraike</surname><given-names>O</given-names></name>, <name><surname>Kashiyama</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2014</year>) <article-title>Anti-tumor activity of olaparib, a poly(ADP-ribose) polymerase (PARP) inhibitor, in cultured endometrial carcinoma cells</article-title>. <source>BMC Cancer</source>
+<volume>14</volume>: <fpage>179</fpage>.<pub-id pub-id-type="pmid">24625059</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-McPherson1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McPherson</surname><given-names>LA</given-names></name>, <name><surname>Shen</surname><given-names>Y</given-names></name>, <name><surname>Ford</surname><given-names>JM</given-names></name> (<year>2014</year>) <article-title>Poly(ADP-ribose) polymerase inhibitor LT-626: Sensitivity correlates with MRE11 mutations and synergizes with platinums and irinotecan in colorectal cancer cells</article-title>. <source>Cancer Lett</source>
+<volume>343</volume>: <fpage>217</fpage>&#x2013;<lpage>223</lpage>.<pub-id pub-id-type="pmid">24215868</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Daemen1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Daemen</surname><given-names>A</given-names></name>, <name><surname>Wolf</surname><given-names>DM</given-names></name>, <name><surname>Korkola</surname><given-names>JE</given-names></name>, <name><surname>Griffith</surname><given-names>OL</given-names></name>, <name><surname>Frankum</surname><given-names>JR</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Cross-platform pathway-based analysis identifies markers of response to the PARP inhibitor olaparib</article-title>. <source>Breast Cancer Res Treat</source>
+<volume>135</volume>: <fpage>505</fpage>&#x2013;<lpage>517</lpage>.<pub-id pub-id-type="pmid">22875744</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0100041-Gaymes1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gaymes</surname><given-names>TJ</given-names></name>, <name><surname>Mohamedali</surname><given-names>AM</given-names></name>, <name><surname>Patterson</surname><given-names>M</given-names></name>, <name><surname>Matto</surname><given-names>N</given-names></name>, <name><surname>Smith</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Microsatellite instability induced mutations in DNA repair genes CtIP and MRE11 confer hypersensitivity to poly(ADP-ribose) polymerase inhibitors in myeloid malignancies</article-title>. <source>Haematologica</source>
+<volume>98</volume>: <fpage>1397</fpage>&#x2013;<lpage>1406</lpage>.<pub-id pub-id-type="pmid">23349304</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

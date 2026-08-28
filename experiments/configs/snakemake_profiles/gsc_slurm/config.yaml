@@ -1,0 +1,11 @@
+jobs: 10000
+use-conda: false
+rerun-incomplete: true
+nolock: true
+cluster: >-
+    sbatch $(./helpers/parse_jobid.sh {dependencies}) -t {resources.time_limit}
+    --mem {resources.mem_mb}
+    --gres gpu:{resources.gpus}
+    -J {rule}
+    --output {resources.log_dir}/slurm.%j.%x.%N.log
+    --partition {resources.partition}

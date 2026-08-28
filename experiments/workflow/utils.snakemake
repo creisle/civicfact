@@ -1,0 +1,134 @@
+def reverse_model_name(model_dir_name):
+    return model_dir_name.replace('__', '/')
+
+
+def shorten_mdoel_name(model_dir_name):
+    _, name = model_dir_name.split('__')
+    name = name.replace('-', '')
+    return name
+
+
+def multi_expand(paths, **wildcards):
+    result = []
+    for path in paths:
+        try:
+            result.extend(expand(path, **wildcards))
+        except Exception as err:
+            print(f'failed to expand path: {path}')
+            raise err
+    return result
+
+
+wildcard_constraints:
+    dataset=r"[^/]+",
+    eval_dataset=r'[^/]+',
+    train_dataset=r'[^/]+',
+    data_version=r'\d+\.\d+\.\d+\w*',
+    train_data_version=r'\d+\.\d+\.\d+\w*',
+    # train_data_version=r'[^/-]+',
+    partition=r'\w+',
+    model_dir=r'[^/]+__[^/]+',
+    similarity_function=r'\w+',
+    config=r'\d+',
+    query_template=r'\d+',
+    random_seed=r'\d+',
+    data_method=r'[^/]+'
+
+envvars:
+    "HF_TOKEN"
+
+
+ACTIVATE_PYTHON = ""
+config['TRAINING_BATCH_SIZE'] = 2
+
+# config arguments to support using a python venv with a cluster
+venv_path = config.get('venv_path', '')
+use_venv = config.get('use_venv', '') # use with --config use_venv=True
+
+
+if use_venv or venv_path:
+    if not venv_path:
+        # guess the path from the current python executable
+        venv_activation_file = os.path.join(os.path.dirname(sys.executable), 'activate')
+    else:
+        venv_activation_file = os.path.abspath(os.path.join(venv_path, 'bin', 'activate'))
+    PYTHON_EXE = f'source {venv_activation_file}; '
+config['ACTIVATE_PYTHON'] = ACTIVATE_PYTHON
+
+
+LLM_CACHE_DB = '.openai_requests_cache.sqlite'
+
+JOB_MONITOR_SCRIPT = '''\
+# set up monitor loops
+for hostname in $(scontrol show hostnames "$SLURM_JOB_NODELIST" );
+do
+    echo "adding host monitor: $hostname"
+    nvidia-smi --query-gpu=timestamp,name,gpu_bus_id,memory.total,memory.free,memory.used,utilization.gpu,utilization.memory \
+        --format=csv \
+        -l 1 > logs/slurm.${{SLURM_JOB_ID}}.monitor.${{hostname}}.log &
+done
+'''
+
+
+GPU_MONITOR_SCRIPT = '''\
+mkdir -p {params.gpu_usage_log}
+
+# set up monitor loops
+for hostname in $(scontrol show hostnames "$SLURM_JOB_NODELIST" );
+do
+    echo "adding host monitor: $hostname"
+    nvidia-smi --query-gpu=timestamp,name,gpu_bus_id,memory.total,memory.free,memory.used,utilization.gpu,utilization.memory \
+        --format=csv \
+        -l 1 > {params.gpu_usage_log}/slurm.${{SLURM_JOB_ID}}.monitor.${{hostname}}.log &
+done
+'''
+
+
+
+rule get_adjectives_list:
+    output: 'data/adjectives.txt'
+    shell: 'wget https://gist.githubusercontent.com/hugsy/8910dc78d208e40de42deb29e62df913/raw/eec99c5597a73f6a9240cab26965a8609fa0f6ea/english-adjectives.txt -O {output}'
+
+
+rule get_animals_list:
+    output: 'data/animals.txt'
+    shell: 'wget https://gist.githubusercontent.com/atduskgreg/3cf8ef48cb0d29cf151bedad81553a54/raw/82f142562cf50b0f6fb8010f890b2f934093553e/animals.txt -O {output}'
+
+
+rule copy_data:
+    input: '../data_builder/builds/{dataset}-{data_version}/{prefix}.jsonl.gz'
+    output: 'data/{dataset}-{data_version}/{prefix}.jsonl.gz'
+    wildcard_constraints:
+        prefix=r'(data|document_chunks|retrieval)',
+        dataset=r'((?!(-L\d+)|(_f0)|x|hard|long)[^/])+'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: 'cp -r {input} {output}'
+
+# will always use the original reference retrieval since their is no difference to recomputing it
+rule downsample_and_filter_data:
+    input: data='data/{dataset}-{data_version}/assignments.{partition}.jsonl.gz', filters='data/civicfact-{data_version}/filters.{filter_name}.jsonl.gz'
+    output: 'data/{dataset}_f{fraction}_{filter_name}_s{seed}-{data_version}/assignments.{partition}.jsonl.gz'
+    wildcard_constraints:
+        dataset=r'[^_]+',
+        fraction=r'[01]\.\d+',
+        seed=r'\d+',
+        filter_name=r'[a-z]+[a-z0-9]+'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/downsample.py {input.data} {output} --fraction {wildcards.fraction} --seed {wildcards.seed} --filter {input.filters}'
+
+
+rule downsample_data:
+    input: 'data/{dataset}-{data_version}/assignments.{partition}.jsonl.gz'
+    output: 'data/{dataset}_f{fraction}_s{seed}-{data_version}/assignments.{partition}.jsonl.gz'
+    wildcard_constraints:
+        dataset=r'[^_]+',
+        fraction=r'[10]\.\d+',
+        seed=r'\d+'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/downsample.py {input} {output} --fraction {wildcards.fraction} --seed {wildcards.seed}'

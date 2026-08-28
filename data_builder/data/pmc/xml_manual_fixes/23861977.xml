@@ -1,0 +1,1611 @@
+<pmc-articleset>
+    <article article-type="research-article">        <?properties open_access?>
+        <front>
+            <journal-meta>
+                <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+                <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+                <journal-id journal-id-type="publisher-id">plos</journal-id>
+                <journal-id journal-id-type="pmc">plosone</journal-id>
+                <journal-title-group>
+                    <journal-title>PLoS ONE</journal-title>
+                </journal-title-group>
+                <issn pub-type="epub">1932-6203</issn>
+                <publisher>
+                    <publisher-name>Public Library of Science</publisher-name>
+                    <publisher-loc>San Francisco, USA</publisher-loc>
+                </publisher>
+            </journal-meta>
+            <article-meta>
+                <article-id pub-id-type="pmid">23861977</article-id>
+                <article-id pub-id-type="pmc">3704624</article-id>
+                <article-id pub-id-type="publisher-id">PONE-D-13-13629</article-id>
+                <article-id pub-id-type="doi">10.1371/journal.pone.0069639</article-id>
+                <article-categories>
+                    <subj-group subj-group-type="heading">
+                        <subject>Research Article</subject>
+                    </subj-group>
+                </article-categories>
+                <title-group>
+                    <article-title>NRAS and BRAF Mutations in Melanoma-Associated Nevi and Uninvolved Nevi</article-title>
+                    <alt-title alt-title-type="running-head">NRAS and BRAF in Melanoma-Associated Nevi</alt-title>
+                </title-group>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Tschandl</surname>
+                            <given-names>Philipp</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff1">
+                            <sup>1</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Berghoff</surname>
+                            <given-names>Anna Sophie</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff2">
+                            <sup>2</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Preusser</surname>
+                            <given-names>Matthias</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff2">
+                            <sup>2</sup>
+                        </xref>
+                        <xref ref-type="aff" rid="aff3">
+                            <sup>3</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Burgstaller-Muehlbacher</surname>
+                            <given-names>Sebastian</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff1">
+                            <sup>1</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Pehamberger</surname>
+                            <given-names>Hubert</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff1">
+                            <sup>1</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Okamoto</surname>
+                            <given-names>Ichiro</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff1">
+                            <sup>1</sup>
+                        </xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Kittler</surname>
+                            <given-names>Harald</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="aff1">
+                            <sup>1</sup>
+                        </xref>
+                        <xref ref-type="corresp" rid="cor1">
+                            <sup>*</sup>
+                        </xref>
+                    </contrib>
+                </contrib-group>
+                <aff id="aff1">
+                    <label>1</label>
+                    <addr-line>Department of Dermatology, Medical University of Vienna, Vienna, Austria</addr-line>
+                </aff>
+                <aff id="aff2">
+                    <label>2</label>
+                    <addr-line>Institute of Neurology and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria</addr-line>
+                </aff>
+                <aff id="aff3">
+                    <label>3</label>
+                    <addr-line>Department of Medicine I and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria</addr-line>
+                </aff>
+                <author-notes>
+                    <corresp id="cor1">* E-mail:<email>harald.kittler@meduniwien.ac.at</email>
+                    </corresp>
+                    <fn fn-type="COI-statement">
+                        <p>
+                            <bold>Competing Interests:</bold>The authors have declared that no competing interests exist.</p>
+                    </fn>
+                    <fn fn-type="con">
+                        <p>Conceived and designed the experiments: PT ASB SB HK. Performed the experiments: PT ASB. Analyzed the data: PT HK. Contributed reagents/materials/analysis tools: MP ASB IO HP. Wrote the manuscript: PT ASB MP SB IO HP HK.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="collection">
+                    <year>2013</year>
+                </pub-date>
+                <pub-date pub-type="epub">
+                    <day>8</day>
+                    <month>7</month>
+                    <year>2013</year>
+                </pub-date>
+                <volume>8</volume>
+                <issue>7</issue>
+                <elocation-id>e69639</elocation-id>
+                <history>
+                    <date date-type="received">
+                        <day>27</day>
+                        <month>3</month>
+                        <year>2013</year>
+                    </date>
+                    <date date-type="accepted">
+                        <day>11</day>
+                        <month>6</month>
+                        <year>2013</year>
+                    </date>
+                </history>
+                <permissions>
+                    <copyright-statement>© 2013 Tschandl et al</copyright-statement>
+                    <copyright-year>2013</copyright-year>
+                    <copyright-holder>Tschandl et al</copyright-holder>
+                    <license xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                        <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                    </license>
+                </permissions>
+                <abstract>
+                    <p>According to the prevailing multistep model of melanoma development, oncogenic BRAF or NRAS mutations are crucial initial events in melanoma development. It is not known whether melanocytic nevi that are found in association with a melanoma are more likely to carry BRAF or NRAS mutations than uninvolved nevi. By laser microdissection we were able to selectively dissect and genotype cells either from the nevus or from the melanoma part of 46 melanomas that developed in association with a nevus. In 25 cases we also genotyped a control nevus of the same patients. Available tissue was also immunostained using the BRAF<sup>V600E</sup>-mutation specific antibody VE1. The BRAF<sup>V600E</sup>mutation was found in 63.0% of melanomas, 65.2% of associated nevi and 50.0% of control nevi. No significant differences in the distribution of BRAF or NRAS mutations could be found between melanoma and associated nevi or between melanoma associated nevi and control nevi. In concordant cases immunohistochemistry showed a higher expression (intensity of immunohistochemistry) of the mutated BRAF<sup>V600E</sup>-protein in melanomas compared to their associated nevi. In this series the presence of a BRAF- or NRAS mutation in a nevus was not associated with the risk of malignant transformation. Our findings do not support the current traditional model of stepwise tumor progression.</p>
+                </abstract>
+                <funding-group>
+                    <funding-statement>This study was supported by grant number 11095 of the Margaretha-Hehberger Foundation (principle investigator: Harald Kittler; recipient: Philipp Tschandl). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+                </funding-group>
+            </article-meta>
+        </front>
+        <body>
+            <sec id="s1" sec-type="introduction">
+                <title>Introduction</title>
+                <p>At present, the initial genetic changes in the development of cutaneous melanoma are unclear. Our understanding of the genetic basis of melanoma development and progression is based primarily on the classic multi-step model predicting that the acquisition of oncogenic mutations is a founder event in melanocytic neoplasia. The Clark model of melanoma progression is based on the concept of a sequential accumulation of mutations that is mirrored morphologically by the transformation of a benign melanocytic nevus to a dysplastic nevus and finally to a melanoma [<xref ref-type="bibr" rid="B1">1</xref>–                    <xref ref-type="bibr" rid="B5">5</xref>]. At a molecular level it is believed that activation of the mitogen-activated protein kinase (MAPK) signaling pathway as a result of somatic mutations of NRAS or BRAF is a crucial event in this multistep development of melanoma [<xref ref-type="bibr" rid="B6">6</xref>–                    <xref ref-type="bibr" rid="B8">8</xref>]. These mutations, which occur mutually exclusive [<xref ref-type="bibr" rid="B9">9</xref>,                    <xref ref-type="bibr" rid="B10">10</xref>], cause constitutive activation of the serine–threonine kinases in the ERK–MAPK pathway. The role of BRAF-mutations is underlined by advances in the treatment of melanoma with BRAF inhibitors [<xref ref-type="bibr" rid="B11">11</xref>–                    <xref ref-type="bibr" rid="B13">13</xref>] but the exact role of BRAF in the initiation or progression of melanoma is still unknown. There are conflicting results with regard to the role of BRAF and NRAS mutations in melanomas in their horizontal and vertical growth phase [<xref ref-type="bibr" rid="B14">14</xref>–                    <xref ref-type="bibr" rid="B18">18</xref>]. It is also known that BRAF mutations occur at a similar frequency in nevi and in primary and metastatic melanomas [<xref ref-type="bibr" rid="B9">9</xref>,                    <xref ref-type="bibr" rid="B19">19</xref>–                    <xref ref-type="bibr" rid="B22">22</xref>]. It has been proposed that activating BRAF mutations induce senescence/apoptosis by up-regulating the tumor suppressor IGFBP7, which acts through autocrine/paracrine pathways to inhibit BRAF-MEK-ERK signaling. Wajapeyee and coworkers suggest that loss of IGFBP7 expression acts as a critical step in melanoma genesis [<xref ref-type="bibr" rid="B23">23</xref>]. Decarlo et al. on the other hand found a disparate expression of IGFBP7 in BRAF<sup>V600E</sup>-positive dysplastic nevi (enhanced in 56% and diminished/absent in 44%) indicating that the behavior of oncogenic BRAF in dysplastic nevi, unlike that in malignant melanoma, does not appear to consistently induce senescence/apoptosis through pathways mediated by IGFBP7 [<xref ref-type="bibr" rid="B24">24</xref>–                    <xref ref-type="bibr" rid="B26">26</xref>]. Most nevi, including so called “dysplastic nevi”, cease proliferation and remain static for decades. If nevi are indeed precursor lesions of melanoma they must acquire genetic alterations to free themselves of growth restraints and become malignant. The fact that oncogenic BRAF mutations are frequent in “dysplastic nevi”, congenital nevi, common nevi and especially in growing nevi [<xref ref-type="bibr" rid="B20">20</xref>,                    <xref ref-type="bibr" rid="B27">27</xref>,                    <xref ref-type="bibr" rid="B28">28</xref>] has challenged the role of BRAF mutations for the development of melanoma [<xref ref-type="bibr" rid="B16">16</xref>] in particular and the model of stepwise tumor progression in general. According to this model the “dysplastic” or “atypical nevus” is the “missing link” between a benign and a malignant melanocytic lesion [<xref ref-type="bibr" rid="B4">4</xref>] and should be typified by genetic alterations that differ from “common nevi” and from melanoma. The major inherent problem is the lack of interobserver agreement for the morphology-based diagnosis of “dysplastic nevi” including clinical, dermatoscopic and histopathologic diagnosis [<xref ref-type="bibr" rid="B29">29</xref>]. Until now, BRAF or NRAS mutations have been investigated systematically only in nevi that were not associated with melanomas [<xref ref-type="bibr" rid="B7">7</xref>,                    <xref ref-type="bibr" rid="B10">10</xref>,                    <xref ref-type="bibr" rid="B20">20</xref>,                    <xref ref-type="bibr" rid="B22">22</xref>,                    <xref ref-type="bibr" rid="B30">30</xref>,                    <xref ref-type="bibr" rid="B31">31</xref>]. Therefore it is unknown if BRAF or NRAS mutations play any role in the progression of a nevus into a melanoma. For a better understanding it is mandatory to study a subset of melanomas that arose in association with a preexisting nevus [<xref ref-type="bibr" rid="B32">32</xref>,                    <xref ref-type="bibr" rid="B33">33</xref>]. To gain a more profound understanding in the role of BRAF or NRAS mutations in the development of melanoma from nevi we compared the genotype and BRAF<sup>V600E</sup>protein expression of melanomas and their associated nevi with control nevi of the same patient.</p>
+            </sec>
+            <sec id="s2" sec-type="results">
+                <title>Results</title>
+                <sec id="s2.1">
+                    <title>Patient characteristics</title>
+                    <p>We included 46 melanomas (from 45 patients) that developed in association with a preexisting nevus. Mean age of the patients at diagnosis was 51.4 years (SD ±15.5), 34.8% were female. In 25 patients a suitable control-nevus of the same patient was also available for genetic analysis. The majority of melanomas (74.2%) had a Breslow thickness &lt;1.00mm (median 0.5mm, 25<sup>th</sup>-75<sup>th</sup>percentile: 0.35-1.05mm) and 93.5% were of tumor stage T1a (n=38) or T2a (n=5). All melanomas were of superficial spreading subtype, two melanomas showed ulceration histologically. Most melanomas were located on the trunk (n=35, 76.1%), followed by the upper extremities (n=6, 13.0%), the head, neck and face (n=3, 6.5%), lower extremities (n=1, 2.2%) and acral sites (n=1, 2.2%). No mucosal melanomas were included in this study.</p>
+                </sec>
+                <sec id="s2.2">
+                    <title>Frequency of BRAF/NRAS mutations detected by Sanger sequencing</title>
+                    <p>NRAS-mutations within Exon 2 were found in 11.9% (n=5), 18.2% (n=8) and 14.3% (n=3) of melanomas, associated nevi and control nevi, respectively. All non-silent mutations were substitutions of the Codon 61 (Q61K, Q61L or Q61R;<xref ref-type="table" rid="tab1">Table 1)</xref>.
+                    </p>
+                    <table-wrap id="tab1" orientation="portrait" position="float">
+                        <label>Table 1</label>
+                        <caption>
+                            <title>Mutations detected in samples.</title>
+                        </caption>
+                        <table frame="hsides" rules="groups">
+                            <thead>
+                                <tr>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>BRAF<sup>V600</sup>(Sanger)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Melanoma (n=45)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Associated nevus (n=46)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Control nevus (n=25)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Matched melanoma (n=28)</bold>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" rowspan="1">V600E</td>
+                                    <td colspan="1" rowspan="1">51.1% (n=23)</td>
+                                    <td colspan="1" rowspan="1">63.0% (n=29)</td>
+                                    <td colspan="1" rowspan="1">52.0% (n=13)</td>
+                                    <td colspan="1" rowspan="1">39.3% (n=11)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">V600K</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                    <td colspan="1" rowspan="1">4.0% (n=1)</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Wildtype</td>
+                                    <td colspan="1" rowspan="1">48.9% (n=22)</td>
+                                    <td colspan="1" rowspan="1">37.0% (n=17)</td>
+                                    <td colspan="1" rowspan="1">44.0% (n=11)</td>
+                                    <td colspan="1" rowspan="1">60.7% (n=17)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>BRAF<sup>V600E</sup>(Sanger + VE1 IHC)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Melanoma (n=46)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Associated nevus (n=46)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Control nevus (n=25)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Matched melanoma (n=29)</bold>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" rowspan="1">V600E</td>
+                                    <td colspan="1" rowspan="1">63.0% (n=29)</td>
+                                    <td colspan="1" rowspan="1">65.2% (n=30)</td>
+                                    <td colspan="1" rowspan="1">54.2% (n=13)</td>
+                                    <td colspan="1" rowspan="1">41.4% (n=12)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Wildtype</td>
+                                    <td colspan="1" rowspan="1">37.0% (n=17)</td>
+                                    <td colspan="1" rowspan="1">34.8% (n=16)</td>
+                                    <td colspan="1" rowspan="1">48.0% (n=12)</td>
+                                    <td colspan="1" rowspan="1">58.6% (n=17)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>NRAS Exon 2 (Sanger)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Melanoma (n=42)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Associated nevus (n=44)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Control nevus (n=21)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Matched melanoma (n=26)</bold>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Silent mutations</td>
+                                    <td colspan="1" rowspan="1">2.4% (n=1; A66A)</td>
+                                    <td colspan="1" rowspan="1">2.3% (n=1; L52L)</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Q61K</td>
+                                    <td colspan="1" rowspan="1">4.8% (n=2)</td>
+                                    <td colspan="1" rowspan="1">4.5% (n=2)</td>
+                                    <td colspan="1" rowspan="1">14.3% (n=3)</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Q61L</td>
+                                    <td colspan="1" rowspan="1">2.4% (n=1)</td>
+                                    <td colspan="1" rowspan="1">2.3% (n=1)</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Q61R</td>
+                                    <td colspan="1" rowspan="1">2.4% (n=1)</td>
+                                    <td colspan="1" rowspan="1">9.1% (n=4)</td>
+                                    <td colspan="1" rowspan="1">0</td>
+                                    <td colspan="1" rowspan="1">7.7% (n=2)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">Wildtype</td>
+                                    <td colspan="1" rowspan="1">88.1% (n=37)</td>
+                                    <td colspan="1" rowspan="1">81.8% (n=36)</td>
+                                    <td colspan="1" rowspan="1">85.7% (n=18)</td>
+                                    <td colspan="1" rowspan="1">92.3% (n=24)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table-wrap>
+                    <p>BRAF<sup>V600</sup>-mutations within exon 15 detected by Sanger-sequencing were present in 51.1% (n=23), 63.0% (n=29) and 52.0% (n=13) in melanomas, associated nevi and control nevi, respectively. With the exception of a single V600K substitution in a control nevus, all mutations within Codon 600 were an exchange of Valine by Glutamine (V600E) (<xref ref-type="table" rid="tab1">Table 1)</xref>. Four mutations in four different patients outside Codon 600 were detected: S602F (melanoma), S607F (associated nevus), R603Q (control nevus) and one single nucleotide variant within Intron 14 (dbSNP-Reference: rs143181039; melanoma, associated nevus and control nevus of one patient).</p>
+                </sec>
+                <sec id="s2.3">
+                    <title>Immunohistochemical detection of BRAF<sup>V600E</sup>
+                    </title>
+                    <p>Twenty-eight melanomas and 15 control nevi were stained with the BRAF<sup>V600E</sup>-mutation specific antibody VE1. Immunohistochemistry detected all mutations found by Sanger sequencing (<xref ref-type="fig" rid="pone-0069639-g001">Figure 1 D–G)</xref>. In 6 (5.1%) of 117 tumor-samples (5 melanomas and 1 associated nevus) immunohistochemistry showed a BRAF<sup>V600E</sup>mutation not detectable by sequencing. These cases remained discordant after repeated microdissection, amplification and sequencing. While no associated nevus showed strong staining, 10.0% (n=2) of melanomas were strongly positive by immunohistochemistry. The majority of associated nevi (80.0%, n=16) stained weakly as did only 25.0% (n=5) of melanomas. Twenty percent (n=4) of associated nevi and 65.0% (n=13) of melanomas showed an intermediate staining intensity. Paired analysis revealed that melanomas showed a stronger immunohistochemical staining intensity than their associated nevi (Wilcoxon signed-rank test, p=0.002) (<xref ref-type="fig" rid="pone-0069639-g001">Figure 1 C,D,F</xref>and<xref ref-type="supplementary-material" rid="pone.0069639.s002">Figures S2</xref>&amp;<xref ref-type="fig" rid="pone-0069639-g003">S3 H,I</xref>).
+                    </p>
+                    <fig id="pone-0069639-g001" orientation="portrait" position="float">
+                        <object-id pub-id-type="doi">10.1371/journal.pone.0069639.g001</object-id>
+                        <label>Figure 1</label>
+                        <caption>
+                            <title>Melanoma in association with a nevus in overview (A) and closeup (B).</title>
+                            <p>Immunohistochemically stained in (C) with the BRAF<sup>V600E</sup>-mutation specific antibody VE1. Benign(D) and malignant(F) parts of the tumor in closeup. E&amp;G show sequencing result of the corresponding cuts.</p>
+                        </caption>
+                        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.g001"></graphic>
+                    </fig>
+                </sec>
+                <sec id="s2.4">
+                    <title>BRAF and NRAS mutations in control nevi, melanomas and associated nevi</title>
+                    <p>The frequency of oncogenic mutations did not differ significantly between melanoma-associated nevi and control-nevi or between melanomas and their associated nevi (<xref ref-type="fig" rid="pone-0069639-g002">Figures 2</xref>and<xref ref-type="supplementary-material" rid="pone.0069639.s004">S4</xref>). However, in four pairs a BRAF-wildtype nevus was present next to a BRAF<sup>V600E</sup>-mutant melanoma; in five cases a BRAF-wildtype melanoma had a preexisting BRAF<sup>V600E</sup>-mutated nevus. BRAF<sup>V600E</sup>-mutation status was associated with younger age (55.3 years versus 48.2 years, p=0.007). In the present series we found no association between BRAF mutations and gender, invasion thickness or anatomic site. NRAS<sup>Q61</sup>mutations were more frequently found in lesions occurring on the lower (18.2%, n=2) and upper extremities (27.8%, n=5) and less common on the trunk (7.8%, n=6).</p>
+                    <fig id="pone-0069639-g002" orientation="portrait" position="float">
+                        <object-id pub-id-type="doi">10.1371/journal.pone.0069639.g002</object-id>
+                        <label>Figure 2</label>
+                        <caption>
+                            <title>Comparison of mutation status between paired tumor groups.</title>
+                            <p>BRAF<sup>V600E</sup>-mutation status was evaluated by VE1-Immunohistochemistry and Sanger sequencing, NRAS<sup>Q61</sup>by Sanger sequencing alone. p-values denote two-tailed significance as measured by McNemar test.</p>
+                        </caption>
+                        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.g002"></graphic>
+                    </fig>
+                    <p>NRAS mutations were not distributed differently between melanomas, associated nevi and control nevi. Mutation status of control nevi and melanoma-associated nevi was concordant in 68.4% (p=0.99), melanomas and preexisting nevi were concordant in 90.9% (p=0.63) (<xref ref-type="fig" rid="pone-0069639-g002">Figure 2)</xref>. NRAS<sup>Q61</sup>-mutation status was not associated with a age, gender or invasion thickness.</p>
+                </sec>
+                <sec id="s2.5">
+                    <title>BRAF and NRAS mutations of matched melanomas</title>
+                    <p>For 28 cases (26 for NRAS) a melanoma without an associated nevus, could be matched for patient age ± 3 years, gender and anatomic site. Matched melanomas harbored a BRAF<sup>V600E</sup>mutation in 42.9% (n=12) of cases and NRAS<sup>Q61</sup>mutations in 7.7% (n=2). The frequency of V600E or Q61 mutations was not different compared to melanomas with associated nevi (p=0.45 and p=0.63 respectively).</p>
+                </sec>
+                <sec id="s2.6">
+                    <title>Phenotype of nevi and phenotype-genotype correlation</title>
+                    <p>Melanoma associated nevi were either strictly dermal (84.8%) or compound nevi (15.2%). Control nevi were more likely to have a junctional component than associated nevi (92.0% versus 15.2%, p&lt;0.001). Histomorphologic features of “dysplastic nevi” [<xref ref-type="bibr" rid="B1">1</xref>,                        <xref ref-type="bibr" rid="B34">34</xref>–                        <xref ref-type="bibr" rid="B37">37</xref>] (lentiginous/epitheloid cell proliferation, fibroplasia and cellular atypia) were more common in control nevi than in melanoma associated nevi (<xref ref-type="table" rid="tab2">Table 2</xref>and<xref ref-type="fig" rid="pone-0069639-g003">Figure 3)</xref>. Overall, BRAF<sup>V600E</sup>positive nevi were more common to have no junctional component (p=0.04) and less common to show lentiginous/epitheloid cell proliferation (p=0.023). No statistically significant correlation of other aforementioned histomorphologic features could be found with mutations within BRAF<sup>V600</sup>or NRAS<sup>Q61</sup>.
+                    </p>
+                    <table-wrap id="tab2" orientation="portrait" position="float">
+                        <label>Table 2</label>
+                        <caption>
+                            <title>Comparison of clinical and morphologic criteria between nevi groups.</title>
+                        </caption>
+                        <table frame="hsides" rules="groups">
+                            <colgroup span="1">
+                                <col span="1"></col>
+                                <col span="1"></col>
+                                <col span="1"></col>
+                                <col span="1"></col>
+                                <col span="1"></col>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th colspan="1" rowspan="1"></th>
+                                    <th colspan="1" rowspan="1"></th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Associated Nevus (n=46)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>Control Nevus (n=25)</bold>
+                                    </th>
+                                    <th colspan="1" rowspan="1">
+                                        <bold>p-value (Chi-square)</bold>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Morphology</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Bridging</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">2.2% (n=1)</td>
+                                    <td colspan="1" rowspan="1">20.0% (n=5)</td>
+                                    <td colspan="1" rowspan="1">0.018</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1"></td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Lentiginous / epitheloid cell proliferation</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">10.9% (n=5)</td>
+                                    <td colspan="1" rowspan="1">68.0% (n=17)</td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>&lt;0.001</bold>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1"></td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Fibroplasia</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">4.3% (n=2)</td>
+                                    <td colspan="1" rowspan="1">52.0% (n=13)</td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>&lt;0.001</bold>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1"></td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Cytologic atypia</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">13.0% (n=6)</td>
+                                    <td colspan="1" rowspan="1">40.0% (n=10)</td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>0.009</bold>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Nevus subtype</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Junctional component</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">15.2% (n=7)</td>
+                                    <td colspan="1" rowspan="1">92.0% (n=23)</td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>&lt;0.001</bold>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Mutations</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>NRAS<sup>Q61</sup>
+                                        </bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">15.9% (n=7)</td>
+                                    <td colspan="1" rowspan="1">14.3% (n=3)</td>
+                                    <td colspan="1" rowspan="1">1.000</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1"></td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>BRAF<sup>V600</sup>(Seq &amp; VE1)</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">65.2% (n=30)</td>
+                                    <td colspan="1" rowspan="1">52.0% (n=13)</td>
+                                    <td colspan="1" rowspan="1">0.217</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Anatomic Site</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">
+                                        <bold>Trunk</bold>
+                                    </td>
+                                    <td colspan="1" rowspan="1">76.1 % (n=35)</td>
+                                    <td colspan="1" rowspan="1">56.1% (n=14)</td>
+                                    <td colspan="1" rowspan="1">0.080</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table-wrap>
+                    <fig id="pone-0069639-g003" orientation="portrait" position="float">
+                        <object-id pub-id-type="doi">10.1371/journal.pone.0069639.g003</object-id>
+                        <label>Figure 3</label>
+                        <caption>
+                            <title>Representative tumor parts of nevi groups.</title>
+                            <p>Melanoma associated nevi are more commonly strictly dermal and show less of the postulated features of so called "dysplastic" nevi.</p>
+                        </caption>
+                        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.g003"></graphic>
+                    </fig>
+                    <p>Because nevus type (junctional component present or not) and histomorphologic criteria were strongly correlated we built two different multivariate models to avoid collinearity. One model included nevus type the other histomorphologic criteria. If nevus type was excluded, location on the trunk (OR 6.68, SD:1.19-37.65, p=0.031) was predictive of melanoma associated nevi. Lentiginous/epitheloid cell proliferation (OR 0.06, SD:0.01-0.35, p=0.002) and fibroplasia (OR 0.12, SD:0.02-0.80, p=0.028) were significantly associated with uninvolved nevi. Using a multivariate logistic regression model excluding histomorphologic features only location on the trunk (OR 3.09, SD:1.02-9.37, p=0.046) remained a statistically significant predictor of association with melanoma.</p>
+                </sec>
+            </sec>
+            <sec id="s3" sec-type="discussion">
+                <title>Discussion</title>
+                <p>The major finding of our study is that in contrast to current belief, neither morphology nor the presence of BRAF or NRAS mutation predicts the chance of malignant transformation of a nevus into a melanoma. The frequencies of oncogenic BRAF mutations were similar in the melanoma part (63.0%) and in the nevus part (65.2%) with a concordance of 80.4%. BRAF or NRAS mutated nevi did not have a higher chance to be associated with melanomas than wild type nevi. In other words, the presence of a BRAF<sup>V600</sup>-or NRAS<sup>Q61</sup>-mutation within a nevus does not change its risk of transforming into a melanoma. Our results do not support the concept that oncogenic BRAF or NRAS mutations play a major role in the development of melanoma from nevi and do not support the multistep theory of melanoma progression in its current form. Even if the multistep theory is true it is unlikely that the multiple steps of tumor progression correspond to a morphologic spectrum that spans from a benign nevus via a dysplastic nevus to melanoma in situ. It seems that if melanomas develop in a preexisting nevus it is most likely an inconspicuous nevus that shows even less histomorphologic “dysplasia” or “atypia” than a control nevus of the same patient. From a histomorphologic point of view control nevi were even more “atypical“ than those nevi associated with melanomas. However, it has to be stated that most control nevi were excised for diagnostic reasons, which would explain why they showed a higher frequency of atypical features histomorphologically. This limitation however does not attenuate the fact that the genotypes of melanoma associated nevi and control nevi were the same. It was discovered recently, that melanomas show heterogeneity in regard to BRAF-genotype [<xref ref-type="bibr" rid="B38">38</xref>]. It is therefore possible that the melanoma arose in melanocytes that were not sampled. Our method of genotyping - namely conventional Sanger sequencing - has been shown to have a low sensitivity in detecting BRAF<sup>V600E</sup>mutations [<xref ref-type="bibr" rid="B39">39</xref>]. For this reason we also used immunohistochemistry, a method that has an excellent accuracy in the detection of oncogenic BRAF<sup>V600E</sup>mutations and has been shown to be particularly advantageous in specimens containing only small tumor parts [<xref ref-type="bibr" rid="B40">40</xref>]. Addition of immunohistochemistry data did not change the significance of our results and it is therefore unlikely that our results can be explained by sampling error. Another reason for discordant melanoma-nevus pairs might be that the melanoma might have had its’ origin not in the nevus but developed from melanocytes within the epidermis having a different genotype than the nevus. Given the high concordance of BRAF and NRAF mutations in melanoma and their associated nevi we consider this possibility highly unlikely. Finally we cannot rule out completely that epidermal parts of the associated nevus have been overgrown by the melanoma and therefore have not been accessible for analysis.</p>
+                <p>Evaluating tumors with BRAF<sup>V600E</sup>-genotype in benign and malignant parts, the melanoma showed a more intense staining with the VE1-antibody than the associated nevus (<xref ref-type="fig" rid="pone-0069639-g001">Figure 1 C,D,F</xref>and<xref ref-type="supplementary-material" rid="pone.0069639.s002">Figures S2</xref>&amp;<xref ref-type="supplementary-material" rid="pone.0069639.s003">S3 H,I</xref>). This higher expression of the oncogenic protein might be due to additional genetic or epigenetic events that play a role in oncogene-induced senescence or upregulate the RAS-RAF-pathway. It is interesting that most melanomas arose in the epidermis although most associated nevi were compound. This may be explained by the fact that driver mutations that are detected in addition to BRAF-mutants show a signature of UV-mutagenesis [<xref ref-type="bibr" rid="B41">41</xref>].
+                </p>
+                <p>In our series, melanomas associated with nevi showed a similar frequency of BRAF<sup>V600</sup>-and NRAS<sup>Q61</sup>-mutations compared to published reports of melanomas of the skin in general [<xref ref-type="bibr" rid="B7">7</xref>]. Higher mutation-rates in melanomas of younger individuals are in line with recent findings [<xref ref-type="bibr" rid="B41">41</xref>] that V600E mutations might not be related to chronic sun-exposure. The frequent occurrence of V600E mutations in other neoplasms such as thyroid carcinomas [<xref ref-type="bibr" rid="B42">42</xref>], ovarian cancer or adenocarcinomas [<xref ref-type="bibr" rid="B43">43</xref>] make it unlikely that actinic damage is a major cause of this mutation. A reason for more frequent BRAF<sup>V600E</sup>-positive melanomas in younger patients might be that in older patients a higher percentage of melanocytic lesions harboring the mutation already have undergone oncogene driven senescence [<xref ref-type="bibr" rid="B44">44</xref>]. When using a more sensitive method (immunohistochemistry) to detect the BRAF<sup>V600E</sup>phenotype the age difference to wildtype-tumors, especially in nevi, became smaller – an effect already shown before by Zalaudek et al. [<xref ref-type="bibr" rid="B28">28</xref>]. An explanation might be that, of coexisting subclones in melanocytic tumors [<xref ref-type="bibr" rid="B38">38</xref>], those harboring BRAF<sup>V600E</sup>are more likely to have undergone senescence or regression [<xref ref-type="bibr" rid="B44">44</xref>,                    <xref ref-type="bibr" rid="B45">45</xref>] in older patients and are therefore less likely to be detected by methods with lower sensitivity (e.g. Sanger sequencing).</p>
+                <p>A limitation of our study is that it is difficult to differentiate “severe junctional dysplasia” from melanoma in situ and that this generates a bias towards selection of melanomas that are associated with banal or “moderately dysplastic” nevi. However, according to our experience, the term “severely dysplastic nevi” expresses diagnostic uncertainty and not biologic uncertainty. If the concept of “dysplasia” is based on the impossibility to differentiate “severe junctional dysplasia” of a nevus from “melanoma in situ” it immunizes itself against falsification, making it a problematic concept from a scientific point of view.</p>
+                <p>In sum we show that the presence of a BRAF- or NRAS mutation, at least in the present series, is not biologically relevant in the development of melanomas that arise in association with a nevus. Other, currently unidentified, genetic or epigenetic changes may play a role in the transformation of nevi to melanomas.</p>
+            </sec>
+            <sec id="s4" sec-type="materials|methods">
+                <title>Materials and Methods</title>
+                <sec id="s4.1">
+                    <title>Ethics statement</title>
+                    <p>The study was approved by the local ethics committee of the Medical University of Vienna, Austria. The institutional ethics committee waived the need for written informed consent from those participants from whom only archived biopsy specimens were used in a retrospective manner (Ethics committee protocol 598/2010). Their private information and specimens were coded and not collected through an interaction or intervention with individuals. All other participants gave their written informed consent to participate in the study.</p>
+                </sec>
+                <sec id="s4.2">
+                    <title>Histologic assessment of melanoma-associated nevi and control nevi</title>
+                    <p>Criteria for the presence of a melanoma-associated nevus were used as published before by Stolz et al. [<xref ref-type="bibr" rid="B46">46</xref>]. All nevi were rated for the presence of different postulated morphologic features of “dysplastic” nevi [<xref ref-type="bibr" rid="B34">34</xref>] with the following definitions:<italic>Bridging</italic>: Nests of melanocytes within the epidermis spanning two or more rete ridges.<italic>Lentiginous or epitheloid cell proliferation</italic>: Melanocytes, arranged as variably sized nests and single cells within the epidermis.<named-content content-type="genus-species">
+                        <named-content content-type="genus-species">
+                            <italic>
+                                <named-content content-type="genus">Cytologic</named-content>
+                                <named-content content-type="species">atypia</named-content>
+                            </italic>
+                        </named-content>
+                    </named-content>: Presence of enlarged nuclei, hyperchromatic nuclei and/or prominent eosinophilic nucleoli.<italic>Fibroplasia</italic>: Increased number of fibroblasts and collagen fibres arranged in a linear fashion around rete ridges beneath the epidermal part of the neoplasm. Fibroplasia around dermal nests of melanocytes was disregarded.</p>
+            </sec>
+            <sec id="s4.3">
+                <title>Laser microdissection</title>
+                <p>For laser-capture-microdissection one or multiple 5µm-thick sections of the specimen were cut onto membrane slides and stained with Haematoxylin and Eosin. The respective tumor areas were cut using the MMI CellCut Plus - Laser Capture Microdissection Microscope (Molecular Machines &amp; Industries, Switzerland).<xref ref-type="supplementary-material" rid="pone.0069639.s001">Figure S1</xref>.
+                </p>
+            </sec>
+            <sec id="s4.4">
+                <title>BRAF Exon 15 and NRAS Exon 2 sequencing</title>
+                <p>Tissue samples were treated using the QuickExtract<sup>TM</sup>FFPE DNA Extraction Kit using standard protocols. Primers used for PCR-amplification of the BRAF Exon 15 were forward:<named-content content-type="gene">5’-TCATAATGCTTGCTCTGATAGGA-3’</named-content>and reverse:<named-content content-type="gene">5’-GGCCAAAAATTTAATCAGTGGA-3’</named-content>, or forward (shorter amplicon):<named-content content-type="gene">5’-TGTTTTCCTTTACTTACTACACCTC-3’</named-content>and reverse:<named-content content-type="gene">5’-TAATCAGTGGAAAAATAGCCTC-3’</named-content>. PCR-Primers for NRAS Exon 2 were forward:<named-content content-type="gene">5’-GATTCTTACAGAAAACAAGTG-3’</named-content>and reverse:<named-content content-type="gene">5’-ATGACTTGCTATTATTGATGG-3’</named-content>. Successful amplification of the respective region was confirmed by visualizing 5µl of the PCR products on a 2% Agarose Gel containing GelRed™ Nucleic Acid Gel Stain. PCR products were cleaned up using USB® ExoSAP-IT® PCR Product Cleanup (Affymetrix®, Santa Clara CA), Sanger-sequencing was performed using the respective primers used in PCR.</p>
+            </sec>
+            <sec id="s4.5">
+                <title>Immunohistochemical detection of BRAF<sup>V600E</sup>mutation</title>
+                <p>Available tumor tissue was stained using the BRAF<sup>V600E</sup>-mutation specific antibody VE1 as published before [<xref ref-type="bibr" rid="B47">47</xref>]. VE1 antibody was kindly provided by Prof. Andreas von Deimling (University of Heidelberg). Every slide was evaluated by two observers (PT, HK), blinded to the sequencing result, in correspondence with a standard H&amp;E-stained slide of the same tumor. Positive staining intensity of tumor tissue was rated semiquantitatively (“weak”, “intermediate” and “strong”,<xref ref-type="supplementary-material" rid="pone.0069639.s005">Figure S5</xref>). Conventional Sanger sequencing has been described to be inferior to BRAF<sup>V600E</sup>-specific immunohistochemistry by VE1 [<xref ref-type="bibr" rid="B47">47</xref>] in terms of sensitivity and specificity, therefore, in discordant cases mutation status as detected by immunohistochemistry was used for further analyses (BRAF<sup>V600E</sup>mutation was detected by IHC in five melanomas and one associated nevus not previously found by Sanger-sequencing).</p>
+            </sec>
+            <sec id="s4.6">
+                <title>Statistical analysis</title>
+                <p>To compare groups the McNemar-test (paired data), Chi-square (unpaired categorical/nominal data), Fisher’s-exact (smaller sample sizes), Wilcoxon signed-rank (paired continuous/nominal data) and T-test (unpaired continuous data; two-tailed p-value) was used. Multivariate comparison of characteristics between melanoma associated nevi and control nevi was performed using a forward conditional logistic regression model. As the presence of a junctional component was highly codependent (data not shown) to all measured histopathologic characteristics, two models were calculated: One excluding a junctional component as a predictor variable, one excluding all histomorphologic features.</p>
+                <p>All given P-values are two-tailed and a p-value &lt;0.05 was considered significant. All statistical analyses were performed using IBM® SPSS® statistics Version 20.0.</p>
+            </sec>
+        </sec>
+        <sec sec-type="supplementary-material">
+            <title>Supporting Information</title>
+            <supplementary-material content-type="local-data" id="pone.0069639.s001">
+                <label>Figure S1</label>
+                <caption>
+                    <p>Tissue as imaged with the laser-capture microdissecting microscope before (A) and after (B) microdissection and the corresponding collected cuts (C).</p>
+                    <p>(TIF)</p>
+                </caption>
+                <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.s001.tif">
+                    <caption>
+                        <p>Click here for additional data file.</p>
+                    </caption>
+                </media>
+            </supplementary-material>
+            <supplementary-material content-type="local-data" id="pone.0069639.s002">
+                <label>Figure S2</label>
+                <caption>
+                    <title>Images of a melanoma associated with a preexisting nevus.</title>
+                    <p>A - Clinical image; C - Dermatoscopic image; B&amp;D-F - Histologic overview (H&amp;E-staining); H&amp;E-staining (G) and VE1-Immunohistochemitry (H) of the associated nevus; H&amp;E-staining (J) and VE1-Immunohistochemitry (I) of the melanoma</p>
+                    <p>(TIF)</p>
+                </caption>
+                <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.s002.tif">
+                    <caption>
+                        <p>Click here for additional data file.</p>
+                    </caption>
+                </media>
+            </supplementary-material>
+            <supplementary-material content-type="local-data" id="pone.0069639.s003">
+                <label>Figure S3</label>
+                <caption>
+                    <title>Images of a melanoma associated with a preexisting nevus.</title>
+                    <p>A - Clinical image; C - Dermatoscopic image; B&amp;D-F - Histologic overview (H&amp;E-staining); H&amp;E-staining (G) and VE1-Immunohistochemitry (H) of the associated nevus; H&amp;E-staining (J) and VE1-Immunohistochemitry (I) of the melanoma</p>
+                    <p>(TIF)</p>
+                </caption>
+                <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.s003.tif">
+                    <caption>
+                        <p>Click here for additional data file.</p>
+                    </caption>
+                </media>
+            </supplementary-material>
+            <supplementary-material content-type="local-data" id="pone.0069639.s004">
+                <label>Figure S4</label>
+                <caption>
+                    <title>Overview of NRAS<sup>Q61</sup>(                        <bold>blue</bold>) and BRAF<sup>V600E</sup>(                        <bold>red</bold>) mutations in evaluated tumor material.</title>
+                    <p>Columns depict corresponding tumor parts.</p>
+                    <p>(EPS)</p>
+                </caption>
+                <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.s004.eps">
+                    <caption>
+                        <p>Click here for additional data file.</p>
+                    </caption>
+                </media>
+            </supplementary-material>
+            <supplementary-material content-type="local-data" id="pone.0069639.s005">
+                <label>Figure S5</label>
+                <caption>
+                    <title>Semiquantitative rating of VE1 - Immunohistochemistry.</title>
+                    <p>- Staining of nuclei is stronger ("weak"), equal ("intermediate") or weaker ("strong") than VE1-staining.</p>
+                    <p>(TIF)</p>
+                </caption>
+                <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0069639.s005.tif">
+                    <caption>
+                        <p>Click here for additional data file.</p>
+                    </caption>
+                </media>
+            </supplementary-material>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <p>We would like to thank the technicians of our departments, especially Monika Weiss, for their diligent production of slides and stainings. We thank Prof. Andreas von Deimling (University of Heidelberg) for providing anti-BRAF<sup>V600E</sup>antibody VE1. This project has been conducted as part of the PhD-thesis of Philipp Tschandl, MD.</p>
+        </ack>
+        <ref-list>
+            <title>References</title>
+            <ref id="B1">
+                <label>1</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Clark</surname>
+                        <given-names>WH</given-names>
+                        <suffix>Jr.</suffix>
+                    </name>,                    <name>
+                        <surname>Reimer</surname>
+                        <given-names>RR</given-names>
+                    </name>,                    <name>
+                        <surname>Greene</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Ainsworth</surname>
+                        <given-names>AM</given-names>
+                    </name>,                    <name>
+                        <surname>Mastrangelo</surname>
+                        <given-names>MJ</given-names>
+                    </name>(                    <year>1978</year>)                    <article-title>Origin of familial malignant melanomas from heritable melanocytic lesions. 'The B–K mole syndrome'</article-title>.                    <source>Arch Dermatol</source>
+                    <volume>114</volume>:                    <fpage>732</fpage>-                    <lpage>738</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archderm.114.5.732">10.1001/archderm.114.5.732</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/646394">646394</ext-link>.                    <pub-id pub-id-type="pmid">646394</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Clark</surname>
+                        <given-names>WH</given-names>
+                        <suffix>Jr.</suffix>
+                    </name>,                    <name>
+                        <surname>Elder</surname>
+                        <given-names>DE</given-names>
+                    </name>,                    <name>
+                        <surname>Guerry</surname>
+                        <given-names>Dt</given-names>
+                    </name>,                    <name>
+                        <surname>Epstein</surname>
+                        <given-names>MN</given-names>
+                    </name>,                    <name>
+                        <surname>Greene</surname>
+                        <given-names>MH</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>1984</year>)                    <article-title>A study of tumor progression: the precursor lesions of superficial spreading and nodular melanoma</article-title>.                    <source>Hum Pathol</source>
+                    <volume>15</volume>:                    <fpage>1147</fpage>-                    <lpage>1165</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0046-8177(84)80310-X">10.1016/S0046-8177(84)80310-X</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6500548">6500548</ext-link>.                    <pub-id pub-id-type="pmid">6500548</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Greene</surname>
+                        <given-names>MH</given-names>
+                    </name>,                    <name>
+                        <surname>Clark</surname>
+                        <given-names>WH</given-names>
+                        <suffix>Jr.</suffix>
+                    </name>,                    <name>
+                        <surname>Tucker</surname>
+                        <given-names>MA</given-names>
+                    </name>,                    <name>
+                        <surname>Elder</surname>
+                        <given-names>DE</given-names>
+                    </name>,                    <name>
+                        <surname>Kraemer</surname>
+                        <given-names>KH</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>1985</year>)                    <article-title>Acquired precursors of cutaneous malignant melanoma. The familial dysplastic nevus syndrome</article-title>.                    <source>N Engl J Med</source>
+                    <volume>312</volume>:                    <fpage>91</fpage>-                    <lpage>97</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJM198501103120205">10.1056/NEJM198501103120205</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/3964923">3964923</ext-link>.                    <pub-id pub-id-type="pmid">3964923</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Hussein</surname>
+                        <given-names>MR</given-names>
+                    </name>(                    <year>2005</year>)                    <article-title>Melanocytic dysplastic naevi occupy the middle ground between benign melanocytic naevi and cutaneous malignant melanomas: emerging clues</article-title>.                    <source>J Clin Pathol</source>
+                    <volume>58</volume>:                    <fpage>453</fpage>-                    <lpage>456</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jcp.2004.019422">10.1136/jcp.2004.019422</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15858113">15858113</ext-link>.                    <pub-id pub-id-type="pmid">15858113</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Miller</surname>
+                        <given-names>AJ</given-names>
+                    </name>,                    <name>
+                        <surname>Mihm</surname>
+                        <given-names>MC</given-names>
+                        <suffix>Jr.</suffix>
+                    </name>(                    <year>2006</year>)                    <article-title>Melanoma</article-title>.                    <source>N Engl J Med</source>
+                    <volume>355</volume>:                    <fpage>51</fpage>-                    <lpage>65</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMra052166">10.1056/NEJMra052166</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16822996">16822996</ext-link>.                    <pub-id pub-id-type="pmid">16822996</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Uribe</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <name>
+                        <surname>Wistuba</surname>
+                        <given-names>II</given-names>
+                    </name>,                    <name>
+                        <surname>Gonzalez</surname>
+                        <given-names>S</given-names>
+                    </name>(                    <year>2009</year>)                    <article-title>Allelotyping, microsatellite instability, and BRAF mutation analyses in common and atypical melanocytic nevi and primary cutaneous melanomas</article-title>.                    <source>Am J Dermatopathol</source>
+                    <volume>31</volume>:                    <fpage>354</fpage>-                    <lpage>363</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/DAD.0b013e318185d205">10.1097/DAD.0b013e318185d205</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19461239">19461239</ext-link>.                    <pub-id pub-id-type="pmid">19461239</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Davies</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>Bignell</surname>
+                        <given-names>GR</given-names>
+                    </name>,                    <name>
+                        <surname>Cox</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Stephens</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <name>
+                        <surname>Edkins</surname>
+                        <given-names>S</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2002</year>)                    <article-title>Mutations of the BRAF gene in human cancer</article-title>.                    <source>Nature</source>
+                    <volume>417</volume>:                    <fpage>949</fpage>-                    <lpage>954</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature00766">10.1038/nature00766</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12068308">12068308</ext-link>.                    <pub-id pub-id-type="pmid">12068308</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Curtin</surname>
+                        <given-names>JA</given-names>
+                    </name>,                    <name>
+                        <surname>Fridlyand</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name>
+                        <surname>Kageshita</surname>
+                        <given-names>T</given-names>
+                    </name>,                    <name>
+                        <surname>Patel</surname>
+                        <given-names>HN</given-names>
+                    </name>,                    <name>
+                        <surname>Busam</surname>
+                        <given-names>KJ</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2005</year>)                    <article-title>Distinct sets of genetic alterations in melanoma</article-title>.                    <source>N Engl J Med</source>
+                    <volume>353</volume>:                    <fpage>2135</fpage>-                    <lpage>2147</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa050092">10.1056/NEJMoa050092</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16291983">16291983</ext-link>.                    <pub-id pub-id-type="pmid">16291983</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Poynter</surname>
+                        <given-names>JN</given-names>
+                    </name>,                    <name>
+                        <surname>Elder</surname>
+                        <given-names>JT</given-names>
+                    </name>,                    <name>
+                        <surname>Fullen</surname>
+                        <given-names>DR</given-names>
+                    </name>,                    <name>
+                        <surname>Nair</surname>
+                        <given-names>RP</given-names>
+                    </name>,                    <name>
+                        <surname>Soengas</surname>
+                        <given-names>MS</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2006</year>)                    <article-title>BRAF and NRAS mutations in melanoma and melanocytic nevi</article-title>.                    <source>Melanoma Res</source>
+                    <volume>16</volume>:                    <fpage>267</fpage>-                    <lpage>273</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/01.cmr.0000222600.73179.f3">10.1097/01.cmr.0000222600.73179.f3</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16845322">16845322</ext-link>.                    <pub-id pub-id-type="pmid">16845322</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Thomas</surname>
+                        <given-names>NE</given-names>
+                    </name>(                    <year>2006</year>)                    <article-title>BRAF somatic mutations in malignant melanoma and melanocytic naevi</article-title>.                    <source>Melanoma Res</source>
+                    <volume>16</volume>:                    <fpage>97</fpage>-                    <lpage>103</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/01.cmr.0000215035.38436.87">10.1097/01.cmr.0000215035.38436.87</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16567964">16567964</ext-link>.                    <pub-id pub-id-type="pmid">16567964</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B11">
+                <label>11</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Flaherty</surname>
+                        <given-names>KT</given-names>
+                    </name>,                    <name>
+                        <surname>Puzanov</surname>
+                        <given-names>I</given-names>
+                    </name>,                    <name>
+                        <surname>Kim</surname>
+                        <given-names>KB</given-names>
+                    </name>,                    <name>
+                        <surname>Ribas</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>McArthur</surname>
+                        <given-names>GA</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2010</year>)                    <article-title>Inhibition of mutated, activated BRAF in metastatic melanoma</article-title>.                    <source>N Engl J Med</source>
+                    <volume>363</volume>:                    <fpage>809</fpage>-                    <lpage>819</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa1002011">10.1056/NEJMoa1002011</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20818844">20818844</ext-link>.                    <pub-id pub-id-type="pmid">20818844</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B12">
+                <label>12</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Flaherty</surname>
+                        <given-names>KT</given-names>
+                    </name>,                    <name>
+                        <surname>Infante</surname>
+                        <given-names>JR</given-names>
+                    </name>,                    <name>
+                        <surname>Daud</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Gonzalez</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Kefford</surname>
+                        <given-names>RF</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>Combined BRAF and MEK inhibition in melanoma with BRAF V600 mutations</article-title>.                    <source>N Engl J Med</source>
+                    <volume>367</volume>:                    <fpage>1694</fpage>-                    <lpage>1703</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa1210093">10.1056/NEJMoa1210093</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23020132">23020132</ext-link>.                    <pub-id pub-id-type="pmid">23020132</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B13">
+                <label>13</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Hauschild</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Grob</surname>
+                        <given-names>JJ</given-names>
+                    </name>,                    <name>
+                        <surname>Demidov</surname>
+                        <given-names>LV</given-names>
+                    </name>,                    <name>
+                        <surname>Jouary</surname>
+                        <given-names>T</given-names>
+                    </name>,                    <name>
+                        <surname>Gutzmer</surname>
+                        <given-names>R</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>Dabrafenib in BRAF-mutated metastatic melanoma: a multicentre, open-label, phase 3 randomised controlled trial</article-title>.                    <source>Lancet</source>
+                    <volume>380</volume>:                    <fpage>358</fpage>-                    <lpage>365</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(12)60868-X">10.1016/S0140-6736(12)60868-X</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22735384">22735384</ext-link>.                    <pub-id pub-id-type="pmid">22735384</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B14">
+                <label>14</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Demunter</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Stas</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Degreef</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>De Wolf-Peeters</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>van den Oord</surname>
+                        <given-names>JJ</given-names>
+                    </name>(                    <year>2001</year>)                    <article-title>Analysis of N- and K-ras mutations in the distinctive tumor progression phases of melanoma</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>117</volume>:                    <fpage>1483</fpage>-                    <lpage>1489</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.0022-202x.2001.01601.x">10.1046/j.0022-202x.2001.01601.x</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11886512">11886512</ext-link>.                    <pub-id pub-id-type="pmid">11886512</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B15">
+                <label>15</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Omholt</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name>
+                        <surname>Platz</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Kanter</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name>
+                        <surname>Ringborg</surname>
+                        <given-names>U</given-names>
+                    </name>,                    <name>
+                        <surname>Hansson</surname>
+                        <given-names>J</given-names>
+                    </name>(                    <year>2003</year>)                    <article-title>NRAS and BRAF mutations arise early during melanoma pathogenesis and are preserved throughout tumor progression</article-title>.                    <source>Clin Cancer Res Off J Am Assoc Cancer Res</source>
+                    <volume>9</volume>:                    <fpage>6483</fpage>-                    <lpage>6488</lpage>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/14695152">14695152</ext-link>.
+                </mixed-citation>
+            </ref>
+            <ref id="B16">
+                <label>16</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Dong</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name>
+                        <surname>Phelps</surname>
+                        <given-names>RG</given-names>
+                    </name>,                    <name>
+                        <surname>Qiao</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Yao</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name>
+                        <surname>Benard</surname>
+                        <given-names>O</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2003</year>)                    <article-title>BRAF oncogenic mutations correlate with progression rather than initiation of human melanoma</article-title>.                    <source>Cancer Res</source>
+                    <volume>63</volume>:                    <fpage>3883</fpage>-                    <lpage>3885</lpage>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12873977">12873977</ext-link>.                    <pub-id pub-id-type="pmid">12873977</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B17">
+                <label>17</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Greene</surname>
+                        <given-names>VR</given-names>
+                    </name>,                    <name>
+                        <surname>Johnson</surname>
+                        <given-names>MM</given-names>
+                    </name>,                    <name>
+                        <surname>Grimm</surname>
+                        <given-names>EA</given-names>
+                    </name>,                    <name>
+                        <surname>Ellerhorst</surname>
+                        <given-names>JA</given-names>
+                    </name>(                    <year>2009</year>)                    <article-title>Frequencies of NRAS and BRAF mutations increase from the radial to the vertical growth phase in cutaneous melanoma</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>129</volume>:                    <fpage>1483</fpage>-                    <lpage>1488</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/jid.2008.374">10.1038/jid.2008.374</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19037234">19037234</ext-link>.                    <pub-id pub-id-type="pmid">19037234</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B18">
+                <label>18</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Rosso</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Romagosa</surname>
+                        <given-names>Y</given-names>
+                    </name>,                    <name>
+                        <surname>Kirsner</surname>
+                        <given-names>RS</given-names>
+                    </name>(                    <year>2009</year>)                    <article-title>Progression of NRAS and BRAF mutations in cutaneous melanoma</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>129</volume>:                    <fpage>1318</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/jid.2009.107">10.1038/jid.2009.107</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19434085">19434085</ext-link>.                    <pub-id pub-id-type="pmid">19434085</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B19">
+                <label>19</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Wu</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name>
+                        <surname>Rosenbaum</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name>
+                        <surname>Begum</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name>
+                        <surname>Westra</surname>
+                        <given-names>WH</given-names>
+                    </name>(                    <year>2007</year>)                    <article-title>Distribution of BRAF T1799A(V600E) mutations across various types of benign nevi: implications for melanocytic tumorigenesis</article-title>.                    <source>Am J Dermatopathol</source>
+                    <volume>29</volume>:                    <fpage>534</fpage>-                    <lpage>537</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/DAD.0b013e3181584950">10.1097/DAD.0b013e3181584950</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18032947">18032947</ext-link>.                    <pub-id pub-id-type="pmid">18032947</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B20">
+                <label>20</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Loewe</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Kittler</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>Fischer</surname>
+                        <given-names>G</given-names>
+                    </name>,                    <name>
+                        <surname>Faé</surname>
+                        <given-names>I</given-names>
+                    </name>,                    <name>
+                        <surname>Wolff</surname>
+                        <given-names>K</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2004</year>)                    <article-title>BRAF kinase gene V599E mutation in growing melanocytic lesions</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>123</volume>:                    <fpage>733</fpage>-                    <lpage>736</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.0022-202X.2004.23402.x">10.1111/j.0022-202X.2004.23402.x</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15373778">15373778</ext-link>.                    <pub-id pub-id-type="pmid">15373778</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B21">
+                <label>21</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Pollock</surname>
+                        <given-names>PM</given-names>
+                    </name>,                    <name>
+                        <surname>Harper</surname>
+                        <given-names>UL</given-names>
+                    </name>,                    <name>
+                        <surname>Hansen</surname>
+                        <given-names>KS</given-names>
+                    </name>,                    <name>
+                        <surname>Yudt</surname>
+                        <given-names>LM</given-names>
+                    </name>,                    <name>
+                        <surname>Stark</surname>
+                        <given-names>M</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2003</year>)                    <article-title>High frequency of BRAF mutations in nevi</article-title>.                    <source>Nat Genet</source>
+                    <volume>33</volume>:                    <fpage>19</fpage>-                    <lpage>20</lpage>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12447372">12447372</ext-link>.                    <pub-id pub-id-type="pmid">12447372</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B22">
+                <label>22</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Uribe</surname>
+                        <given-names>P</given-names>
+                    </name>,                    <name>
+                        <surname>Wistuba</surname>
+                        <given-names>II</given-names>
+                    </name>,                    <name>
+                        <surname>González</surname>
+                        <given-names>S</given-names>
+                    </name>(                    <year>2003</year>)                    <article-title>BRAF mutation: a frequent event in benign, atypical, and malignant melanocytic lesions of the skin</article-title>.                    <source>Am J Dermatopathol</source>
+                    <volume>25</volume>:                    <fpage>365</fpage>-                    <lpage>370</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/00000372-200310000-00001">10.1097/00000372-200310000-00001</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/14501284">14501284</ext-link>.                    <pub-id pub-id-type="pmid">14501284</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B23">
+                <label>23</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Wajapeyee</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name>
+                        <surname>Serra</surname>
+                        <given-names>RW</given-names>
+                    </name>,                    <name>
+                        <surname>Zhu</surname>
+                        <given-names>X</given-names>
+                    </name>,                    <name>
+                        <surname>Mahalingam</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Green</surname>
+                        <given-names>MR</given-names>
+                    </name>(                    <year>2008</year>)                    <article-title>Oncogenic BRAF induces senescence and apoptosis through pathways mediated by the secreted protein IGFBP7</article-title>.                    <source>Cell</source>
+                    <volume>132</volume>:                    <fpage>363</fpage>-                    <lpage>374</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2007.12.032">10.1016/j.cell.2007.12.032</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18267069">18267069</ext-link>.                    <pub-id pub-id-type="pmid">18267069</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B24">
+                <label>24</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Decarlo</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name>
+                        <surname>Yang</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name>
+                        <surname>Emley</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Wajapeyee</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name>
+                        <surname>Green</surname>
+                        <given-names>M</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2010</year>)                    <article-title>Oncogenic BRAF-positive dysplastic nevi and the tumor suppressor IGFBP7--challenging the concept of dysplastic nevi as precursor lesions?</article-title>
+                    <source>Hum Pathol</source>
+                    <volume>41</volume>:                    <fpage>886</fpage>-                    <lpage>894</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.humpath.2009.12.002">10.1016/j.humpath.2009.12.002</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20233623">20233623</ext-link>.                    <pub-id pub-id-type="pmid">20233623</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B25">
+                <label>25</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Schrama</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Kneitz</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>Willmes</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Adam</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Houben</surname>
+                        <given-names>R</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2010</year>)                    <article-title>Lack of correlation between IGFBP7 expression and BRAF mutational status in melanoma</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>130</volume>:                    <fpage>897</fpage>-                    <lpage>898</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/jid.2009.304">10.1038/jid.2009.304</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19829302">19829302</ext-link>.                    <pub-id pub-id-type="pmid">19829302</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B26">
+                <label>26</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Scurr</surname>
+                        <given-names>LL</given-names>
+                    </name>,                    <name>
+                        <surname>Pupo</surname>
+                        <given-names>GM</given-names>
+                    </name>,                    <name>
+                        <surname>Becker</surname>
+                        <given-names>TM</given-names>
+                    </name>,                    <name>
+                        <surname>Lai</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name>
+                        <surname>Schrama</surname>
+                        <given-names>D</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2010</year>)                    <article-title>IGFBP7 is not required for B-RAF-induced melanocyte senescence</article-title>.                    <source>Cell</source>
+                    <volume>141</volume>:                    <fpage>717</fpage>-                    <lpage>727</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2010.04.021">10.1016/j.cell.2010.04.021</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20478260">20478260</ext-link>.                    <pub-id pub-id-type="pmid">20478260</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B27">
+                <label>27</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Papp</surname>
+                        <given-names>T</given-names>
+                    </name>,                    <name>
+                        <surname>Schipper</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>Kumar</surname>
+                        <given-names>K</given-names>
+                    </name>,                    <name>
+                        <surname>Schiffmann</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Zimmermann</surname>
+                        <given-names>R</given-names>
+                    </name>(                    <year>2005</year>)                    <article-title>Mutational analysis of the BRAF gene in human congenital and dysplastic melanocytic naevi</article-title>.                    <source>Melanoma Res</source>
+                    <volume>15</volume>:                    <fpage>401</fpage>-                    <lpage>407</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/00008390-200510000-00008">10.1097/00008390-200510000-00008</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16179867">16179867</ext-link>.                    <pub-id pub-id-type="pmid">16179867</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B28">
+                <label>28</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Zalaudek</surname>
+                        <given-names>I</given-names>
+                    </name>,                    <name>
+                        <surname>Guelly</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Pellacani</surname>
+                        <given-names>G</given-names>
+                    </name>,                    <name>
+                        <surname>Hofmann-Wellenhof</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Trajanoski</surname>
+                        <given-names>S</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2011</year>)                    <article-title>The dermoscopical and histopathological patterns of nevi correlate with the frequency of BRAF mutations</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>131</volume>:                    <fpage>542</fpage>-                    <lpage>545</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/jid.2010.332">10.1038/jid.2010.332</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21068756">21068756</ext-link>.                    <pub-id pub-id-type="pmid">21068756</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B29">
+                <label>29</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Meyer</surname>
+                        <given-names>LJ</given-names>
+                    </name>,                    <name>
+                        <surname>Piepkorn</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Goldgar</surname>
+                        <given-names>DE</given-names>
+                    </name>,                    <name>
+                        <surname>Lewis</surname>
+                        <given-names>CM</given-names>
+                    </name>,                    <name>
+                        <surname>Cannon-Albright</surname>
+                        <given-names>LA</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>1996</year>)                    <article-title>Interobserver concordance in discriminating clinical atypia of melanocytic nevi, and correlations with histologic atypia</article-title>.                    <source>J Am Acad Dermat</source>
+                    <volume>34</volume>:                    <fpage>618</fpage>-                    <lpage>625</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0190-9622(96)80061-2">10.1016/S0190-9622(96)80061-2</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8601651">8601651</ext-link>.
+                </mixed-citation>
+            </ref>
+            <ref id="B30">
+                <label>30</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Pollock</surname>
+                        <given-names>PM</given-names>
+                    </name>,                    <name>
+                        <surname>Meltzer</surname>
+                        <given-names>PS</given-names>
+                    </name>(                    <year>2002</year>)                    <article-title>A genome-based strategy uncovers frequent BRAF mutations in melanoma</article-title>.                    <source>Cancer Cell</source>
+                    <volume>2</volume>:                    <fpage>5</fpage>-                    <lpage>7</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1535-6108(02)00089-2">10.1016/S1535-6108(02)00089-2</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12150818">12150818</ext-link>.                    <pub-id pub-id-type="pmid">12150818</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B31">
+                <label>31</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Goel</surname>
+                        <given-names>VK</given-names>
+                    </name>,                    <name>
+                        <surname>Lazar</surname>
+                        <given-names>AJ</given-names>
+                    </name>,                    <name>
+                        <surname>Warneke</surname>
+                        <given-names>CL</given-names>
+                    </name>,                    <name>
+                        <surname>Redston</surname>
+                        <given-names>MS</given-names>
+                    </name>,                    <name>
+                        <surname>Haluska</surname>
+                        <given-names>FG</given-names>
+                    </name>(                    <year>2006</year>)                    <article-title>Examination of mutations in BRAF, NRAS, and PTEN in primary cutaneous melanoma</article-title>.                    <source>J Invest Dermatol</source>
+                    <volume>126</volume>:                    <fpage>154</fpage>-                    <lpage>160</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/sj.jid.5700026">10.1038/sj.jid.5700026</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16417231">16417231</ext-link>.                    <pub-id pub-id-type="pmid">16417231</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B32">
+                <label>32</label>
+                <mixed-citation publication-type="book">
+                    <name>
+                        <surname>Bevona</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Goggins</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name>
+                        <surname>Quinn</surname>
+                        <given-names>T</given-names>
+                    </name>,                    <name>
+                        <surname>Fullerton</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name>
+                        <surname>Tsao</surname>
+                        <given-names>H</given-names>
+                    </name>(                    <year>2003</year>)                    <article-title>Cutaneous melanomas associated with nevi</article-title>.                    <source>Arch Dermatol</source>
+                    <volume>139</volume>:                    <fpage>1620</fpage>-                    <lpage>1624</lpage>;                    <comment>discussion 1624. doi:10.1001/archderm.139.12.1620.</comment>
+                    <publisher-name>PubMed</publisher-name>
+                    <comment>: 14676081</comment>
+                    <pub-id pub-id-type="pmid">14676081</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B33">
+                <label>33</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Tsao</surname>
+                        <given-names>H</given-names>
+                    </name>,                    <name>
+                        <surname>Bevona</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Goggins</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name>
+                        <surname>Quinn</surname>
+                        <given-names>T</given-names>
+                    </name>(                    <year>2003</year>)                    <article-title>The transformation rate of moles (melanocytic nevi) into cutaneous melanoma: a population-based estimate</article-title>.                    <source>Arch Dermatol</source>
+                    <volume>139</volume>:                    <fpage>282</fpage>-                    <lpage>288</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archderm.139.3.282">10.1001/archderm.139.3.282</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12622618">12622618</ext-link>.                    <pub-id pub-id-type="pmid">12622618</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B34">
+                <label>34</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Rhodes</surname>
+                        <given-names>AR</given-names>
+                    </name>,                    <name>
+                        <surname>Mihm</surname>
+                        <given-names>MC</given-names>
+                        <suffix>Jr.</suffix>
+                    </name>,                    <name>
+                        <surname>Weinstock</surname>
+                        <given-names>MA</given-names>
+                    </name>(                    <year>1989</year>)                    <article-title>Dysplastic melanocytic nevi: a reproducible histologic definition emphasizing cellular morphology</article-title>.                    <source>Mod Pathol Off J United States Canadian Academy Of Pathology, Inc</source>
+                    <volume>2</volume>:                    <fpage>306</fpage>-                    <lpage>319</lpage>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2762287">2762287</ext-link>.
+                </mixed-citation>
+            </ref>
+            <ref id="B35">
+                <label>35</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Clemente</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Cochran</surname>
+                        <given-names>AJ</given-names>
+                    </name>,                    <name>
+                        <surname>Elder</surname>
+                        <given-names>DE</given-names>
+                    </name>,                    <name>
+                        <surname>Levene</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>MacKie</surname>
+                        <given-names>RM</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>1991</year>)                    <article-title>Histopathologic diagnosis of dysplastic nevi: concordance among pathologists convened by the World Health Organization Melanoma Programme</article-title>.                    <source>Hum Pathol</source>
+                    <volume>22</volume>:                    <fpage>313</fpage>-                    <lpage>319</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0046-8177(91)90078-4">10.1016/0046-8177(91)90078-4</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1741810">1741810</ext-link>.                    <pub-id pub-id-type="pmid">1741810</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B36">
+                <label>36</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>de Wit</surname>
+                        <given-names>PE</given-names>
+                    </name>,                    <name>
+                        <surname>van’t Hof-Grootenboer</surname>
+                        <given-names>B</given-names>
+                    </name>,                    <name>
+                        <surname>Ruiter</surname>
+                        <given-names>DJ</given-names>
+                    </name>,                    <name>
+                        <surname>Bondi</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Bröcker</surname>
+                        <given-names>EB</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>1993</year>)                    <article-title>Validity of the histopathological criteria used for diagnosing dysplastic naevi. An interobserver study by the pathology subgroup of the EORTC Malignant Melanoma Cooperative Group</article-title>.                    <source>Eur J Cancer</source>
+                    <volume>29A</volume>:                    <fpage>831</fpage>-                    <lpage>839</lpage>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8484972">8484972</ext-link>.                    <pub-id pub-id-type="pmid">8484972</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B37">
+                <label>37</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Pozo</surname>
+                        <given-names>L</given-names>
+                    </name>,                    <name>
+                        <surname>Naase</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Cerio</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Blanes</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Diaz-Cano</surname>
+                        <given-names>SJ</given-names>
+                    </name>(                    <year>2001</year>)                    <article-title>Critical analysis of histologic criteria for grading atypical (dysplastic) melanocytic nevi</article-title>.                    <source>Am J Clin Pathol</source>
+                    <volume>115</volume>:                    <fpage>194</fpage>-                    <lpage>204</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1309/KXJW-1UJE-BPG6-AXBV">10.1309/KXJW-1UJE-BPG6-AXBV</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11211607">11211607</ext-link>.                    <pub-id pub-id-type="pmid">11211607</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B38">
+                <label>38</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Yancovitz</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Litterman</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Yoon</surname>
+                        <given-names>J</given-names>
+                    </name>,                    <name>
+                        <surname>Ng</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name>
+                        <surname>Shapiro</surname>
+                        <given-names>RL</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>Intra- and inter-tumor heterogeneity of BRAF(V600E))mutations in primary and metastatic melanoma</article-title>.                    <source>PLOS ONE</source>
+                    <volume>7</volume>:                    <fpage>e29336</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0029336">10.1371/journal.pone.0029336</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22235286">22235286</ext-link>.                    <pub-id pub-id-type="pmid">22235286</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B39">
+                <label>39</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Colomba</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name>
+                        <surname>Hélias-Rodzewicz</surname>
+                        <given-names>Z</given-names>
+                    </name>,                    <name>
+                        <surname>Von Deimling</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Marin</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Terrones</surname>
+                        <given-names>N</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2013</year>)                    <article-title>Detection of BRAF p.V600E Mutations in Melanomas: Comparison of Four Methods Argues for Sequential Use of Immunohistochemistry and Pyrosequencing</article-title>.                    <source>J Mol Diagn JMD</source>
+                    <volume>15</volume>:                    <fpage>94</fpage>-                    <lpage>100</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jmoldx.2012.09.001">10.1016/j.jmoldx.2012.09.001</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23159108">23159108</ext-link>.                    <pub-id pub-id-type="pmid">23159108</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B40">
+                <label>40</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Long</surname>
+                        <given-names>GV</given-names>
+                    </name>,                    <name>
+                        <surname>Wilmott</surname>
+                        <given-names>JS</given-names>
+                    </name>,                    <name>
+                        <surname>Capper</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Preusser</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Zhang</surname>
+                        <given-names>YE</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2013</year>)                    <article-title>Immunohistochemistry Is Highly Sensitive and Specific for the Detection of V600E BRAF Mutation in Melanoma</article-title>.                    <source>Am J Surg Pathol</source>
+                    <volume>37</volume>:                    <fpage>61</fpage>-                    <lpage>65</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/PAS.0b013e31826485c0">10.1097/PAS.0b013e31826485c0</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23026937">23026937</ext-link>.                    <pub-id pub-id-type="pmid">23026937</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B41">
+                <label>41</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Hodis</surname>
+                        <given-names>E</given-names>
+                    </name>,                    <name>
+                        <surname>Watson</surname>
+                        <given-names>IR</given-names>
+                    </name>,                    <name>
+                        <surname>Kryukov</surname>
+                        <given-names>GV</given-names>
+                    </name>,                    <name>
+                        <surname>Arold</surname>
+                        <given-names>ST</given-names>
+                    </name>,                    <name>
+                        <surname>Imielinski</surname>
+                        <given-names>M</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>A landscape of driver mutations in melanoma</article-title>.                    <source>Cell</source>
+                    <volume>150</volume>:                    <fpage>251</fpage>-                    <lpage>263</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2012.06.024">10.1016/j.cell.2012.06.024</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22817889">22817889</ext-link>.                    <pub-id pub-id-type="pmid">22817889</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B42">
+                <label>42</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Koperek</surname>
+                        <given-names>O</given-names>
+                    </name>,                    <name>
+                        <surname>Kornauth</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Capper</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Berghoff</surname>
+                        <given-names>AS</given-names>
+                    </name>,                    <name>
+                        <surname>Asari</surname>
+                        <given-names>R</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>Immunohistochemical detection of the BRAF V600E-mutated protein in papillary thyroid carcinoma</article-title>.                    <source>Am J Surg Pathol</source>
+                    <volume>36</volume>:                    <fpage>844</fpage>-                    <lpage>850</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/PAS.0b013e318246b527">10.1097/PAS.0b013e318246b527</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22592144">22592144</ext-link>.                    <pub-id pub-id-type="pmid">22592144</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B43">
+                <label>43</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Capper</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Berghoff</surname>
+                        <given-names>AS</given-names>
+                    </name>,                    <name>
+                        <surname>Magerle</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Ilhan</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Wöhrer</surname>
+                        <given-names>A</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2012</year>)                    <article-title>Immunohistochemical testing of BRAF V600E status in 1,120 tumor tissue samples of patients with brain metastases</article-title>.                    <source>Acta Neuropathol</source>
+                    <volume>123</volume>:                    <fpage>223</fpage>-                    <lpage>233</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00401-011-0887-y">10.1007/s00401-011-0887-y</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22012135">22012135</ext-link>.                    <pub-id pub-id-type="pmid">22012135</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B44">
+                <label>44</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Dhomen</surname>
+                        <given-names>N</given-names>
+                    </name>,                    <name>
+                        <surname>Reis-Filho</surname>
+                        <given-names>JS</given-names>
+                    </name>,                    <name>
+                        <surname>da Rocha Dias</surname>
+                        <given-names>S</given-names>
+                    </name>,                    <name>
+                        <surname>Hayward</surname>
+                        <given-names>R</given-names>
+                    </name>,                    <name>
+                        <surname>Savage</surname>
+                        <given-names>K</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2009</year>)                    <article-title>Oncogenic Braf induces melanocyte senescence and melanoma in mice</article-title>.                    <source>Cancer Cell</source>
+                    <volume>15</volume>:                    <fpage>294</fpage>-                    <lpage>303</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ccr.2009.02.022">10.1016/j.ccr.2009.02.022</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19345328">19345328</ext-link>.                    <pub-id pub-id-type="pmid">19345328</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B45">
+                <label>45</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Michaloglou</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Vredeveld</surname>
+                        <given-names>LC</given-names>
+                    </name>,                    <name>
+                        <surname>Soengas</surname>
+                        <given-names>MS</given-names>
+                    </name>,                    <name>
+                        <surname>Denoyelle</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Kuilman</surname>
+                        <given-names>T</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2005</year>)                    <article-title>BRAFE600-associated senescence-like cell cycle arrest of human naevi</article-title>.                    <source>Nature</source>
+                    <volume>436</volume>:                    <fpage>720</fpage>-                    <lpage>724</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature03890">10.1038/nature03890</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16079850">16079850</ext-link>.                    <pub-id pub-id-type="pmid">16079850</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B46">
+                <label>46</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Stolz</surname>
+                        <given-names>W</given-names>
+                    </name>,                    <name>
+                        <surname>Schmoeckel</surname>
+                        <given-names>C</given-names>
+                    </name>,                    <name>
+                        <surname>Landthaler</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Braun-Falco</surname>
+                        <given-names>O</given-names>
+                    </name>(                    <year>1989</year>)                    <article-title>Association of early malignant melanoma with nevocytic nevi</article-title>.                    <source>Cancer</source>
+                    <volume>63</volume>:                    <fpage>550</fpage>-                    <lpage>555</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/1097-0142(19890201)63:3">10.1002/1097-0142(19890201)63:3</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2643457">2643457</ext-link>.                    <pub-id pub-id-type="pmid">2643457</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="B47">
+                <label>47</label>
+                <mixed-citation publication-type="journal">
+                    <name>
+                        <surname>Capper</surname>
+                        <given-names>D</given-names>
+                    </name>,                    <name>
+                        <surname>Preusser</surname>
+                        <given-names>M</given-names>
+                    </name>,                    <name>
+                        <surname>Habel</surname>
+                        <given-names>A</given-names>
+                    </name>,                    <name>
+                        <surname>Sahm</surname>
+                        <given-names>F</given-names>
+                    </name>,                    <name>
+                        <surname>Ackermann</surname>
+                        <given-names>U</given-names>
+                    </name>
+                    <etal>et al.</etal>(                    <year>2011</year>)                    <article-title>Assessment of BRAF V600E mutation status by immunohistochemistry with a mutation-specific monoclonal antibody</article-title>.                    <source>Acta Neuropathol</source>
+                    <volume>122</volume>:                    <fpage>11</fpage>-                    <lpage>19</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00401-011-0841-z">10.1007/s00401-011-0841-z</ext-link>. PubMed:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21638088">21638088</ext-link>.                    <pub-id pub-id-type="pmid">21638088</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>
+</pmc-articleset>

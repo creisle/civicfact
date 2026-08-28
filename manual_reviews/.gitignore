@@ -1,0 +1,9 @@
+*.zip
+.venv
+.pytest_cache
+.doccano_users.json
+temp*
+
+# Future work
+*.judge.jsonl.gz
+*judge.ipynb

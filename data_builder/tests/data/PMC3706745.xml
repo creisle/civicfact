@@ -1,0 +1,2677 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cancer Cell</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cancer Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Cancer Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1535-6108</issn>
+      <issn pub-type="epub">1878-3686</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23845441</article-id>
+      <article-id pub-id-type="pmc">3706745</article-id>
+      <article-id pub-id-type="publisher-id">S1535-6108(13)00239-0</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ccr.2013.05.014</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Genetic Progression Model of Braf<sup>V600E</sup>-Induced Intestinal Tumorigenesis Reveals Targets for Therapeutic Intervention</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rad</surname>
+            <given-names>Roland</given-names>
+          </name>
+          <email>roland.rad@lrz.tum.de</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="fn1" ref-type="fn">11</xref>
+          <xref rid="cor1" ref-type="corresp">&#x2217;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cadi&#xF1;anos</surname>
+            <given-names>Juan</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="aff4" ref-type="aff">4</xref>
+          <xref rid="fn1" ref-type="fn">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rad</surname>
+            <given-names>Lena</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Varela</surname>
+            <given-names>Ignacio</given-names>
+          </name>
+          <xref rid="aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Strong</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kriegl</surname>
+            <given-names>Lydia</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Constantino-Casas</surname>
+            <given-names>Fernando</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eser</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hieber</surname>
+            <given-names>Maren</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Seidler</surname>
+            <given-names>Barbara</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Price</surname>
+            <given-names>Stacey</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fraga</surname>
+            <given-names>Mario&#xA0;F.</given-names>
+          </name>
+          <xref rid="aff8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Calvanese</surname>
+            <given-names>Vincenzo</given-names>
+          </name>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoffman</surname>
+            <given-names>Gary</given-names>
+          </name>
+          <xref rid="aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ponstingl</surname>
+            <given-names>Hannes</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schneider</surname>
+            <given-names>G&#xFC;nter</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yusa</surname>
+            <given-names>Kosuke</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grove</surname>
+            <given-names>Carolyn</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schmid</surname>
+            <given-names>Roland&#xA0;M.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Wei</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vassiliou</surname>
+            <given-names>George</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kirchner</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McDermott</surname>
+            <given-names>Ultan</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Pentao</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saur</surname>
+            <given-names>Dieter</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn2" ref-type="fn">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bradley</surname>
+            <given-names>Allan</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="fn2" ref-type="fn">12</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Department of Medicine II, Klinikum Rechts der Isar, Technische Universit&#xE4;t M&#xFC;nchen, 81675, M&#xFC;nchen, Germany</aff>
+      <aff id="aff2"><label>2</label>German Cancer Research Center (DKFZ), German Cancer Consortium (DKTK), 69120 Heidelberg, Germany</aff>
+      <aff id="aff3"><label>3</label>Wellcome Trust Sanger Institute, Genome Campus, Hinxton/Cambridge CB10 1SA, UK</aff>
+      <aff id="aff4"><label>4</label>Instituto de Medicina Oncol&#xF3;gica y Molecular de Asturias (IMOMA), 33193 Oviedo, Spain</aff>
+      <aff id="aff5"><label>5</label>Instituto de Biomedicina y Biotecnolog&#xED;a de Cantabria, 39011 Santander, Spain</aff>
+      <aff id="aff6"><label>6</label>Department of Pathology, Ludwig-Maximilians-Universit&#xE4;t, 80337 M&#xFC;nchen, Germany</aff>
+      <aff id="aff7"><label>7</label>Department of Veterinary Medicine, University of Cambridge, CB3 0ES Cambridge, UK</aff>
+      <aff id="aff8"><label>8</label>Instituto Universitario de Oncolog&#xED;a, Universidad de Oviedo, 33006 Oviedo, Spain</aff>
+      <aff id="aff9"><label>9</label>Department of Immunology and Oncology, Centro Nacional de Biotecnolog&#xED;a/CSIC, 28049 Madrid, Spain</aff>
+      <aff id="aff10"><label>10</label>School of Pathology and Laboratory Medicine, University of Western Australia, WA 6009, Australia</aff>
+      <author-notes>
+        <corresp id="cor1"><label>&#x2217;</label>Corresponding author <email>roland.rad@lrz.tum.de</email></corresp>
+        <fn id="fn1">
+          <label>11</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+        <fn id="fn2">
+          <label>12</label>
+          <p>These authors contributed equally to this work and are co-senior authors</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>08</day>
+        <month>7</month>
+        <year>2013</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="ppub">.-->
+      <pub-date pub-type="ppub">
+        <day>08</day>
+        <month>7</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>24</volume>
+      <issue>1</issue>
+      <fpage>15</fpage>
+      <lpage>29</lpage>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>4</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>7</day>
+          <month>3</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2013 ELL &amp; Excerpta Medica.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Elsevier Inc.</copyright-holder>
+        <license xlink:href="https://creativecommons.org/licenses/by/3.0/">
+          <license-p>Open Access under <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</ext-link> license</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p>We show that BRAF<sup>V600E</sup> initiates an alternative pathway to colorectal cancer (CRC), which progresses through a hyperplasia/adenoma/carcinoma sequence. This pathway underlies significant subsets of CRCs with distinctive pathomorphologic/genetic/epidemiologic/clinical characteristics. Genetic and functional analyses in mice revealed a series of stage-specific molecular alterations driving different phases of tumor evolution and uncovered mechanisms underlying this stage specificity. We further demonstrate dose-dependent effects of oncogenic signaling, with physiologic Braf<sup>V600E</sup> expression being sufficient for hyperplasia induction, but later stage intensified Mapk-signaling driving both tumor progression and activation of intrinsic tumor suppression. Such phenomena explain, for example, the inability of p53 to restrain tumor initiation as well as its importance in invasiveness control, and the late stage specificity of its somatic mutation. Finally, systematic drug screening revealed sensitivity of this CRC subtype to targeted therapeutics, including Mek or combinatorial PI3K/Braf inhibition.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <title>Graphical Abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple">
+            <list-item id="u0010">
+              <label>&#x2022;</label>
+              <p>We present a progression model of BrafV600E-initiated serrated intestinal cancer</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>&#x2022;</label>
+              <p>Stage-specific genetic alterations drive sequential tumorigenesis</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>&#x2022;</label>
+              <p>Oncogenic signaling triggered by mutant Braf displays dose-dependent effects</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>&#x2022;</label>
+              <p>Large-scale pharmacologic profiling reveals new approaches for therapeutic targeting</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: July 8, 2013</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Significance</title>
+      <p>
+        <bold>Dissecting the molecular pathways to colorectal cancer is essential to improve clinical classification and therapeutic stratification of this genetically heterogeneous disease. Here, we provide evidence for a <italic>BRAF</italic>-initiated pathway to intestinal tumorigenesis, which differs in molecular, morphologic, epidemiologic, and clinical aspects from the &#x201C;classic&#x201D; <italic>APC-</italic>induced pathway. Our studies describe key aspects of molecular tumor evolution, including tumor-driving alterations, the stage at which they occur, and mechanisms underlying their stage specificity. This knowledge together with systematic pharmacologic profiling revealed therapeutic opportunities for this tumor subentity. Colorectal cancer is the second most common malignancy in the Western world. The <italic>BRAF</italic> mutant subset&#xA0;alone has a higher incidence than many other human cancers. Our studies provide pathogenic insights and provide animal models for genetic/preclinical research.</bold>
+      </p>
+    </sec>
+    <sec sec-type="intro" id="sec2">
+      <title>Introduction</title>
+      <p>Colorectal cancer (CRC) initiation and progression is driven by a stepwise accumulation of genetic alterations (<xref rid="bib9" ref-type="bibr">Fearon, 2011</xref>). There is however considerable genetic heterogeneity, and tumor subtypes evolve through different pathways. In the &#x201C;classic&#x201D; progression model, inactivation of the adenomatous polyposis coli <italic>(APC)</italic> gene is an early initiating event, followed by additional alterations, such as <italic>KRAS</italic> and <italic>TP53</italic> mutations (<xref rid="bib10 bib9" ref-type="bibr">Fearon and Vogelstein, 1990; Fearon, 2011</xref>). These classic tumors are more often located in the distal colon and rectum and genetically they frequently have chromosomal instability (CIN). In this adenoma-carcinoma sequence, adenomatous polyps are the neoplastic precursor lesions of adenocarcinoma (<xref rid="bib9" ref-type="bibr">Fearon, 2011</xref>).</p>
+      <p>Another type of polyp, the serrated polyp (formerly hyperplastic polyp) has long been considered to have no potential for neoplastic progression. This concept was challenged by the observation of cancers developing in patients with hyperplastic polyposis syndrome (<xref rid="bib47" ref-type="bibr">Torlakovic and Snover, 1996</xref>) or in sporadically occurring hyperplastic polyps (<xref rid="bib48" ref-type="bibr">Torlakovic et&#xA0;al., 2003</xref>). These studies recognized that lesions classified until then as hyperplastic polyps represent in fact several subentities, some of which are precancerous. Since then, numerous reports have confirmed and extended these findings and conclusions (for recent reviews see <xref rid="bib31 bib39 bib2" ref-type="bibr">Noffsinger, 2009; Rex et&#xA0;al., 2012; Bettington et&#xA0;al., 2013</xref>), and consequently hyperplastic polyps have been renamed as serrated polyps. The latest World Health Organization classification distinguishes three categories of serrated polyps: hyperplastic polyps (HPs), sessile serrated adenomas (SSAs), and traditional serrated adenomas (TSAs; <xref rid="bib45" ref-type="bibr">Snover et&#xA0;al., 2010</xref>). The major histologic feature of all serrated polyps is the saw-toothed (serrated) infolding of the crypt epithelium.</p>
+      <p>HPs are characterized by an expanded proliferation zone, but do not have architectural changes or dysplasia. They account for at least 80%&#x2013;90% of serrated polyps and can be found in 20% of adults in Western populations. Ninety percent of HPs are small (&lt;0.5&#xA0;cm) lesions in the rectosigmoid and have little potential for malignant progression. However, large left-sided HPs (&gt;0.5&#xA0;cm) and right-sided HPs of any size have been associated with increased cancer risk and their removal is now being recommended (<xref rid="bib39" ref-type="bibr">Rex et&#xA0;al., 2012</xref>).</p>
+      <p>SSAs resemble HPs, but can be distinguished pathologically by their abnormal architectural features, including dilated and branched crypts. Increased proliferation can be observed, but typically there is no or only minimal dysplasia. TSAs are characterized by a tubulovillous architecture and eosinophilic epithelium with serration and uniform cytologic atypia (dysplasia). Both SSAs and TSAs have a significant risk for malignant transformation and their removal is therefore recommended (<xref rid="bib39" ref-type="bibr">Rex et&#xA0;al., 2012</xref>).</p>
+      <p>It has been estimated that up to 30% of colorectal cancers evolve from these precursor lesions through a &#x201C;serrated pathway&#x201D; (<xref rid="bib39" ref-type="bibr">Rex et&#xA0;al., 2012</xref>). Serrated cancers are considered to differ not only morphologically, but also in their genetic characteristics from &#x201C;classic&#x201D; tumors arising through the adenoma-carcinoma sequence (<xref rid="bib31 bib39 bib2" ref-type="bibr">Noffsinger, 2009; Rex et&#xA0;al., 2012; Bettington et&#xA0;al., 2013</xref>). Serrated polyps predominantly have mutations in either <italic>BRAF</italic> or <italic>KRAS</italic> but less frequently in <italic>APC</italic>. They typically lack CIN but often exhibit high level microsatellite instability (MSI-H) and extensive DNA methylation of CpG islands (CIMP-H). Based on these genetic alterations, Jass proposed that most serrated tumors can be classified into three major subtypes: (1) <italic>KRAS</italic> mutant, CIMP-Low, MSS/MSI-Low; (2) <italic>BRAF</italic> mutant, CIMP-H, MSI-H; and (3) <italic>BRAF</italic> mutant, CIMP-Low, MSS/MSI-Low (<xref rid="bib19" ref-type="bibr">Jass, 2007</xref>).</p>
+      <p>After the first reports of <italic>BRAF</italic> mutations in colorectal malignancy (<xref rid="bib8 bib38" ref-type="bibr">Davies et&#xA0;al., 2002; Rajagopalan et&#xA0;al., 2002</xref>), it has soon been recognized that <italic>BRAF</italic> alterations are strongly associated with right-sided sessile cancers and its serrated precursor lesions HPs and serrated adenomas (<xref rid="bib6 bib50 bib22 bib46" ref-type="bibr">Chan et&#xA0;al., 2003; Yang et&#xA0;al., 2004; Kambara et&#xA0;al., 2004; Spring et&#xA0;al., 2006</xref>). The most frequent somatic alteration in <italic>BRAF</italic> is a point mutation (T1799A encoding BRAF<sup>V600E</sup>), which results in a several hundred-fold increased activity of the protein&#x2019;s kinase domain. This causes sustained activation of the MEK1/2 &#x2192; ERK1/2 mitogen-activated kinase (MAPK) signaling cascade (<xref rid="bib8" ref-type="bibr">Davies et&#xA0;al., 2002</xref>), a pathway that controls a wide range of physiologic and tumor-promoting processes, including self-renewal, proliferation, senescence, apoptosis, invasion, and metastasis. To study the role of BRAF<sup>V600E</sup> in intestinal tumorigenesis, we developed conditional <italic>Braf</italic><sup><italic>V637E</italic></sup> knockin mice, in which mutant <italic>Braf</italic> can be expressed in a tissue-specific manner from its endogenous locus.</p>
+    </sec>
+    <sec sec-type="results" id="sec3">
+      <title>Results</title>
+      <sec id="sec3.1">
+        <title>BRAF<sup>V600E</sup> Initiates a Serrated Pathway to Intestinal Tumorigenesis</title>
+        <p>To examine the effect of <italic>Braf</italic><sup><italic>V600E</italic></sup> in the intestine, we created a <italic>Braf</italic> knockin allele, which can be activated by Cre, leading to the production of the V637E mutant Braf protein. <italic>Braf</italic><sup><italic>V637E</italic></sup> in mouse exon 18 is at the orthologous position of the human <italic>BRAF</italic><sup><italic>V600E</italic></sup> mutation affecting exon 15. In the absence of Cre, a Lox-Stop-Lox cassette located in intron 17 prevents expression of the mutant allele (<xref rid="fig1" ref-type="fig">Figures 1</xref>A&#x2013;1D). To direct mutant Braf expression to the intestine, we used <italic>Villin-Cre</italic> (<italic>Vil-Cre</italic>) mice in which Cre is broadly expressed in epithelia of the small and large intestine (<xref rid="bib26" ref-type="bibr">Madison et&#xA0;al., 2002</xref>). In <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E/+</italic></sup> mice the stop cassette at the <italic>Braf</italic> locus is excised specifically in the intestine but not in other organs (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>E). The murine <italic>Braf</italic>
+<sup><italic>LSL-V637E</italic></sup> allele is a knockin allele and is thus expressed from the endogenous <italic>Braf</italic> locus at physiologic levels.</p>
+        <p>All <italic>Vil-Cre;Braf</italic>
+<sup><italic>LSL-V637E</italic>/+</sup> animals developed lifelong persistent generalized crypt hyperplasia affecting nearly every crypt, leading to significantly elongated and thickened small and large intestines (<xref rid="fig1" ref-type="fig">Figures 1</xref>F&#x2013;1P; <xref rid="app3" ref-type="sec">Figure&#xA0;S1</xref>A available online). Endoscopically and histologically, villi in the small intestine (SI) had a thickened and deformed appearance and were often branched (<xref rid="fig1" ref-type="fig">Figures 1</xref>I&#x2013;1L). Changes in the large intestine (LI) included crypt hyperplasia and mucosal protrusions resembling villous structures that replaced the normal crypt pattern (<xref rid="fig1" ref-type="fig">Figures 1</xref>M&#x2013;1P). This generalized hyperplasia was characterized by focal serrated epithelial formations, which had cytomorphologic features of human microvesicular or goblet cell-rich hyperplastic (serrated) polyps (<xref rid="fig1" ref-type="fig">Figures 1</xref>Q&#x2013;1T and <xref rid="app3" ref-type="sec">S1</xref>B). Both types were present in the LI, whereas microvesicular hyperplasia was predominant in the SI. Because of this resemblance to human serrated hyperplasia (<xref rid="app3" ref-type="sec">Figure&#xA0;S1</xref>B), we refer to the histology in the mouse as murine serrated hyperplasia (mSH).</p>
+        <p>Like in human serrated hyperplastic polyps, there was a mild increase in the number of proliferating cells in mSH as compared to wild-type mucosa (<xref rid="app3" ref-type="sec">Figures S1</xref>C and S1D). Ki67-positive cells&#xA0;were present in the mid and/or upper crypt in <italic>Vil-Cre;Braf</italic>
+<sup><italic>LSL-V637E</italic>/+</sup> intestines but were restricted to the lower crypt in wild-type intestines (<xref rid="app3" ref-type="sec">Figure&#xA0;S1</xref>C). Hyperproliferation seems to be the underlying mechanism of the hyperplastic changes because apoptosis was not reduced in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> intestines as compared to wild-type mucosa (<xref rid="app3" ref-type="sec">Figures S1</xref>E and S1F). We also intercrossed <italic>LSL-Braf</italic><sup><italic>V600E</italic></sup> mice with <italic>Lgr5-EGFP-IRES-CreERT2</italic> knockin mice. Tamoxifen-inducible Lgr5-Cre allowed stochastic activation of mutant Braf in a part of the intestinal stem cells, thereby inducing hyperplastic polyps in nonhyperplastic surrounding mucosa (<xref rid="app3" ref-type="sec">Figure&#xA0;S1</xref>G). <italic>BRAF</italic> mutations have been observed in human serrated polyps occurring sporadically or in serrated polyposis syndrome and we show here that BRAF<sup>V600E</sup> is indeed the underlying initiating event that is sufficient to induce lifelong sustained hyperplasia.</p>
+      </sec>
+      <sec id="sec3.2">
+        <title>BRAF<sup>V600E</sup> Induced Serrated Tumorigenesis Progresses through a Hyperplasia/Adenoma/Carcinoma Sequence</title>
+        <p>To investigate whether mSH progresses to dysplasia, we aged <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>mice up to 18&#xA0;months and sacrificed them at various time points. Hyperplasia to dysplasia progression was often observed at a young age (2&#x2013;3&#xA0;months), at which time some animals already developed macroscopic tumors (&gt;2&#xA0;mm) with dysplasia. At 10&#xA0;months, virtually all mice had such dysplastic lesions, often large numbers (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>A). Histologically, Braf<sup>V637E</sup>-induced dysplastic lesions had features of human traditional serrated adenomas (TSAs), including crypt elongation and a serrated eosinophilic adenomatous epithelium (<xref rid="fig2" ref-type="fig">Figures 2</xref>B&#x2013;2E and <xref rid="app3" ref-type="sec">S1</xref>B). Although both TSAs and SSAs are associated with mutant <italic>BRAF</italic> in humans, we did not observe SSA in our model. A possible reason is that mouse tumors were predominantly in the SI (only five of 95 tumors were in the large intestine), where the specific morphologic features of human colonic SSAs might not develop. To avoid misleading nomenclature by drawing inadequate morphologic parallels between murine SI lesions and human LI tumors, we refer to dysplastic lesions as &#x201C;murine serrated adenoma with dysplasia&#x201D; (mSA) or more specifically as mSA with low-grade dysplasia (mSA-LGD) or high-grade dysplasia (mSA-HGD).</p>
+        <p>Macroscopically, Braf<sup>V6<italic>37</italic>E</sup>-induced neoplasia resembled human <italic>BRAF</italic> mutant colonic tumors, which frequently show a nonpolypoid sessile growth pattern (<xref rid="app3" ref-type="sec">Figure&#xA0;S2</xref>A). Proliferation rates were increased on average 2.4-fold in mSA-LGD and 9.1-fold in mSA-HGD as compared to hyperplasia (<xref rid="app3" ref-type="sec">Figures S2</xref>B&#x2013;2D). Like human <italic>BRAF</italic> mutant tumors, mouse mSAs frequently showed abundant mucin production and stained positive for Alcian blue (<xref rid="app3" ref-type="sec">Figure&#xA0;S2</xref>E).</p>
+        <p>In a subset of mice (n&#xA0;= 5) dysplasia progressed to invasive carcinomas: 8.3% (1/12) of <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice younger than 10&#xA0;months and 13.8% (4/29) of mice older 10&#xA0;months had cancers (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>A). Two of these cancers were low-grade tumors (well and moderately differentiated), and three were high-grade cancers (poorly or undifferentiated; glandular structures in less than 50% of the tumor). Examples are shown in <xref rid="fig2" ref-type="fig">Figures 2</xref>F&#x2013;2I. Across a larger set of Braf<sup>V637E</sup>-induced cancers in <italic>p53</italic> or <italic>p16</italic> mutant backgrounds (<xref rid="app3" ref-type="sec">Table S1</xref> and detailed below), we found that 30% of tumors were high grade. Collectively these results describe a mouse model of serrated intestinal cancer, which provides functional evidence for the key role of mutant <italic>Braf</italic> in tumor initiation.</p>
+      </sec>
+      <sec id="sec3.3">
+        <title>Braf<sup>V637E</sup>-Induced Murine Intestinal Tumors Are&#xA0;Frequently Microsatellite-Unstable</title>
+        <p>High level microsatellite instability (MSI-H) occurs in 50% of human <italic>BRAF</italic> mutant cancers (<xref rid="bib38" ref-type="bibr">Rajagopalan et&#xA0;al., 2002</xref>). It is however not understood at which stage MSI develops and whether <italic>BRAF</italic> mutations are cause or consequence of MSI. To address this question, we assessed the MSI status in Braf<sup>V6<italic>37</italic>E</sup>-induced serrated hyperplasia and neoplasia as well as in <italic>Msh2</italic><sup>&#x2212;<italic>/</italic>&#x2212;</sup> and <italic>Apc</italic><sup><italic>min</italic></sup> control tumors. A panel of eight microsatellite repeats was used for MSI typing (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>J; <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>). We found that all Braf<sup>V6<italic>37</italic>E</sup>-induced hyperplastic polyps (13/13) were microsatellite stable (MSS) or MSI-low (MSI-L). Contrarily, 39.4% (13/33) of Braf<sup>V6<italic>37</italic>E</sup>-induced mSAs and carcinomas were MSI-H and only 6% (2/32) were MSS (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>J). MSI-H was observed at similar frequencies in mSAs (10/25; 40%) and carcinomas (3/8; 37.5%). <italic>Apc</italic><sup><italic>min</italic></sup>-induced adenomas were all (9/9; 100%) MSS or MSI-L. The lack of MSI-H in mSH, but its presence in all subsequent stages of tumorigenesis (mSA-LGD, mSA-HGD and carcinoma) suggests its early development during Braf<sup>V6<italic>37</italic>E</sup>-initiated transformation.</p>
+      </sec>
+      <sec id="sec3.4">
+        <title>P53 Tumor Suppression Inhibits Invasion and Metastasis but Does Not Affect Tumor Initiation in Braf<sup><italic>V637E</italic></sup>-Induced Tumorigenesis</title>
+        <p>The long latency and low penetrance of cancer development&#xA0;might be explained by the ability of constitutive MAPK signaling to activate anti-oncogenic programs, most notably the <italic>p16</italic><sup><italic>INK4a</italic></sup>/Rb and <italic>p19</italic><sup><italic>ARF</italic></sup>/p53 pathways (<xref rid="bib33 bib25" ref-type="bibr">Palmero et&#xA0;al., 1998; Lin et&#xA0;al., 1998</xref>).</p>
+        <p>To investigate the role of <italic>p53</italic> in Braf<sup>V6<italic>37</italic>E</sup>-induced intestinal tumorigenesis, we used <italic>p53</italic><sup><italic>LSL-R172H/+</italic></sup> knockin mice, expressing the equivalent of the dominant-negative human <italic>TP53</italic><sup><italic>R175H</italic></sup> conditionally (<xref rid="bib32" ref-type="bibr">Olive et&#xA0;al., 2004</xref>). We intercrossed them with <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice, aged the different double- and triple-transgenic cohorts, and monitored mice for tumor development (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>A). We found that the average number of mSAs per&#xA0;mouse was similar in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> and <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> animals (2.3 and 1.8, respectively; <xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>B; <xref rid="app3" ref-type="sec">Table S2</xref>). Likewise, the proportion of mice developing mSAs did not differ between groups (82.9% and 82.8%, respectively, <xref rid="app3" ref-type="sec">Table S2</xref>), suggesting that the p53 pathway does not restrain dysplasia initiation.</p>
+        <p>In sharp contrast, invasive cancers were found considerably more frequently in <italic>Vil-Cre;Braf</italic><sup><italic>V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> mice (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>B; <xref rid="app3" ref-type="sec">Table S3</xref>). Fifty-six percent of <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>; p53</italic><sup><italic>LSL-R172H/+</italic></sup> animals at an age of 10&#x2013;20&#xA0;months had carcinomas, as compared to 13.8% of mice in the <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> cohort (p&#xA0;= 0.002, &#x3C7;<sup>2</sup> test). The average number&#xA0;of&#xA0;cancers was 5.2 times higher in the <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> cohort (p&#xA0;= 0.007; Mann-Whitney rank sum test). Some animals had more than one synchronous cancer and 25% (3/12) of mice with cancer had metastases to local lymph nodes, pancreas, or lungs (<xref rid="fig3" ref-type="fig">Figures 3</xref>C and 3D). All together, these data show that p53 does not affect early stages of Braf<sup>V6<italic>37</italic>E</sup>-induced tumorigenesis but plays an important role in invasiveness control.</p>
+      </sec>
+      <sec id="sec3.5">
+        <title>Activation of p53 Tumor Suppression during Advanced, but Not Early Tumorigenesis</title>
+        <p>We next examined at which stage of tumorigenesis the p53 pathway becomes activated (<xref rid="fig3" ref-type="fig">Figures 3</xref>E&#x2013;3N). We performed immunohistochemistry for p53 and its target gene p21 in wild-type as well as <italic>Braf</italic> mutant hyperplasia and neoplasia. Immunoreactivity for p53 was negative in all wild-type intestines (n&#xA0;= 21), all Braf<sup>V637E</sup>-induced mSHs (n&#xA0;= 43), and most mSAs-LGD (<xref rid="fig3" ref-type="fig">Figures 3</xref>F&#x2013;3H and 3N). Only 5/37 mSAs-LGD were p53-positive (example in <xref rid="fig3" ref-type="fig">Figure 3</xref>I). We detected however marked p53 expression in 97% (28/29) of mSAs-HGD (<xref rid="fig3" ref-type="fig">Figures 3</xref>L and&#xA0;3N). There was a strong concordance of p53 and p21 immunoreactivity in all samples. Similar to p53, p21 IHC was negative in&#xA0;all wild-type intestines (n&#xA0;= 21), all Braf<sup>V637E</sup>-induced mSHs (n&#xA0;=&#xA0;15), and most (10/11) mSAs-LGD but was present in the majority (8/9; 89%) of mSAs-HGD (<xref rid="fig3" ref-type="fig">Figures 3</xref>G, 3J, 3M, and 3N). These data suggest selective activation of p53 tumor suppression during advanced but not early stages of tumor evolution.</p>
+        <p>To investigate the mechanism of p53 activation, we first stained for the DNA damage marker &#x3B3;H2AX. Oncogene-induced DNA damage can activate p53 via ARF-independent pathways (<xref rid="bib44" ref-type="bibr">Sherr and McCormick, 2002</xref>). All mSHs (n&#xA0;= 20) or mSAs-LGD (n&#xA0;= 12) were &#x3B3;H2AX-negative (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>K), and only three of 17 mSAs-HGD (all p53/p21-positive) showed evidence for activation of the DNA damage response. In contrast, p19<sup>Arf</sup> expression increased substantially during tumor progression: average normalized p19<sup>Arf</sup> mRNA levels were similar in Braf<sup>V6<italic>37</italic>E</sup>-induced mSHs (0.7) and wild-type mucosa (1.0), but were increased 9.9-, 32.3-, and 39.4-fold in mSAs-LGD, mSAs-HGD, and carcinomas, respectively (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>E). We conclude that p53 is activated mainly via p19<sup>Arf</sup> in advanced Braf<sup>V637E</sup>-iduced tumorigenesis, explaining its late stage specific function.</p>
+      </sec>
+      <sec id="sec3.6">
+        <title>Selective Pressure for p53 Inactivation Develops at&#xA0;Advanced Stages of Tumor Evolution</title>
+        <p>To examine whether <italic>p53</italic> mutations occur spontaneously during Braf<sup>V637E</sup>-induced intestinal tumorigenesis, we next sequenced <italic>p53</italic> in <italic>Braf</italic> mutant tumors. Whereas mSAs (n&#xA0;= 17) did not have <italic>p53</italic> mutations, we identified a missense mutation (S152R; equivalent of human T155A) in one of the two carcinomas. S152R leads to stabilization of nonfunctional p53, as evidenced by loss of p21 expression in cancer cells (<xref rid="fig3" ref-type="fig">Figures 3</xref>O&#x2013;3Q). In the second cancer, p53 expression was lost whereas the surrounding dysplasia, which gave rise to the cancer, was p53-positive (<xref rid="fig3" ref-type="fig">Figures 3</xref>R and 3S). These results suggest late stage specific selective pressure to inactivate p53, further supporting the importance of p53 for invasiveness control.</p>
+      </sec>
+      <sec id="sec3.7">
+        <title>Inactivation of p16 Promotes Advanced Phases of&#xA0;Braf<sup>V637E</sup>-Induced Intestinal Tumorigenesis</title>
+        <p>To examine the role of <italic>p16</italic><sup><italic>Ink4a</italic></sup>, we first analyzed <italic>p16</italic><sup><italic>Ink4a</italic></sup> expression in <italic>Braf</italic> mutant healthy and neoplastic intestines (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>A). Whereas <italic>p16</italic><sup><italic>Ink4a</italic></sup> expression was similar in <italic>Braf</italic> mutant mSH and WT mucosa, there was a marked upregulation of <italic>p16</italic><sup><italic>Ink4a</italic></sup> expression in <italic>Braf</italic> mutant neoplasia. This effect was less pronounced in mSAs-LGD than in mSAs-HGD, in which <italic>p16</italic><sup><italic>Ink4a</italic></sup> was induced on average 100-fold (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>A). Thus, similarly to Braf<sup>V6<italic>37</italic>E</sup>-induced Arf/p53 activation, substantial p16<sup>Ink4a</sup> activation is only triggered at advanced stages of tumorigenesis. This is consistent with observations in humans, where <italic>p16</italic> was upregulated in <italic>BRAF</italic> mutant premalignant lesions (SSAs and TSAs) but not in hyperplasia (<xref rid="bib23" ref-type="bibr">Kriegl et&#xA0;al., 2011</xref>).</p>
+        <p>To investigate whether <italic>p16</italic><sup><italic>Ink4a</italic></sup> inactivation occurs spontaneously in Braf<sup>V6<italic>37</italic>E</sup>-induced tumors, we performed comparative genomic hybridization, sequencing, and methylation analysis of the <italic>cdkn2a</italic> locus. We did not identify <italic>Cdkn2a</italic> mutations or copy number alterations in any of the 12 TSAs and eight carcinomas analyzed (data not shown). In a subset of Braf<sup>V637E</sup>-induced mSAs-HGD and carcinomas, however, we found partial CpG island methylation in the <italic>p16</italic><sup><italic>Ink4a</italic></sup> (but not <italic>p19</italic><sup><italic>Arf</italic></sup>) promoter (<xref rid="app3" ref-type="sec">Figure&#xA0;S3</xref>), similar to observations in humans (<xref rid="bib23" ref-type="bibr">Kriegl et&#xA0;al., 2011</xref>).</p>
+        <p>To study the effect of <italic>p16</italic><sup><italic>Ink4a</italic></sup> inactivation in&#xA0;vivo, we used <italic>p16</italic><sup><italic>Ink4a<sup>&#x2217;</sup></italic></sup> mice, which have a point mutation that is silent in the <italic>p19</italic><sup><italic>Arf</italic></sup> reading frame but introduces a stop codon in <italic>p16</italic><sup><italic>Ink4a</italic></sup> (<xref rid="bib24" ref-type="bibr">Krimpenfort et&#xA0;al., 2001</xref>). <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice with heterozygous or homozygous mutation of <italic>p16</italic><sup><italic>Ink4a</italic></sup>
+<italic>(Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16</italic><sup><italic>Ink4a<sup>&#x2217;</sup></italic></sup><italic>)</italic> were aged and sacrificed at different time points to assess tumor incidence and latency (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>B). We observed 1.3-fold increased numbers of mSAs in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16</italic><sup><italic>Ink4a<sup>&#x2217;</sup></italic></sup> animals as compared to <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice, but this was statistically not significant (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>C; <xref rid="app3" ref-type="sec">Table S4</xref>). In contrast, carcinoma development was significantly increased in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16</italic><sup><italic>Ink4<sup>&#x2217;</sup></italic></sup> mice, which had on average 6.4 times as many cancers as <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16</italic><sup><italic>Ink4a+/+</italic></sup> mice (p&#xA0;&lt; 0.001; <xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>C; <xref rid="app3" ref-type="sec">Table S5</xref>). Many of the mice developed multiple synchronous carcinomas and, in some animals (3/24), these tumors were metastatic. All together, these results show that Arf/p53 and p16 exert independent critical tumor-suppressive effects, which are mainly operative at advanced stages of Braf<sup>V637E</sup>-induced intestinal tumorigenesis.</p>
+      </sec>
+      <sec id="sec3.8">
+        <title>Intensification of Map Kinase Signaling during Dysplasia Progression</title>
+        <p>Because Braf-induced Mapk signaling does not seem to engage intrinsic tumor suppression in early tumorigenesis, we next assessed the MAPK pathway activity at different stages of tumor evolution. Unexpectedly, phospho-p42/p44 MAPK (pErk) protein levels were only slightly increased in Braf<sup>V6<italic>37</italic>E</sup>-induced mSH as compared to wild-type mucosa but were highly induced in mSAs and carcinomas (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>A). Immunohistochemistry revealed that in wild-type mucosa and Braf<sup>V6<italic>37</italic>E</sup>-induced mSH, pErk reactivity was mostly confined to the lower parts of the crypts (<xref rid="fig5" ref-type="fig">Figures 5</xref>B and 5C). In mSAs-LGD, few scattered pERK-positive cells were occasionally additionally detected in dysplastic areas (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>D). mSAs-HGD and carcinomas, however, stained uniformly positive for pErk (<xref rid="fig5" ref-type="fig">Figures 5</xref>E&#x2013;5G). Compared to wild-type mucosa, the number of pERK-positive cells per gland was increased 1.4-, 2.4-, and 6.6-fold in mSH, mSAs-LGD, and mSAs-HGD, respectively (<xref rid="app3" ref-type="sec">Figure&#xA0;S4</xref>A). To assess the functional relevance of these observations, we examined expression of a panel of 15 Erk target genes (<xref rid="bib35" ref-type="bibr">Pratilas et&#xA0;al., 2009</xref>) using qRT-PCR (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>H) or immunohistochemistry (<xref rid="app3" ref-type="sec">Figure&#xA0;S4</xref>). The panel of markers includes a number of effectors of Ras/Raf-induced transformation, such as the ETS family members <italic>Etv4</italic> and <italic>Etv5</italic> or <italic>cMyc</italic> and <italic>Ccnd1</italic>, and genes involved in the feedback regulation of Mek/Erk signaling, such as <italic>Dusp4</italic>, <italic>Dusp6</italic>, <italic>Spry2</italic>, and <italic>Spry4</italic>. We found that the transcriptional output of the Erk pathway was only slightly induced in Braf<sup>V6<italic>37</italic>E</sup>-dependent mSH and mSAs-LGD (average fold-change across target genes: 1.1 and 3.4, respectively) but was strongly upregulated in mSAs-HGD and carcinomas (average fold-change across target genes: 13.0 and 12.6, respectively). The extent of induction varied between markers and was highest for Fosl1 (60-fold induction in Braf<sup>V6<italic>37</italic>E</sup>-induced mSAs-HGD).</p>
+      </sec>
+      <sec id="sec3.9">
+        <title>Wnt Pathway Activation during Dysplasia Progression</title>
+        <p>To examine the role of the Wnt pathway in Braf<sup>V6<italic>37</italic>E</sup>-induced tumorigenesis, we first analyzed the expression of ten different Wnt target genes in a total of 78 samples (<xref rid="fig6" ref-type="fig">Figures 6</xref>A and <xref rid="app3" ref-type="sec">S5</xref>). We found that Wnt target gene expression was similar in wild-type mucosa and Braf<sup>V6<italic>37</italic>E</sup>-induced mSH but was upregulated in a large number of Braf<sup>V6<italic>37</italic>E</sup>-induced mSAs-HGD (and occasionally in mSAs-LGD) to similar levels as in <italic>Apc</italic><sup><italic>min</italic></sup>-induced tumors. Immunohistochemical staining of beta-catenin (<italic>Ctnnb1</italic>), a key effector of Wnt pathway activation, was performed to further confirm these observations. As in wild-type mucosa, there was no evidence for nuclear &#x3B2;-catenin accumulation in mSHs (n&#xA0;= 42) and the majority of mSAs-LGD (14/15). In contrast, there was diffuse or focal nuclear &#x3B2;-catenin accumulation in a&#xA0;substantial part of mSAs-HGD (8/14) and carcinomas (2/4) (<xref rid="fig6" ref-type="fig">Figures 6</xref>B&#x2013;6F).</p>
+        <p>To analyze the mechanisms of Wnt pathway activation, we performed whole-exome sequencing of 20 <italic>Braf</italic> mutant tumors. We identified a number of mutations in known Wnt pathway genes (<xref rid="app3" ref-type="sec">Table S6</xref>), including intracellular components of the Wnt pathway (e.g., <italic>Apc</italic>, <italic>Ctnnb1</italic>, <italic>Gsk3b</italic>, and <italic>Axin2</italic>), Wnt receptors (e.g., <italic>Lrp8</italic> and <italic>Fzd9</italic>), or negative regulators of Wnt signaling (e.g., <italic>Lrp1b</italic> and <italic>Lrp4</italic>). We then further analyzed the most frequently altered genes <italic>(Apc, Ctnnb1</italic>, and <italic>Lrp1b)</italic> in another 46 tumors and found mutations in these three genes in 21/66 samples: <italic>Apc</italic> (n&#xA0;= 6), <italic>Ctnnb1</italic> (n&#xA0;= 9), and <italic>Lrp1b</italic> (n&#xA0;= 6). Wnt pathway mutations frequently occurred in high-grade dysplasia, suggesting an early requirement during tumorigenesis. Only missense, nonsense, essential splice site mutations or frameshift-causing indels were observed (no silent mutations), suggesting a strong enrichment for functionally relevant events. For example, <italic>Apc</italic> mutations were mostly nonsense or frameshift mutations, whereas <italic>Ctnnb1</italic> mutations were recurrent activating mutations at specific positions that have also been described in humans (e.g., T141I). Missense mutations in <italic>Lrp1b</italic>, a negative regulator of Wnt signaling, have been found earlier in <italic>Braf</italic> mutant human melanoma (<xref rid="bib30" ref-type="bibr">Nikolaev et&#xA0;al., 2012</xref>). All together, these results provide strong evidence for an important role of Wnt pathway activation during early dysplasia progression. It is worth noting that in some tumors with strong Wnt target gene expression, no mutations in Wnt pathway genes were found, suggesting additional unidentified mechanisms.</p>
+      </sec>
+      <sec id="sec3.10">
+        <title>Large-Scale Drug Screening Identifies Targetable Nodes in Braf-Induced Tumorigenesis</title>
+        <p>To test the sensitivity of <italic>Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>-induced intestinal cancer cell lines to Braf inhibition we performed short-term proliferation assays. Overall, only minor growth inhibition was observed for <italic>Braf</italic> mutant mouse and human colorectal cancer cell lines treated with 5&#xA0;&#x3BC;M PLX4720, a selective inhibitor of mutant Braf (<xref rid="fig7" ref-type="fig">Figures 7</xref>A and 7B).</p>
+        <p>Braf inhibition was proposed to cause feedback activation of the epidermal growth factor receptor (EGFR) in human <italic>BRAF</italic> mutant CRCs (<xref rid="bib34" ref-type="bibr">Prahallad et&#xA0;al., 2012</xref>). We therefore treated mouse and human <italic>BRAF</italic> mutant cell lines with the EGFR small molecule kinase inhibitor, Gefitinib, alone or in combination with PLX4720. As expected, Gefitinib and PLX4720 synergized in-growth inhibition (<xref rid="fig7" ref-type="fig">Figures 7</xref>A and 7B). The murine intestinal cancer cell line MouseT1 (from a <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> mouse), had similar sensitivity to combinatorial PLX4720/Gefitinib treatment as HT-29 (WiDr), one of the three human cell lines tested by Prahallad and colleagues (<xref rid="fig7" ref-type="fig">Figures 7</xref>A and 7B; inhibition of proliferation by 60%&#x2013;70%). It seems, however, that the effectiveness of PLX4720/Gefitinib varies considerably among human cancers: in three of five tested human cell lines the effects were rather modest (growth inhibition by 25%&#x2013;40%; <xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>A and data not shown). We next performed long-term (14&#xA0;days) clonogenic assays and again found that although PLX4720 and Gefitinib synergized in-growth inhibition, most of the treated cell lines retained variable levels of colony-forming capacity (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>C).</p>
+        <p>To identify alternative drugs with effectiveness across cell lines, we performed high-throughput drug screening. We tested a large set of compounds inhibiting a broad range of molecules, pathways, and biologic processes (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>B; <xref rid="app3" ref-type="sec">Table S7</xref>). All compounds were tested alone or in combination with PLX4720 and for each cell line we performed 100 different short-term (6&#xA0;day) sensitivity assays. These screens revealed several treatment approaches that were highly effective (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>B). PD0325901, a Mek inhibitor, was the most effective single compound across cell lines in the short-term assays (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>B). In the long-term clonogenic assay, it induced complete inhibition of colony-forming capacity in five of six cell lines and partial inhibition in the remaining line RKO (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>C). The PI3K inhibitor GDC0941 was not effective as a single agent, but induced potent inhibition in combination with PLX4720 across cell lines (<xref rid="fig7" ref-type="fig">Figures 7</xref>B and 7C).</p>
+        <p>Some other drug combinations strongly inhibited selected cell lines, although they were not broadly effective across tumors. For example, the combination of PLX4720 plus the kinase inhibitor VX-680 was the most potent drug combination for the treatment of RKO, a highly resistant cell line to most other drugs. This shows the power of systematic drug screening to identify patient-specific treatment approaches even for highly resistant tumors. Another example is the combination of the Chk1/2 inhibitor AZD-7762 plus PLX4720, which was very effective in MouseT1, HT-29, LS411N, and COLO-205 and could potentially be a broadly effective alternative first-line or second-line combination.</p>
+      </sec>
+      <sec id="sec3.11">
+        <title>In&#xA0;Vivo Validation of Mek and Combinatorial Braf/PI3K Inhibition</title>
+        <p>To study the effectiveness of broadly effective drug combinations in&#xA0;vivo, we first transplanted mouse and human cell lines subcutaneously (s.c.) into immunodeficient Nod Scid IL12R-gamma null (NSG) mice and assessed their response to PD0325901. Treatment was started 7&#x2013;14&#xA0;days after s.c. injection of cells as soon as tumors were palpable. Animals were given PD0325901 or vehicle by oral gavage for 13&#x2013;15&#xA0;days. PD0325901 was highly effective, causing regression of tumors from all tested cell lines (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>D). <xref rid="app3" ref-type="sec">Figures S6</xref>A and S6B show that after 13&#x2013;15&#xA0;days of PD0325901 treatment there was complete inhibition of ERK phosphorylation in surviving tumor cells and that only very few scattered Ki67-positive cancer cells could still be observed in the necrotic tumor mass.</p>
+        <p>We next performed orthotopic transplantation of mouse and human <italic>Braf</italic> mutant cancer cell lines into the cecum of NSG mice. Fourteen days later, treatment was started with either vehicle or PD0325901. Mice were sacrificed after 17&#xA0;days of treatment. <xref rid="app3" ref-type="sec">Figures S6</xref>C&#x2013;S6E show that vehicle-treated mice developed large tumors, which metastasized to local lymph nodes and the peritoneum, causing hemorrhagic ascites. In contrast, in the PD0325901-treated group, tumors were either not detectable or small (maximum 0.01&#xA0;cm<sup>3</sup>).</p>
+        <p>To examine the effect of PD0325901 on proliferation in endogenous Braf<sup>V637E</sup>-induced tumors, we performed short-term treatments (5&#xA0;days) of <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice. We used animals that were more than 1 year of age and were expected to have tumors. <xref rid="app3" ref-type="sec">Figures S6</xref>F and S6G show that Ki67 immunoreactivity was weak in the majority of dysplastic cells in PD0325901-treated mice but was strong in tumors of vehicle-treated animals. All together, these data show that Mek inhibition is effective in the treatment of Braf-induced intestinal tumors in&#xA0;vivo.</p>
+        <p>To examine the effectiveness of combinatorial Braf/PI3K inhibition in&#xA0;vivo we treated s.c. transplanted murine and human cell lines with a combination of PLX4720 and GDC0941 or vehicle. <xref rid="fig7" ref-type="fig">Figures 7</xref>E, <xref rid="app3" ref-type="sec">S6</xref>H, and S6I show that combined Braf/PI3K inhibition elicited potent growth inhibition in both models. Immunohistochemical staining revealed that proliferation was substantially inhibited in the PLX4720/GDC0941-treated group, with only few Ki67-positive cells being detectable in regressed tumor masses (<xref rid="app3" ref-type="sec">Figure&#xA0;S6</xref>I). These data mirror the in&#xA0;vitro effectiveness of these treatments in&#xA0;vivo.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="sec4">
+      <title>Discussion</title>
+      <p>CRC is the second most common cancer in the Western world (<xref rid="bib20" ref-type="bibr">Jemal et&#xA0;al., 2010</xref>). <italic>BRAF</italic> mutations occur in more than 10% of cases and define a subset that has a higher incidence than many other solid or hematopoietic tumor entities. Despite this high incidence, the molecular evolution of the disease is poorly understood. Since the discovery of <italic>BRAF</italic> mutations in colorectal cancer (<xref rid="bib8" ref-type="bibr">Davies et&#xA0;al., 2002</xref>), a vast body of literature has been published on the association of <italic>BRAF</italic> mutations with other genetic and epigenetic events in CRC. However, the interpretation of these observations, their functional relevance, and the sequence of events driving tumorigenesis remained largely speculative. We established mouse models that recapitulate human <italic>BRAF</italic><sup><italic>V600E</italic></sup>-associated intestinal pathology, including sustained hyperplasia, serrated adenomas and metastatic carcinomas. They reflect the macroscopic appearance of human <italic>BRAF</italic> mutant tumors (flat nonpolypoid neoplasia), their pathomorphologic characteristics (serrated and mucinous appearance), their genetic features (e.g., microsatellite instability), and their response to targeted therapeutics. Using these models, we dissected key aspects of the molecular evolution of these&#xA0;tumors. Our findings suggest a progression model of Braf<sup>V637E</sup>-induced carcinogenesis as summarized in <xref rid="fig8" ref-type="fig">Figure&#xA0;8</xref>.</p>
+      <p>Engineered animal models that accurately recapitulate the&#xA0;characteristics of human disease are powerful tools for genetic&#xA0;and preclinical cancer research. Recently, <italic>AhCre;Braf</italic><sup><italic>LSL-V600E</italic>/+</sup> mice have been used to examine the effects of mutant <italic>Braf</italic> in the intestine (<xref rid="bib5" ref-type="bibr">Carragher et&#xA0;al., 2010</xref>), but intestinal tumorigenesis was difficult to study due to early onset Braf<sup>V600E</sup>-induced extraintestinal cancer development and lethality. This might explain why some of the main conclusions of that study are not supported by our data or by observations in human samples. For example, Braf-induced hyperplasia was described to be transient in that model but is sustained in human <italic>BRAF</italic> mutant hyperplastic polyps and in our model. Likewise, our data as well as work performed on human samples (<xref rid="bib15 bib49" ref-type="bibr">Fujita et&#xA0;al., 2011; Yachida et&#xA0;al., 2009</xref>) refute that Braf<sup>V6<italic>37</italic>E</sup> expression induces generalized Wnt pathway activation in human intestinal hyperplasia, as suggested in that study (<xref rid="bib5" ref-type="bibr">Carragher et&#xA0;al., 2010</xref>).</p>
+      <p>Alterations in <italic>APC</italic> occur in 80% of human CRCs. Because <italic>APC</italic> mutations are less frequent in the <italic>BRAF</italic> mutant CRC subset, it was largely assumed that BRAF<sup>V600E</sup>-associated intestinal tumorigenesis is Wnt-independent (<xref rid="bib42 bib19" ref-type="bibr">Samowitz et&#xA0;al., 2007; Jass, 2007</xref>). However recent studies, which used &#x3B2;-catenin immunohistochemistry rather than mutation analysis as a measure of Wnt pathway activation found nuclear &#x3B2;-catenin reactivity in a large part of BRAF mutant advanced (but not early) human adenomas and in carcinomas (<xref rid="bib15 bib49" ref-type="bibr">Fujita et&#xA0;al., 2011; Yachida et&#xA0;al., 2009</xref>). Our results in mice not only mirror this situation but explain these apparent discrepancies and establish stage-specific Wnt pathway activation as a hallmark of Braf<sup>V6<italic>37</italic>E</sup>-induced dysplasia progression. We found a large spectrum of Wnt pathway genes mutated in our murine tumors, similarly to human &#x201C;hypermutated&#x201D; tumors, as described recently by the Cancer Genome Atlas research network (<xref rid="bib29" ref-type="bibr">Muzni et&#xA0;al., 2012</xref>).</p>
+      <p>In humans, serrated colorectal cancers are associated with either <italic>BRAF</italic> or <italic>KRAS</italic> mutations. A series of studies in <italic>Kras</italic> mutant mouse models demonstrated <italic>Kras</italic>-initiated serrated tumorigenesis (<xref rid="bib18 bib17 bib1 bib12" ref-type="bibr">Janssen et&#xA0;al., 2002; Haigis et&#xA0;al., 2008; Bennecke et&#xA0;al., 2010; Feng et&#xA0;al., 2011</xref>). The Braf<sup>V637E</sup>- and <italic>Kras</italic><sup><italic>G12D</italic></sup>-induced pathways differ however in several aspects. First, <italic>Braf</italic><sup><italic>V637E</italic></sup> seems to be a highly potent oncogene, inducing cancers even on an otherwise wild-type background. The tumor incidence in the <italic>Braf</italic><sup><italic>V637E</italic></sup>-model is even higher than in transgenic lines expressing multiple Kras<sup>G12V</sup> copies (<xref rid="bib18" ref-type="bibr">Janssen et&#xA0;al., 2002</xref>). Second, while Kras<sup>G12D</sup>-induced serrated tumors do not seem to require Wnt pathway activation (<xref rid="bib1" ref-type="bibr">Bennecke et&#xA0;al., 2010</xref>), we find evidence for Wnt signaling induction in a substantial part of Braf<sup>V637E</sup>-induced high-grade tumors. Third, murine and human intestinal tumors with <italic>KRAS</italic> mutations are mostly MSI-stable or MSI-low (<xref rid="bib31 bib1" ref-type="bibr">Noffsinger, 2009; Bennecke et&#xA0;al., 2010</xref>), whereas <italic>BRAF</italic> mutant human tumors are frequently MSI-high (<xref rid="bib38" ref-type="bibr">Rajagopalan et&#xA0;al., 2002</xref>). This genetic feature is faithfully recapitulated in our model, which not only causally links Braf<sup>V637E</sup> to MSI development, but also demonstrates its early stage development. Finally, <italic>BRAF</italic> mutant human tumors have&#x2014;in contrast to <italic>KRAS</italic> mutant serrated tumors&#x2014;a predilection for proximal (right-sided) location and are more frequent in females than in males (<xref rid="bib46" ref-type="bibr">Spring et&#xA0;al., 2006</xref>). Collectively, these data provide compelling evidence for the existence of different pathways to serrated intestinal tumorigenesis.</p>
+      <p>Our studies revealed that p19<sup>Arf</sup>/p53 and p16<sup>Ink4A</sup> exert independent critical tumor-suppressive effects. <italic>p16</italic><sup><italic>Ink4A</italic></sup> inactivation is a critical early event promoting neoplastic transformation in some types of cancers, whereas in other tumor types it has been described to be an intermediate or late event (<xref rid="bib40" ref-type="bibr">Romagosa et&#xA0;al., 2011</xref>). A recent study even showed that extrinsic signals present in a emerging tumor induce local non-cell-autonomous <italic>p16</italic><sup><italic>Ink4A</italic></sup> expression (<xref rid="bib4" ref-type="bibr">Burd et&#xA0;al., 2013</xref>). We found that experimental <italic>p16</italic><sup><italic>Ink4A</italic></sup> inactivation has only a mild effect on dysplasia initiation, but substantially increases the incidence of cancers. The lack of p16<sup>Ink4A</sup> tumor suppression during early stages was surprising, given that p16<sup>Ink4A</sup> was believed to mediate an early BRAF<sup>V600E</sup>-induced senescence program in nontransformed enterocytes. BRAF<sup>V600E</sup>-induced senescence has been extensively studied in cutaneous nevi, where it induces a near-total block of proliferation (<xref rid="bib27" ref-type="bibr">Michaloglou et&#xA0;al., 2005</xref>). Hyperplastic serrated intestinal polyps in humans and in our mouse model differ however from nevi in that they are hyper- and not hypoproliferative.</p>
+      <p>Another surprising finding was the role of <italic>p53</italic> in Braf-dependent intestinal tumorigenesis. <italic>p53</italic> mutations were reported to be relatively rare in human serrated cancers. Although these studies were based on low sample numbers, many authors assumed that <italic>p53</italic> alterations do not play a role in the &#x201C;serrated route&#x201D; of intestinal tumorigenesis (<xref rid="bib19" ref-type="bibr">Jass, 2007</xref>), thereby contrasting classic colorectal cancer development. Our data clearly demonstrate that this assumption has to be revisited. We show that <italic>p53</italic> mutations accumulate spontaneously in Braf<sup>V637E</sup>-induced murine tumors and provide functional in&#xA0;vivo evidence for its tumor suppressive function. These results are supported by a recent large study, describing that nearly 30% of the 141 examined <italic>BRAF</italic> mutant human CRCs have <italic>p53</italic> mutations (<xref rid="bib3" ref-type="bibr">Bond et&#xA0;al., 2011</xref>).</p>
+      <p>Two main findings established the late-stage specificity of p53 tumor suppression. First, selective pressure for <italic>p53</italic> inactivation developed during advanced but not early tumorigenesis. Second, experimental p53 inactivation in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice promoted invasion and metastasis but did not affect adenoma initiation. Mechanistically, our studies suggest a model in which low-level oncogenic signaling observed during early stages of tumorigenesis can drive proliferation, but is insufficient to substantially induce <italic>p19</italic><sup><italic>Arf</italic></sup> or <italic>p16</italic><sup><italic>Ink4a</italic></sup>. It is only during dysplasia progression when oncogenic signaling exceeds critical thresholds that these tumor suppressors are substantially activated. Dose-dependent effects of oncogenes have been recently observed in breast and lung cancer (<xref rid="bib11 bib21 bib43 bib28" ref-type="bibr">Feldser et&#xA0;al., 2010; Junttila et&#xA0;al., 2010; Sarkisian et&#xA0;al., 2007; Murphy et&#xA0;al., 2008</xref>), but are in many aspects highly context-dependent. Mapk signaling amplification in Kras<sup>G12D</sup>-driven lung cancer for example occurs at later stages than in our intestinal cancer model (<xref rid="bib11 bib21" ref-type="bibr">Feldser et&#xA0;al., 2010; Junttila et&#xA0;al., 2010</xref>). Dosage effects of oncogene activation probably reflect a mechanism to distinguish physiologic/regenerative from oncogenic growth factor receptor signaling. This discrimination might be of particular importance in the intestine, a highly proliferative organ that is constantly exposed to infectious/toxic damage.</p>
+      <p><italic>BRAF</italic> mutations affect a large variety of cancers; however, response rates to Braf inhibitors differ significantly, ranging from 80% in melanoma to less than 10% in <italic>BRAF</italic> mutant CRC (<xref rid="bib34" ref-type="bibr">Prahallad et&#xA0;al., 2012</xref>). The results of our systematic drug screens in <italic>BRAF</italic> mutant CRC have several implications. First, we demonstrate comparable responses of murine and human <italic>BRAF</italic> mutant tumors to targeted therapeutics, supporting the usefulness of our models for preclinical research. Second, we identified and validated compounds in&#xA0;vivo that overcome resistance to Braf-inhibitor therapy in selected cell lines or across the whole panel, e.g., Mek and combinatorial Braf/PI3K inhibition. Various Mek, PI3K, and BRAF-inhibitors are in late-stage clinical development (<xref rid="bib41 bib7 bib13 bib14" ref-type="bibr">Rusconi et&#xA0;al., 2012; Chappell et&#xA0;al., 2011; Flaherty et&#xA0;al., 2012a, 2012b</xref>), and our results provide a rationale for their clinical evaluation in <italic>BRAF</italic> mutant CRCs. Third, individual cell lines showed sensitivity to multiple drugs, which often had different targets, suggesting therapeutic options for second- or third-line treatment in tumors that developed resistance to initial regimes. All together these studies show the power of combining genomic information with systematic high-throughput pharmacologic profiling to guide rational therapeutic strategies for specific cancer subentities.</p>
+    </sec>
+    <sec sec-type="methods" id="sec5">
+      <title>Experimental Procedures</title>
+      <sec id="sec5.1">
+        <title>Generation of a Conditional Braf<sup>V637E</sup> Allele</title>
+        <p>The mouse Braf p.V637E missense mutant protein is the murine counterpart of the human BRAF p.V600E oncogenic variant. V637 is encoded in <italic>Braf</italic> exon 18 (CCDS39463.1), the murine ortholog to human <italic>BRAF</italic> exon 15. Details of allele construction and genotyping protocols are described in the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>. Animal protocols were approved by the Home Office (UK) and specified in the Home Office Project License.</p>
+      </sec>
+      <sec id="sec5.2">
+        <title>Quantitative PCR</title>
+        <p>qRT-PCR was performed as described earlier (<xref rid="bib36" ref-type="bibr">Rad et&#xA0;al., 2006</xref>). Primer/probe sequences are available upon request.</p>
+      </sec>
+      <sec id="sec5.3">
+        <title>Methylation Analysis</title>
+        <p>Methylation-specific PCR was performed upon treatment of DNA with sodium bisulphite. Pyrosequencing reactions and methylation quantification were performed in a PyroMark Q24 System version 2.0.6 (QIAGEN). For detailed description, see the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec5.4">
+        <title>Sequencing</title>
+        <p>The coding exons from target genes were enriched either by PCR or via pull down using Agilent SureSelect Mouse Exon Kit. Sequencing was performed using next-generation technologies: Roche 454 GS-FLX (for PCR-amplified <italic>p53</italic> exons) or Illumina HiSeq2000 (for whole-exome sequencing). Calling algorithms will be published elsewhere and are only briefly summarized in the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec5.5">
+        <title>Histochemistry, Immunohistochemistry, TUNEL Assay, and Western Blotting</title>
+        <p>Standard techniques were used and are described together with information about antibodies in the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec5.6">
+        <title>Comparative Genomic Hybridization</title>
+        <p>CGH array was executed using Agilent 244K mouse whole genome arrays as described previously (<xref rid="bib37" ref-type="bibr">Rad et&#xA0;al., 2010</xref>).</p>
+      </sec>
+      <sec id="sec5.7">
+        <title>MSI Analysis</title>
+        <p>Microsatellite instability (MSI) was examined using eight microsatellite repeat markers. For details of the method, references, and classification see the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec5.8">
+        <title>Drug Sensitivity Assays</title>
+        <p>Drug sensitivity assays were described earlier (<xref rid="bib16" ref-type="bibr">Garnett et&#xA0;al., 2012</xref>). Specific details used in this study are described in the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec5.9">
+        <title>Tumor Implantation and Treatment of Mice</title>
+        <p>Animals were implanted subcutaneously or orthotopically with 1&#xA0;&#xD7; 10<sup>7</sup> cancer cells suspended in culture medium including 50% Matrigel (Beckton Dickinson). Treatment was started when tumors were palpable. Animals were treated once daily with vehicle or 25&#xA0;mg/kg/day of PD0325901 or a combination of PLX4720 50&#xA0;mg/kg/day once daily plus GDC09041 75mg/kg/day twice daily by oral gavage for up to 15&#xA0;days, as indicated in the figure legends. Treatment of endogenous tumors in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E/+</italic></sup> mice was performed for 5&#xA0;days.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennecke</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kriegl</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bajbouj</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Retzlaff</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Robine</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Arkan</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Kirchner</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Greten</surname>
+              <given-names>F.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ink4a/Arf and oncogene-induced senescence prevent tumor progression during alternative colorectal tumorigenesis</article-title>
+          <source>Cancer Cell</source>
+          <volume>18</volume>
+          <year>2010</year>
+          <fpage>135</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">20708155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bettington</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Clouston</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Leggett</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Whitehall</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The serrated pathway to colorectal carcinoma: current concepts and challenges</article-title>
+          <source>Histopathology</source>
+          <volume>62</volume>
+          <year>2013</year>
+          <fpage>367</fpage>
+          <lpage>386</lpage>
+          <pub-id pub-id-type="pmid">23339363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Umapathy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ramsnes</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Greco</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.Z.</given-names>
+            </name>
+            <name>
+              <surname>Mallitt</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Buttenshaw</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Montgomery</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Leggett</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Whitehall</surname>
+              <given-names>V.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>P53 mutation is common in microsatellite stable, BRAF mutant colorectal cancers</article-title>
+          <source>Int. J. Cancer</source>
+          <volume>130</volume>
+          <year>2011</year>
+          <fpage>1567</fpage>
+          <lpage>1576</lpage>
+          <pub-id pub-id-type="pmid">21557216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burd</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Sorrentino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Darr</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Krishnamurthy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deal</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Bardeesy</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Castrillon</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Beach</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Sharpless</surname>
+              <given-names>N.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring tumorigenesis and senescence in&#xA0;vivo with a p16(INK4a)-luciferase model</article-title>
+          <source>Cell</source>
+          <volume>152</volume>
+          <year>2013</year>
+          <fpage>340</fpage>
+          <lpage>351</lpage>
+          <pub-id pub-id-type="pmid">23332765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carragher</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Snell</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Giblett</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Aldridge</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cook</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Winton</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Marais</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pritchard</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>V600EBraf induces gastrointestinal crypt senescence and promotes tumour progression through enhanced CpG methylation of p16INK4a</article-title>
+          <source>EMBO Mol Med</source>
+          <volume>2</volume>
+          <year>2010</year>
+          <fpage>458</fpage>
+          <lpage>471</lpage>
+          <pub-id pub-id-type="pmid">20941790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chan</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Yuen</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <collab>Cancer Genome Project</collab>
+          </person-group>
+          <article-title>BRAF and KRAS mutations in colorectal hyperplastic polyps and serrated adenomas</article-title>
+          <source>Cancer Res.</source>
+          <volume>63</volume>
+          <year>2003</year>
+          <fpage>4878</fpage>
+          <lpage>4881</lpage>
+          <pub-id pub-id-type="pmid">12941809</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chappell</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Steelman</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kempf</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Abrams</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Franklin</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>B&#xE4;secke</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stivala</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Donia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fagone</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ras/Raf/MEK/ERK and PI3K/PTEN/Akt/mTOR inhibitors: rationale and importance to inhibiting these pathways in human health</article-title>
+          <source>Oncotarget</source>
+          <volume>2</volume>
+          <year>2011</year>
+          <fpage>135</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="pmid">21411864</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davies</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bignell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Edkins</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Clegg</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Teague</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Woffendin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Garnett</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Bottomley</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations of the BRAF gene in human cancer</article-title>
+          <source>Nature</source>
+          <volume>417</volume>
+          <year>2002</year>
+          <fpage>949</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="pmid">12068308</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fearon</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular genetics of colorectal cancer</article-title>
+          <source>Annu. Rev. Pathol.</source>
+          <volume>6</volume>
+          <year>2011</year>
+          <fpage>479</fpage>
+          <lpage>507</lpage>
+          <pub-id pub-id-type="pmid">21090969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fearon</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A genetic model for colorectal tumorigenesis</article-title>
+          <source>Cell</source>
+          <volume>61</volume>
+          <year>1990</year>
+          <fpage>759</fpage>
+          <lpage>767</lpage>
+          <pub-id pub-id-type="pmid">2188735</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feldser</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Kostova</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Winslow</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Cashman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Whittaker</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Sanchez-Rivera</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Resnick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bronson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hemann</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Jacks</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stage-specific sensitivity to p53 restoration during lung cancer progression</article-title>
+          <source>Nature</source>
+          <volume>468</volume>
+          <year>2010</year>
+          <fpage>572</fpage>
+          <lpage>575</lpage>
+          <pub-id pub-id-type="pmid">21107428</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bommer</surname>
+              <given-names>G.T.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sands</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Burberry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Fearon</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutant KRAS promotes hyperplasia and alters differentiation in the colon epithelium but does not expand the presumptive stem cell pool</article-title>
+          <source>Gastroenterology</source>
+          <volume>141</volume>
+          <year>2011</year>
+          <fpage>1003</fpage>
+          <lpage>1013</lpage>
+          <pub-id pub-id-type="pmid">21699772</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flaherty</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Infante</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Daud</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kefford</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Sosman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hamid</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Schuchter</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cebon</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combined BRAF and MEK inhibition in melanoma with BRAF V600 mutations</article-title>
+          <source>N.&#xA0;Engl. J. Med.</source>
+          <volume>367</volume>
+          <year>2012</year>
+          <fpage>1694</fpage>
+          <lpage>1703</lpage>
+          <pub-id pub-id-type="pmid">23020132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flaherty</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hersey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nathan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Garbe</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Milhem</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Demidov</surname>
+              <given-names>L.V.</given-names>
+            </name>
+            <name>
+              <surname>Hassel</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Rutkowski</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mohr</surname>
+              <given-names>P.</given-names>
+            </name>
+            <collab>METRIC Study Group</collab>
+          </person-group>
+          <article-title>Improved survival with MEK inhibition in BRAF-mutated melanoma</article-title>
+          <source>N.&#xA0;Engl. J. Med.</source>
+          <volume>367</volume>
+          <year>2012</year>
+          <fpage>107</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="pmid">22663011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hirahashi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gushima</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kishimoto</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nishiyama</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Taguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Oda</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sessile serrated adenoma with early neoplastic progression: a clinicopathologic and molecular study</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <volume>35</volume>
+          <year>2011</year>
+          <fpage>295</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="pmid">21263251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garnett</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Edelman</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Heidorn</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Greenman</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Dastur</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Greninger</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>I.R.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Soares</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematic identification of genomic markers of drug sensitivity in cancer cells</article-title>
+          <source>Nature</source>
+          <volume>483</volume>
+          <year>2012</year>
+          <fpage>570</fpage>
+          <lpage>575</lpage>
+          <pub-id pub-id-type="pmid">22460902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haigis</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Kendall</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cheung</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Haigis</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Glickman</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Niwa-Kawakita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sweet-Cordero</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sebolt-Leopold</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shannon</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Settleman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Giovannini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jacks</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential effects of oncogenic K-Ras and N-Ras on proliferation, differentiation and tumor progression in the colon</article-title>
+          <source>Nat. Genet.</source>
+          <volume>40</volume>
+          <year>2008</year>
+          <fpage>600</fpage>
+          <lpage>608</lpage>
+          <pub-id pub-id-type="pmid">18372904</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janssen</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>el-Marjou</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pinto</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sastre</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Rouillard</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Fouquet</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Soussi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Louvard</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Robine</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted expression of oncogenic K-ras in intestinal epithelium causes spontaneous tumorigenesis in mice</article-title>
+          <source>Gastroenterology</source>
+          <volume>123</volume>
+          <year>2002</year>
+          <fpage>492</fpage>
+          <lpage>504</lpage>
+          <pub-id pub-id-type="pmid">12145803</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jass</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Classification of colorectal cancer based on correlation of clinical, morphological and molecular features</article-title>
+          <source>Histopathology</source>
+          <volume>50</volume>
+          <year>2007</year>
+          <fpage>113</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">17204026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jemal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cancer statistics, 2010</article-title>
+          <source>CA Cancer J. Clin.</source>
+          <volume>60</volume>
+          <year>2010</year>
+          <fpage>277</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">20610543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Junttila</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Karnezis</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Madriles</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kortlever</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Rostker</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Brown Swigart</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Seo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Evan</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <name>
+              <surname>Martins</surname>
+              <given-names>C.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective activation of p53-mediated tumour suppression in high-grade tumours</article-title>
+          <source>Nature</source>
+          <volume>468</volume>
+          <year>2010</year>
+          <fpage>567</fpage>
+          <lpage>571</lpage>
+          <pub-id pub-id-type="pmid">21107427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kambara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Simms</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Whitehall</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Spring</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Wynter</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Barker</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Arnold</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>McGivern</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Matsubara</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>BRAF mutation is associated with DNA methylation in serrated polyps and cancers of the colorectum</article-title>
+          <source>Gut</source>
+          <volume>53</volume>
+          <year>2004</year>
+          <fpage>1137</fpage>
+          <lpage>1144</lpage>
+          <pub-id pub-id-type="pmid">15247181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kriegl</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Neumann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vieth</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Greten</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Reu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirchner</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Up and downregulation of p16(Ink4a) expression in BRAF-mutated polyps/adenomas indicates a senescence barrier in the serrated route to colon cancer</article-title>
+          <source>Mod. Pathol.</source>
+          <volume>24</volume>
+          <year>2011</year>
+          <fpage>1015</fpage>
+          <lpage>1022</lpage>
+          <pub-id pub-id-type="pmid">21423154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krimpenfort</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Quon</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Mooi</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Loonstra</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Berns</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of p16Ink4a confers susceptibility to metastatic melanoma in mice</article-title>
+          <source>Nature</source>
+          <volume>413</volume>
+          <year>2001</year>
+          <fpage>83</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">11544530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Barradas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Stone</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>van Aelst</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lowe</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Premature senescence involving p53 and p16 is activated in response to constitutive MEK/MAPK mitogenic signaling</article-title>
+          <source>Genes Dev.</source>
+          <volume>12</volume>
+          <year>1998</year>
+          <fpage>3008</fpage>
+          <lpage>3019</lpage>
+          <pub-id pub-id-type="pmid">9765203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madison</surname>
+              <given-names>B.B.</given-names>
+            </name>
+            <name>
+              <surname>Dunbar</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>X.T.</given-names>
+            </name>
+            <name>
+              <surname>Braunstein</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Braunstein</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gumucio</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cis elements of the villin gene control expression in restricted domains of the vertical (crypt) and horizontal (duodenum, cecum) axes of the intestine</article-title>
+          <source>J.&#xA0;Biol. Chem.</source>
+          <volume>277</volume>
+          <year>2002</year>
+          <fpage>33275</fpage>
+          <lpage>33283</lpage>
+          <pub-id pub-id-type="pmid">12065599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Michaloglou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vredeveld</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Soengas</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Denoyelle</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kuilman</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>van der Horst</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Majoor</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Shay</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Mooi</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Peeper</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>BRAFE600-associated senescence-like cell cycle arrest of human naevi</article-title>
+          <source>Nature</source>
+          <volume>436</volume>
+          <year>2005</year>
+          <fpage>720</fpage>
+          <lpage>724</lpage>
+          <pub-id pub-id-type="pmid">16079850</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murphy</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Junttila</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Pouyet</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Karnezis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shchors</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Brown-Swigart</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Evan</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct thresholds govern Myc&#x2019;s biological output in&#xA0;vivo</article-title>
+          <source>Cancer Cell</source>
+          <volume>14</volume>
+          <year>2008</year>
+          <fpage>447</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="pmid">19061836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muzni</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Bainbridge</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Dinh</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <collab>Cancer Genome Atlas Network</collab>
+          </person-group>
+          <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+          <source>Nature</source>
+          <volume>487</volume>
+          <year>2012</year>
+          <fpage>330</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="pmid">22810696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nikolaev</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Rimoldi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Iseli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Valsesia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Robyr</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gehrig</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harshman</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Guipponi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bukach</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Zoete</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exome sequencing identifies recurrent somatic MAP2K1 and MAP2K2 mutations in melanoma</article-title>
+          <source>Nat. Genet.</source>
+          <volume>44</volume>
+          <year>2012</year>
+          <fpage>133</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="pmid">22197931</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noffsinger</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Serrated polyps and colorectal cancer: new pathway to malignancy</article-title>
+          <source>Annu. Rev. Pathol.</source>
+          <volume>4</volume>
+          <year>2009</year>
+          <fpage>343</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="pmid">19400693</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olive</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Tuveson</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Ruhe</surname>
+              <given-names>Z.C.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Willis</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Bronson</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Crowley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jacks</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutant p53 gain of function in two mouse models of Li-Fraumeni syndrome</article-title>
+          <source>Cell</source>
+          <volume>119</volume>
+          <year>2004</year>
+          <fpage>847</fpage>
+          <lpage>860</lpage>
+          <pub-id pub-id-type="pmid">15607980</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Palmero</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Pantoja</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>p19ARF links the tumour suppressor p53 to Ras</article-title>
+          <source>Nature</source>
+          <volume>395</volume>
+          <year>1998</year>
+          <fpage>125</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="pmid">9744268</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prahallad</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Di Nicolantonio</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Salazar</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zecchin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Beijersbergen</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bernards</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unresponsiveness of colon cancer to BRAF(V600E) inhibition through feedback activation of EGFR</article-title>
+          <source>Nature</source>
+          <volume>483</volume>
+          <year>2012</year>
+          <fpage>100</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="pmid">22281684</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pratilas</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Viale</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sander</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Solit</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Rosen</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>(V600E)BRAF is associated with disabled feedback inhibition of RAF-MEK signaling and elevated transcriptional output of the pathway</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>106</volume>
+          <year>2009</year>
+          <fpage>4519</fpage>
+          <lpage>4524</lpage>
+          <pub-id pub-id-type="pmid">19251651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rad</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Brenner</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bauer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schwendy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Layland</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>da Costa</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Reindl</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Dossumbekova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saur</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD25+/Foxp3+ T&#xA0;cells regulate gastric inflammation and Helicobacter pylori colonization in&#xA0;vivo</article-title>
+          <source>Gastroenterology</source>
+          <volume>131</volume>
+          <year>2006</year>
+          <fpage>525</fpage>
+          <lpage>537</lpage>
+          <pub-id pub-id-type="pmid">16890606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rad</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rad</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cadinanos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vassiliou</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rice</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Campos</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Yusa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>PiggyBac transposon mutagenesis: a tool for cancer gene discovery in mice</article-title>
+          <source>Science</source>
+          <volume>330</volume>
+          <year>2010</year>
+          <fpage>1104</fpage>
+          <lpage>1107</lpage>
+          <pub-id pub-id-type="pmid">20947725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rajagopalan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lengauer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kinzler</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Velculescu</surname>
+              <given-names>V.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumorigenesis: RAF/RAS oncogenes and mismatch-repair status</article-title>
+          <source>Nature</source>
+          <volume>418</volume>
+          <year>2002</year>
+          <fpage>934</fpage>
+          <pub-id pub-id-type="pmid">12198537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rex</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Ahnen</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Baron</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Batts</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Burt</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Goldblum</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Guillem</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Kahi</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Kalady</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Serrated lesions of the colorectum: review and recommendations from an expert panel</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <volume>107</volume>
+          <year>2012</year>
+          <fpage>1315</fpage>
+          <lpage>1329</lpage>
+          <comment>quiz 1314, 1330</comment>
+          <pub-id pub-id-type="pmid">22710576</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Romagosa</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Simonetti</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>L&#xF3;pez-Vicente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mazo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lleonart</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Castellvi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ramon y Cajal</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>p16(Ink4a) overexpression in cancer: a tumor suppressor gene associated with senescence and high-grade tumors</article-title>
+          <source>Oncogene</source>
+          <volume>30</volume>
+          <year>2011</year>
+          <fpage>2087</fpage>
+          <lpage>2097</lpage>
+          <pub-id pub-id-type="pmid">21297668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rusconi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Caiola</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Broggini</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>RAS/RAF/MEK inhibitors in oncology</article-title>
+          <source>Curr. Med. Chem.</source>
+          <volume>19</volume>
+          <year>2012</year>
+          <fpage>1164</fpage>
+          <lpage>1176</lpage>
+          <pub-id pub-id-type="pmid">22257058</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samowitz</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Slattery</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Herrick</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wolff</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Albertsen</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>APC mutations and other genetic and epigenetic changes in colon cancer</article-title>
+          <source>Mol. Cancer Res.</source>
+          <volume>5</volume>
+          <year>2007</year>
+          <fpage>165</fpage>
+          <lpage>170</lpage>
+          <pub-id pub-id-type="pmid">17293392</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sarkisian</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Keister</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Stairs</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Boxer</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Moody</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Chodosh</surname>
+              <given-names>L.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dose-dependent oncogene-induced senescence in&#xA0;vivo and its evasion during mammary tumorigenesis</article-title>
+          <source>Nat. Cell Biol.</source>
+          <volume>9</volume>
+          <year>2007</year>
+          <fpage>493</fpage>
+          <lpage>505</lpage>
+          <pub-id pub-id-type="pmid">17450133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sherr</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>McCormick</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The RB and p53 pathways in cancer</article-title>
+          <source>Cancer Cell</source>
+          <volume>2</volume>
+          <year>2002</year>
+          <fpage>103</fpage>
+          <lpage>112</lpage>
+          <pub-id pub-id-type="pmid">12204530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <element-citation publication-type="book" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snover</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Ahnen</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Burt</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Odze</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <chapter-title>Serrated polyps of the colon and rectum and serrated polyposis</chapter-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Bosman</surname>
+              <given-names>F.T.</given-names>
+            </name>
+            <name>
+              <surname>Carneiro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hruban</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Theise</surname>
+              <given-names>N.D.</given-names>
+            </name>
+          </person-group>
+          <source>WHO classification of tumors of the digestive system</source>
+          <year>2010</year>
+          <publisher-name>IARC</publisher-name>
+          <publisher-loc>Lyon</publisher-loc>
+          <fpage>160</fpage>
+          <lpage>165</lpage>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spring</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.Z.</given-names>
+            </name>
+            <name>
+              <surname>Karamatic</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Whitehall</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Pike</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Simms</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Montgomery</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>High prevalence of sessile serrated adenomas with BRAF mutations: a prospective study of patients undergoing colonoscopy</article-title>
+          <source>Gastroenterology</source>
+          <volume>131</volume>
+          <year>2006</year>
+          <fpage>1400</fpage>
+          <lpage>1407</lpage>
+          <pub-id pub-id-type="pmid">17101316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torlakovic</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Snover</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Serrated adenomatous polyposis in humans</article-title>
+          <source>Gastroenterology</source>
+          <volume>110</volume>
+          <year>1996</year>
+          <fpage>748</fpage>
+          <lpage>755</lpage>
+          <pub-id pub-id-type="pmid">8608884</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torlakovic</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Skovlund</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Snover</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Torlakovic</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nesland</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphologic reappraisal of serrated colorectal polyps</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <volume>27</volume>
+          <year>2003</year>
+          <fpage>65</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="pmid">12502929</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yachida</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mudali</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Montgomery</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Iacobuzio-Donahue</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beta-catenin nuclear labeling is a common feature of sessile serrated adenomas and correlates with early neoplastic progression after BRAF activation</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <volume>33</volume>
+          <year>2009</year>
+          <fpage>1823</fpage>
+          <lpage>1832</lpage>
+          <pub-id pub-id-type="pmid">19745699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Farraye</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Mack</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Posnik</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Brien</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>BRAF and KRAS Mutations in hyperplastic polyps and serrated adenomas of the colorectum: relationship to histology and CpG island methylation status</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <volume>28</volume>
+          <year>2004</year>
+          <fpage>1452</fpage>
+          <lpage>1459</lpage>
+          <pub-id pub-id-type="pmid">15489648</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app1">
+      <title>Accession Numbers</title>
+      <p>The EBI European Nucleotide Archive accession number for data presented in this study is <ext-link ext-link-type="uri" xlink:href="ncbi-n:PRJEB3418" id="intref0010">PRJEB3418</ext-link>.</p>
+    </sec>
+    <sec id="app3" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Document S1. Supplemental Experimental Information, Figures S1&#x2013;S6, and Tables S1&#x2013;S7</title>
+          </caption>
+          <media xlink:href="mmc1.pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p>We thank the research support facility team, Tatiana Schmid, and Magdalena Zukowska, for excellent technical assistance. Anton Berns is gratefully acknowledged for critical discussions, and Melanie Kucherlapati is acknowledged for providing Msh2-deficint tumor DNA. The work was supported by the Wellcome Trust (to A.B.) and the Helmholtz Gemeinschaft (PCCC Consortium; to R.R. and D.S.). R.R., J.C., and I.V. were supported by fellowships from the Deutsche Forschungsgemeinschaft, FEBS, and International Human Frontiers Science Program Organization, respectively, during part of this work.</p>
+    </ack>
+    <fn-group>
+      <fn id="app2" fn-type="supplementary-material">
+        <p>Supplemental Information includes Supplemental Experimental Procedures, six figures, and seven tables and can be found with this article online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.ccr.2013.05.014" id="intref0015">http://dx.doi.org/10.1016/j.ccr.2013.05.014</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>Figure&#xA0;1</label>
+      <caption>
+        <p>A Mouse Model of Braf<sup>V600E</sup>-Induced Intestinal Pathology</p>
+        <p>(A&#x2013;D) Knockin strategy of the <italic>Braf</italic><sup><italic>V637E</italic></sup> allele. Wild-type mouse <italic>Braf</italic> locus. Lha/Rha, left and right homology arms (A). Targeted <italic>Braf</italic>-locus (B). The Lox-STOP-Lox cassette has an Engrailed-2 splice acceptor and 4 SV40 polyadenylation sites. It is flanked by <italic>Sleeping Beauty</italic> inverted terminal repeats permitting <italic>SB</italic> transposase-dependent V637E activation, a feature not exploited in this study. Southern blot confirming correct targeting (C). F1 males were mated to <italic>Rosa26-FlpE</italic> females to remove the FRT flanked puromycin resistance cassette (Pu&#x394;TK), producing offspring with the <italic>BRAF</italic><sup><italic>LSL-V637E</italic></sup> conditional allele (D).</p>
+        <p>(E) Villin-Cre-induced recombination of the STOP cassette in <italic>Braf</italic><sup><italic>LSL-V637E/+</italic></sup> mice. Br, brain; H, heart; Sk, skin; T, testis; B, bladder; SV, seminal vesicle; S, spleen; Li, liver; L, lung; M, muscle; K, kidney; E, esophagus; P, pancreas; F, forestomach; G, glandular stomach; D, duodenum; J, jejunum; I, ileum; C, coecum; Co, colon; R, rectum.</p>
+        <p>(F&#x2013;P) Pronounced generalized intestinal hyperplasia in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice. Length of the small (SI) and large intestine (LI) in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice and <italic>Braf</italic><sup><italic>LSL-V637E/+</italic></sup> control animals (F). Error bars, SEM; n &gt; 15 per group; <sup>&#x2217;</sup>p&#xA0;&lt; 0.05; <sup>&#x2217;&#x2217;</sup>p&#xA0;&lt; 0.001 by t test. Thickening and elongation of intestines in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice (G&#x2013;P). Representative macroscopic (G/H), microscopic (I/J/M/N), and endoscopic (K/L/O/P) images of SI and LI from <italic>Braf</italic><sup><italic>LSL-V637E/+</italic></sup> controls and <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice. Scale bars, 50&#xA0;&#x3BC;m.</p>
+        <p>(Q&#x2013;T) Serrated hyperplasia in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>mice. Microvesicular hyperplasia in the SI showing crypt elongation and serrated epithelium. mSH, murine serrated hyperplasia (Q and R). Goblet cell-rich hyperplasia in the large intestine with crypt elongation, sparsely serrated epithelium and large numbers of goblet cells in the large intestine (S and T). Scale bars, 50&#xA0;&#x3BC;m.</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S1</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>Figure&#xA0;2</label>
+      <caption>
+        <p>Intestinal Neoplasia Development in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>Mice</p>
+        <p>(A) Overview of intestinal neoplasia development in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>mice. Each circle represents one mouse. Green circles, mice without macroscopic neoplasia. Blue circles, mice with macroscopic serrated adenomas mSAs (defined as tumors &gt; 2&#xA0;mm with dysplasia, identified at necropsy). The mSA number is indicated on the <italic>y</italic> axis. Animals represented by red circles had mSA(s) plus at least one carcinoma. Microscopic dysplasia is not shown.</p>
+        <p>(B&#x2013;I) Serrated dysplasia and adenocarcinoma in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup>mice. Scale bars, 50&#xA0;&#x3BC;m. Murine serrated adenoma with low-grade dysplasia (mSA-LGD) in the small intestine showing tubulovillous architecture and serrated, eosinophilic adenomatous epithelium (B and C). Murine serrated adenoma with high-grade dysplasia (mSA-HGD), showing tubulovillous architecture, sparse serration, and a high degree of atypia (D and E). Low-grade adenocarcinoma, showing predominant tubular differentiation (F and G). High-grade adenocarcinoma with remnants of tubular structures in the upper left part, but predominant loss of tubular differentiation in other areas (H and I).</p>
+        <p>(J) Microsatellite instability in Braf<sup>V637E</sup>-induced hyperplasia/neoplasia as well as <italic>Apc</italic>- and <italic>Msh2</italic> mutant tumors. Eight markers were used for MSI-typing (see the <xref rid="app3" ref-type="sec">Supplemental Experimental Procedures</xref>). Each column represents one sample. Samples were defined as microsatellite stable (MSS; all eight markers stable), MSI-Low (MSI-L; one or more, but&#xA0;&lt; 40% of markers unstable) or MSI-H (&#x2265;40% of markers unstable).</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S2</xref> and <xref rid="app3" ref-type="sec">Table S1</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>Figure&#xA0;3</label>
+      <caption>
+        <p>P53 Is Activated Late during Braf<sup>V637E</sup>-Induced Intestinal Tumorigenesis and Plays an Important Role in Invasiveness Control</p>
+        <p>(A) Intestinal tumor type, number, and latency in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> mice. Each circle represents one mouse. Green circles, mice without macroscopic neoplasia. Blue circles, mice with macroscopic serrated adenomas mSAs (defined as tumors &gt; 2&#xA0;mm with dysplasia, identified at&#xA0;necropsy).</p>
+        <p>(B) Average adenoma and carcinoma number in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> mice as compared to <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> animals. <sup>&#x2217;&#x2217;</sup>p&#xA0;&lt; 0.01, Mann-Whitney rank sum test. Error bars, SEM.</p>
+        <p>(C and D) Lung metastasis of intestinal cancer in a <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p53</italic><sup><italic>LSL-R172H/+</italic></sup> mouse stains positive for the enterocytes-specific marker CK20. Scale bars, 50&#xA0;&#x3BC;m.</p>
+        <p>(E) Expression of p19<sup>Arf</sup> in small intestinal samples with the indicated genotypes and histology; n&#xA0;= 55 (total); error bars, SEM p19<sup>Arf</sup> was normalized to <italic>Actb</italic> expression. mSH, murine serrated hyperplasia; mSA-LGD, murine serrated adenoma with low-grade dypslasia; mSA-HGD, murine serrated adenoma with high-grade dysplasia. Error bars, SEM.</p>
+        <p>(F&#x2013;M) p53, p21, or &#x3B3;H2AX staining in SI samples from <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice: hyperplasia (F and G), low-grade dysplasia (H), area with hyperplasia and dysplasia (I&#x2013;K), high-grade dysplasia (L and M). T, transition hyperplasia/dysplasia; Scale bars, 50&#xA0;&#x3BC;m for micrographs, 20&#xA0;&#x3BC;m for insets.</p>
+        <p>(N) Frequency of positive staining for p53 and p21 in indicated sample types from <italic>Vil-Cre;Braf</italic><sup><italic>V637E/+</italic></sup> mice. N&#xA0;= 110 (for p53); n&#xA0;= 35 (for p21).</p>
+        <p>(O&#x2013;S) p53 and p21 staining in two carcinomas from <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> mice. A cancer with spontaneous <italic>p53</italic> mutation (S152R) stains positive for p53 but negative for p21 (Q and R). In a second cancer there was loss of p53 expression in invading cancer cells (arrows) but not in the area of dysplasia (R and S). Ca, carcinoma. Scale bars, 50&#xA0;&#x3BC;m.</p>
+        <p>See also <xref rid="app3" ref-type="sec">Tables S2</xref> and <xref rid="app3" ref-type="sec">S3</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>Figure&#xA0;4</label>
+      <caption>
+        <p>The Role of p16-Dependent Tumor Suppression in Braf<sup>V637E</sup>-Induced Intestinal Carcinogenesis</p>
+        <p>(A) p16<sup>Ink4a</sup> expression (qRT-PCR; normalized to <italic>Gapdh</italic>) in SI samples with the indicated genotypes and histology; n&#xA0;= 55 (total); Error bars, SEM.</p>
+        <p>(B) Intestinal tumor type, number, and latency in&#xA0;<italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16<sup>&#x2217;</sup></italic><sup><italic>/+</italic></sup> and <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16<sup>&#x2217;</sup></italic><sup><italic>/</italic></sup><italic><sup>&#x2217;</sup></italic> mice. Each circle/triangle represents one mouse. Green circles/triangles, mice without macroscopic neoplasia. Blue circles/triangles, mice with macroscopic serrated adenomas mSAs (defined as tumors &gt; 2&#xA0;mm with dysplasia, identified at necropsy). Note that some mice had multiple independent cancers.</p>
+        <p>(C) Average mSA and carcinoma number in <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup><italic>;p16<sup>&#x2217;</sup></italic> mice as compared to <italic>Vil-Cre;Braf</italic><sup><italic>LSL-V637E</italic>/+</sup> animals. <italic>p16<sup>&#x2217;</sup></italic> indicates all p16 mutant mice (hetero- and homozygous); <sup>&#x2217;</sup>p&#xA0;&lt; 0.001, Mann-Whitney rank sum test. Error bars, SEM.</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S3</xref> and <xref rid="app3" ref-type="sec">Tables S4</xref> and <xref rid="app3" ref-type="sec">S5</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+    <fig id="fig5">
+      <label>Figure&#xA0;5</label>
+      <caption>
+        <p>Dysplasia Progression Is Associated with Stage-Specific MAPK Signaling Amplification</p>
+        <p>(A&#x2013;H) Map-kinase pathway activation and signaling output at different stages of Braf<sup>V637E</sup>-induced tumor development. Phospho Erk1/2 (phospho-p42/p44) and Erk1/2 (p42/p44) western blot in indicated samples (A). Phospho-Erk IHC staining in indicated samples (B&#x2013;G). Note in (E) the pErk positive/negative cells in dysplastic/nondysplastic areas of one gland. mSH, murine serrated hyperplasia; LGD, low-grade dypslasia; T, transition (hyperplasia/dysplasia); HGD, high-grade dysplasia; Ca, carcinoma. Scale bars, 50&#xA0;&#x3BC;m for micrographs, 20&#xA0;&#x3BC;m for insets.</p>
+        <p>(H) Expression of Erk target genes (qRT-PCR; normalized to <italic>Gapdh</italic>) in SI samples with the indicated histology and genotypes. FC, fold-change compared to wild-type intestine; n&#xA0;= 41; Error bars,&#xA0;SEM.</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S4</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr5"/>
+    </fig>
+    <fig id="fig6">
+      <label>Figure&#xA0;6</label>
+      <caption>
+        <p>Frequent Wnt Pathway Activation during Braf<sup>V637E</sup>-Induced Dysplasia Progression</p>
+        <p>(A) Expression of Wnt target genes (qRT-PCR; normalized to <italic>Gapdh</italic>) in SI samples with indicated histology and genotypes. n&#xA0;= 11 (wild-type), 53 (<italic>Braf</italic> mutant), and 14 (<italic>Apc</italic> mutant tissues). Red lines, mean.</p>
+        <p>(B&#x2013;F) &#x3B2;-Catenin staining in Braf<sup>V6<italic>37</italic>E</sup>-induced hyperplasia/dysplasia. Scale bars, 50&#xA0;&#x3BC;m (B, C, and E) or 20&#xA0;&#x3BC;m (D and F).</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S5</xref> and <xref rid="app3" ref-type="sec">Table S6</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr6"/>
+    </fig>
+    <fig id="fig7">
+      <label>Figure&#xA0;7</label>
+      <caption>
+        <p>Systematic Drug Screening Identifies Targets for Therapeutic Intervention in Braf<sup>V637E</sup>-Induced Murine and Human Cancers</p>
+        <p>(A) In&#xA0;vitro growth inhibition assays (CellTiter-Blue assay) using a murine and five human <italic>BRAF</italic> mutant intestinal cancer cell lines. Drug treatment was performed for 6&#xA0;days. Error bars, SEM; n&#xA0;= 2.</p>
+        <p>(B) Systematic drug sensitivity screens using 50 compounds. For each cell line, drugs were used as single agents (left columns) or in combination with 0.5&#xA0;&#x3BC;M PLX4720 (right columns). Cell viability was determined after 6&#xA0;days of treatment using CellTiter-Blue. Results are shown relative to DMSO control treatment. One of two determinations with similar results is shown.</p>
+        <p>(C) Long-term colony-forming assays. Cells were treated with PLX4720 (0.5&#xA0;&#x3BC;M), Gefitinib (0.5&#xA0;&#x3BC;M), the PI3K inhibitor GDC0941 (0.5&#xA0;&#x3BC;M), and the Mek inhibitor PD0325901 (0.002&#xA0;&#x3BC;M) as single agents or their combination as indicated. One of two determinations with similar results is shown.</p>
+        <p>(D) The Mek inhibitor PD0325901 suppresses tumor growth in allo- and xenograft models. The <italic>Braf</italic> mutant murine (MouseT1) and human (HT-29 and COLO-205) cell lines were transplanted s.c. into Nod Scid IL12Rg<sup>null</sup> (NSG) mice. Treatment was started when tumors were palpable (day 1). Animals were treated once daily with vehicle (control) or 25&#xA0;mg/kg/day of PD0325901 for 15&#xA0;days by oral gavage. <sup>&#x2217;</sup>p&#xA0;&lt; 0.05; <sup>&#x2217;&#x2217;</sup>p&#xA0;&lt; 0.01; <sup>&#x2217;&#x2217;&#x2217;</sup>p&#xA0;&lt; 0.001; Mann-Whitney rank sum or t test; Error bars, SEM; n&#xA0;= 4&#x2013;5 mice per group.</p>
+        <p>(E) Combinatorial Braf/PI3K inhibition suppresses tumor growth of MouseT1 and COLO-205 cells, transplanted s.c. into NSG mice. Animals were treated with vehicle (control) or PLX4720 50&#xA0;mg/kg/day once daily plus GDC09041 75&#xA0;mg/kg/day twice daily by oral gavage. Error bars, SEM; n&#xA0;= 3&#x2013;5 mice per group; <sup>&#x2217;&#x2217;</sup>p&#xA0;&lt; 0.01; t test.</p>
+        <p>See also <xref rid="app3" ref-type="sec">Figure&#xA0;S6</xref> and <xref rid="app3" ref-type="sec">Table S7</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr7"/>
+    </fig>
+    <fig id="fig8">
+      <label>Figure&#xA0;8</label>
+      <caption>
+        <p>Progression Model of Braf<sup>V637E</sup>-Induced Intestinal Cancer Development</p>
+        <p><italic>Braf</italic> mutation induces sustained hyperplasia. MSI-H develops in 40% of cases and is observed in all subsequent stages of tumorigenesis, suggesting its early development. Dysplasia progression is driven by stage-specific Wnt pathway activation and Braf/Mek/Erk signaling intensification. Selective pressure for inactivation of the p16/Rb and Arf/p53 pathways develops late during tumorigenesis and promotes invasion&#xA0;and metastasis but does not accelerate early&#xA0;adenoma initiation. This late-stage specificity results from the inability of low-dose Mapk signaling to activate these tumor suppressors at early stages of tumorigenesis.</p>
+      </caption>
+      <graphic xlink:href="gr8"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1519 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Br J Cancer</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Br J Cancer</journal-id>
+      <journal-title-group>
+        <journal-title>British Journal of Cancer</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0007-0920</issn>
+      <issn pub-type="epub">1532-1827</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">17700571</article-id>
+      <article-id pub-id-type="pmc">2360375</article-id>
+      <article-id pub-id-type="pii">6603924</article-id>
+      <article-id pub-id-type="doi">10.1038/sj.bjc.6603924</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Molecular Diagnostics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>FISH analysis of 107 prostate cancers shows that <italic>PTEN</italic> genomic deletion is associated with poor clinical outcome</article-title>
+        <alt-title alt-title-type="running"><italic>PTEN</italic> deletion predicts poor outcome in prostate cancer</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yoshimoto</surname>
+            <given-names>M</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cunha</surname>
+            <given-names>I W</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coudry</surname>
+            <given-names>R A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fonseca</surname>
+            <given-names>F P</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Torres</surname>
+            <given-names>C H</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soares</surname>
+            <given-names>F A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Squire</surname>
+            <given-names>J A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff5">5</xref>
+          <xref ref-type="corresp" rid="caf1">*</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label><institution>Division of Applied Molecular Oncology, Ontario Cancer Institute, Princess Margaret Hospital</institution>, Toronto, Ontario, M5G 2M9, <country>Canada</country></aff>
+        <aff id="aff2"><label>2</label><institution>Departamento de Patologia, Centro de Tratamento e Pesquisa, Hospital do C&#xE2;ncer, A.C. Camargo</institution>, S&#xE3;o Paulo, 01509 010, <country>Brazil</country></aff>
+        <aff id="aff3"><label>3</label><institution>Servi&#xE7;o de Urologia, Departamento de Cirurgia P&#xE9;lvica, Hospital do C&#xE2;ncer, A.C. Camargo</institution>, S&#xE3;o Paulo, 01509 010, <country>Brazil</country></aff>
+        <aff id="aff4"><label>4</label><institution>Instituto de Matem&#xE1;tica e Estat&#xED;stica, Universidade de S&#xE3;o Paulo</institution>, S&#xE3;o Paulo, 01509 010, <country>Brazil</country></aff>
+        <aff id="aff5"><label>5</label><institution>Department of Medical Biophysics, Faculty of Medicine, University of Toronto</institution>, M5G 2M9, <country>Canada</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="caf1"><label>*</label><institution>Division of Applied Molecular Oncology, Ontario Cancer Institute</institution>, Princess Margaret Hospital. 610 University Avenue, Room 9-721, Toronto, Ontario, M5G 2M9, <country>Canada</country>. E-mail: <email>jeremy.squire@utoronto.ca</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>28</day>
+        <month>08</month>
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>08</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>97</volume>
+      <issue>5</issue>
+      <fpage>678</fpage>
+      <lpage>685</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>03</month>
+          <year>2007</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>19</day>
+          <month>06</month>
+          <year>2007</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>07</month>
+          <year>2007</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2007 Cancer Research UK</copyright-statement>
+        <copyright-year>2007</copyright-year>
+        <copyright-holder>Cancer Research UK</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material.If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study examines the clinical impact of <italic>PTEN</italic> genomic deletions using fluorescence <italic>in situ</italic> hybridisation (FISH) analysis of 107 prostate cancers, with follow-up information covering a period of up to 10 years. Tissue microarray analysis using interphase FISH indicated that hemizygous <italic>PTEN</italic> losses were present in 42/107 (39%) of prostatic adenocarcinomas, with a homozygous <italic>PTEN</italic> deletion observed in 5/107 (5%) tumours. FISH analysis using closely linked probes centromeric and telomeric to the <italic>PTEN</italic> indicated that subband microdeletions accounted for &#x223C;70% genomic losses. Kaplan&#x2013;Meier survival analysis of <italic>PTEN</italic> genomic losses (hemizygous and homozygous deletion <italic>vs</italic> not deleted) identified subgroups with different prognosis based on their time to biochemical relapse after surgery, and demonstrated significant association between <italic>PTEN</italic> deletion and an earlier onset of disease recurrence (as determined by prostate-specific antigen levels). Homozygous <italic>PTEN</italic> deletion was associated with a much earlier onset of biochemical recurrence (<italic>P</italic>=0.002). Furthermore, <italic>PTEN</italic> loss at the time of prostatectomy correlated with clinical parameters of more advanced disease, such as extraprostatic extension and seminal vesicle invasion. Collectively, our data indicates that haploinsufficiency or <italic>PTEN</italic> genomic loss is an indicator of more advanced disease at surgery, and is predictive of a shorter time to biochemical recurrence of disease.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>interphase FISH</kwd>
+        <kwd><italic>PTEN</italic> haploinsufficiency</kwd>
+        <kwd>prognostic biomarker</kwd>
+        <kwd>PSA</kwd>
+        <kwd>biochemical recurrence</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Prostate cancer is the most commonly diagnosed malignancy in men in the North America and the third leading cause of cancer-related mortality after lung and colorectal cancer in males aged 40 years and older (<xref ref-type="bibr" rid="bib16">Jemal <italic>et al</italic>, 2006</xref>). In spite of significant progress in its clinical management, comparatively little is known about the disease aetiology. Widely used biochemical, histopathological and clinical criteria, for example prostate-specific antigen (PSA) level, Gleason score, and the clinical tumour stage, have demonstrated a significant variability in predicting subgroups of prostate cancer patients with distinct clinical outcome (<xref ref-type="bibr" rid="bib27">Miller <italic>et al</italic>, 2001</xref>; <xref ref-type="bibr" rid="bib10">DeMarzo <italic>et al</italic>, 2003</xref>; <xref ref-type="bibr" rid="bib12">Glinsky <italic>et al</italic>, 2004</xref>). As such, there is an absolute necessity to improve the current patient stratification methods using biomarkers identified through studies of prostate cancer genomics.</p>
+    <p>Previous cytogenetic and genomic profiling analyses have identified several tumour-associated chromosomal rearrangements in the initial stages of sporadic primary prostate cancer, consisting predominantly of losses (<xref ref-type="bibr" rid="bib42">Visakorpi <italic>et al</italic>, 1995</xref>; <xref ref-type="bibr" rid="bib41">Verhagen <italic>et al</italic>, 2000</xref>; <xref ref-type="bibr" rid="bib11">Elo and Visakorpi, 2001</xref>). For example, well-recognised changes in early prostatic carcinogenesis include loss of 8p, 6q, 10q, 13q, 16q and 18q, and gain of 8q (<xref ref-type="bibr" rid="bib30">Qian <italic>et al</italic>, 1998</xref>; <xref ref-type="bibr" rid="bib48">Zitzelsberger <italic>et al</italic>, 2001</xref>; <xref ref-type="bibr" rid="bib17">Kasahara <italic>et al</italic>, 2002</xref>; <xref ref-type="bibr" rid="bib45">Wolf <italic>et al</italic>, 2004</xref>; <xref ref-type="bibr" rid="bib38">van Dekken <italic>et al</italic>, 2004</xref>; <xref ref-type="bibr" rid="bib15">Hughes <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib31">Ribeiro <italic>et al</italic>, 2006a</xref>, <xref ref-type="bibr" rid="bib32">2006b</xref>). The importance of genomic rearrangements in prostate cancer was emphasised by the discovery of recurrent translocations in 40&#x2013;60% of prostate carcinoma and in 21% of the presumed premalignant lesion, high-grade prostatic intraepithelial neoplasia (HPIN), involving the <italic>TMPRSS2</italic> gene with members of the erythroblast transformation-specific (<italic>ETS</italic>) transcription factor family (<xref ref-type="bibr" rid="bib37">Tomlins <italic>et al</italic>, 2005</xref>, <xref ref-type="bibr" rid="bib36">2006</xref>; <xref ref-type="bibr" rid="bib1">Ahlers and Figg, 2006</xref>; <xref ref-type="bibr" rid="bib8">Cerveira <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib29">Perner <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib35">Soller <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib43">Wang <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib47">Yoshimoto <italic>et al</italic>, 2006b</xref>). Indeed, HPIN lesions reveal similar genetic features to those found in prostate carcinomas, including the loss of 8p, gain of 8q (<xref ref-type="bibr" rid="bib15">Hughes <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib32">Ribeiro <italic>et al</italic>, 2006b</xref>), and genomic losses of chromosome 10 (<xref ref-type="bibr" rid="bib15">Hughes <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib32">Ribeiro <italic>et al</italic>, 2006b</xref>). More detailed investigation of the 10q losses using fluorescence <italic>in situ</italic> hybridisation (FISH) and tissue microarrays (TMAs) showed that <italic>PTEN</italic> microdeletions were present in 68% of carcinomas and in 23% of HPIN lesions found in radical prostatectomies. The detection of <italic>PTEN</italic> deletion in HPIN suggested that somatic haploinsufficiency <italic>per se</italic> might be an early pivotal step in the transition from HPIN to invasive carcinoma (<xref ref-type="bibr" rid="bib46">Yoshimoto <italic>et al</italic>, 2006a</xref>).</p>
+    <p>PTEN plays an important role in the modulation of the phosphatidylinositol-3-kinase (PI3K) pathway by catalysing degradation of phosphatidylinositol-(3,4,5)-trisphosphate generated by PI3K (<xref ref-type="bibr" rid="bib5">Besson <italic>et al</italic>, 1999</xref>). Phosphatidylinositol-(3,4,5)-trisphosphate activates the protein kinase Akt and its regulator PDK1 (<xref ref-type="bibr" rid="bib13">Goberdhan and Wilson, 2003</xref>), which then modulates a number of downstream targets with important roles in apoptosis and the cell-cycle progression, including BAD (<xref ref-type="bibr" rid="bib9">Datta <italic>et al</italic>, 1997</xref>), CASP3 and CASP9 (<xref ref-type="bibr" rid="bib7">Cardone <italic>et al</italic>, 1998</xref>), MDM2 (<xref ref-type="bibr" rid="bib2">Ashcroft <italic>et al</italic>, 2002</xref>), mTOR (<xref ref-type="bibr" rid="bib23">Majumder <italic>et al</italic>, 2004</xref>), the forkhead family of transcription factors (FKHR) (<xref ref-type="bibr" rid="bib6">Brunet <italic>et al</italic>, 1999</xref>) and p27 (<xref ref-type="bibr" rid="bib14">Graff <italic>et al</italic>, 2000</xref>). The lack of inhibition of these pathways by <italic>PTEN</italic> inactivation is associated with high Gleason score (<xref ref-type="bibr" rid="bib19">Koksal <italic>et al</italic>, 2004</xref>) and tumour progression in prostate cancer (<xref ref-type="bibr" rid="bib19">Koksal <italic>et al</italic>, 2004</xref>; <xref ref-type="bibr" rid="bib4">Bertram <italic>et al</italic>, 2006</xref>).</p>
+    <p>The occurrence of <italic>PTEN</italic> mutation in prostate cancer is considered common, with reported frequencies (based on relatively small sample sizes), ranging from 30 to 60% (<xref ref-type="bibr" rid="bib44">Whang <italic>et al</italic>, 1998</xref>; <xref ref-type="bibr" rid="bib21">Kwabi-Addo <italic>et al</italic>, 2001</xref>). Given the high frequency of PTEN inactivation by genomic deletion in prostate cancer using FISH methods (<xref ref-type="bibr" rid="bib46">Yoshimoto <italic>et al</italic>, 2006a</xref>), it has become more practical to conduct much larger correlative studies of patient outcome in situations when the <italic>PTEN</italic> gene is either lost, or retained in tumours. Such findings would further implicate a role for <italic>PTEN</italic> haploinsufficiency in poor prognosis and tumour progression. Moreover, knowledge of the <italic>PTEN</italic> deletion in the primary tumour, in addition to current clinico-pathological features, might be of value when selecting the optimum treatment for a particular patient.</p>
+    <sec>
+      <title>MATERIALS AND METHODS</title>
+      <sec>
+        <title>Tissue specimens</title>
+        <p>The collection of tissue specimens, clinical and follow-up data was obtained and handled in accordance with the Hospital do C&#xE2;ncer Research Ethics guidelines (S&#xE3;o Paulo, Brazil). Archival formalin-fixed, paraffin-embedded tissues were obtained from 107 radical prostatectomies performed between 1997 and 2000 at the Hospital do C&#xE2;ncer, AC Camargo, S&#xE3;o Paulo, Brazil. For control purposes, 10 non-neoplastic prostate tissue samples were obtained from patients undergoing surgery solely for benign prostate hyperplasia. The prostate cancer cohort comprising 107 tumour samples and control specimens were sampled using a 0.6&#x2009;mm diameter tissue core distributed on TMA slide. Adjacent haematoxylin and eosin (H&amp;E)-stained section was reviewed by two pathologists to determine the presence and extent of morphologically representative areas of the original tumours in each tissue core and Gleason grading. The clinico-pathological (TNM) stage and Gleason scores (range from 4 to 9) for each case were obtained from the medical and surgical pathology reports. The size of tumour was based on assessment of total surface area of the gland examined histologically involved by carcinoma. Preoperative PSA level was available for all patients and the PSA non-failure was defined as PSA remaining below 0.2&#x2009;ng&#x2009;ml<sup>&#x2212;1</sup> after radical prostatectomy. Recurrence-free interval was defined as the time between date of surgery and the date of first PSA increase above 0.2&#x2009;ng&#x2009;ml<sup>&#x2212;1</sup>.</p>
+        <p>A separate evaluation of <italic>PTEN</italic> deletion status was also performed using a study group of clinically distinct prostate cancers in which inclusion criteria were the availability of paraffin-embedded formalin-fixed tissue from both an initial primary adenocarcinoma surgical specimen and from metastatic prostate adenocarcinoma in the regional lymph node metastases (Hospital do C&#xE2;ncer, AC Camargo, S&#xE3;o Paulo, Brazil). A cohort of 10 such paired tumour samples were identified. Adjacent H&amp;E-stained section was reviewed by two pathologists to determine the presence and extent of morphologically representative areas of the original tumours in each tissue. Blood preoperative PSA levels ranged from 10 to 84&#x2009;ng&#x2009;ml<sup>&#x2212;1</sup> within this cohort.</p>
+      </sec>
+      <sec>
+        <title>Follow-up studies</title>
+        <p>The 107 patients in the study group were followed up for a period of up to 10 years subsequent to the initial surgery. The median age at diagnosis was 63 years (range from 41 to 76). At the end of the follow-up period for each patient, 58 (54%) had a biochemical recurrence within the period of 0.79&#x2013;86.28 months after initial surgery. Metastatic progression occurred in 10 patients at a median follow-up of 36.21 months from initial surgery. Survival time for the remaining 49 disease-free cases varied from 13.85 to 127.60 months. The median overall survival for the entire cohort of patients was 80.65 months. All relevant clinico-pathological features of the 107-tumour cohort are summarised in <xref rid="tbl1" ref-type="table">Table 1</xref>.</p>
+      </sec>
+      <sec>
+        <title>FISH</title>
+        <p>Dual-colour FISH on paraffin-embedded tumour tissue was performed using commercially available DNA probes for cytoband 10q23 (Spectrum Orange <italic>PTEN</italic> locus-specific probe) and region 10p11.1-q11.1 (Spectrum Green centromere of chromosome 10 probe) (LSI <italic>PTEN</italic>/CEP 10 &#x2013; Vysis Inc., Downers Grove, IL, USA). The <italic>PTEN</italic> genomic probe spans 368&#x2009;kb and starts 166&#x2009;kb from 5&#x2032; end of the gene and extends 98&#x2009;kb past the 3&#x2032; end of the gene. Histologic tissue sections of 5&#x2009;<italic>&#x3BC;</italic>m were deparaffinised with a series of xylene before immersion in 100% ethanol. The slide was placed in a 2 &#xD7; SSC solution at 75&#xB0;C for 20&#x2009;min, following by treatment in 0.25&#x2009;mg&#x2009;ml<sup>&#x2212;1</sup> Proteinase K (Roche Diagnostics, Indianapolis, IN, USA) at 45&#xB0;C for 20&#x2009;min. The sections were dehydrated in a graded series of ethanol, and washed in 2 &#xD7; SSC. Dual-colour probes and target DNA were co-denatured at 80&#xB0;C for 10&#x2009;min. Post-hybridisation procedures were performed by 1.5&#x2009;<sc>M</sc> urea/0.1 &#xD7; SSC solution at 45&#xB0;C for 30&#x2009;min, 2 &#xD7; SSC and a graded ethanol series.</p>
+        <p>Sequential tri-colour FISH method was applied to the prostate cancer TMA to map the flanking regions of genomic loss associated with <italic>PTEN</italic> deletions in tumours. The following bacterial artificial chromosome (BAC) clones were used. BACs located at: (a) 10q23.2 (88.2&#x2013;88.7&#x2009;Mb, 900&#x2009;kb upstream from the 5&#x2032; <italic>PTEN</italic> gene locus): RP11-141D8, RP11-52G13 and RP11-420K10; (b) 10q23.2 (89.4&#x2013;89.5&#x2009;Mb, 100&#x2009;kb on the centromeric side of the 5&#x2032; <italic>PTEN</italic>): RP11-11O21; (c) 10q23.31 (89.6&#x2013;89.7&#x2009;Mb, <italic>PTEN</italic> gene locus): RP11-383D9; (d) 10q23.33 (96.2&#x2013;96.6&#x2009;Mb, 6.6&#x2009;Mb on the telomeric side of the 3&#x2032; <italic>PTEN</italic> gene locus): RP11-119K6, RP11-90J1 and RP11-466J14; (e) 10q25.1 (108.9&#x2013;109.3&#x2009;Mb, 19.3&#x2009;Mb downstream from the 3&#x2032; <italic>PTEN</italic> gene locus): RP11-246B13, RP11-49H17 and RP11-432B10. The position and name of the BAC clones were taken from the Human March 2006 assembly of the UCSC Genome Browser 1. DNA was extracted and labelled with either Spectrum Green-dUTP, SpectrumOrange-dUTP (Vysis) or DEAC-dUTP (PerkinElmer Life and Analytical Sciences, Boston, MA, USA) using the Vysis nick-translation kit (Vysis). Labelling of probes was done as described previously (<xref ref-type="bibr" rid="bib25">Merscher <italic>et al</italic>, 1997</xref>; <xref ref-type="bibr" rid="bib34">Sirvent <italic>et al</italic>, 2000</xref>). The chromosome localisation of all BAC clones was confirmed by both normal metaphase and tri-colour FISH analysis.</p>
+      </sec>
+      <sec>
+        <title>Data analysis</title>
+        <p><italic>PTEN</italic> copy number was evaluated for each probe by counting spots in a range from 50 to 100 non-overlapped, intact interphase nuclei per tumour tissue core. 4&#x2032;,6-Diamidino-2-phenylindole, dihydrochloride staining of nuclei with reference to the corresponding H&amp;E-stained tissue identified the areas of adenocarcinoma. Based on hybridisation in 10 control cores (data not shown), hemizygous deletion of <italic>PTEN</italic> were defined as &gt;20% (mean+3 s.d. in non-neoplastic controls) of tumour nuclei containing one <italic>PTEN</italic> locus signal and by the presence of CEP 10 signals. Homozygous deletion of <italic>PTEN</italic> was exhibited by the simultaneous lack of the both <italic>PTEN</italic> locus signals and by the presence of control signals (<xref ref-type="bibr" rid="bib26">Mezzelani <italic>et al</italic>, 1999</xref>; <xref ref-type="bibr" rid="bib18">Kawai <italic>et al</italic>, 2004</xref>; <xref ref-type="bibr" rid="bib20">Korshunov <italic>et al</italic>, 2005</xref>; <xref ref-type="bibr" rid="bib39">Ventura <italic>et al</italic>, 2006</xref>) in &gt;30% of cells (<xref ref-type="bibr" rid="bib20">Korshunov <italic>et al</italic>, 2005</xref>).</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis of <italic>PTEN</italic> deletion in 107-prostate cancer TMA</title>
+        <p>Fluorescence <italic>in situ</italic> hybridisation findings for <italic>PTEN</italic> deletions were correlated in a univariate and multivariate approaches with clinical and pathologic features of disease aggressiveness. Initially, presence and absence of deletion by FISH was correlated with determinants of disease mortality and morbidity including PSA, Gleason score and extraprostatic extension, as well as clinically relevant end points such as time to biochemical relapse, and the development time of metastases following the definitive treatment. For prediction of 5-year biochemical risk failure, <italic>PTEN</italic> status (not deleted, hemi- or homozygous deletion) was compared with all relevant clinico-pathological features (<xref rid="tbl1" ref-type="table">Table 1</xref>). Univariate and multivariate analyses of biochemical risk failure were studied by Cox Proportional Hazard model (<xref rid="tbl2" ref-type="table">Tables 2</xref> and <xref rid="tbl3" ref-type="table">3</xref>, respectively). A significant correlation between two parameters was taken at the 95% confidence interval. <italic>P</italic>-values &lt;0.05 were considered significant. In addition, the survival rate was estimated by applying the Kaplan&#x2013;Meier method. The end point for calculating the survival time was defined by the time from radical prostatectomy until the occurrence of metastasis or PSA determined by the biochemical recurrence. Correlation of <italic>PTEN</italic> copy number changes with Gleason score was tested using Pearson's <italic>&#x3C7;</italic><sup>2</sup> statistic. All calculations were performed using Stata 9.1.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>RESULTS</title>
+      <sec>
+        <title><italic>PTEN</italic> deletion analysis in 107-prostate cancer TMA</title>
+        <p>To investigate whether loss of <italic>PTEN</italic> as determined by interphase FISH indicated a greater prevalence in poor prognosis patients, the frequency of <italic>PTEN</italic> deletion was investigated in the cohort of 107 tumour samples using a TMA in which anonymous annotation codes allowed interrogation of clinical outcome parameters. Hemizygous <italic>PTEN</italic> deletion was found in 42 of the 107 (39%) adenocarcinomas samples. As shown in <xref rid="tbl4" ref-type="table">Table 4</xref>, homozygous <italic>PTEN</italic> deletion was found in 5 of the 107 (5%) prostate adenocarcinomas. Representative images of undeleted, hemizygous and homozygous deletions are shown in <xref ref-type="fig" rid="fig1">Figure 1</xref>. Comprehensive FISH raw data sets for all samples is summarised in <xref ref-type="supplementary-material" rid="sup1">Supplementary Table</xref>.</p>
+        <p>Among the hemizygous <italic>PTEN</italic>-deleted tumours detected from the cohort of 107 adenocarcinomas, there were 42 patients with hemizygous <italic>PTEN</italic> deletion that were classified as Gleason score 4&#x2013;6 (20 tumours), 7 (16 tumours) and 8&#x2013;9 (6 tumours). A median tumour volume of &gt;20% was found in 17 of the 42 adenocarcinomas. Biochemical recurrence based on PSA level was present in 28 of 42 samples. A median tumour volume of &gt;20% was found in all five adenocarcinomas with homozygous <italic>PTEN</italic> deletion. In addition, early biochemical recurrence was detected in all five of these samples. A comprehensive description of the clinical parameters associated with the adenocarcinomas having hemizygous or homozygous <italic>PTEN</italic> deletion is summarised in <xref rid="tbl1" ref-type="table">Table 1</xref>.</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>After acquisition of FISH data, the 107 cases were reviewed to search for potential associations between genomic loss of <italic>PTEN</italic>, clinical variables of disease progression and tumour histology. Univariate analysis of biochemical risk failure was significant for perineural invasion, extraprostatic extension, seminal vesicle invasion, Gleason score, preoperative PSA, lymph nodal invasion and <italic>PTEN</italic> deletion (<xref rid="tbl2" ref-type="table">Table 2</xref>). For prediction of 5-year biochemical risk failure by &#x3C7;<sup>2</sup> analysis, <italic>PTEN</italic> status (not deleted, hemi- or homozygous deletion) was significantly associated with disease recurrence based on PSA levels (<xref rid="tbl1" ref-type="table">Table 1</xref>). Other clinical parameters of aggressive disease such as extraprostatic extension, seminal vesicle and perineural invasion were also significantly associated with biochemical recurrence. By multivariate analysis (<xref rid="tbl3" ref-type="table">Table 3</xref>), <italic>PTEN</italic> deletion, extraprostatic extension and seminal vesicle invasion were observed at an independent level to explain biochemical failure. For comparison purpose, Kaplan&#x2013;Meier survival analysis applying established clinical markers, such as the preoperative PSA, seminal vesicle invasion and surgical margins status, was considered to identify subgroups with different prognosis with respect to time of relapse after surgery. The estimated disease-free survival curves demonstrated significant association between <italic>PTEN</italic> deletion and short time based on PSA recurrence intervals. Significantly homozygous <italic>PTEN</italic> deletion in five tumours was associated with a much earlier onset of biochemical recurrence based on PSA values (<xref ref-type="fig" rid="fig2">Figure 2</xref>).</p>
+      </sec>
+      <sec>
+        <title>Analysis of <italic>PTEN</italic> deletion in cohort of 10-paired primary adenocarcinomas and metastatic prostate adenocarcinoma in the regional lymph nodes</title>
+        <p><italic>PTEN</italic> deletion frequency was determined by dual-colour FISH using paired primary prostate adenocarcinomas and metastatic adenocarcinoma in the regional lymph nodes derived from 10 patients. Overall, the presence of <italic>PTEN</italic> deletion was found at high frequency (9 of 10) in both paired primary and metastatic lymph nodal prostate adenocarcinoma samples in this study group. Only one patient of the 10 retained both copies of the <italic>PTEN</italic> locus in his primary tumour and in his metastatic lymph nodal biopsy. Hemizygous <italic>PTEN</italic> deletion was found in both the primary and the metastatic nodal tumour samples in four of 10 patients. Homozygous <italic>PTEN</italic> deletion was found in both the primary tumour and their metastatic lymph nodes in three of the 10 patients. Significantly, two of the 10 patients with a hemizygous <italic>PTEN</italic> deletion in their primary adenocarcinomas, had positive lymph node biopsies that had acquired a homozygous <italic>PTEN</italic> deletion. These findings suggest that loss of the remaining <italic>PTEN</italic> locus may be associated with metastasis.</p>
+      </sec>
+      <sec>
+        <title>Mapping the adjacent genomic regions deleted when <italic>PTEN</italic> is lost</title>
+        <p>Tri-colour FISH using the BAC probes spanning the band 10q23.2, 5&#x2032; flanking <italic>PTEN</italic> probe on the centromeric side of the locus, <italic>PTEN</italic> locus (10pq23.31), and more telomeric probes mapping to 10q23.33 and 10q25.1, was performed on 10 of the 107 adenocarcinomas with hemizygous <italic>PTEN</italic> deletion and three of the 107 adenocarcinomas with homozygous <italic>PTEN</italic> deletion (<xref rid="tbl5" ref-type="table">Table 5</xref>). Sequential tri-colour FISH analyses from 7 of the 10 <italic>PTEN</italic> hemizygously deleted adenocarcinomas revealed BAC probes either side of <italic>PTEN</italic> were retained as two copies, indicating that a hemizygous <italic>PTEN</italic> deletion was usually accompanied by an interstitial microdeletion within band 10q23.2&#x2013;q23.31. Among the three homozygous <italic>PTEN</italic> deletions, sequential tri-colour FISH often revealed the hemizygous loss of the 10q23.2, 10q23.33 and 10q25.1 signals, and homozygous loss of the 5&#x2032; flanking <italic>PTEN</italic> genomic region and the <italic>PTEN</italic> locus signals.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>DISCUSSION</title>
+      <p>The current challenge faced by prostate cancer researchers is to discover the critical genes and cognate molecular pathways responsible for the onset of neoplasia and disease progression, as well as the development of novel therapeutic strategies based on these discoveries. Initial progress in understanding the genetics of this disease started with cytogenetic and genomic analyses of primary prostate cancer tumours. Chromosomal losses of 10q suggested that <italic>PTEN</italic> at cytoband 10q23.3 might be a tumour suppressor gene involved in the development of prostate cancer (<xref ref-type="bibr" rid="bib44">Whang <italic>et al</italic>, 1998</xref>). More recently, a single-nucleotide polymorphism mapping array in prostate cancer (<xref ref-type="bibr" rid="bib22">Liu <italic>et al</italic>, 2006</xref>) has implicated the <italic>PTEN</italic> region to be the most frequently deleted in prostate cancer. The reported frequency of <italic>PTEN</italic> deletion in prostate cancer varies widely, most likely as a result of differences in tissue preparation, stage of disease, and the methodology used to detect molecular aberrations (<xref ref-type="bibr" rid="bib46">Yoshimoto <italic>et al</italic>, 2006a</xref>). The heterogeneous nature of these studies has potentially obscured the clinical impact of <italic>PTEN</italic> loss in human prostate cancer. Our findings using interphase FISH analysis of prostatic adenocarcinoma TMAs have shown that <italic>PTEN</italic> deletion is an important event in tumour progression of prostate cancer. The value of analysing <italic>PTEN</italic> genomic losses by FISH methodologies is illustrated by its ability to distinguish both deletion events associated with homozygous <italic>PTEN</italic> losses in tumours. Moreover, our FISH analysis is able to predict that 70% of hemizygous <italic>PTEN</italic> deletion will involve an interstitial microdeletion within band 10q23.2&#x2013;23.31 since flanking BAC probes were usually not deleted.</p>
+      <p>PTEN is a phosphoinositide 3-phosphatase which negatively regulates the PI3K/AKT signalling pathway (<xref ref-type="bibr" rid="bib28">Ohigashi <italic>et al</italic>, 2005</xref>). Investigations to understand the role of <italic>PTEN</italic> loss have utilised a well-characterised animal model of human prostate cancer (<xref ref-type="bibr" rid="bib21">Kwabi-Addo <italic>et al</italic>, 2001</xref>). Analysis of tumour progression in Pten (+/&#x2013;) heterozygous mice, coupled with analysis of the <italic>PTEN</italic> gene and protein in the resulting tumours, has shown that haploinsufficiency of the <italic>PTEN</italic> gene promotes instability and the progression of prostate cancer (reviewed in <xref ref-type="bibr" rid="bib3">Baker, 2007</xref>). Decreased PTEN activity has also been identified in several human cancers including prostate cancer (<xref ref-type="bibr" rid="bib24">McMenamin <italic>et al</italic>, 1999</xref>; <xref ref-type="bibr" rid="bib19">Koksal <italic>et al</italic>, 2004</xref>). A recent FISH and immunohistochemical PTEN analysis reported by our group showed deletions of <italic>PTEN</italic> at a very high frequency prostate cancer (<xref ref-type="bibr" rid="bib46">Yoshimoto <italic>et al</italic>, 2006a</xref>). Other studies have demonstrated an association between decreased PTEN protein expression and a higher Gleason grade and advanced tumour stage (<xref ref-type="bibr" rid="bib24">McMenamin <italic>et al</italic>, 1999</xref>; <xref ref-type="bibr" rid="bib19">Koksal <italic>et al</italic>, 2004</xref>; <xref ref-type="bibr" rid="bib33">Schmitz <italic>et al</italic>, 2007</xref>). Recently, complete loss of PTEN expression was observed in 26 of 112 (23%) of prostate cancer patients at the time of first diagnosis (<xref ref-type="bibr" rid="bib33">Schmitz <italic>et al</italic>, 2007</xref>). Moreover, it was reported that 25 of 42 (59%) of both the neoplastic prostate glands and the invasive prostatic adenocarcinomas cells in the lymph node showed complete lack of PTEN expression, and of these 52% exhibited already loss of PTEN expression at first diagnosis. To determine whether <italic>PTEN</italic> genomic losses were also more prevalent in metastatic disease, as predicted by the above reports, we selected a small cohort of paired primary prostate adenocarcinomas and metastatic adenocarcinoma in the regional lymph nodes derived from the same patient. A very high frequency (90%) of <italic>PTEN</italic> deletion was evident in this study group, consistent with notion that loss of PTEN function is generally associated with more aggressive disease. Interestingly, two patients with hemizygous deletions in their primary tumours had homozygous deletions in their matched nodal metastatic sample. These data are in keeping with the idea that complete loss of PTEN function is associated with transition to more progressive disease (<xref ref-type="bibr" rid="bib40">Verhagen <italic>et al</italic>, 2006</xref>; <xref ref-type="bibr" rid="bib33">Schmitz <italic>et al</italic>, 2007</xref>).</p>
+      <p>In this study, we also demonstrate that both hemi- and homozygous <italic>PTEN</italic> loss is a highly significant prognostic marker for poor clinical outcome in prostate cancer. Prediction of 5-year biochemical risk failure analysis showed that <italic>PTEN</italic> status (not deleted, hemi- or homozygous deletion) correlated specifically with biochemical recurrence based on PSA levels. Our findings show a strong association between <italic>PTEN</italic> deletion and a shorter time interval to PSA recurrence. Significantly, homozygous <italic>PTEN</italic> deletion in five tumours was associated with a much earlier onset of biochemical recurrence based on PSA values. These tumours also had a median tumour volume typically &gt;20%. Similar to the findings of (<xref ref-type="bibr" rid="bib33">Schmitz <italic>et al</italic>, 2007</xref>) <italic>PTEN</italic> loss was not associated with Gleason score (Pearson's <italic>&#x3C7;</italic><sup>2</sup> test, <italic>P</italic>=0.142). However, the absence of a statistical relationship in our study may have arisen because of the relatively small distribution of different Gleason scores in our cohort.</p>
+      <p>These novel findings implicate further an early role for <italic>PTEN</italic> haploinsufficiency and poor clinical outcome in prostate cancer. Our studies have demonstrated that the presence of <italic>PTEN</italic> genomic losses are frequent at diagnosis and are a significant prognostic marker for the subsequent development of clinically advanced disease. Previously, PTEN inactivation has been primarily been detected in locally advanced (<xref ref-type="bibr" rid="bib44">Whang <italic>et al</italic>, 1998</xref>) or metastatic prostate cancer (<xref ref-type="bibr" rid="bib33">Schmitz <italic>et al</italic>, 2007</xref>). Our new findings suggest that the acquisition of the deletion and concomitant loss of PTEN functional activity at an earlier phase in prostatic oncogenesis is an important determinant of the molecular pathways that govern a more aggressive tumour phenotype. Knowledge of the pathways downstream to PTEN and the genomic status of the <italic>PTEN</italic> gene in tumours must be considered in the design of future therapeutic trials of prostate cancer.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This research was supported by the National Cancer Institute of Canada (NCIC), Canadian Prostate Cancer Research Initiative (CPCRI) with funds from the Canadian Cancer Society. We would like to acknowledge the technical help of immunohistochemistry group in the Department of Pathology, Centro de Tratamento e Pesquisa, Hospital do C&#xE2;ncer, A.C. Camargo, S&#xE3;o Paulo, Brazil; and Funda&#xE7;&#xE3;o de Amparo e Pesquisa de S&#xE3;o Paulo (FAPESP) for infrastructure support for the sabbatical program of JS. Our thanks to Dr Georges Maire for his critical reading and helpful suggestions to improve this paper.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><xref ref-type="supplementary-material" rid="sup1">Supplementary Information</xref> accompanies the paper on British Journal of Cancer website (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.nature.com/bjc">http://www.nature.com/bjc</ext-link>)</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="bib1">
+        <mixed-citation publication-type="journal">Ahlers CM, Figg WD (<year>2006</year>) <article-title>ETS-TMPRSS2 fusion gene products in prostate cancer</article-title>. <source>Cancer Biol Ther</source>
+<volume>5</volume>: <fpage>254</fpage>&#x2013;255<pub-id pub-id-type="pmid">16575200</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib2">
+        <mixed-citation publication-type="journal">Ashcroft M, Ludwig RL, Woods DB, Copeland TD, Weber HO, MacRae EJ, Vousden KH (<year>2002</year>) <article-title>Phosphorylation of HDM2 by Akt</article-title>. <source>Oncogene</source>
+<volume>21</volume>: <fpage>1955</fpage>&#x2013;1962<pub-id pub-id-type="pmid">11960368</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib3">
+        <mixed-citation publication-type="journal">Baker SJ (<year>2007</year>) <article-title>PTEN enters the nuclear age</article-title>. <source>Cell</source>
+<volume>128</volume>: <fpage>25</fpage>&#x2013;28<pub-id pub-id-type="pmid">17218252</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib4">
+        <mixed-citation publication-type="journal">Bertram J, Peacock JW, Fazli L, Mui AL, Chung SW, Cox ME, Monia B, Gleave ME, Ong CJ (<year>2006</year>) <article-title>Loss of PTEN is associated with progression to androgen independence</article-title>. <source>Prostate</source>
+<volume>66</volume>: <fpage>895</fpage>&#x2013;902<pub-id pub-id-type="pmid">16496415</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib5">
+        <mixed-citation publication-type="journal">Besson A, Robbins SM, Yong VW (<year>1999</year>) <article-title>PTEN/MMAC1/TEP1 in signal transduction and tumorigenesis</article-title>. <source>Eur J Biochem</source>
+<volume>263</volume>: <fpage>605</fpage>&#x2013;611<pub-id pub-id-type="pmid">10469123</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib6">
+        <mixed-citation publication-type="journal">Brunet A, Bonni A, Zigmond MJ, Lin MZ, Juo P, Hu LS, Anderson MJ, Arden KC, Blenis J, Greenberg ME (<year>1999</year>) <article-title>Akt promotes cell survival by phosphorylating and inhibiting a Forkhead transcription factor</article-title>. <source>Cell</source>
+<volume>96</volume>: <fpage>857</fpage>&#x2013;868<pub-id pub-id-type="pmid">10102273</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib7">
+        <mixed-citation publication-type="journal">Cardone MH, Roy N, Stennicke HR, Salvesen GS, Franke TF, Stanbridge E, Frisch S, Reed JC (<year>1998</year>) <article-title>Regulation of cell death protease caspase-9 by phosphorylation</article-title>. <source>Science</source>
+<volume>282</volume>: <fpage>1318</fpage>&#x2013;1321<pub-id pub-id-type="pmid">9812896</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib8">
+        <mixed-citation publication-type="journal">Cerveira N, Ribeiro FR, Peixoto A, Costa V, Henrique R, Jeronimo C, Teixeira MR (<year>2006</year>) <article-title>TMPRSS2-ERG gene fusion causing ERG overexpression precedes chromosome copy number changes in prostate carcinomas and paired HGPIN lesions</article-title>. <source>Neoplasia</source>
+<volume>8</volume>: <fpage>826</fpage>&#x2013;832<pub-id pub-id-type="pmid">17032499</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib9">
+        <mixed-citation publication-type="journal">Datta SR, Dudek H, Tao X, Masters S, Fu H, Gotoh Y, Greenberg ME (<year>1997</year>) <article-title>Akt phosphorylation of BAD couples survival signals to the cell-intrinsic death machinery</article-title>. <source>Cell</source>
+<volume>91</volume>: <fpage>231</fpage>&#x2013;241<pub-id pub-id-type="pmid">9346240</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib10">
+        <mixed-citation publication-type="journal">DeMarzo AM, Nelson WG, Isaacs WB, Epstein JI (<year>2003</year>) <article-title>Pathological and molecular aspects of prostate cancer</article-title>. <source>Lancet</source>
+<volume>361</volume>: <fpage>955</fpage>&#x2013;964<pub-id pub-id-type="pmid">12648986</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib11">
+        <mixed-citation publication-type="journal">Elo JP, Visakorpi T (<year>2001</year>) <article-title>Molecular genetics of prostate cancer</article-title>. <source>Ann Med</source>
+<volume>33</volume>: <fpage>130</fpage>&#x2013;141<pub-id pub-id-type="pmid">11327116</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib12">
+        <mixed-citation publication-type="journal">Glinsky GV, Glinskii AB, Stephenson AJ, Hoffman RM, Gerald WL (<year>2004</year>) <article-title>Gene expression profiling predicts clinical outcome of prostate cancer</article-title>. <source>J Clin Invest</source>
+<volume>113</volume>: <fpage>913</fpage>&#x2013;923<pub-id pub-id-type="pmid">15067324</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib13">
+        <mixed-citation publication-type="journal">Goberdhan DC, Wilson C (<year>2003</year>) <article-title>PTEN: tumour suppressor, multifunctional growth regulator and more</article-title>. <source>Hum Mol Genet</source>
+<volume>12</volume>(Spec No 2): <fpage>R239</fpage>&#x2013;R248<pub-id pub-id-type="pmid">12928488</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib14">
+        <mixed-citation publication-type="journal">Graff JR, Konicek BW, McNulty AM, Wang Z, Houck K, Allen S, Paul JD, Hbaiu A, Goode RG, Sandusky GE, Vessella RL, Neubauer BL (<year>2000</year>) <article-title>Increased AKT activity contributes to prostate cancer progression by dramatically accelerating prostate tumor growth and diminishing p27Kip1 expression</article-title>. <source>J Biol Chem</source>
+<volume>275</volume>: <fpage>24500</fpage>&#x2013;24505<pub-id pub-id-type="pmid">10827191</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib15">
+        <mixed-citation publication-type="journal">Hughes S, Yoshimoto M, Beheshti B, Houlston RS, Squire JA, Evans A (<year>2006</year>) <article-title>The use of whole genome amplification to study chromosomal changes in prostate cancer: insights into genome-wide signature of preneoplasia associated with cancer progression</article-title>. <source>BMC Genomics</source>
+<volume>7</volume>: <fpage>65</fpage><pub-id pub-id-type="pmid">16573809</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib16">
+        <mixed-citation publication-type="journal">Jemal A, Siegel R, Ward E, Murray T, Xu J, Smigal C, Thun MJ (<year>2006</year>) <article-title>Cancer statistics, 2006</article-title>. <source>CA Cancer J Clin</source>
+<volume>56</volume>: <fpage>106</fpage>&#x2013;130<pub-id pub-id-type="pmid">16514137</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib17">
+        <mixed-citation publication-type="journal">Kasahara K, Taguchi T, Yamasaki I, Kamada M, Yuri K, Shuin T (<year>2002</year>) <article-title>Detection of genetic alterations in advanced prostate cancer by comparative genomic hybridization</article-title>. <source>Cancer Genet Cytogenet</source>
+<volume>137</volume>: <fpage>59</fpage>&#x2013;63<pub-id pub-id-type="pmid">12377415</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib18">
+        <mixed-citation publication-type="journal">Kawai T, Hiroi S, Nakanishi K, Sakurai Y, Torikata C (<year>2004</year>) <article-title>Abnormalities in chromosome 17 and p53 in lung carcinoma cells detected by fluorescence <italic>in situ</italic> hybridization</article-title>. <source>Pathol Int</source>
+<volume>54</volume>: <fpage>413</fpage>&#x2013;419<pub-id pub-id-type="pmid">15144400</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib19">
+        <mixed-citation publication-type="journal">Koksal IT, Dirice E, Yasar D, Sanlioglu AD, Ciftcioglu A, Gulkesen KH, Ozes NO, Baykara M, Luleci G, Sanlioglu S (<year>2004</year>) <article-title>The assessment of PTEN tumor suppressor gene in combination with Gleason scoring and serum PSA to evaluate progression of prostate carcinoma</article-title>. <source>Urol Oncol</source>
+<volume>22</volume>: <fpage>307</fpage>&#x2013;312<pub-id pub-id-type="pmid">15283888</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib20">
+        <mixed-citation publication-type="journal">Korshunov A, Sycheva R, Gorelyshev S, Golanov A (<year>2005</year>) <article-title>Clinical utility of fluorescence <italic>in situ</italic> hybridization (FISH) in nonbrainstem glioblastomas of childhood</article-title>. <source>Mod Pathol</source>
+<volume>18</volume>: <fpage>1258</fpage>&#x2013;1263<pub-id pub-id-type="pmid">15832192</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib21">
+        <mixed-citation publication-type="journal">Kwabi-Addo B, Giri D, Schmidt K, Podsypanina K, Parsons R, Greenberg N, Ittmann M (<year>2001</year>) <article-title>Haploinsufficiency of the Pten tumor suppressor gene promotes prostate cancer progression</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>98</volume>: <fpage>11563</fpage>&#x2013;11568<pub-id pub-id-type="pmid">11553783</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib22">
+        <mixed-citation publication-type="journal">Liu W, Chang B, Sauvageot J, Dimitrov L, Gielzak M, Li T, Yan G, Sun J, Sun J, Adams TS, Turner AR, Kim JW, Meyers DA, Zheng SL, Isaacs WB, Xu J (<year>2006</year>) <article-title>Comprehensive assessment of DNA copy number alterations in human prostate cancers using Affymetrix 100K SNP mapping array</article-title>. <source>Genes Chromosomes Cancer</source>
+<volume>45</volume>: <fpage>1018</fpage>&#x2013;1032<pub-id pub-id-type="pmid">16897747</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib23">
+        <mixed-citation publication-type="journal">Majumder PK, Febbo PG, Bikoff R, Berger R, Xue Q, McMahon LM, Manola J, Brugarolas J, McDonnell TJ, Golub TR, Loda M, Lane HA, Sellers WR (<year>2004</year>) <article-title>mTOR inhibition reverses Akt-dependent prostate intraepithelial neoplasia through regulation of apoptotic and HIF-1-dependent pathways</article-title>. <source>Nat Med</source>
+<volume>10</volume>: <fpage>594</fpage>&#x2013;601<pub-id pub-id-type="pmid">15156201</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib24">
+        <mixed-citation publication-type="journal">McMenamin ME, Soung P, Perera S, Kaplan I, Loda M, Sellers WR (<year>1999</year>) <article-title>Loss of PTEN expression in paraffin-embedded primary prostate cancer correlates with high Gleason score and advanced stage</article-title>. <source>Cancer Res</source>
+<volume>59</volume>: <fpage>4291</fpage>&#x2013;4296<pub-id pub-id-type="pmid">10485474</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib25">
+        <mixed-citation publication-type="journal">Merscher S, Marondel I, Pedeutour F, Gaudray P, Kucherlapati R, Turc-Carel C (<year>1997</year>) <article-title>Identification of new translocation breakpoints at 12q13 in lipomas</article-title>. <source>Genomics</source>
+<volume>46</volume>: <fpage>70</fpage>&#x2013;77<pub-id pub-id-type="pmid">9403060</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib26">
+        <mixed-citation publication-type="journal">Mezzelani A, Alasio L, Bartoli C, Bonora MG, Pierotti MA, Rilke F, Pilotti S (<year>1999</year>) <article-title>c-erbB2/neu gene and chromosome 17 analysis in breast cancer by FISH on archival cytological fine-needle aspirates</article-title>. <source>Br J Cancer</source>
+<volume>80</volume>: <fpage>519</fpage>&#x2013;525<pub-id pub-id-type="pmid">10408862</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib27">
+        <mixed-citation publication-type="journal">Miller GJ, Brawer MK, Sakr WA, Thrasher JB, Townsend R (<year>2001</year>) <article-title>Prostate cancer: serum and tissue markers</article-title>. <source>Rev Urol</source>
+<volume>3</volume>(Suppl 2): <fpage>S11</fpage>&#x2013;S19<pub-id pub-id-type="pmid">16985995</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib28">
+        <mixed-citation publication-type="journal">Ohigashi T, Mizuno R, Nakashima J, Marumo K, Murai M (<year>2005</year>) <article-title>Inhibition of Wnt signaling downregulates Akt activity and induces chemosensitivity in PTEN-mutated prostate cancer cells</article-title>. <source>Prostate</source>
+<volume>62</volume>: <fpage>61</fpage>&#x2013;68<pub-id pub-id-type="pmid">15389810</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib29">
+        <mixed-citation publication-type="journal">Perner S, Demichelis F, Beroukhim R, Schmidt FH, Mosquera JM, Setlur S, Tchinda J, Tomlins SA, Hofer MD, Pienta KG, Kuefer R, Vessella R, Sun XW, Meyerson M, Lee C, Sellers WR, Chinnaiyan AM, Rubin MA (<year>2006</year>) <article-title>TMPRSS2:ERG fusion-associated deletions provide insight into the heterogeneity of prostate cancer</article-title>. <source>Cancer Res</source>
+<volume>66</volume>: <fpage>8337</fpage>&#x2013;8341<pub-id pub-id-type="pmid">16951139</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib30">
+        <mixed-citation publication-type="journal">Qian J, Jenkins RB, Bostwick DG (<year>1998</year>) <article-title>Determination of gene and chromosome dosage in prostatic intraepithelial neoplasia and carcinoma</article-title>. <source>Anal Quant Cytol Histol</source>
+<volume>20</volume>: <fpage>373</fpage>&#x2013;380<pub-id pub-id-type="pmid">9801755</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib31">
+        <mixed-citation publication-type="journal">Ribeiro FR, Diep CB, Jeronimo C, Henrique R, Lopes C, Eknaes M, Lingjaerde OC, Lothe RA, Teixeira MR (<year>2006a</year>) <article-title>Statistical dissection of genetic pathways involved in prostate carcinogenesis</article-title>. <source>Genes Chromosomes Cancer</source>
+<volume>45</volume>: <fpage>154</fpage>&#x2013;163<pub-id pub-id-type="pmid">16235241</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib32">
+        <mixed-citation publication-type="journal">Ribeiro FR, Henrique R, Hektoen M, Berg M, Jeronimo C, Teixeira MR, Lothe RA (<year>2006b</year>) <article-title>Comparison of chromosomal and array-based comparative genomic hybridization for the detection of genomic imbalances in primary prostate carcinomas</article-title>. <source>Mol Cancer</source>
+<volume>5</volume>: <fpage>33</fpage><pub-id pub-id-type="pmid">16952311</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib33">
+        <mixed-citation publication-type="journal">Schmitz M, Grignard G, Margue C, Dippel W, Capesius C, Mossong J, Nathan M, Giacchi S, Scheiden R, Kieffer N (<year>2007</year>) <article-title>Complete loss of PTEN expression as a possible early prognostic marker for prostate cancer metastasis</article-title>. <source>Int J Cancer</source>
+<volume>120</volume>: <fpage>1284</fpage>&#x2013;1292<pub-id pub-id-type="pmid">17163422</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib34">
+        <mixed-citation publication-type="journal">Sirvent N, Forus A, Lescaut W, Burel F, Benzaken S, Chazal M, Bourgeon A, Vermeesch JR, Myklebost O, Turc-Carel C, Ayraud N, Coindre JM, Pedeutour F (<year>2000</year>) <article-title>Characterization of centromere alterations in liposarcomas</article-title>. <source>Genes Chromosomes Cancer</source>
+<volume>29</volume>: <fpage>117</fpage>&#x2013;129<pub-id pub-id-type="pmid">10959091</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib35">
+        <mixed-citation publication-type="journal">Soller MJ, Isaksson M, Elfving P, Soller W, Lundgren R, Panagopoulos I (<year>2006</year>) <article-title>Confirmation of the high frequency of the TMPRSS2/ERG fusion gene in prostate cancer</article-title>. <source>Genes Chromosomes Cancer</source>
+<volume>45</volume>: <fpage>717</fpage>&#x2013;719<pub-id pub-id-type="pmid">16575875</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib36">
+        <mixed-citation publication-type="journal">Tomlins SA, Mehra R, Rhodes DR, Smith LR, Roulston D, Helgeson BE, Cao X, Wei JT, Rubin MA, Shah RB, Chinnaiyan AM (<year>2006</year>) <article-title>TMPRSS2:ETV4 gene fusions define a third molecular subtype of prostate cancer</article-title>. <source>Cancer Res</source>
+<volume>66</volume>: <fpage>3396</fpage>&#x2013;3400<pub-id pub-id-type="pmid">16585160</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib37">
+        <mixed-citation publication-type="journal">Tomlins SA, Rhodes DR, Perner S, Dhanasekaran SM, Mehra R, Sun XW, Varambally S, Cao X, Tchinda J, Kuefer R, Lee C, Montie JE, Shah RB, Pienta KJ, Rubin MA, Chinnaiyan AM (<year>2005</year>) <article-title>Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer</article-title>. <source>Science</source>
+<volume>310</volume>: <fpage>644</fpage>&#x2013;648<pub-id pub-id-type="pmid">16254181</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib38">
+        <mixed-citation publication-type="journal">van Dekken H, Paris PL, Albertson DG, Alers JC, Andaya A, Kowbel D, van der Kwast TH, Pinkel D, Schroder FH, Vissers KJ, Wildhagen MF, Collins C (<year>2004</year>) <article-title>Evaluation of genetic patterns in different tumor areas of intermediate-grade prostatic adenocarcinomas by high-resolution genomic array analysis</article-title>. <source>Genes Chromosomes Cancer</source>
+<volume>39</volume>: <fpage>249</fpage>&#x2013;256<pub-id pub-id-type="pmid">14732926</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib39">
+        <mixed-citation publication-type="journal">Ventura RA, Martin-Subero JI, Jones M, McParland J, Gesk S, Mason DY, Siebert R (<year>2006</year>) <article-title>FISH analysis for the detection of lymphoma-associated chromosomal abnormalities in routine paraffin-embedded tissue</article-title>. <source>J Mol Diagn</source>
+<volume>8</volume>: <fpage>141</fpage>&#x2013;151<pub-id pub-id-type="pmid">16645199</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib40">
+        <mixed-citation publication-type="journal">Verhagen PC, van Duijn PW, Hermans KG, Looijenga LH, van Gurp RJ, Stoop H, van der Kwast TH, Trapman J (<year>2006</year>) <article-title>The PTEN gene in locally progressive prostate cancer is preferentially inactivated by bi-allelic gene deletion</article-title>. <source>J Pathol</source>
+<volume>208</volume>: <fpage>699</fpage>&#x2013;707<pub-id pub-id-type="pmid">16402365</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib41">
+        <mixed-citation publication-type="journal">Verhagen PC, Zhu XL, Rohr LR, Cannon-Albright LA, Tavtigian SV, Skolnick MH, Brothman AR (<year>2000</year>) <article-title>Microdissection, DOP-PCR, and comparative genomic hybridization of paraffin-embedded familial prostate cancers</article-title>. <source>Cancer Genet Cytogenet</source>
+<volume>122</volume>: <fpage>43</fpage>&#x2013;48<pub-id pub-id-type="pmid">11104032</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib42">
+        <mixed-citation publication-type="journal">Visakorpi T, Hyytinen E, Koivisto P, Tanner M, Keinanen R, Palmberg C, Palotie A, Tammela T, Isola J, Kallioniemi OP (<year>1995</year>) <article-title><italic>In vivo</italic> amplification of the androgen receptor gene and progression of human prostate cancer</article-title>. <source>Nat Genet</source>
+<volume>9</volume>: <fpage>401</fpage>&#x2013;406<pub-id pub-id-type="pmid">7795646</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib43">
+        <mixed-citation publication-type="journal">Wang J, Cai Y, Ren C, Ittmann M (<year>2006</year>) <article-title>Expression of VARIANT TMPRSS2/ERG fusion messenger rnas is associated with aggressive prostate cancer</article-title>. <source>Cancer Res</source>
+<volume>66</volume>: <fpage>8347</fpage>&#x2013;8351<pub-id pub-id-type="pmid">16951141</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib44">
+        <mixed-citation publication-type="journal">Whang YE, Wu X, Suzuki H, Reiter RE, Tran C, Vessella RL, Said JW, Isaacs WB, Sawyers CL (<year>1998</year>) <article-title>Inactivation of the tumor suppressor PTEN/MMAC1 in advanced human prostate cancer through loss of expression</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>95</volume>: <fpage>5246</fpage>&#x2013;5250<pub-id pub-id-type="pmid">9560261</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib45">
+        <mixed-citation publication-type="journal">Wolf M, Mousses S, Hautaniemi S, Karhu R, Huusko P, Allinen M, Elkahloun A, Monni O, Chen Y, Kallioniemi A, Kallioniemi OP (<year>2004</year>) <article-title>High-resolution analysis of gene copy number alterations in human prostate cancer using CGH on cDNA microarrays: impact of copy number on gene expression</article-title>. <source>Neoplasia</source>
+<volume>6</volume>: <fpage>240</fpage>&#x2013;247<pub-id pub-id-type="pmid">15153336</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib46">
+        <mixed-citation publication-type="journal">Yoshimoto M, Cutz JC, Nuin PA, Joshua AM, Bayani J, Evans AJ, Zielenska M, Squire JA (<year>2006a</year>) <article-title>Interphase FISH analysis of PTEN in histologic sections shows genomic deletions in 68% of primary prostate cancer and 23% of high-grade prostatic intra-epithelial neoplasias</article-title>. <source>Cancer Genet Cytogenet</source>
+<volume>169</volume>: <fpage>128</fpage>&#x2013;137<pub-id pub-id-type="pmid">16938570</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib47">
+        <mixed-citation publication-type="journal">Yoshimoto M, Joshua AM, Chilton-Macneill S, Bayani J, Selvarajah S, Evans AJ, Zielenska M, Squire JA (<year>2006b</year>) <article-title>Three-color FISH analysis of TMPRSS2/ERG fusions in prostate cancer indicates that genomic microdeletion of chromosome 21 is associated with rearrangement</article-title>. <source>Neoplasia</source>
+<volume>8</volume>: <fpage>465</fpage>&#x2013;469<pub-id pub-id-type="pmid">16820092</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib48">
+        <mixed-citation publication-type="journal">Zitzelsberger H, Engert D, Walch A, Kulka U, Aubele M, Hofler H, Bauchinger M, Werner M (<year>2001</year>) <article-title>Chromosomal changes during development and progression of prostate adenocarcinomas</article-title>. <source>Br J Cancer</source>
+<volume>84</volume>: <fpage>202</fpage>&#x2013;208<pub-id pub-id-type="pmid">11161378</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material" id="sup1">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="xob1">
+        <label>Supplementary Table</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="6603924x1.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>Figure 1</label>
+      <caption>
+        <p><italic>PTEN</italic> probe enumeration and representative dual-colour FISH images are shown for prostate cancer TMA. (<bold>A</bold>) Digital images of H&amp;E-stained tissue microarray from 107 prostate cancer samples show areas of prostatic adenocarcinoma at low magnification and at &#xD7; 20 magnification (rectangle) (ScanScope&#xAE; System, Aperio Technologies, Inc., Vista, CA, USA). (<bold>B</bold>&#x2013;<bold>D</bold>) A magnified H&amp;E area is displayed in a tissue core with accompanying FISH for the <italic>PTEN</italic> locus. The rectangles show the main FISH image high magnification. (<bold>B</bold>) The FISH image shows two signals of both red signals (10q23/<italic>PTEN</italic> locus) and green signals (CEP 10) in most of the nuclei indicating no deletion of <italic>PTEN</italic> in tumour cells. (<bold>C</bold>) The FISH image shows tumour cells with single red signal for 10q23/<italic>PTEN</italic> locus in most of the nuclei and paired green signals for CEP 10 indicating hemizygous deletion of 10q23/<italic>PTEN</italic> locus in prostate cancer. (<bold>D</bold>) Representative FISH image of homozygous deletion in prostate cancer shows absence of red signal for 10q23/<italic>PTEN</italic> locus in most of the nuclei and retained green signals for CEP 10.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="6603924f1"/>
+    </fig>
+    <fig id="fig2">
+      <label>Figure 2</label>
+      <caption>
+        <p>Kaplan&#x2013;Meier curves illustrating biochemical recurrence-free survival among 107 prostate cancer patients defined by the status of selected clinico-pathological parameters and <italic>PTEN</italic> copy number changes. (<bold>A</bold>) PSA recurrence-free survival curve stratified by the <italic>PTEN</italic> locus copy number changes on prostate cancer patients. (<bold>B</bold>) PSA recurrence-free survival analysis stratified by seminal vesicle invasion on prostate cancer patients. (<bold>C</bold>) PSA recurrence-free survival analysis stratified by surgical margins on prostate cancer patients.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="6603924f2"/>
+    </fig>
+    <table-wrap id="tbl1">
+      <label>Table 1</label>
+      <caption>
+        <title>Clinico-pathological parameters from 107 prostatic adenocarcinoma patients</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="center"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">&#xA0;</th>
+            <th align="left" valign="top" charoff="50">&#xA0;</th>
+            <th colspan="3" align="center" valign="top" charoff="50">
+<bold>
+<italic>PTEN</italic>
+</bold>
+<hr/></th>
+            <th align="center" valign="top" charoff="50">&#xA0;</th>
+          </tr>
+          <tr>
+            <th align="left" valign="top" charoff="50">
+<bold>Clinico-pathological parameters</bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Number of cases</bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Not deleted</bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Hemizygous</bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Homozygous</bold>
+</th>
+            <th align="center" valign="top" charoff="50">&#xA0;</th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">Age median (min&#x2013;max)</td>
+            <td colspan="5" align="center" valign="top" charoff="50">61.9 years (48&#x2013;69)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Preoperative PSA (ng&#x2009;ml<sup>&#x2212;1</sup>)<xref ref-type="fn" rid="t1-fn1">a</xref></td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.556</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;0.9&#x2013;4.0</td>
+            <td align="left" valign="top" charoff="50">7 (6.7%)</td>
+            <td align="left" valign="top" charoff="50">3 (42.9%)</td>
+            <td align="left" valign="top" charoff="50">4 (57.1%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;4.1&#x2013;10.0</td>
+            <td align="left" valign="top" charoff="50">55 (52.3%)</td>
+            <td align="left" valign="top" charoff="50">32 (58.2%)</td>
+            <td align="left" valign="top" charoff="50">22 (40%)</td>
+            <td align="left" valign="top" charoff="50">1 (1.8%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;10.1&#x2013;20.0</td>
+            <td align="left" valign="top" charoff="50">28 (26.7%)</td>
+            <td align="left" valign="top" charoff="50">19 (67.8%)</td>
+            <td align="left" valign="top" charoff="50">8 (28.6%)</td>
+            <td align="left" valign="top" charoff="50">1 (3.6%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;20.1&#x2013;84.0</td>
+            <td align="left" valign="top" charoff="50">15 (14.3%)</td>
+            <td align="left" valign="top" charoff="50">6 (40%)</td>
+            <td align="left" valign="top" charoff="50">8 (53.3%)</td>
+            <td align="left" valign="top" charoff="50">1 (6.7%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Median tumour volume (%)<xref ref-type="fn" rid="t1-fn1">a</xref></td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.158</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;0&#x2013;10.0</td>
+            <td align="left" valign="top" charoff="50">32 (34%)</td>
+            <td align="left" valign="top" charoff="50">19 (59.4)%</td>
+            <td align="left" valign="top" charoff="50">13 (40.6%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;10.1&#x2013;20.0</td>
+            <td align="left" valign="top" charoff="50">19 (20.2%)</td>
+            <td align="left" valign="top" charoff="50">12 (63.2%)</td>
+            <td align="left" valign="top" charoff="50">7 (36.8%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;20.1&#x2013;85.0</td>
+            <td align="left" valign="top" charoff="50">43 (45.8%)</td>
+            <td align="left" valign="top" charoff="50">21 (48.9%)</td>
+            <td align="left" valign="top" charoff="50">17 (39.5%)</td>
+            <td align="left" valign="top" charoff="50">5 (11.6%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Gleason score</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.142</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Gleason 4&#x2013;6</td>
+            <td align="left" valign="top" charoff="50">61 (57%)</td>
+            <td align="left" valign="top" charoff="50">39 (63.9%)</td>
+            <td align="left" valign="top" charoff="50">20 (32.8%)</td>
+            <td align="left" valign="top" charoff="50">2 (3.3%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Gleason 7</td>
+            <td align="left" valign="top" charoff="50">33 (30.8%)</td>
+            <td align="left" valign="top" charoff="50">16 (48.48%)</td>
+            <td align="left" valign="top" charoff="50">16 (48.48%)</td>
+            <td align="left" valign="top" charoff="50">1 (3.03%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Gleason 8&#x2013;9</td>
+            <td align="left" valign="top" charoff="50">13 (12.2%)</td>
+            <td align="left" valign="top" charoff="50">5 (38.46%)</td>
+            <td align="left" valign="top" charoff="50">6 (46.15%)</td>
+            <td align="left" valign="top" charoff="50">2 (15.38%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Pathologic stage</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.569</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;pT2a</td>
+            <td align="left" valign="top" charoff="50">6 (5.6%)</td>
+            <td align="left" valign="top" charoff="50">1 (16.7%)</td>
+            <td align="left" valign="top" charoff="50">5 (83.3%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;pT2b</td>
+            <td align="left" valign="top" charoff="50">49 (45.8%)</td>
+            <td align="left" valign="top" charoff="50">30 (61.2%)</td>
+            <td align="left" valign="top" charoff="50">16 (32.7%)</td>
+            <td align="left" valign="top" charoff="50">3 (6.1%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;pT3a</td>
+            <td align="left" valign="top" charoff="50">32 (29.9%)</td>
+            <td align="left" valign="top" charoff="50">18 (56.2%)</td>
+            <td align="left" valign="top" charoff="50">13 (40.6%)</td>
+            <td align="left" valign="top" charoff="50">1 (3.1%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;pT3b</td>
+            <td align="left" valign="top" charoff="50">13 (12.2%)</td>
+            <td align="left" valign="top" charoff="50">4 (57.1%)</td>
+            <td align="left" valign="top" charoff="50">3 (42.9%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;pT4</td>
+            <td align="left" valign="top" charoff="50">7 (6.5%)</td>
+            <td align="left" valign="top" charoff="50">4 (57.1%)</td>
+            <td align="left" valign="top" charoff="50">3 (42.9%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Seminal vesicle invasion</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.859</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">94 (87.9%)</td>
+            <td align="left" valign="top" charoff="50">53 (56.4%)</td>
+            <td align="left" valign="top" charoff="50">37 (39.4%)</td>
+            <td align="left" valign="top" charoff="50">4 (4.2%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">13 (12.1%)</td>
+            <td align="left" valign="top" charoff="50">7 (53.8%)</td>
+            <td align="left" valign="top" charoff="50">5 (38.5%)</td>
+            <td align="left" valign="top" charoff="50">1 (7.7%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Perineural infiltration</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.517</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">15 (14.0%)</td>
+            <td align="left" valign="top" charoff="50">10 (66.7%)</td>
+            <td align="left" valign="top" charoff="50">5 (33.3%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">92 (86%)</td>
+            <td align="left" valign="top" charoff="50">50 (54.4%)</td>
+            <td align="left" valign="top" charoff="50">37 (40.2%)</td>
+            <td align="left" valign="top" charoff="50">5 (4.4%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Angiolymphatic invasion<xref ref-type="fn" rid="t1-fn1">a</xref></td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.346</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">78 (77.2%)</td>
+            <td align="left" valign="top" charoff="50">46 (59%)</td>
+            <td align="left" valign="top" charoff="50">29 (37.2%)</td>
+            <td align="left" valign="top" charoff="50">3 (3.8%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">23 (22.8%)</td>
+            <td align="left" valign="top" charoff="50">10 (43.5%)</td>
+            <td align="left" valign="top" charoff="50">11 (47.8%)</td>
+            <td align="left" valign="top" charoff="50">2 (8.7%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Capsular invasion</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.729</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">46 (43%)</td>
+            <td align="left" valign="top" charoff="50">25 (54.4%)</td>
+            <td align="left" valign="top" charoff="50">18 (39.1%)</td>
+            <td align="left" valign="top" charoff="50">3 (6.5%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">61 (57%)</td>
+            <td align="left" valign="top" charoff="50">35 (57.4%)</td>
+            <td align="left" valign="top" charoff="50">24 (39.3%)</td>
+            <td align="left" valign="top" charoff="50">2 (3.3%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Extraprostatic extension<xref ref-type="fn" rid="t1-fn1">a</xref></td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.713</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">83 (81.4%)</td>
+            <td align="left" valign="top" charoff="50">50 (60.2%)</td>
+            <td align="left" valign="top" charoff="50">30 (36.2%)</td>
+            <td align="left" valign="top" charoff="50">3 (3.6%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">19 (18.6%)</td>
+            <td align="left" valign="top" charoff="50">9 (47.4%)</td>
+            <td align="left" valign="top" charoff="50">8 (42.1%)</td>
+            <td align="left" valign="top" charoff="50">2 (10.5%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Lymphonodal invasion<xref ref-type="fn" rid="t1-fn1">a</xref></td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.812</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">94 (95.9%)</td>
+            <td align="left" valign="top" charoff="50">54 (57.4%)</td>
+            <td align="left" valign="top" charoff="50">35 (37.2%)</td>
+            <td align="left" valign="top" charoff="50">5 (5.3%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">4 (4.1%)</td>
+            <td align="left" valign="top" charoff="50">2 (50%)</td>
+            <td align="left" valign="top" charoff="50">2 (50%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Biochemical recurrence</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50"><italic>P</italic>=0.005</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Negative</td>
+            <td align="left" valign="top" charoff="50">49 (46%)</td>
+            <td align="left" valign="top" charoff="50">35 (71.4%)</td>
+            <td align="left" valign="top" charoff="50">14 (28.6%)</td>
+            <td align="left" valign="top" charoff="50">0 (0%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;Positive</td>
+            <td align="left" valign="top" charoff="50">58 (54%)</td>
+            <td align="left" valign="top" charoff="50">25 (43.1%)</td>
+            <td align="left" valign="top" charoff="50">28 (48.3%)</td>
+            <td align="left" valign="top" charoff="50">5 (8.6%)</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t1-fn1">
+          <label>a</label>
+          <p>Values not available for all 107 cases.</p>
+        </fn>
+        <fn id="t1-fn2">
+          <p>Abbreviation: PSA, prostate-specific antigen.</p>
+        </fn>
+        <fn id="t1-fn3">
+          <p>Median overall survival was 80.65 months.</p>
+        </fn>
+        <fn id="t1-fn4">
+          <p><italic>P</italic>-value=<italic>&#x3C7;</italic><sup>2</sup> analysis.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tbl2">
+      <label>Table 2</label>
+      <caption>
+        <title>Univariate Cox proportional hazard analysis of biochemical failure risks (each variable predictor analysed separately)</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">&#xA0;</th>
+            <th align="center" valign="top" charoff="50">&#xA0;</th>
+            <th colspan="2" align="center" valign="top" charoff="50">
+<bold>BRFS</bold>
+<hr/></th>
+            <th align="center" valign="top" charoff="50">&#xA0;</th>
+            <th align="center" valign="top" charoff="50">&#xA0;</th>
+          </tr>
+          <tr>
+            <th align="left" valign="top" charoff="50">
+<bold>Variables</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>Category</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>(5 years)</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold><italic>P</italic>-value</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>HR</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>95% CI</bold>
+</th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">Perineural invasion</td>
+            <td align="center" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">86.67</td>
+            <td align="center" valign="top" charoff="50">0.0038</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">42.77</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">6.22</td>
+            <td align="center" valign="top" charoff="50">1.51&#x2013;25.60</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Extraprostatic</td>
+            <td align="center" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">56.71</td>
+            <td align="center" valign="top" charoff="50">0.0001</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">extension</td>
+            <td align="center" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">27.78</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">3.2</td>
+            <td align="center" valign="top" charoff="50">1.72&#x2013;5.94</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Seminal vesicle</td>
+            <td align="center" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">54.23</td>
+            <td align="center" valign="top" charoff="50">0.0001</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">invasion</td>
+            <td align="center" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">21.43</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">3.41</td>
+            <td align="center" valign="top" charoff="50">1.74&#x2013;6.69</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Gleason score</td>
+            <td align="center" valign="top" charoff="50">2&#x2013;6</td>
+            <td align="center" valign="top" charoff="50">65.57</td>
+            <td align="center" valign="top" charoff="50">&lt;0.0001</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">7</td>
+            <td align="center" valign="top" charoff="50">25.74</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">3.04</td>
+            <td align="center" valign="top" charoff="50">1.72&#x2013;5.37</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">8&#x2013;9</td>
+            <td align="center" valign="top" charoff="50">30.77</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">3.4</td>
+            <td align="center" valign="top" charoff="50">1.60&#x2013;7.22</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Preoperative PSA</td>
+            <td align="center" valign="top" charoff="50">0.9&#x2013;4.0</td>
+            <td align="center" valign="top" charoff="50">67.69</td>
+            <td align="center" valign="top" charoff="50">&lt;0.0001</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">4.1&#x2013;10</td>
+            <td align="center" valign="top" charoff="50">58.36</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">1.98</td>
+            <td align="center" valign="top" charoff="50">0.47&#x2013;8.41</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">10.1&#x2013;20</td>
+            <td align="center" valign="top" charoff="50">51.74</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">2.38</td>
+            <td align="center" valign="top" charoff="50">0.54&#x2013;10.42</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">20.1&#x2013;84</td>
+            <td align="center" valign="top" charoff="50">6.67</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">10.27</td>
+            <td align="center" valign="top" charoff="50">2.30&#x2013;45.87</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Lymphonodal</td>
+            <td align="center" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">49.37</td>
+            <td align="center" valign="top" charoff="50">0.0068</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">invasion</td>
+            <td align="center" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">25.00</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">4.43</td>
+            <td align="center" valign="top" charoff="50">1.36&#x2013;14.43</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50"><italic>PTEN</italic> deletion</td>
+            <td align="center" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">58.68</td>
+            <td align="center" valign="top" charoff="50">0.0003</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">Hemizygous</td>
+            <td align="center" valign="top" charoff="50">40.3</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">1.78</td>
+            <td align="center" valign="top" charoff="50">1.03&#x2013;3.05</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">Homozygous</td>
+            <td align="center" valign="top" charoff="50">0</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">6.15</td>
+            <td align="center" valign="top" charoff="50">2.26&#x2013;16.73</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t2-fn1">
+          <p>Abbreviations: BRFS, biochemical recurrence free survival; CI, confidence interval; HR. hazard ratio; PSA, prostate-specific antigen.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tbl3">
+      <label>Table 3</label>
+      <caption>
+        <title>Multivariate model to biochemical failure risks by Cox logistic regression analysis</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">
+<bold>Variables</bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Category</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>HR</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold><italic>P</italic>-value</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>95% CI</bold>
+</th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">Extracapsular extension</td>
+            <td align="left" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">0.004</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">2.81</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">1.38&#x2013;5.74</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Seminal vesicle invasion</td>
+            <td align="left" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">0.019</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">Positive</td>
+            <td align="center" valign="top" charoff="50">2.8</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">1.18&#x2013;6.65</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50"><italic>PTEN</italic> deletion</td>
+            <td align="left" valign="top" charoff="50">Negative</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="center" valign="top" charoff="50">&#xA0;</td>
+            <td align="center" valign="top" charoff="50">Reference</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">Hemizygous</td>
+            <td align="center" valign="top" charoff="50">1.96</td>
+            <td align="center" valign="top" charoff="50">0.022</td>
+            <td align="center" valign="top" charoff="50">1.10&#x2013;3.49</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td align="left" valign="top" charoff="50">Homozygous</td>
+            <td align="center" valign="top" charoff="50">11.26</td>
+            <td align="center" valign="top" charoff="50">0.002</td>
+            <td align="center" valign="top" charoff="50">2.44&#x2013;51.93</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t3-fn1">
+          <p>Abbreviations: CI, confidence interval; HR, hazard ratio.</p>
+        </fn>
+        <fn id="t3-fn2">
+          <p>Likelihood-ratio test <italic>P</italic>=0.0078.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tbl4">
+      <label>Table 4</label>
+      <caption>
+        <title>Analysis of <italic>PTEN</italic> gene copy number by FISH</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="center"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">
+<bold><italic>PTEN</italic> locus</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>Number of cases (%)</bold>
+</th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">Hemizygous deletion<xref ref-type="fn" rid="t4-fn2">a</xref></td>
+            <td align="center" valign="top" charoff="50">42 (39%)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Homozygous deletion<xref ref-type="fn" rid="t4-fn3">b</xref></td>
+            <td align="center" valign="top" charoff="50">5 (5%)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">Not deleted</td>
+            <td align="center" valign="top" charoff="50">60 (56%)</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t4-fn1">
+          <p>Abbreviation: FISH, fluorescence <italic>in situ</italic> hybridisation.</p>
+        </fn>
+        <fn id="t4-fn2">
+          <label>a</label>
+          <p>Hemizygous deletion of <italic>PTEN</italic> was defined as &gt;20% of tumour nuclei containing one <italic>PTEN</italic> locus signal (mean + 3 s.d. in non-neoplastic controls) (<xref ref-type="bibr" rid="bib20">Korshunov <italic>et al</italic>, 2005</xref>).</p>
+        </fn>
+        <fn id="t4-fn3">
+          <label>b</label>
+          <p>Homozygous deletions of <italic>PTEN</italic> was identified by the simultaneous lack of both of the <italic>PTEN</italic> locus signals and by the presence of CEP 10 signals in &gt;30% of cells (<xref ref-type="bibr" rid="bib20">Korshunov <italic>et al</italic>, 2005</xref>).</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tbl5">
+      <label>Table 5</label>
+      <caption>
+        <title>Mapping the adjacent genomic regions deleted when <italic>PTEN</italic> is lost using BAC DNA probes spanning the predicted deletion interval on chromosome 10q</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="left"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">
+<bold>TMA</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>Centromeric to <italic>PTEN</italic><xref ref-type="fn" rid="t5-fn7">a</xref></bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>5&#x2032; flanking <italic>PTEN</italic><xref ref-type="fn" rid="t5-fn8">b</xref></bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>
+<italic>PTEN</italic>
+<xref ref-type="fn" rid="t5-fn9">c</xref>
+</bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>Telomeric to <italic>PTEN</italic><xref ref-type="fn" rid="t5-fn10">d</xref></bold>
+</th>
+            <th align="center" valign="top" charoff="50">
+<bold>Telomeric to <italic>PTEN</italic><xref ref-type="fn" rid="t5-fn11">e</xref></bold>
+</th>
+            <th align="left" valign="top" charoff="50">
+<bold>Predicted deletion</bold>
+</th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">19</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">29</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Small</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">35</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Small</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">38</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">39</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">41</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">46</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">49</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">91</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Large</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">184</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">28</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="left" valign="top" charoff="50">Microdeletion<xref ref-type="fn" rid="t5-fn12">f</xref> large<xref ref-type="fn" rid="t5-fn13">g</xref></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">72</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="center" valign="top" charoff="50">+/+</td>
+            <td align="left" valign="top" charoff="50">Microdeletion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">88</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">&#x2212;/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="center" valign="top" charoff="50">+/&#x2212;</td>
+            <td align="left" valign="top" charoff="50">Microdeletion<xref ref-type="fn" rid="t5-fn12">f</xref> Large<xref ref-type="fn" rid="t5-fn13">g</xref></td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t5-fn1">
+          <p>Abbreviations: BAC, bacterial artificial chromosome; FISH, fluorescence <italic>in situ</italic> hybridisation.</p>
+        </fn>
+        <fn id="t5-fn2">
+          <p>The summarised FISH analysis described the findings from the largest clonal cell population.</p>
+        </fn>
+        <fn id="t5-fn3">
+          <p>+/+ no copy change; +/&#x2212; hemizygous deletion; &#x2212;/&#x2212; homozygous deletion.</p>
+        </fn>
+        <fn id="t5-fn4">
+          <p>Estimated microdeletion: &#x223C;200&#x2009;kb.</p>
+        </fn>
+        <fn id="t5-fn5">
+          <p>Estimated small deletion: &#x223C;7&#x2013;8&#x2009;Mb.</p>
+        </fn>
+        <fn id="t5-fn6">
+          <p>Estimated large deletion: &#x223C;19&#x2013;21&#x2009;Mb.</p>
+        </fn>
+        <fn id="t5-fn7">
+          <label>a</label>
+          <p>10q23.2 (88.2&#x2013;88.6&#x2009;Mb).</p>
+        </fn>
+        <fn id="t5-fn8">
+          <label>b</label>
+          <p>10q23.2 (89.4&#x2013;89.5&#x2009;Mb).</p>
+        </fn>
+        <fn id="t5-fn9">
+          <label>c</label>
+          <p><italic>PTEN</italic> locus (89.6&#x2013;89.7&#x2009;Mb).</p>
+        </fn>
+        <fn id="t5-fn10">
+          <label>d</label>
+          <p>10q23.33 (96.2&#x2013;96.6&#x2009;Mb).</p>
+        </fn>
+        <fn id="t5-fn11">
+          <label>e</label>
+          <p>10q25.1 (108.9&#x2013;109.3&#x2009;Mb).</p>
+        </fn>
+        <fn id="t5-fn12">
+          <label>f</label>
+          <p>First event.</p>
+        </fn>
+        <fn id="t5-fn13">
+          <label>g</label>
+          <p>Second event.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

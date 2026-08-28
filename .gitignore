@@ -1,0 +1,14 @@
+*.venv
+.pytest_cache
+__pycache__
+*.pyc
+.snakemake
+.vscode
+*.egg-info
+.transformers_cache
+.ipynb_checkpoints
+.mypy_cache
+.pytest_cache
+.requests_cache.*
+cProfile.*
+*/.venv

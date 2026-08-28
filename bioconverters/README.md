@@ -1,0 +1,1 @@
+The code in this repository uses a custom version of [bioconverters](https://github.com/jakelever/biotext) to enable keeping tables and other  complex notation. Pull requests to add these changes to the main repo are pending. In order to ensure reproducbility with this as a dependency we have included a copy of the modified package here.

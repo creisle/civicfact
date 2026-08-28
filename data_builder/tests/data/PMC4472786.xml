@@ -1,0 +1,1272 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">26086854</article-id>
+      <article-id pub-id-type="pmc">4472786</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0130142</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-15-16314</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Differential Activity of Nivolumab, Pembrolizumab and MPDL3280A according to the Tumor Expression of Programmed Death-Ligand-1 (PD-L1): Sensitivity Analysis of Trials in Melanoma, Lung and Genitourinary Cancers</article-title>
+        <alt-title alt-title-type="running-head">Activity of Nivolumab, Pembrolizumab and MPDL3280A</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carbognin</surname>
+            <given-names>Luisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pilotto</surname>
+            <given-names>Sara</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Milella</surname>
+            <given-names>Michele</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vaccaro</surname>
+            <given-names>Vanja</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brunelli</surname>
+            <given-names>Matteo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cali&#xF2;</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cuppone</surname>
+            <given-names>Federica</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sperduti</surname>
+            <given-names>Isabella</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Giannarelli</surname>
+            <given-names>Diana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chilosi</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bronte</surname>
+            <given-names>Vincenzo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scarpa</surname>
+            <given-names>Aldo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+          <xref ref-type="aff" rid="aff006">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Bria</surname>
+            <given-names>Emilio</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+          <xref rid="cor001" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Tortora</surname>
+            <given-names>Giampaolo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001">
+<label>1</label>
+<addr-line>Medical Oncology, University of Verona, Azienda Ospedaliera Universitaria Integrata, Verona, Italy</addr-line>
+</aff>
+      <aff id="aff002">
+<label>2</label>
+<addr-line>Medical Oncology, Regina Elena National Cancer Institute, Roma, Italy</addr-line>
+</aff>
+      <aff id="aff003">
+<label>3</label>
+<addr-line>Department of Pathology and Diagnostic, University of Verona, Azienda Ospedaliera Universitaria Integrata, Verona, Italy</addr-line>
+</aff>
+      <aff id="aff004">
+<label>4</label>
+<addr-line>Agenzia Italiana del Farmaco (AIFA), Roma, Italy</addr-line>
+</aff>
+      <aff id="aff005">
+<label>5</label>
+<addr-line>Biostatistics, Regina Elena National Cancer Institute, Roma, Italy</addr-line>
+</aff>
+      <aff id="aff006">
+<label>6</label>
+<addr-line>ARC-NET Center for Applied Research on Cancer, Verona, Italy</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Santini</surname>
+            <given-names>Daniele</given-names>
+          </name>
+          <role>Academic Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>University Campus Bio-Medico, ITALY</addr-line>
+</aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con" id="contrib001">
+          <p>Conceived and designed the experiments: LC SP EB. Performed the experiments: LC EB. Analyzed the data: LC SP MM VV MB AC FC IS DG MC VB AS EB GT. Contributed reagents/materials/analysis tools: LC SP MM VV MB AC FC IS DG MC VB AS EB GT. Wrote the paper: LC SP EB.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>emilio.bria@univr.it</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>6</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>6</issue>
+      <elocation-id>e0130142</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>4</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>5</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 Carbognin et al</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Carbognin et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0130142.pdf"/>
+      <abstract>
+        <sec id="sec001">
+          <title>Background</title>
+          <p>The potential predictive role of programmed death-ligand-1 (PD-L1) expression on tumor cells in the context of solid tumor treated with checkpoint inhibitors targeting the PD-1 pathway represents an issue for clinical research.</p>
+        </sec>
+        <sec id="sec002">
+          <title>Methods</title>
+          <p>Overall response rate (ORR) was extracted from phase I-III trials investigating nivolumab, pembrolizumab and MPDL3280A for advanced melanoma, non-small cell lung cancer (NSCLC) and genitourinary cancer, and cumulated by adopting a fixed and random-effect model with 95% confidence interval (CI). Interaction test according to tumor PD-L1 was accomplished. A sensitivity analysis according to adopted drug, tumor type, PD-L1 cut-off and treatment line was performed.</p>
+        </sec>
+        <sec id="sec003">
+          <title>Results</title>
+          <p>Twenty trials (1,475 patients) were identified. A significant interaction (<italic>p&lt;0</italic>.<italic>0001</italic>) according to tumor PD-L1 expression was found in the overall sample with an ORR of 34.1% (95% CI 27.6-41.3%) in the PD-L1 positive and 19.9% (95% CI 15.4-25.3%) in the PD-L1 negative population. ORR was significantly higher in PD-L1 positive in comparison to PD-L1 negative patients for nivolumab and pembrolizumab, with an absolute difference of 16.4% and 19.5%, respectively. A significant difference in activity of 22.8% and 8.7% according to PD-L1 was found for melanoma and NSCLC, respectively, with no significant difference for genitourinary cancer.</p>
+        </sec>
+        <sec id="sec004">
+          <title>Conclusion</title>
+          <p>Overall, the three antibodies provide a significant differential effect in terms of activity according to PD-L1 expression on tumor cells. The predictive value of PD-L1 on tumor cells seems to be more robust for anti-PD-1 antibody (nivolumab and pembrolizumab), and in the context of advanced melanoma and NSCLC.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by a grant of the Italian Association for Cancer Research (AIRC-MFAG 14282, and AIRC-5X1000 12182 and 12214) without any implication in study design, data collection, data analysis, data interpretation or writing of the paper.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="1"/>
+        <page-count count="16"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the paper.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>All relevant data are within the paper.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec005">
+      <title>Introduction</title>
+      <p>The concept that the immune system plays a critical role in controlling and eradicating cancer and that immune response, driven by T-lymphocytes, is closely regulated thorough a complicated and delicate balance between inhibitory checkpoints and activating signals is well established [<xref rid="pone.0130142.ref001" ref-type="bibr">1</xref>&#x2013;<xref rid="pone.0130142.ref004" ref-type="bibr">4</xref>]. Cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed death-1 (PD-1) are the two main immune checkpoint receptors that, when binding their ligand B7 and programmed death-ligand-1 (PD-L1) respectively, determine the downregulation of the T-cell effector functions, thus contributing to the maintenance of the tolerance to tumor cells. The blockade of these pathways by the anti-CTLA4, anti-PD-1 and anti-PD-L1 antibodies may prevent this downregulation and allows T-cells to maintain their antitumor property and ability to mediate the tumor cell death [<xref rid="pone.0130142.ref005" ref-type="bibr">5</xref>&#x2013;<xref rid="pone.0130142.ref007" ref-type="bibr">7</xref>].</p>
+      <p>With regard to the PD-1 immune-checkpoint pathway, a series of specific inhibitors are currently under investigation and in clinical development such as nivolumab, a fully human IgG4 PD-1 immune checkpoint inhibitor antibody, pembrolizumab (formerly known as MK-3475 or lambrolizumab), a high affinity humanized IgG4 monoclonal antibody targeting PD-1, and MPDL3280A, an engineered IgG anti-PD-L1 antibody [<xref rid="pone.0130142.ref008" ref-type="bibr">8</xref>].</p>
+      <p>The most promising and revolutionizing data in terms of activity of these immune checkpoint inhibitors derive from advanced melanoma, where pembrolizumab and nivolumab have been recently approved by the U.S. Food and Drug Administration (FDA) for patients with unresectable or advanced melanoma progressing after ipilimumab and a BRAF inhibitor, if BRAF V600 mutation positive [<xref rid="pone.0130142.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>]. In addition, FDA recently released the fast approval of nivolumab for advanced squamous non-small cell lung cancer (NSCLC) previously treated with platinum-based chemotherapy [<xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>]. Furthermore, encouraging results were also obtained in the context of renal cell (RCC) and bladder carcinoma, and other solid and hematologic disease [<xref rid="pone.0130142.ref012" ref-type="bibr">12</xref>&#x2013;<xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>].</p>
+      <p>Overall, the immune checkpoint inhibitors targeting PD-1 and its ligand PD-L1 have shown unprecedented rates of durable clinical responses, with an activity range from 10% to 45% in the context of unselected populations affected by advanced solid tumors [<xref rid="pone.0130142.ref007" ref-type="bibr">7</xref>, <xref rid="pone.0130142.ref016" ref-type="bibr">16</xref>&#x2013;<xref rid="pone.0130142.ref019" ref-type="bibr">19</xref>].</p>
+      <p>In order to identify the proportion of patients most likely to benefit from the immunotherapy and thus to optimize their therapeutic index, the investigation of potential predictive biomarkers represents a relevant aspect of the more recent clinical research.</p>
+      <p>In this regard, the investigation of the PD-L1 assay (which can be constitutively or inducible expressed on either the surface of tumor cells or upon cancer-infiltrating T-cells) with different methods as a potential biomarker, represents one of the most challenging strategy [<xref rid="pone.0130142.ref020" ref-type="bibr">20</xref>]. PD-L1 is expressed in several types of malignancies and it seems to be associated with worse prognosis in RCC and NSCLC, while with good prognosis in melanoma [<xref rid="pone.0130142.ref021" ref-type="bibr">21</xref>&#x2013;<xref rid="pone.0130142.ref023" ref-type="bibr">23</xref>].</p>
+      <p>With respect to the predictive value of the tumor PD-L1 expression, explored in the majority of cases by immunohistochemistry (IHC), it emerged as a potential predictor of response to immune checkpoint inhibitors in a series of clinical trials: one of the first phase I study which enrolled patients with advanced melanoma, NSCLC, castration resistant prostate cancer, RCC and colorectal cancer to receive nivolumab, demonstrated an objective response rate (36%) exclusively in patients with PD-L1 positive tumors [<xref rid="pone.0130142.ref007" ref-type="bibr">7</xref>].</p>
+      <p>Nevertheless, this finding did not constantly emerge in all studies, thus allowing to speculate about the reliance and reproducibility of the different methods adopted for the detection and the quantification of the biomarker. Indeed, clinical activity was demonstrated in patients with PD-L1 negative tumors [<xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>]. On the basis of these controversial results, the potential predictive role of PD-L1 expression on tumor cells still represents an issue for clinical research.</p>
+      <p>In order to explore the potential differential activity of nivolumab, pembrolizumab (targeting PD-1) and MPDL3280A (targeting PD-L1) according to the PD-L1 expression on cancer cells in melanoma, NSCLC and genitourinary cancers we conducted a sensitivity analysis of phase I, phase II and phase III trials.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec006">
+      <title>Methods</title>
+      <p>The analysis was conducted according to 4 pre-specified steps: 1) definition of the outcomes; 2) definition of the trial selection criteria; 3) definition of the search strategy; and 4) detailed description of the statistical methods used [<xref rid="pone.0130142.ref025" ref-type="bibr">25</xref>, <xref rid="pone.0130142.ref026" ref-type="bibr">26</xref>].</p>
+      <sec id="sec007">
+        <title>Outcome definition</title>
+        <p>The analysis was conducted to determine the differential activity of nivolumab, pembrolizumab and MPDL3280A in terms of overall response rate (ORR), according to tumor PD-L1 expression for the treatment of advanced melanoma, NSCLC and genitourinary cancers. In presence of significant differential activity, a sensitivity analysis was subsequently performed in the overall sample and according to the following factors: 1) the adopted drug (nivolumab, pembrolizumab and MPDL3280A); 2) the tumor type (melanoma, NSCLC, genitourinary); 3) the PD-L1 expression cut-off (1% and 5%); 4) the treatment line (first line treatment [1&#xB0;], second and subsequent lines [&#x2265;2&#xB0;], and mixed lines therapy).</p>
+      </sec>
+      <sec id="sec008">
+        <title>Trial Identification Criteria</title>
+        <p>All phase I, phase II and phase III clinical trials published in peer-reviewed journals or presented at the American Society of Clinical Oncology (ASCO), the European Society for Medical Oncology (ESMO), the World Conference of Lung Cancer (WCLC), and the Chicago Multidisciplinary Symposium in Thoracic Oncology (CMSTO) meetings up to February 15<sup>th</sup>, 2015 in which patients affected by advanced melanoma, NSCLC and genitourinary cancers (RCC and bladder carcinoma) were assigned to receive anti-PD-1/PD-L1 antibody therapy including nivolumab, pembrolizumab and MPDL3280A as single agent or in combination with other immunotherapies such as vaccines or checkpoint antibodies were considered. As inclusion criteria, eligible arms for the current analysis had to report the ORR, assessed by the Response Evaluation Criteria in Solid Tumors (RECIST), according to PD-L1 expression at IHC evaluated in cancer cells with the cut-off more frequently represented in the selected trials (1% and 5%). Other antibodies targeting the PD-1/PD-L1 axis in less advanced stage of clinical development, such as those including pidilizumab, MDX-1105, MEDI4736, MSB0010718C, AMP-224 were excluded. Studies employing nivolumab, pembrolizumab or MDPL3280A in combination with target therapies or chemotherapic agents and trials with PD-L1 expression evaluated in tumor infiltrating immune cells, or different assay from IHC, were excluded as well.</p>
+      </sec>
+      <sec id="sec009">
+        <title>Search Strategy</title>
+        <p>Deadline for trial publication and/or presentation was February 15<sup>th</sup>, 2015. Updates of trials were gathered through Medline (Pubmed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/PubMed">www.ncbi.nlm.nih.gov/PubMed</ext-link>), ASCO (<ext-link ext-link-type="uri" xlink:href="http://www.asco.org">www.asco.org</ext-link>), ESMO (<ext-link ext-link-type="uri" xlink:href="http://www.esmo.org">www.esmo.org</ext-link>), WCLC (<ext-link ext-link-type="uri" xlink:href="http://www.iaslc.org">www.iaslc.org</ext-link>), and CMSTO (<ext-link ext-link-type="uri" xlink:href="http://www.thoracicsymposium.org">www.thoracicsymposium.org</ext-link>) searches. Keywords used for searching were: PD-L1, PD-1, nivolumab, pembrolizumab, MPDL3280A, melanoma, NSCLC, bladder carcinoma, RCC, phase I, phase II, phase III. In addition to computer browsing, review and original papers were also scanned in the references section to look for missing trials. Furthermore, lectures at major meetings having immune checkpoint blockade for advanced solid tumor&#x2019; as the topic were checked.</p>
+      </sec>
+      <sec id="sec010">
+        <title>Data Extraction</title>
+        <p>Data for selected outcomes were extracted: the last available update of each trial was considered as the original sources. Data for each explored outcome were extracted from trials according to the following criteria: 1) adopted drug; 2) tumor type; 3) PD-L1 expression cut-off; 4) treatment line. All data were reviewed by 3 investigators (L.C., S.P., E.B.) and separately computed by 4 investigators (L.C., I.S., D.G. and E.B.) [<xref rid="pone.0130142.ref026" ref-type="bibr">26</xref>].</p>
+      </sec>
+      <sec id="sec011">
+        <title>Data Synthesis</title>
+        <p>Overall response rate according to RECIST were extracted from papers and/or presentations and 95% confidence intervals (CIs) were derived [<xref rid="pone.0130142.ref027" ref-type="bibr">27</xref>&#x2013;<xref rid="pone.0130142.ref029" ref-type="bibr">29</xref>]. Data were cumulated by adopting a fixed and random-effect model according to the Der Simonian and Laird method [<xref rid="pone.0130142.ref027" ref-type="bibr">27</xref>].</p>
+        <p>The analysis to test for interaction (Cochrane-Q) according to the PD-L1 categorical expression (positive versus negative, as defined by trialists) was accomplished. The sensitivity analysis was conducted in the context of: 1) the adopted drug (nivolumab, pembrolizumab and MPDL3280A); 2) the tumor type (melanoma, NSCLC and genitourinary); 3) the PD-L1 expression cut-off (1% and 5%); 4) the treatment line (1&#xB0;, &#x2265;2&#xB0; and mixed) [<xref rid="pone.0130142.ref030" ref-type="bibr">30</xref>, <xref rid="pone.0130142.ref031" ref-type="bibr">31</xref>]. In presence of significant results, the chi-square test was adopted to determine differences between rates.</p>
+        <p>Calculations were accomplished using the licensed Comprehensive Meta-analysis (version 2.0, CMA, biostat, Englewood, NJ, USA), and MedCalc (version 14.12.0, MedCalc Software bvba, Ostend, Belgium) software.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="sec012">
+      <title>Results</title>
+      <sec id="sec013">
+        <title>Selected trials</title>
+        <p>Twenty trials (2,382 patients) were identified [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>&#x2013;<xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>]. Data from 38 arms (1,475 patients) of the original 20 trials were considered for the analysis (<xref rid="pone.0130142.g001" ref-type="fig">Fig 1</xref>). Of these, 12 trials (921 patients) [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>, <xref rid="pone.0130142.ref035" ref-type="bibr">35</xref>, <xref rid="pone.0130142.ref038" ref-type="bibr">38</xref>&#x2013;<xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0130142.ref043" ref-type="bibr">43</xref>&#x2013;<xref rid="pone.0130142.ref045" ref-type="bibr">45</xref>] incorporated a nivolumab-based, 4 trials (382 patients) [<xref rid="pone.0130142.ref036" ref-type="bibr">36</xref>, <xref rid="pone.0130142.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0130142.ref041" ref-type="bibr">41</xref>, <xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>] a pembrolizumab-based and 4 trials (172 patients) [<xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0130142.ref033" ref-type="bibr">33</xref>, <xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0130142.ref042" ref-type="bibr">42</xref>] a MPDL3280A-based treatment. Trials characteristics and selected arms for the analysis are listed in <xref rid="pone.0130142.t001" ref-type="table">Table 1</xref>.</p>
+        <fig id="pone.0130142.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title>Outline of the search&#x2014;Flow chart of the studies included in the analysis.</title>
+            <p>Pts: patients; n: number; PD-L1: programmed death-ligand-1; IHC: immunohistochemistry; ORR: overall response rate; NSCLC: non-small cell lung cancer.</p>
+          </caption>
+          <graphic xlink:href="pone.0130142.g001"/>
+        </fig>
+        <table-wrap id="pone.0130142.t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Trials&#x2019; Characteristics (selected arms for the analysis).</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0130142.t001g" xlink:href="pone.0130142.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">Author</th>
+                  <th align="left" rowspan="1" colspan="1">Phase</th>
+                  <th align="left" rowspan="1" colspan="1">Disease Type</th>
+                  <th align="left" rowspan="1" colspan="1">Drug</th>
+                  <th align="left" rowspan="1" colspan="1">Treatment Line</th>
+                  <th align="left" rowspan="1" colspan="1">PD-L1Cut-Off (%)</th>
+                  <th align="left" rowspan="1" colspan="1">PD-L1 Subgroup</th>
+                  <th align="left" rowspan="1" colspan="1">Sample size</th>
+                  <th align="left" rowspan="1" colspan="1">ORR(%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Weber et al, JCO 2013 [<xref rid="pone.0130142.ref039" ref-type="bibr">39</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>67.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>19.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Hamid et al, ASCO 2013 [<xref rid="pone.0130142.ref033" ref-type="bibr">33</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">MPDL3280A</td>
+                  <td rowspan="2" align="left" colspan="1">Mixed</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">15</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>27.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">15</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>20.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Hodi et al, ASCO 2014 [<xref rid="pone.0130142.ref035" ref-type="bibr">35</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">18</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>44.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">23</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>13.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Sznol et al, ASCO 2014 [<xref rid="pone.0130142.ref038" ref-type="bibr">38</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>35.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">57</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>59.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Robert et al, NEJM 2015 [<xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">III</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">1&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">74</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>52.7</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">136</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>33.1</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Weber et al, LO 2015 [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">III</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">55</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>43.6</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">64</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>20.3</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Kefford et al, ASCO 2014 [<xref rid="pone.0130142.ref036" ref-type="bibr">36</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">Melanoma</td>
+                  <td rowspan="2" align="left" colspan="1">Pembrolizumab</td>
+                  <td rowspan="2" align="left" colspan="1">Mixed</td>
+                  <td rowspan="2" align="left" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">83</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>49.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">30</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>13.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Rizvi et al, CMSTO 2014 [<xref rid="pone.0130142.ref043" ref-type="bibr">43</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">1&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">26</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>31.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">21</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>10.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Antonia et al, CMSTO 2014 [<xref rid="pone.0130142.ref044" ref-type="bibr">44</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">1&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">16</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>19.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>14.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Herbst et al, Nature 2014 [<xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">MPDL3280A</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>27.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">37</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>24.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Gettinger et al, JCO 2015 [<xref rid="pone.0130142.ref045" ref-type="bibr">45</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">33</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>15.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">35</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>14.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Rizvi et al, LO 2015 [<xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">II</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">25</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>24.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">51</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>14.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Garon et al, NEJM 2015 [<xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">NSCLC</td>
+                  <td rowspan="2" align="left" colspan="1">Pembrolizumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">159</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>23.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">35</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>9.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold><italic>Rizvi et al, ASCO 2014 [<xref rid="pone.0130142.ref037" ref-type="bibr">37</xref>]</italic></bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">I</td>
+                  <td align="left" rowspan="1" colspan="1">NSCLC</td>
+                  <td align="left" rowspan="1" colspan="1">Pembrolizumab</td>
+                  <td align="left" rowspan="1" colspan="1">1&#xB0;</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">42</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>26.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Cho et al, ASCO 2013 [<xref rid="pone.0130142.ref042" ref-type="bibr">42</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">GU</td>
+                  <td rowspan="2" align="left" colspan="1">MPDL3280A</td>
+                  <td rowspan="2" align="left" colspan="1">Mixed</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">10</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>20.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">21</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>10.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Powles et al, Nature 2014 [<xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">GU</td>
+                  <td rowspan="2" align="left" colspan="1">MPDL3280A</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>29.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">58</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>26.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Motzer et al, JCO 2014 [<xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">II</td>
+                  <td rowspan="2" align="left" colspan="1">GU</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">&#x2265;2&#xB0;</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">29</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>31.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">78</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>18.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Choueiri et al, ESMO 2014 [<xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">GU</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">Mixed</td>
+                  <td rowspan="2" align="left" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">18</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>22.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">38</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>8.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">
+<bold><italic>Hammers et al, ESMO 2014 [<xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>]</italic></bold>
+</td>
+                  <td rowspan="2" align="left" colspan="1">I</td>
+                  <td rowspan="2" align="left" colspan="1">GU</td>
+                  <td rowspan="2" align="left" colspan="1">Nivolumab</td>
+                  <td rowspan="2" align="left" colspan="1">Mixed</td>
+                  <td rowspan="2" align="left" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">16</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>50.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Negative</td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>55.0</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold><italic>Plimack et al, ESMO 2014 [<xref rid="pone.0130142.ref041" ref-type="bibr">41</xref>]</italic></bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">I</td>
+                  <td align="left" rowspan="1" colspan="1">GU</td>
+                  <td align="left" rowspan="1" colspan="1">Pembrolizumab</td>
+                  <td align="left" rowspan="1" colspan="1">Mixed</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">Positive</td>
+                  <td align="left" rowspan="1" colspan="1">33</td>
+                  <td align="char" char="." rowspan="1" colspan="1">
+<bold>24.1</bold>
+</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t001fn001">
+              <p>PD-L1: programmed death-ligand-1; ORR: overall response rate; NSCLC: non-small cell lung cancer.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>With regard to tumor type, 7 studies (636 patients) [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0130142.ref033" ref-type="bibr">33</xref>, <xref rid="pone.0130142.ref035" ref-type="bibr">35</xref>, <xref rid="pone.0130142.ref036" ref-type="bibr">36</xref>, <xref rid="pone.0130142.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0130142.ref039" ref-type="bibr">39</xref>] included melanoma, 7 studies (511 patients) [<xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0130142.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0130142.ref043" ref-type="bibr">43</xref>&#x2013;<xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>] included NSCLC, and 6 studies (328) [<xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>, <xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>&#x2013;<xref rid="pone.0130142.ref042" ref-type="bibr">42</xref>] included genitourinary cancer. Considering the PD-L1 cut-off expression, 5 trials (418 patients) [<xref rid="pone.0130142.ref036" ref-type="bibr">36</xref>, <xref rid="pone.0130142.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0130142.ref041" ref-type="bibr">41</xref>, <xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>] reported cut-off of 1% and 15 trials (1057 patients) [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>&#x2013;<xref rid="pone.0130142.ref035" ref-type="bibr">35</xref>, <xref rid="pone.0130142.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0130142.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0130142.ref042" ref-type="bibr">42</xref>&#x2013;<xref rid="pone.0130142.ref045" ref-type="bibr">45</xref>] reported cut-off of 5%. With respect to treatment line, 4 trials (337 patients) [<xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0130142.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0130142.ref043" ref-type="bibr">43</xref>, <xref rid="pone.0130142.ref044" ref-type="bibr">44</xref>] explored first line setting, 10 trials (839 patients) [<xref rid="pone.0130142.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0130142.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0130142.ref035" ref-type="bibr">35</xref>, <xref rid="pone.0130142.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0130142.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0130142.ref045" ref-type="bibr">45</xref>, <xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>] explored second and subsequent lines setting, and 6 trials (299 patients) [<xref rid="pone.0130142.ref032" ref-type="bibr">32</xref>, <xref rid="pone.0130142.ref033" ref-type="bibr">33</xref>, <xref rid="pone.0130142.ref036" ref-type="bibr">36</xref>, <xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>&#x2013;<xref rid="pone.0130142.ref042" ref-type="bibr">42</xref>] mixed line setting.</p>
+      </sec>
+      <sec id="sec014">
+        <title>Interaction Analysis</title>
+        <p>A significant interaction (<italic>p&lt;0</italic>.<italic>0001</italic>) according to tumor PD-L1 expression was found in the overall sample with an ORR of 34.1% (95% CI 27.6&#x2013;41.3%) in the PD-L1 positive population and 19.9% (95% CI 15.4&#x2013;25.3%) in the PD-L1 negative population (<xref rid="pone.0130142.g002" ref-type="fig">Fig 2</xref>).</p>
+        <fig id="pone.0130142.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>Results of the event rate analysis.</title>
+            <p>ORR: overall response rate; CI: confidence interval; PD-L1: programmed death-ligand-1.</p>
+          </caption>
+          <graphic xlink:href="pone.0130142.g002"/>
+        </fig>
+      </sec>
+      <sec id="sec015">
+        <title>Sensitivity Analysis</title>
+        <p>With regard to the adopted drug, ORR was significantly higher in patients with PD-L1 positive tumor in comparison to PD-L1 negative tumor for nivolumab and pembrolizumab, with an absolute difference of 16.4% (95% CI 10.0&#x2013;22.7) and 19.5% (95% CI 8.1&#x2013;27.8) respectively (<xref rid="pone.0130142.g003" ref-type="fig">Fig 3</xref>). Results with regard to MPDL3280A are not reported given the small number of treated patients; nevertheless, no significant difference according to PD-L1 expression was found for this drug (<italic>p = 0</italic>.<italic>809</italic>, data not shown).</p>
+        <fig id="pone.0130142.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title>Results of the sensitivity analysis&#x2014;Overall response rate, with 95% confidence interval in square brackets, according to adopted drug.</title>
+            <p>Chi<sup>2</sup>: Chi-square test; PD-L1: programmed death-ligand-1.</p>
+          </caption>
+          <graphic xlink:href="pone.0130142.g003"/>
+        </fig>
+        <p>For what concerns the tumor type, patients with PD-L1 positive tumor significantly achieved more responses than PD-L1 negative, with an absolute difference of 22.8% for melanoma (95% CI 12.5&#x2013;30.3) and 8.7% for NSCLC (95% CI 1.1&#x2013;15.5) as shown in <xref rid="pone.0130142.g004" ref-type="fig">Fig 4</xref>. With respect to genitourinary cancer, the difference was not significant (<italic>p = 0</italic>.<italic>809</italic>).</p>
+        <fig id="pone.0130142.g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.g004</object-id>
+          <label>Fig 4</label>
+          <caption>
+            <title>Results of the sensitivity analysis&#x2014;Overall response rate, with 95% confidence interval in square brackets, according to tumor type.</title>
+            <p>Chi<sup>2</sup>: Chi-square test; PD-L1: programmed death-ligand-1; NSCLC: non-small cell lung cancer.</p>
+          </caption>
+          <graphic xlink:href="pone.0130142.g004"/>
+        </fig>
+        <p>Considering the PD-L1 expression cut-off, the difference in ORR between PD-L1 positive and negative patients was significantly higher in studies adopting the cut-off of 5%, with an absolute difference of 15.5% (95% CI 9.5&#x2013;21.4). No significant difference is seen for trials where the cut-off was 1% (<italic>p = 0</italic>.<italic>108</italic>) (<xref rid="pone.0130142.g005" ref-type="fig">Fig 5</xref>, Panel A).</p>
+        <fig id="pone.0130142.g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0130142.g005</object-id>
+          <label>Fig 5</label>
+          <caption>
+            <title>Results of the sensitivity analysis.</title>
+            <p>
+<italic>Panel [A]</italic>: overall response rate, with 95% confidence interval in square brackets, according to PD-L1 expression cut-off; <italic>Panel [B]</italic>: overall response rate with 95% confidence interval in square brackets, according to treatment line. Chi<sup>2</sup>: Chi-square test; PD-L1: programmed death-ligand-1.</p>
+          </caption>
+          <graphic xlink:href="pone.0130142.g005"/>
+        </fig>
+        <p>In the context of first line treatment, a trends towards significance for patients with PD-L1 positive tumor was found (<italic>p = 0</italic>.<italic>0512</italic>); conversely, the difference was statistically significant in the context of second or subsequent and mixed lines with an absolute difference of 10.7% (95% CI 4.6&#x2013;16.8) and 19.5% (95% CI 8.7&#x2013;29.4), respectively (<xref rid="pone.0130142.g005" ref-type="fig">Fig 5</xref>, Panel B).</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec016">
+      <title>Discussion</title>
+      <p>According to the results reported herein, the checkpoint inhibitors targeting PD-1 (nivolumab and pembrolizumab) and its ligand PD-L1 (MPDL3280A) provide a significant differential effect in terms of activity according to PD-L1 expression on tumor cells status, which translates into a higher ORR for PD-L1 positive advanced tumors in comparison to PD-L1 negative tumors, with an overall absolute difference of 14.2% (<xref rid="pone.0130142.g002" ref-type="fig">Fig 2</xref>).</p>
+      <p>The secondary objective of the analysis was to evaluate if the differential effect remained robust even in the context of the different adopted drugs, tumor types, PD-L1 cut-off expressions and treatment lines.</p>
+      <p>With regard to the sensitivity analysis according to the adopted drug, PD-L1 status seems to predict the chance of response for nivolumab and pembrolizumab (<xref rid="pone.0130142.g003" ref-type="fig">Fig 3</xref>), while data referring to the activity of MPDL3280A indicating no differences according to PD-L1 should be considered too early. If that depends from the different mechanism of action and the different targets of the 3 antibodies (nivolumab and pembrolizumab against PD-1, MPDL3280A against PD-L1) represents a matter of research. In this regard, our data provide a similar difference in terms of ORR difference between PD-L1 positive and PD-L1 negative tumor for nivolumab and pembrolizumab (16&#x2013;19%, <xref rid="pone.0130142.g003" ref-type="fig">Fig 3</xref>). Nevertheless, a formal comparison between drugs should not be performed given the strong difference in terms of population size: indeed, the overall number of patients treated with nivolumab, pembrolizumab and MPDL3280A was 921, 382, and 172, respectively, with only 41 patients PD-L1 positive receiving MPDL3280A.</p>
+      <p>Whit respect to disease setting, our analysis shows that a significant higher ORR in PD-L1 positive tumor than PD-L1 negative tumor is documented for melanoma and NSCLC while a significant effect is not documented in the context of genitourinary cancer, despite an absolute difference of 8.1%. Across the tumor types, although we cannot perform a comparison between the different disease settings, the most overall &#x2018;immuno-sensitive&#x2019; disease seems to be melanoma (as expected) where, even in the worst case (PD-L1 negative tumors) an activity of 26.2% is documented (<xref rid="pone.0130142.g004" ref-type="fig">Fig 4</xref>).</p>
+      <p>The PD-L1 IHC positivity on tumor cells was defined by a 1% or 5% threshold in most of the selected studies. In these studies, besides the various cut-off, various methodologies were adopted in the context of IHC such as different anti-PD-L1 antibodies, staining techniques (manual or automated assay), the definitions of &#x2018;positive&#x2019; tumor (cell surface versus cytoplasmic expression), the definitions of PD-L1 &#x2018;positive&#x2019; patients (based on a single tumor biopsy, or on maximal expression in the case of multiple biopsies from an individual patient) and the sample used for the assay (primary tumor or metastatic lesion).</p>
+      <p>In the more recent release of the KEYNOTE-001 trial, which evaluated pembrolizumab in advanced NSCLC, a cut off of 50% was adopted to define the IHC PD-L1 positivity: patients were divided into three groups, based on whether they had membranous PD-L1 expression in their tumor cells of &#x2265;50%, 1%-49%, or &lt;1%. Patients&#x2019; survival significantly differed between patients with high PD-L1 (1-year OS &gt;50%) in comparison with those patients with a PD-L1 lower than 50%, who did not overcome a 1-year OS of nearly 28% [<xref rid="pone.0130142.ref046" ref-type="bibr">46</xref>].</p>
+      <p>The use of multiple proprietary PD-L1 IHC assays, whose comparative outcomes are not well established, and the lack of a clear definition of &#x2018;positive&#x2019; tumor-PD-L1 represent a limit for the interpretation of data from clinical trials according to biomarkers [<xref rid="pone.0130142.ref047" ref-type="bibr">47</xref>].</p>
+      <p>According to our results, despite the heterogeneity, the best cut-off able to discriminate between &#x2018;responders&#x2019; and &#x2018;not responders&#x2019; seems to be 5% (<xref rid="pone.0130142.g005" ref-type="fig">Fig 5</xref>, Panel A). With regard to PD-L1 assessment, the analytical validation of an easy and reproducible test, as the IHC assay, that may be successfully and clinically useful to best discriminate sub-population most likely to benefit from treatment with immune check point inhibitors represents a key question.</p>
+      <p>In addition, patients with PD-L1 positive tumor had a significantly higher chance to respond to treatment regardless of the treatment line (<xref rid="pone.0130142.g005" ref-type="fig">Fig 5</xref>, Panel B).</p>
+      <p>Besides the heterogeneity of the PD-L1 expression assessment, another limitation of the analysis is the heterogeneity of the included studies (few phase II with ORR as primary objective were available). The hypothesis that a differential effect according to the biomarker analyzed exist seems to be reasonable regardless of the anti-PD-1 drugs, tumor types (melanoma and NSCLC), and treatment lines. With this promise, how much this differential activity in terms of response according to the tumor PD-L1 expression status translates into a significant outcome benefit for the patients? This questions represents an interest and recent matter of research.</p>
+      <p>On the basis of the available phase III trials, the KEYNOTE-066 study, demonstrated an overall survival benefit with pembrolizumab in patients with advanced melanoma, as compared to ipilimumab, across all subgroups except for the small subgroup of patients (less than 20%) with PD-L1 negative tumors [<xref rid="pone.0130142.ref048" ref-type="bibr">48</xref>].</p>
+      <p>The CheckMate 066 study conducted by <italic>Robert et al</italic> to determine whether nivolumab, as compared with dacarbazine, improves overall survival among previously untreated advanced melanoma patients, demonstrated a survival benefit with nivolumab regardless of tumor cells PD-L1 expression status. However, these results are still preliminary as in the nivolumab group the median overall survival was not reached in either PD-L1 subgroup. Interestingly, in the dacarbazine group, the median overall survival was slightly longer in the subgroup with positive PD-L1 status than in the subgroup with negative or indeterminate PD-L1 status (12.4 vs. 10.2 months), thus opening the possible role of PD-L1 as prognostic factors, which actually still remains to be determined. Overall, the authors concluded that, given the magnitude of the clinical benefit observed in patients receiving nivolumab, PD-L1 status alone, does not seem to be useful in the selection of patients for nivolumab treatment [<xref rid="pone.0130142.ref024" ref-type="bibr">24</xref>].</p>
+      <p>In this regard, the reason why even patients with PD-L1 negative tumor respond and why the majority of patients with PD-L1 positive tumor do not response to PD-1 pathway blockade represents an area of ongoing research. Recent studies demonstrate that besides the PD-L1 expression by tumor cells, the expression of PD-L1 on immune cells infiltrating the tumor is a potential predictor of clinical response [<xref rid="pone.0130142.ref049" ref-type="bibr">49</xref>].</p>
+      <p>Furthermore, in the study of <italic>Herbst et al</italic> the association of tumor infiltrating immune cell PD-L1 expression with treatment response to MPDL3280A in several solid tumor types appears stronger than that with tumor cell PD-L1 expression [<xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>]. Similar results are reported in the adaptive design trial conducted by <italic>Powels et al</italic> in the context of metastatic bladder cancer treated with MPDL3280A [<xref rid="pone.0130142.ref015" ref-type="bibr">15</xref>]. Conversely, an analysis of multiple factors in pretreatment tumor specimens from patients with advanced cancers receiving anti&#x2014;PD-1 (nivolumab) therapy demonstrated that only the tumor cell PD-L1 expression is most closely associated with objective tumor regression; the other micro-environmental features analyzed, such as tumor infiltrating lymphocytes PD-1 expression and the intensity of T-cell and B-cell infiltrates, are associated with PD-L1 expression on tumor or tumor infiltrating immune-cells, but not independently associated with treatment response [<xref rid="pone.0130142.ref050" ref-type="bibr">50</xref>].</p>
+      <p>Overall, these results are in agreement with our sensitivity analysis data, where the predictive value of PD-L1 on tumor cells seems to be consistent just for anti-PD-1 antibody. Despite still unclear, several other mechanisms and immune regulatory pathways seem to be involved in the response to PD-1/PD-L1 pathway blockade such as the PD-L2 expression, a second known ligand for PD-1, the PD-1 expression on T-lymphocytes, and the discovery of immunogenic neo-antigens, encoded by gene mutations called &#x2018;passenger&#x2019; that do not trigger the cancer development but play an important role in immunogenicity [<xref rid="pone.0130142.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0130142.ref051" ref-type="bibr">51</xref>&#x2013;<xref rid="pone.0130142.ref053" ref-type="bibr">53</xref>].</p>
+      <p>In this regard, even the results reported by <italic>Snyder</italic> and colleagues in the context of advanced melanoma treated with CTLA-4 blockade demonstrated that a high mutational burden providing a greater likelihood of the development of specific tumor neo-antigens, recognized by the T-cells, is associated with a long-term clinical benefit from CTLA-4 blockade; conversely the absence of mutation-derived neo-antigens is associated with a minimal benefit or no benefit [<xref rid="pone.0130142.ref054" ref-type="bibr">54</xref>, <xref rid="pone.0130142.ref055" ref-type="bibr">55</xref>]. Very same data were recently reported for NSCLC patients treated with pembrolizumab [<xref rid="pone.0130142.ref056" ref-type="bibr">56</xref>]. Another aspect is that the immune system may be dynamic; thus, the evaluation of a potential biomarker at a single time point (for example baseline) may not reflect an evolving immune response in the tumor microenvironment [<xref rid="pone.0130142.ref049" ref-type="bibr">49</xref>].</p>
+      <p>Despite the overall heterogeneity, the non-prospective comparison according to PD-L1, and the fact that ORR according to this biomarker was not determined in all treated patients, the results reported herein show that patients affected by melanoma, NSCLC and genitourinary with positive PD-L1 on tumor cells may have a higher chance of response to nivolumab, pembrolizumab, and (with limited confidence) MPDL3280A in comparison to PD-L1 negative tumor. Besides the pure significant statistical effect, the magnitude of the benefit may be clinically significant in some clinical context as well. For example, with respect to the second or subsequent line treatment for metastatic NSCLC, where the maximum activity of the chemotherapy is around 10&#x2013;15%, the identification of a predictive biomarker able to improve ORR over 20% in the PD-L1 positive tumor should be considered clinically meaningful [<xref rid="pone.0130142.ref011" ref-type="bibr">11</xref>]. The predictive role of PD-L1 tumor expression which appear to be consistent across drugs and diseases, may be not of value when anti-PD-1/PD-L1 immune checkpoint inhibitors are administered concurrently with ipilimumab, where ORR did not differ according to PD-L1 [<xref rid="pone.0130142.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0130142.ref057" ref-type="bibr">57</xref>].</p>
+      <p>In conclusion, the PD-L1 expression may potentially represent a reasonable candidate biomarker for the patients&#x2019; selection in order to optimize the treatment strategy with immune checkpoint antibodies. Nevertheless, the analytical validation and standardized definition of PD-L1 expression on tumor cells or infiltrating immune cells according to a shared cut-off to define positivity are warranted. In addition, the clinical validation of this potential biomarker as a predictor of response requires further phase III trials stratified according to tumor PD-L1 status and prospective studies in large cohorts of patients with PD-L1 positive or negative disease. Clinical trials aiming to understand the complex tumor immune microenvironment and to identify additional predictive markers or gene signature of response or resistance to immunotherapy, are currently needed.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec017">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0130142.s001">
+        <label>S1 Checklist</label>
+        <caption>
+          <title>PRISMA checklist.</title>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0130142.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by a grant of the Italian Association for Cancer Research (AIRC-MFAG 14282, and AIRC-5X1000 12182 and 12214).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0130142.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dong</surname><given-names>H</given-names></name>, <name><surname>Strome</surname><given-names>SE</given-names></name>, <name><surname>Salomao</surname><given-names>DR</given-names></name>, <name><surname>Tamura</surname><given-names>H</given-names></name>, <name><surname>Hirano</surname><given-names>F</given-names></name>, <name><surname>Flies</surname><given-names>DB</given-names></name>, <etal>et al</etal>
+<article-title>Tumor-associated B7-H1 promotes T-cell apoptosis: a potential mechanism of immune evasion</article-title>. <source>Nat Med</source>. <year>2002</year>;<volume>8</volume>(<issue>8</issue>):<fpage>793</fpage>&#x2013;<lpage>800</lpage>.
+<pub-id pub-id-type="pmid">12091876</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Leach</surname><given-names>DR</given-names></name>, <name><surname>Krummel</surname><given-names>MF</given-names></name>, <name><surname>Allison</surname><given-names>JP</given-names></name>. <article-title>Enhancement of antitumor immunity by CTLA-4 blockade</article-title>. <source>Science</source>. <year>1996</year>;<volume>271</volume>(<issue>5256</issue>):<fpage>1734</fpage>&#x2013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">8596936</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pardoll</surname><given-names>DM</given-names></name>. <article-title>The blockade of immune checkpoints in cancer immunotherapy</article-title>. <source>Nat Rev Cancer</source>. <year>2012</year>;<volume>12</volume>(<issue>4</issue>):<fpage>252</fpage>&#x2013;<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1038/nrc3239</pub-id>
+<pub-id pub-id-type="pmid">22437870</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Topalian</surname><given-names>SL</given-names></name>, <name><surname>Drake</surname><given-names>CG</given-names></name>, <name><surname>Pardoll</surname><given-names>DM</given-names></name>. <article-title>Immune Checkpoint Blockade: A Common Denominator Approach to Cancer Therapy</article-title>. <source>Cancer cell</source>. <year>2015</year>;<volume>27</volume>(<issue>4</issue>):<fpage>450</fpage>&#x2013;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccell.2015.03.001</pub-id>
+<pub-id pub-id-type="pmid">25858804</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>O'Day</surname><given-names>SJ</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <name><surname>Weber</surname><given-names>RW</given-names></name>, <name><surname>Sosman</surname><given-names>JA</given-names></name>, <name><surname>Haanen</surname><given-names>JB</given-names></name>, <etal>et al</etal>
+<article-title>Improved survival with ipilimumab in patients with metastatic melanoma</article-title>. <source>N Engl J Med</source>. <year>2010</year>;<volume>363</volume>(<issue>8</issue>):<fpage>711</fpage>&#x2013;<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1003466</pub-id>
+<pub-id pub-id-type="pmid">20525992</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ribas</surname><given-names>A</given-names></name>. <article-title>Tumor immunotherapy directed at PD-1</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>26</issue>):<fpage>2517</fpage>&#x2013;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMe1205943</pub-id>
+<pub-id pub-id-type="pmid">22658126</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Topalian</surname><given-names>SL</given-names></name>, <name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>Brahmer</surname><given-names>JR</given-names></name>, <name><surname>Gettinger</surname><given-names>SN</given-names></name>, <name><surname>Smith</surname><given-names>DC</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <etal>et al</etal>
+<article-title>Safety, activity, and immune correlates of anti-PD-1 antibody in cancer</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>26</issue>):<fpage>2443</fpage>&#x2013;<lpage>54</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1200690</pub-id>
+<pub-id pub-id-type="pmid">22658127</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Postow</surname><given-names>MA</given-names></name>, <name><surname>Callahan</surname><given-names>MK</given-names></name>, <name><surname>Wolchok</surname><given-names>JD</given-names></name>. <article-title>Immune Checkpoint Blockade in Cancer Therapy</article-title>. <source>J Clin Oncol</source>. <year>2015</year>. [Epub ahead of print]</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Ribas</surname><given-names>A</given-names></name>, <name><surname>Wolchok</surname><given-names>JD</given-names></name>, <name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>Hamid</surname><given-names>O</given-names></name>, <name><surname>Kefford</surname><given-names>R</given-names></name>, <etal>et al</etal>
+<article-title>Anti-programmed-death-receptor-1 treatment with pembrolizumab in ipilimumab-refractory advanced melanoma: a randomised dose-comparison cohort of a phase 1 trial</article-title>. <source>Lancet</source>. <year>2014</year>;<volume>384</volume>(<issue>9948</issue>):<fpage>1109</fpage>&#x2013;<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(14)60958-2</pub-id>
+<pub-id pub-id-type="pmid">25034862</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Weber</surname><given-names>JS</given-names></name>, <name><surname>D'Angelo</surname><given-names>SP</given-names></name>, <name><surname>Minor</surname><given-names>D</given-names></name>, <name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>Gutzmer</surname><given-names>R</given-names></name>, <name><surname>Neyns</surname><given-names>B</given-names></name>, <etal>et al</etal>
+<article-title>Nivolumab versus chemotherapy in patients with advanced melanoma who progressed after anti-CTLA-4 treatment (CheckMate 037): a randomised, controlled, open-label, phase 3 trial</article-title>. <source>Lancet Oncol</source>. <year>2015</year>;<volume>16</volume>(<issue>4</issue>):<fpage>375</fpage>&#x2013;<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(15)70076-8</pub-id>
+<pub-id pub-id-type="pmid">25795410</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Mazieres</surname><given-names>J</given-names></name>, <name><surname>Planchard</surname><given-names>D</given-names></name>, <name><surname>Stinchcombe</surname><given-names>TE</given-names></name>, <name><surname>Dy</surname><given-names>GK</given-names></name>, <name><surname>Antonia</surname><given-names>SJ</given-names></name>, <etal>et al</etal>
+<article-title>Activity and safety of nivolumab, an anti-PD-1 immune checkpoint inhibitor, for patients with advanced, refractory squamous non-small-cell lung cancer (CheckMate 063): a phase 2, single-arm trial</article-title>. <source>Lancet Oncol</source>. <year>2015</year>;<volume>16</volume>(<issue>3</issue>):<fpage>257</fpage>&#x2013;<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(15)70054-9</pub-id>
+<pub-id pub-id-type="pmid">25704439</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Armand</surname><given-names>P</given-names></name>, <name><surname>Nagler</surname><given-names>A</given-names></name>, <name><surname>Weller</surname><given-names>EA</given-names></name>, <name><surname>Devine</surname><given-names>SM</given-names></name>, <name><surname>Avigan</surname><given-names>DE</given-names></name>, <name><surname>Chen</surname><given-names>YB</given-names></name>, <etal>et al</etal>
+<article-title>Disabling immune tolerance by programmed death-1 blockade with pidilizumab after autologous hematopoietic stem-cell transplantation for diffuse large B-cell lymphoma: results of an international phase II trial</article-title>. <source>J Clin Oncol</source>. <year>2013</year>;<volume>31</volume>(<issue>33</issue>):<fpage>4199</fpage>&#x2013;<lpage>206</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2012.48.3685</pub-id>
+<pub-id pub-id-type="pmid">24127452</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Westin</surname><given-names>JR</given-names></name>, <name><surname>Chu</surname><given-names>F</given-names></name>, <name><surname>Zhang</surname><given-names>M</given-names></name>, <name><surname>Fayad</surname><given-names>LE</given-names></name>, <name><surname>Kwak</surname><given-names>LW</given-names></name>, <name><surname>Fowler</surname><given-names>N</given-names></name>, <etal>et al</etal>
+<article-title>Safety and activity of PD1 blockade by pidilizumab in combination with rituximab in patients with relapsed follicular lymphoma: a single group, open-label, phase 2 trial</article-title>. <source>Lancet Oncol</source>. <year>2014</year>;<volume>15</volume>(<issue>1</issue>):<fpage>69</fpage>&#x2013;<lpage>77</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(13)70551-5</pub-id>
+<pub-id pub-id-type="pmid">24332512</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Motzer</surname><given-names>RJ</given-names></name>, <name><surname>Rini</surname><given-names>BI</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <name><surname>Redman</surname><given-names>BG</given-names></name>, <name><surname>Kuzel</surname><given-names>TM</given-names></name>, <name><surname>Harrison</surname><given-names>MR</given-names></name>, <etal>et al</etal>
+<article-title>Nivolumab for Metastatic Renal Cell Carcinoma: Results of a Randomized Phase II Trial</article-title>. <source>J Clin Oncol</source>. <year>2014</year>;<volume>33</volume>(<issue>13</issue>):<fpage>1430</fpage>&#x2013;<lpage>7</lpage>
+<pub-id pub-id-type="doi">10.1200/JCO.2014.59.0703</pub-id>
+<pub-id pub-id-type="pmid">25452452</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Powles</surname><given-names>T</given-names></name>, <name><surname>Eder</surname><given-names>JP</given-names></name>, <name><surname>Fine</surname><given-names>GD</given-names></name>, <name><surname>Braiteh</surname><given-names>FS</given-names></name>, <name><surname>Loriot</surname><given-names>Y</given-names></name>, <name><surname>Cruz</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>MPDL3280A (anti-PD-L1) treatment leads to clinical activity in metastatic bladder cancer</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>558</fpage>&#x2013;<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1038/nature13904</pub-id>
+<pub-id pub-id-type="pmid">25428503</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brahmer</surname><given-names>JR</given-names></name>, <name><surname>Tykodi</surname><given-names>SS</given-names></name>, <name><surname>Chow</surname><given-names>LQ</given-names></name>, <name><surname>Hwu</surname><given-names>WJ</given-names></name>, <name><surname>Topalian</surname><given-names>SL</given-names></name>, <name><surname>Hwu</surname><given-names>P</given-names></name>, <etal>et al</etal>
+<article-title>Safety and activity of anti-PD-L1 antibody in patients with advanced cancer</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>26</issue>):<fpage>2455</fpage>&#x2013;<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1200694</pub-id>
+<pub-id pub-id-type="pmid">22658128</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hamid</surname><given-names>O</given-names></name>, <name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Daud</surname><given-names>A</given-names></name>, <name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>Hwu</surname><given-names>WJ</given-names></name>, <name><surname>Kefford</surname><given-names>R</given-names></name>, <etal>et al</etal>
+<article-title>Safety and tumor responses with lambrolizumab (anti-PD-1) in melanoma</article-title>. <source>N Engl J Med</source>. <year>2013</year>;<volume>369</volume>(<issue>2</issue>):<fpage>134</fpage>&#x2013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1305133</pub-id>
+<pub-id pub-id-type="pmid">23724846</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Topalian</surname><given-names>SL</given-names></name>, <name><surname>Sznol</surname><given-names>M</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <name><surname>Kluger</surname><given-names>HM</given-names></name>, <name><surname>Carvajal</surname><given-names>RD</given-names></name>, <name><surname>Sharfman</surname><given-names>WH</given-names></name>, <etal>et al</etal>
+<article-title>Survival, durable tumor remission, and long-term safety in patients with advanced melanoma receiving nivolumab</article-title>. <source>J Clin Oncol</source>. <year>2014</year>;<volume>32</volume>(<issue>10</issue>):<fpage>1020</fpage>&#x2013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2013.53.0105</pub-id>
+<pub-id pub-id-type="pmid">24590637</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wolchok</surname><given-names>JD</given-names></name>, <name><surname>Kluger</surname><given-names>H</given-names></name>, <name><surname>Callahan</surname><given-names>MK</given-names></name>, <name><surname>Postow</surname><given-names>MA</given-names></name>, <name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Lesokhin</surname><given-names>AM</given-names></name>, <etal>et al</etal>
+<article-title>Nivolumab plus ipilimumab in advanced melanoma</article-title>. <source>N Engl J Med</source>. <year>2013</year>;<volume>369</volume>(<issue>2</issue>):<fpage>122</fpage>&#x2013;<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1302369</pub-id>
+<pub-id pub-id-type="pmid">23724867</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mahoney</surname><given-names>KM</given-names></name>, <name><surname>Atkins</surname><given-names>MB</given-names></name>. <article-title>Prognostic and predictive markers for the new immunotherapies</article-title>. <source>Oncology</source>. <year>2014</year>;<volume>28</volume>
+<issue>Suppl 3</issue>:<fpage>39</fpage>&#x2013;<lpage>48</lpage>.
+<pub-id pub-id-type="pmid">25384886</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gadiot</surname><given-names>J</given-names></name>, <name><surname>Hooijkaas</surname><given-names>AI</given-names></name>, <name><surname>Kaiser</surname><given-names>AD</given-names></name>, <name><surname>van Tinteren</surname><given-names>H</given-names></name>, <name><surname>van Boven</surname><given-names>H</given-names></name>, <name><surname>Blank</surname><given-names>C</given-names></name>. <article-title>Overall survival and PD-L1 expression in metastasized malignant melanoma</article-title>. <source>Cancer</source>. <year>2011</year>;<volume>117</volume>(<issue>10</issue>):<fpage>2192</fpage>&#x2013;<lpage>201</lpage>. <pub-id pub-id-type="doi">10.1002/cncr.25747</pub-id>
+<pub-id pub-id-type="pmid">21523733</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Thompson</surname><given-names>RH</given-names></name>, <name><surname>Kuntz</surname><given-names>SM</given-names></name>, <name><surname>Leibovich</surname><given-names>BC</given-names></name>, <name><surname>Dong</surname><given-names>H</given-names></name>, <name><surname>Lohse</surname><given-names>CM</given-names></name>, <name><surname>Webster</surname><given-names>WS</given-names></name>, <etal>et al</etal>
+<article-title>Tumor B7-H1 is associated with poor prognosis in renal cell carcinoma patients with long-term follow-up</article-title>. <source>Cancer Res</source>. <year>2006</year>;<volume>66</volume>(<issue>7</issue>):<fpage>3381</fpage>&#x2013;<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">16585157</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>A</given-names></name>, <name><surname>Wang</surname><given-names>HY</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Zhao</surname><given-names>MC</given-names></name>, <name><surname>Zhang</surname><given-names>HJ</given-names></name>, <name><surname>Lu</surname><given-names>ZY</given-names></name>, <etal>et al</etal>
+<article-title>The prognostic value of PD-L1 expression for non-small cell lung cancer patients: A meta-analysis</article-title>. <source>Eur J Sur Oncol</source>. <year>2015</year>;<volume>41</volume>(<issue>4</issue>):<fpage>450</fpage>&#x2013;<lpage>456</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Long</surname><given-names>GV</given-names></name>, <name><surname>Brady</surname><given-names>B</given-names></name>, <name><surname>Dutriaux</surname><given-names>C</given-names></name>, <name><surname>Maio</surname><given-names>M</given-names></name>, <name><surname>Mortier</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Nivolumab in previously untreated melanoma without BRAF mutation</article-title>. <source>N Engl J Med</source>. <year>2015</year>;<volume>372</volume>(<issue>4</issue>):<fpage>320</fpage>&#x2013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1412082</pub-id>
+<pub-id pub-id-type="pmid">25399552</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pignon</surname><given-names>JP</given-names></name>, <name><surname>Hill</surname><given-names>C</given-names></name>. <article-title>Meta-analyses of randomised clinical trials in oncology</article-title>. <source>Lancet Oncol</source>. <year>2001</year>;<volume>2</volume>(<issue>8</issue>):<fpage>475</fpage>&#x2013;<lpage>82</lpage>.
+<pub-id pub-id-type="pmid">11905723</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bria</surname><given-names>E</given-names></name>, <name><surname>Gralla</surname><given-names>RJ</given-names></name>, <name><surname>Raftopoulos</surname><given-names>H</given-names></name>, <name><surname>Cuppone</surname><given-names>F</given-names></name>, <name><surname>Milella</surname><given-names>M</given-names></name>, <name><surname>Sperduti</surname><given-names>I</given-names></name>, <etal>et al</etal>
+<article-title>Magnitude of benefit of adjuvant chemotherapy for non-small cell lung cancer: Meta-analysis of randomized clinical trials</article-title>. <source>Lung Cancer</source>. <year>2009</year>;<volume>63</volume>(<issue>1</issue>):<fpage>50</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.lungcan.2008.05.002</pub-id>
+<pub-id pub-id-type="pmid">18565615</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="book">
+<name><surname>Higgins</surname><given-names>JPT</given-names></name>, <name><surname>Green</surname><given-names>S</given-names></name>. <chapter-title>Cochrane handbook for Systematic Reviews of intervention 4.2.6 [updated sep 2006]</chapter-title>
+<source>The Cochrane Library</source>. <issue>Issue 4</issue>
+<publisher-loc>Chichester, UK</publisher-loc>: <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>; <year>2006</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Parmar</surname><given-names>MK</given-names></name>, <name><surname>Torri</surname><given-names>V</given-names></name>, <name><surname>Stewart</surname><given-names>L</given-names></name>. <article-title>Extracting summary statistics to perform meta-analyses of the published literature for survival endpoints</article-title>. <source>Stat Med</source>. <year>1998</year>;<volume>17</volume>(<issue>24</issue>):<fpage>2815</fpage>&#x2013;<lpage>34</lpage>.
+<pub-id pub-id-type="pmid">9921604</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tierney</surname><given-names>JF</given-names></name>, <name><surname>Stewart</surname><given-names>LA</given-names></name>, <name><surname>Ghersi</surname><given-names>D</given-names></name>, <name><surname>Burdett</surname><given-names>S</given-names></name>, <name><surname>Sydes</surname><given-names>MR</given-names></name>. <article-title>Practical methods for incorporating summary time-to-event data into meta-analysis</article-title>. <source>Trials</source>. <year>2007</year>;<volume>8</volume>:<fpage>16</fpage>
+<pub-id pub-id-type="pmid">17555582</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Altman</surname><given-names>DG</given-names></name>, <name><surname>Bland</surname><given-names>JM</given-names></name>. <article-title>Interaction revisited: the difference between two estimates</article-title>. <source>BMJ</source>. <year>2003</year>;<volume>326</volume>(<issue>7382</issue>):<fpage>219</fpage>
+<pub-id pub-id-type="pmid">12543843</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pilotto</surname><given-names>S</given-names></name>, <name><surname>Di Maio</surname><given-names>M</given-names></name>, <name><surname>Peretti</surname><given-names>U</given-names></name>, <name><surname>Kinspergher</surname><given-names>S</given-names></name>, <name><surname>Brunelli</surname><given-names>M</given-names></name>, <name><surname>Massari</surname><given-names>F</given-names></name>, <etal>et al</etal>
+<article-title>Predictors of outcome for patients with lung adenocarcinoma carrying the epidermal growth factor receptor mutation receiving 1st-line tyrosine kinase inhibitors: Sensitivity and meta-regression analysis of randomized trials</article-title>. <source>Crit Rev Oncol Hematol</source>. <year>2014</year>;<volume>90</volume>(<issue>2</issue>):<fpage>135</fpage>&#x2013;<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1016/j.critrevonc.2013.11.005</pub-id>
+<pub-id pub-id-type="pmid">24332915</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Choueiri</surname><given-names>T</given-names></name>, <name><surname>Fishman</surname><given-names>MN</given-names></name>, <name><surname>Escudier</surname><given-names>B</given-names></name>, <name><surname>Kim</surname><given-names>JJ</given-names></name>, <name><surname>Kluger</surname><given-names>H</given-names></name>, <name><surname>Stadler</surname><given-names>WM</given-names></name>, <etal>et al</etal>
+<article-title>1051PDImmunomodulatory activity of nivolumab in previously treated and untreated metastatic renal cell carcinoma (MRCC): biomarker-based results from a randomized clinical trial</article-title>. <source>Ann Oncol</source>. <year>2014</year>;<volume>25</volume>(<issue>suppl 4</issue>):<fpage>iv362</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hamid</surname><given-names>O</given-names></name>, <name><surname>Sosman</surname><given-names>JA</given-names></name>, <name><surname>Lawrence</surname><given-names>DP</given-names></name>, <name><surname>Sullivan</surname><given-names>RJ</given-names></name>, <name><surname>Ibrahim</surname><given-names>N</given-names></name>, <name><surname>Kluger</surname><given-names>HM</given-names></name>, <etal>et al</etal>
+<article-title>Clinical activity, safety, and biomarkers of MPDL3280A, an engineered PD-L1 antibody in patients with locally advanced or metastatic melanoma (mM)</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2013</year>;<volume>31</volume>(<issue>15_suppl</issue>):<fpage>9010</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Herbst</surname><given-names>RS</given-names></name>, <name><surname>Soria</surname><given-names>JC</given-names></name>, <name><surname>Kowanetz</surname><given-names>M</given-names></name>, <name><surname>Fine</surname><given-names>GD</given-names></name>, <name><surname>Hamid</surname><given-names>O</given-names></name>, <name><surname>Gordon</surname><given-names>MS</given-names></name>, <etal>et al</etal>
+<article-title>Predictive correlates of response to the anti-PD-L1 antibody MPDL3280A in cancer patients</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>563</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1038/nature14011</pub-id>
+<pub-id pub-id-type="pmid">25428504</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hodi</surname><given-names>FS</given-names></name>, <name><surname>Sznol</surname><given-names>M</given-names></name>, <name><surname>Kluger</surname><given-names>HM</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <name><surname>Carvajal</surname><given-names>RD</given-names></name>, <name><surname>Lawrence</surname><given-names>DP</given-names></name>, <etal>et al</etal>
+<article-title>Long-term survival of ipilimumab-naive patients (pts) with advanced melanoma (MEL) treated with nivolumab (anti-PD-1, BMS-936558, ONO-4538) in a phase I trial</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2014</year>;<volume>32</volume>(<issue>15_suppl</issue>):<fpage>9002</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kefford</surname><given-names>R</given-names></name>, <name><surname>Ribas</surname><given-names>A</given-names></name>, <name><surname>Hamid</surname><given-names>O</given-names></name>, <name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Daud</surname><given-names>A</given-names></name>, <name><surname>Wolchok</surname><given-names>JD</given-names></name>, <etal>et al</etal>
+<article-title>Clinical efficacy and correlation with tumor PD-L1 expression in patients (pts) with melanoma (MEL) treated with the anti-PD-1 monoclonal antibody MK-3475</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2014</year>;<volume>32</volume>(<issue>15_suppl</issue>):<fpage>3005</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Garon</surname><given-names>EB</given-names></name>, <name><surname>Patnaik</surname><given-names>A</given-names></name>, <name><surname>Gandhi</surname><given-names>L</given-names></name>, <name><surname>Leighl</surname><given-names>NB</given-names></name>, <name><surname>Balmanoukian</surname><given-names>AS</given-names></name>, <etal>et al</etal>
+<article-title>Safety and clinical activity of MK-3475 as initial therapy in patients with advanced non-small cell lung cancer (NSCLC)</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2014</year>;<volume>32</volume>(<issue>15_suppl</issue>):<fpage>8007</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sznol</surname><given-names>M</given-names></name>, <name><surname>Kluger</surname><given-names>HM</given-names></name>, <name><surname>Callahan</surname><given-names>MK</given-names></name>, <name><surname>Postow</surname><given-names>MA</given-names></name>, <name><surname>Gordon</surname><given-names>RA</given-names></name>, <name><surname>Segal</surname><given-names>NH</given-names></name>, <etal>et al</etal>
+<article-title>Survival, response duration, and activity by BRAF mutation (MT) status of nivolumab (NIVO, anti-PD-1, BMS-936558, ONO-4538) and ipilimumab (IPI) concurrent therapy in advanced melanoma (MEL)</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2014</year>;<volume>32</volume>(<issue>15_suppl</issue>):<fpage>LBA9003</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Weber</surname><given-names>JS</given-names></name>, <name><surname>Kudchadkar</surname><given-names>RR</given-names></name>, <name><surname>Yu</surname><given-names>B</given-names></name>, <name><surname>Gallenstein</surname><given-names>D</given-names></name>, <name><surname>Horak</surname><given-names>CE</given-names></name>, <name><surname>Inzunza</surname><given-names>HD</given-names></name>, <etal>et al</etal>
+<article-title>Safety, efficacy, and biomarkers of nivolumab with vaccine in ipilimumab-refractory or -naive melanoma</article-title>. <source>J Clin Oncol</source>. <year>2013</year>;<volume>31</volume>(<issue>34</issue>):<fpage>4311</fpage>&#x2013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2013.51.4802</pub-id>
+<pub-id pub-id-type="pmid">24145345</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hammers</surname><given-names>H</given-names></name>, <name><surname>Plimack</surname><given-names>ER</given-names></name>, <name><surname>Infante</surname><given-names>JR</given-names></name>, <name><surname>Ernstoff</surname><given-names>M</given-names></name>, <name><surname>Rini</surname><given-names>BI</given-names></name>, <name><surname>McDermott</surname><given-names>DF</given-names></name>, <etal>et al</etal>
+<article-title>1050OPhase I study of nivolumab in combination with ipilimumab in metastatic renal cell carcinoma (MRCC)</article-title>. <source>Ann Oncol</source>. <year>2014</year>;<volume>25</volume>(<issue>suppl 4</issue>):<fpage>iv361</fpage>&#x2013;<lpage>iv2</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Plimack</surname><given-names>ER</given-names></name>, <name><surname>Gupta</surname><given-names>S</given-names></name>, <name><surname>Bellmunt</surname><given-names>J</given-names></name>, <name><surname>Berger</surname><given-names>R</given-names></name>, <name><surname>Montgomery</surname><given-names>B</given-names></name>, <name><surname>Gonzalez</surname><given-names>EJ</given-names></name>, <etal>et al</etal>
+<article-title>LBA23A Phase 1B study of pembrolizumab (pembro; mk-3475) in patients (pts) with advanced urothelial tract cancer</article-title>. <source>Ann Oncol</source>. <year>2014</year>;<volume>25</volume>(<issue>suppl 4</issue>).</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cho</surname><given-names>DC</given-names></name>, <name><surname>Sosman</surname><given-names>JA</given-names></name>, <name><surname>Sznol</surname><given-names>M</given-names></name>, <name><surname>Gordon</surname><given-names>MS</given-names></name>, <name><surname>Hollebecque</surname><given-names>A</given-names></name>, <name><surname>Hamid</surname><given-names>O</given-names></name>, <etal>et al</etal>
+<article-title>Clinical activity, safety, and biomarkers of MPDL3280A, an engineered PD-L1 antibody in patients with metastatic renal cell carcinoma (mRCC)</article-title>. <source>ASCO Meeting Abstracts</source>. <year>2013</year>;<volume>31</volume>(<issue>15_suppl</issue>):<fpage>4505</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Shepherd</surname><given-names>FA</given-names></name>, <name><surname>Antonia</surname><given-names>SJ</given-names></name>, <name><surname>Brahmer</surname><given-names>JR</given-names></name>, <name><surname>Chow</surname><given-names>LQ</given-names></name>, <name><surname>Goldman</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>First-Line Monotherapy With Nivolumab (Anti-PD-1; BMS-936558, ONO-4538) in Advanced Non-Small Cell Lung Cancer (NSCLC): Safety, Efficacy, and Correlation of Outcomes With PD-L1 Status</article-title>. <source>Int J Radiation Oncol Biol Phys</source>. <year>2014</year>;<volume>90</volume>(<issue>5</issue>):<fpage>S31</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Antonia</surname><given-names>SJ</given-names></name>, <name><surname>Gettinger</surname><given-names>S</given-names></name>, <name><surname>Goldman</surname><given-names>J</given-names></name>, <name><surname>Chow</surname><given-names>LQ</given-names></name>, <name><surname>Juergens</surname><given-names>R</given-names></name>, <name><surname>Borghaei</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>Safety and Efficacy of First-Line Nivolumab (Anti-PD-1; BMS-936558, ONO-4538) and Ipilimumab in Non-Small Cell Lung Cancer (NSCLC)</article-title>. <source>Int J Radiation Oncol Biol Phys</source>. <year>2014</year>;<volume>90</volume>(<issue>5</issue>):<fpage>S32</fpage>&#x2013;<lpage>S3</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref045">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gettinger</surname><given-names>SN</given-names></name>, <name><surname>Horn</surname><given-names>L</given-names></name>, <name><surname>Gandhi</surname><given-names>L</given-names></name>, <name><surname>Spigel</surname><given-names>DR</given-names></name>, <name><surname>Antonia</surname><given-names>SJ</given-names></name>, <name><surname>Rizvi</surname><given-names>NA</given-names></name>, <etal>et al</etal>
+<article-title>Overall Survival and Long-Term Safety of Nivolumab (Anti-Programmed Death 1 Antibody, BMS-936558, ONO-4538) in Patients With Previously Treated Advanced Non-Small-Cell Lung Cancer</article-title>. <source>J Clin Oncol</source>. <year>2015</year>. [Epub ahead of print]</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref046">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Garon</surname><given-names>EB</given-names></name>, <name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Hui</surname><given-names>R</given-names></name>, <name><surname>Leighl</surname><given-names>N</given-names></name>, <name><surname>Balmanoukian</surname><given-names>AS</given-names></name>, <name><surname>Eder</surname><given-names>JP</given-names></name>, <etal>et al</etal>
+<article-title>Pembrolizumab for the Treatment of Non-Small-Cell Lung Cancer</article-title>. <source>N Engl J Med</source>. <year>2015</year>. [Epub ahead of print]</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref047">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Patel</surname><given-names>SP</given-names></name>, <name><surname>Kurzrock</surname><given-names>R</given-names></name>. <article-title>PD-L1 Expression as a Predictive Biomarker in Cancer Immunotherapy</article-title>. <source>Mol Cancer Ther</source>. <year>2015</year>;<volume>14</volume>(<issue>4</issue>):<fpage>847</fpage>&#x2013;<lpage>56</lpage>.
+<pub-id pub-id-type="pmid">25695955</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref048">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Schachter</surname><given-names>J</given-names></name>, <name><surname>Long</surname><given-names>GV</given-names></name>, <name><surname>Arance</surname><given-names>A</given-names></name>, <name><surname>Grob</surname><given-names>JJ</given-names></name>, <name><surname>Mortier</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Pembrolizumab versus Ipilimumab in Advanced Melanoma</article-title>. <source>N Engl J Med</source>. <year>2015</year>. [Epub ahead of print]</mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref049">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tumeh</surname><given-names>PC</given-names></name>, <name><surname>Harview</surname><given-names>CL</given-names></name>, <name><surname>Yearley</surname><given-names>JH</given-names></name>, <name><surname>Shintaku</surname><given-names>IP</given-names></name>, <name><surname>Taylor</surname><given-names>EJ</given-names></name>, <name><surname>Robert</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>PD-1 blockade induces responses by inhibiting adaptive immune resistance</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>568</fpage>&#x2013;<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1038/nature13954</pub-id>
+<pub-id pub-id-type="pmid">25428505</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref050">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Taube</surname><given-names>JM</given-names></name>, <name><surname>Klein</surname><given-names>A</given-names></name>, <name><surname>Brahmer</surname><given-names>JR</given-names></name>, <name><surname>Xu</surname><given-names>H</given-names></name>, <name><surname>Pan</surname><given-names>X</given-names></name>, <name><surname>Kim</surname><given-names>JH</given-names></name>, <etal>et al</etal>
+<article-title>Association of PD-1, PD-1 ligands, and other features of the tumor immune microenvironment with response to anti-PD-1 therapy</article-title>. <source>Clin Cancer Res</source>. <year>2014</year>;<volume>20</volume>(<issue>19</issue>):<fpage>5064</fpage>&#x2013;<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-3271</pub-id>
+<pub-id pub-id-type="pmid">24714771</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref051">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gubin</surname><given-names>MM</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <name><surname>Schuster</surname><given-names>H</given-names></name>, <name><surname>Caron</surname><given-names>E</given-names></name>, <name><surname>Ward</surname><given-names>JP</given-names></name>, <name><surname>Noguchi</surname><given-names>T</given-names></name>, <etal>et al</etal>
+<article-title>Checkpoint blockade cancer immunotherapy targets tumour-specific mutant antigens</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>577</fpage>&#x2013;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1038/nature13988</pub-id>
+<pub-id pub-id-type="pmid">25428507</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref052">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wolchok</surname><given-names>JD</given-names></name>, <name><surname>Chan</surname><given-names>TA</given-names></name>. <article-title>Cancer: Antitumour immunity gets a boost</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>496</fpage>&#x2013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1038/515496a</pub-id>
+<pub-id pub-id-type="pmid">25428495</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref053">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yadav</surname><given-names>M</given-names></name>, <name><surname>Jhunjhunwala</surname><given-names>S</given-names></name>, <name><surname>Phung</surname><given-names>QT</given-names></name>, <name><surname>Lupardus</surname><given-names>P</given-names></name>, <name><surname>Tanguay</surname><given-names>J</given-names></name>, <name><surname>Bumbaca</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Predicting immunogenic tumour mutations by combining mass spectrometry and exome sequencing</article-title>. <source>Nature</source>. <year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>572</fpage>&#x2013;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1038/nature14001</pub-id>
+<pub-id pub-id-type="pmid">25428506</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref054">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Boussiotis</surname><given-names>VA</given-names></name>. <article-title>Somatic mutations and immunotherapy outcome with CTLA-4 blockade in melanoma</article-title>. <source>N Engl J Med</source>. <year>2014</year>;<volume>371</volume>(<issue>23</issue>):<fpage>2230</fpage>&#x2013;<lpage>2</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMe1413061</pub-id>
+<pub-id pub-id-type="pmid">25409261</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref055">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Snyder</surname><given-names>A</given-names></name>, <name><surname>Makarov</surname><given-names>V</given-names></name>, <name><surname>Merghoub</surname><given-names>T</given-names></name>, <name><surname>Yuan</surname><given-names>J</given-names></name>, <name><surname>Zaretsky</surname><given-names>JM</given-names></name>, <name><surname>Desrichard</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Genetic basis for clinical response to CTLA-4 blockade in melanoma</article-title>. <source>The New England journal of medicine</source>. <year>2014</year>;<volume>371</volume>(<issue>23</issue>):<fpage>2189</fpage>&#x2013;<lpage>99</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1406498</pub-id>
+<pub-id pub-id-type="pmid">25409260</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref056">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rizvi</surname><given-names>NA</given-names></name>, <name><surname>Hellmann</surname><given-names>MD</given-names></name>, <name><surname>Snyder</surname><given-names>A</given-names></name>, <name><surname>Kvistborg</surname><given-names>P</given-names></name>, <name><surname>Makarov</surname><given-names>V</given-names></name>, <name><surname>Havel</surname><given-names>JJ</given-names></name>, <etal>et al</etal>
+<article-title>Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer</article-title>. <source>Science</source>. <year>2015</year>;<volume>348</volume>(<issue>6230</issue>):<fpage>124</fpage>&#x2013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1126/science.aaa1348</pub-id>
+<pub-id pub-id-type="pmid">25765070</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0130142.ref057">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Postow</surname><given-names>MA</given-names></name>, <name><surname>Chesney</surname><given-names>J</given-names></name>, <name><surname>Pavlick</surname><given-names>AC</given-names></name>, <name><surname>Robert</surname><given-names>C</given-names></name>, <name><surname>Grossmann</surname><given-names>K</given-names></name>, <name><surname>McDermott</surname><given-names>D</given-names></name>, <etal>et al</etal>
+<article-title>Nivolumab and Ipilimumab versus Ipilimumab in Untreated Melanoma</article-title>. <source>N Engl J Med</source>. <year>2015</year>. [Epub ahead of print]</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

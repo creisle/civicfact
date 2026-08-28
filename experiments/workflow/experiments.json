@@ -1,0 +1,1704 @@
+{
+    "best model configs": {
+        "gpt5.2": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact",
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": "11",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "test", "dev"
+                    ],
+                    "ret_model": [
+                        "head-oracle",
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L5000-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "local": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfactxf1.0g8"
+                    ],
+                    "examples": [
+                        15
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "ret_model": [
+                        "head-oracle"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifyevidence"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfactxf1.0g8"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "ret_model": [
+                        "head-oracle",
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact"
+                    ],
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "ret_model": [
+                        "head-oracle"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifypassages"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact"
+                    ],
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "ret_model": [
+                        "head-oracle"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifyevidence"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact"
+                    ],
+                    "examples": [
+                        15
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "ret_model": [
+                        "head-oracle",
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "ft": [
+            {
+                "expands": {
+                    "chat_template": "default",
+                    "config": [
+                        16
+                    ],
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfact"
+                    ],
+                    "ft_template": [
+                        "verifyevidencetrain"
+                    ],
+                    "generation_config": 5,
+                    "length": [
+                        5000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "nickname": [
+                        "head-oracle",
+                        "qwen-mongoose",
+                        "medcpt-goat"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "query_template": 0,
+                    "subsample_filter": [
+                        "",
+                        "_f1.0_hard_s42",
+                        "_f1.0_realclaims_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "train_dataset": [
+                        "civicfactchunk"
+                    ]
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "claim_verification general model testing": {
+        "diff length retrieval": [
+            {
+                "disable": true,
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "ret_dataset": "civicfactpairs-grand-bat-L10000-qt0_f0.10_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{ret_dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "diff models": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact_f0.5_hard_s42",
+                        "civicfact_f0.20_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct",
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1",
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct",
+                        "meta-llama__Llama-3.2-3B-Instruct",
+                        "Qwen__Qwen3.5-9B",
+                        "Qwen__Qwen3.5-27B"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact_f0.5_hard_s42",
+                        "civicfact_f0.20_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it",
+                        "google__medgemma-4b-it",
+                        "google__gemma-4-E4B-it",
+                        "google__medgemma-27b-text-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "disable": true,
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfact_f0.5_hard_s42",
+                        "civicfact_f0.20_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "diff num examples": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "examples": [
+                        3,
+                        15,
+                        30
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "subsample": "f0.20_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/civicfact_{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "google__gemini-3.5-flash",
+                    "partition": [
+                        "dev"
+                    ],
+                    "subsample": "f0.005_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/civicfact_{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200"
+                    ],
+                    "examples": [
+                        3,
+                        15,
+                        30
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct",
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1",
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct",
+                        "meta-llama__Llama-3.2-3B-Instruct",
+                        "meta-llama__Meta-Llama-3.1-8B-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "subsample": "_f0.20_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/civicfact{subsample}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200"
+                    ],
+                    "examples": [
+                        3,
+                        15
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "subsample": "_f0.20_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/civicfact{subsample}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "comment": "unable to run, CUDA OOM issues even with quantization and turboquant",
+                "disable": true,
+                "expands": {
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200"
+                    ],
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": [
+                        17
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "subsample": "_f0.20_s42",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/civicfact{subsample}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "diff prompt instructions": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.20_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200",
+                        "verifypassages",
+                        "verifyevidence"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "dataset": "civicfact_f0.20_s42",
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200",
+                        "verifypassages",
+                        "verifyevidence"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct",
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1",
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct",
+                        "Qwen__Qwen3.5-27B"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "dataset": "civicfact_f0.20_s42",
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200",
+                        "verifypassages",
+                        "verifyevidence"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "dataset": "civicfact_f0.20_s42",
+                    "eval_data_version": [
+                        "2026.03.03"
+                    ],
+                    "eval_template": [
+                        "jsonexampleslimit200",
+                        "verifypassages",
+                        "verifyevidence"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{eval_data_version}/chat-default/gen-{generation_config}/prompts.{eval_template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ],
+        "diff system prompt": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.10_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        11,
+                        7,
+                        8,
+                        15
+                    ],
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.10_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        9,
+                        5,
+                        12
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct",
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1",
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct",
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.10_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        16,
+                        18,
+                        19
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "comment": "mixtal version of civic editor system prompt",
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.10_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        13
+                    ],
+                    "model_dir": [
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "comment": "llama3.1 version of civic editor system prompt",
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact_f0.10_s42",
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        14
+                    ],
+                    "model_dir": [
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "combined passage retrieval and claim verification": {
+        "default": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfactft_f0.10_s42",
+                    "examples": [
+                        0
+                    ],
+                    "generation_config": "8",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "fulltextretrieveandverify"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/{template}.{examples}-shot/qt0/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfactft_f0.10_s42",
+                    "examples": [
+                        0
+                    ],
+                    "generation_config": [
+                        "9",
+                        "10"
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "fulltextretrieveandverify"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/{template}.{examples}-shot/qt0/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "comment": "unable to run, CUDA OOM issues even with quantization and turboquant",
+                "disable": true,
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfactft_f0.10_s42",
+                    "examples": [
+                        0
+                    ],
+                    "generation_config": [
+                        17
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "fulltextretrieveandverify"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/{template}.{examples}-shot/qt0/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "fine tuning": {
+        "default": [
+            {
+                "expands": {
+                    "chat_template": "default",
+                    "config": 8,
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact",
+                    "eval_dataset": [
+                        "civicfact"
+                    ],
+                    "ft_template": "jsonlimit200",
+                    "generation_config": 5,
+                    "length": [
+                        5000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Meta-Llama-3.1-8B-Instruct"
+                    ],
+                    "nickname": [
+                        "grand-bat",
+                        "qwen-mongoose",
+                        "medcpt-goat",
+                        "head",
+                        "head-oracle",
+                        "random42"
+                    ],
+                    "partition": "dev",
+                    "query_template": "0",
+                    "subsample_filter": [
+                        "",
+                        "_f1.0_hard_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "zero_shot_template": "jsonlimit200"
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/evaluations/{model_dir}/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{zero_shot_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "chat_template": "default",
+                    "config": 15,
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact",
+                    "eval_dataset": [
+                        "civicfact"
+                    ],
+                    "ft_template": [
+                        "jsonlimit200"
+                    ],
+                    "generation_config": 5,
+                    "length": [
+                        5000,
+                        10000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "nickname": [
+                        "qwen-mongoose",
+                        "medcpt-goat",
+                        "head-oracle",
+                        "head",
+                        "random42"
+                    ],
+                    "partition": "dev",
+                    "query_template": 0,
+                    "subsample_filter": [
+                        "",
+                        "_f1.0_hard_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ]
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "disable": true,
+                "expands": {
+                    "chat_template": "default",
+                    "config": [
+                        18
+                    ],
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfact"
+                    ],
+                    "ft_template": [
+                        "verifyevidencetrain"
+                    ],
+                    "generation_config": 5,
+                    "length": [
+                        5000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "nickname": [
+                        "head-oracle",
+                        "random42",
+                        "qwen-mongoose",
+                        "medcpt-goat"
+                    ],
+                    "partition": "dev",
+                    "query_template": 0,
+                    "subsample_filter": [
+                        ""
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "train_dataset": [
+                        "civicfactxf1.0g8"
+                    ]
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "chat_template": "default",
+                    "config": [
+                        16
+                    ],
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfact"
+                    ],
+                    "ft_template": [
+                        "verifyevidencetrain"
+                    ],
+                    "generation_config": 5,
+                    "length": [
+                        5000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "nickname": [
+                        "head-oracle",
+                        "random42",
+                        "qwen-mongoose",
+                        "medcpt-goat"
+                    ],
+                    "partition": [
+                        "dev",
+                        "test"
+                    ],
+                    "query_template": 0,
+                    "subsample_filter": [
+                        "",
+                        "_f1.0_hard_s42"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "train_dataset": [
+                        "civicfactchunk"
+                    ]
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz",
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}{subsample_filter}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "generate training explanations": {
+        "default": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": "civicfact",
+                    "fraction": 1.0,
+                    "generation_config": "8",
+                    "model_dir": "openai__gpt-5.2",
+                    "random_seed": 42
+                },
+                "paths": [
+                    "results/explanations/{dataset}-{data_version}/f{fraction}_s{random_seed}/{model_dir}/gen-{generation_config}/prompts.jsonl.gz",
+                    "data/civicfactxf{fraction}g{generation_config}-{data_version}/data.jsonl.gz"
+                ]
+            }
+        ],
+        "impact of explanations in ICL examples?": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactxf1.0g8_f0.2_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": "4",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{eval_dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfactxf1.0g8_f0.2_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct",
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1",
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "dataset": [
+                        "civicfactxf1.0g8_f0.2_s42"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "dev"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "passage retrieval": {
+        "diff query templates": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "ncbi__MedCPT-Cross-Encoder",
+                        "Qwen__Qwen3-Reranker-8B"
+                    ],
+                    "partition": [
+                        "test",
+                        "dev"
+                    ],
+                    "query_template": [
+                        0
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/cross/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "allenai__specter",
+                        "allenai__specter2_base",
+                        "BAAI__bge-reranker-large",
+                        "cross-encoder__ms-marco-MiniLM-L-12-v2",
+                        "google-bert__bert-large-uncased",
+                        "intfloat__multilingual-e5-large-instruct",
+                        "microsoft__BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+                        "ncbi__MedCPT-Cross-Encoder",
+                        "Qwen__Qwen3-Reranker-0.6B",
+                        "Qwen__Qwen3-Reranker-4B",
+                        "Qwen__Qwen3-Reranker-8B",
+                        "tomaarsen__reranker-ModernBERT-large-gooaq-bce",
+                        "nicolauduran45__climate-science-reranker",
+                        "NeuML__biomedbert-base-reranker"
+                    ],
+                    "partition": [
+                        "dev","test"
+                    ],
+                    "query_template": [
+                        0,
+                        4,
+                        3,
+                        1,
+                        2,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/cross/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.jsonl.gz",
+                    "results/evidence_retrieval/cross/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "bm25-lucene"
+                    ],
+                    "partition": [
+                        "dev",
+                        "train",
+                        "test"
+                    ],
+                    "query_template": [
+                        0
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/bi/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz",
+                    "results/evidence_retrieval/bi/evaluations/head/{eval_dataset}-{data_version}/qt0/data.{partition}.retrieval_accuracy.jsonl.gz",
+                    "results/evidence_retrieval/bi/evaluations/head-oracle/{eval_dataset}-{data_version}/qt0/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "bm25-lucene"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "query_template": [
+                        4,
+                        3,
+                        1,
+                        0,
+                        2,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/bi/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            }
+        ],
+        "fine-tuned": [
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "ncbi__MedCPT-Cross-Encoder",
+                        "cross-encoder__ms-marco-MiniLM-L-12-v2",
+                        "microsoft__BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+                        "tomaarsen__reranker-ModernBERT-large-gooaq-bce"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "query_template": [
+                        0
+                    ],
+                    "train_dataset": "civicfact",
+                    "training_config": [
+                        10
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/anchor_pairs.jsonl.gz",
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/{model_dir}/evaluations/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "Qwen__Qwen3-Reranker-0.6B"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "query_template": [
+                        0
+                    ],
+                    "train_dataset": "civicfact",
+                    "training_config": 10
+                },
+                "paths": [
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/anchor_pairs.jsonl.gz",
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/{model_dir}/evaluations/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.03.03",
+                    "eval_dataset": [
+                        "civicfactpairs"
+                    ],
+                    "model_dir": [
+                        "ncbi__MedCPT-Cross-Encoder"
+                    ],
+                    "partition": [
+                        "dev", "test"
+                    ],
+                    "query_template": [
+                        0
+                    ],
+                    "train_dataset": "civicfact",
+                    "training_config": [
+                        12
+                    ]
+                },
+                "paths": [
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/anchor_pairs.jsonl.gz",
+                    "results/evidence_retrieval/cross/fine-tuning/anchors/config-{training_config}/{train_dataset}-{data_version}/qt{query_template}/{model_dir}/evaluations/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.retrieval_accuracy.jsonl.gz"
+                ]
+            }
+        ]
+    },
+    "time split": {
+        "": [
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": "civicfactnew",
+                    "examples": [
+                        15
+                    ],
+                    "generation_config": [
+                        16
+                    ],
+                    "model_dir": [
+                        "google__gemma-4-31B-it"
+                    ],
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "retrieval_length": "5000",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "chat_template": "default",
+                    "config": [
+                        16
+                    ],
+                    "data_version": "2026.06.09",
+                    "eval_dataset": [
+                        "civicfactnew"
+                    ],
+                    "ft_template": [
+                        "verifyevidencetrain"
+                    ],
+                    "generation_config": 5,
+                    "length": [
+                        5000
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "nickname": [
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "partition": "all",
+                    "query_template": 0,
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "train_data_version": "2026.03.03",
+                    "train_dataset": [
+                        "civicfactchunk"
+                    ]
+                },
+                "gsc_server_only": false,
+                "paths": [
+                    "results/claim_verification/fine-tuning/config-{config}/completion/{train_dataset}-{train_data_version}/chat-{chat_template}/prompts.{ft_template}.0-shot.train.jsonl/{model_dir}/evaluations/{eval_dataset}pairs-{nickname}-L{length}-qt{query_template}-{data_version}/chat-{chat_template}/gen-{generation_config}/prompts.{ft_template}.0-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": "civicfactnew",
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": "11",
+                    "model_dir": "openai__gpt-5.2",
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "gsc_server_only": true,
+                "paths": [
+                    "results/claim_verification/api/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L5000-qt0-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": [
+                        "civicfactnew"
+                    ],
+                    "examples": [
+                        15
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "meta-llama__Meta-Llama-3.1-70B-Instruct"
+                    ],
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "medcpt-goat"
+                    ],
+                    "retrieval_length": "5000",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifyevidence"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": [
+                        "civicfactnew"
+                    ],
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": [
+                        5
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-4-Scout-17B-16E-Instruct"
+                    ],
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "medcpt-goat"
+                    ],
+                    "retrieval_length": "5000",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifypassages"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": [
+                        "civicfactnew"
+                    ],
+                    "examples": [
+                        30
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "mistralai__Mixtral-8x7B-Instruct-v0.1"
+                    ],
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "medcpt-goat"
+                    ],
+                    "retrieval_length": "5000",
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "verifyevidence"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            },
+            {
+                "expands": {
+                    "data_version": "2026.06.09",
+                    "dataset": [
+                        "civicfactnew"
+                    ],
+                    "examples": [
+                        3
+                    ],
+                    "generation_config": [
+                        12
+                    ],
+                    "model_dir": [
+                        "meta-llama__Llama-3.2-3B-Instruct"
+                    ],
+                    "partition": [
+                        "all"
+                    ],
+                    "ret_model": [
+                        "head-oracle",
+                        "medcpt-goat",
+                        "qwen-mongoose"
+                    ],
+                    "retrieval_length": "5000",
+                    "subsample": [
+                        ""
+                    ],
+                    "suffix": [
+                        "label_accuracy",
+                        "label_stability"
+                    ],
+                    "template": [
+                        "jsonexampleslimit200"
+                    ]
+                },
+                "paths": [
+                    "results/claim_verification/evaluations/{model_dir}/{dataset}pairs-{ret_model}-L{retrieval_length}-qt0{subsample}-{data_version}/chat-default/gen-{generation_config}/prompts.{template}.{examples}-shot.{partition}.processed.{suffix}.jsonl.gz"
+                ]
+            }
+        ]
+    }
+}

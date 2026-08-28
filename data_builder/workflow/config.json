@@ -1,0 +1,28 @@
+{
+    "CHUNK_OVERLAP": 100,
+    "CHUNK_SIZE": 1000,
+    "CIVIC_DUMP": "data/civic-dump.jsonl",
+    "DB_FILE": "data/articles_db.sqlite",
+    "DEV_PERCENT": 15,
+    "DOCCANO_REVIEWS": [
+        "../manual_reviews/data/doccano/2023.10.20_IAv2_civicfact2023.10.20/reviews.jsonl",
+        "../manual_reviews/data/doccano/2024.05.06_error_review_civicfact-2024.04.11/reviews.jsonl",
+        "../manual_reviews/data/doccano/2024.05.21_error_review_civicfact-2024.05.07/reviews.jsonl",
+        "../manual_reviews/data/doccano/2024.05.24_unassigned_descriptions_civicfact-2024.05.07/reviews.jsonl",
+        "../manual_reviews/data/doccano/2025.02.24_xmodel_retrieval_error_review-2024.12.22/reviews.jsonl",
+        "../manual_reviews/data/doccano/2025.01.31_retrieval_review_civicfactpairs-2024.12.22/reviews.jsonl",
+        "../manual_reviews/data/doccano/2025.03.21_additional_explanations_2024.03.21/reviews.jsonl"
+    ],
+    "DOCUMENT_SPLIT": 100,
+    "FULLTEXT_LENGTH_MIN_QUANTILE": 0.05,
+    "GROUP_ID_MAPPING": {
+        "civic": "JRwd19vg",
+        "neutral": "ADmgdiEi"
+    },
+    "MIN_USER_SELECTIONS": 50,
+    "N_PAIRS": 100,
+    "OUTPUT_DIR": "results/civic_nli",
+    "PUBTATOR_SPLIT": 10,
+    "RELABELLING_USERS": 9,
+    "TEST_PERCENT": 10
+}

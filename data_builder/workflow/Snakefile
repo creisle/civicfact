@@ -1,0 +1,521 @@
+import glob
+import os
+import pandas as pd
+from datetime import datetime
+
+configfile: 'workflow/config.json'
+
+
+def get_backup_file_name(w, output):
+    result = []
+    assert len(output) == 1
+    for filename in output:
+        result.append(re.sub(r'(\.[^.]+)$', r'.backup\1', filename))
+    return result
+
+envvars:
+    "HYPOTHESIS_API_KEY"
+
+PYTHON = 'source .venv/bin/activate; python '
+
+GROUP_ID_MAPPING = config["GROUP_ID_MAPPING"]
+
+PARTITIONING_FILE = 'results/civic_nli/partitioning.csv'
+
+FINAL_FILES = [
+    os.path.join(config['OUTPUT_DIR'], 'partitioning.csv'),
+    'results/civic_nli/data.goal-1.jsonl.gz',
+    'results/civic_nli/data.goal-3.jsonl.gz',
+    'results/sentence_similarity/document_chunks.jsonl.gz',
+    'results/civic_nli/similarity_scores.jsonl.gz',
+    'results/civic_nli/sentence_level_evidence.jsonl.gz'
+]
+
+rule all:
+    input: FINAL_FILES
+
+
+rule init_db:
+    output: config['DB_FILE'] + '.INIT'
+    shell: PYTHON + ' -m article_utils.db ' + config['DB_FILE']
+
+
+rule download_historical_ocr:
+    output: directory('data/pmc/historical_ocr')
+    params:
+        url='https://ftp.ncbi.nlm.nih.gov/pub/pmc/historical_ocr'
+    shell: '''\
+        mkdir -p {output};
+        cd {output};
+        wget {params.url} -O index.html;
+        for x in $( grep -P '[^<>"]+tar.gz' -o index.html | sort | uniq );
+        do
+            echo $x;
+            wget {params.url}/$x -O $x;
+            tar -tf $x | grep .txt >> listing.txt;
+        done'''
+
+
+rule initialize_author_manuscript_listing:
+    input:
+        db=rules.init_db.output,
+        ocr=rules.download_historical_ocr.output  # make sure you have the ocr listing setup
+    params:
+        db=lambda w: config['DB_FILE']
+    output: 'data/pmc/author_manuscripts/listing.jsonl'
+    shell: PYTHON + ' -m article_utils.author_manuscripts create {output}'
+
+
+rule download_civic:
+    output: config['CIVIC_DUMP']
+    shell: f'{PYTHON} src/civic/download.py'
+
+
+rule upload_author_manuscript_listing:
+    input: rules.initialize_author_manuscript_listing.output,
+        rules.download_civic.output
+    params:
+        db=lambda w: config['DB_FILE']
+    output: touch('data/pmc/author_manuscripts/listing.jsonl.UPLOADED')
+    shell: PYTHON + ' -m article_utils.author_manuscripts upload {params.db} {input}'
+
+
+rule download_ncit_neoplasms:
+    output: 'data/ncit/Neoplasm_Core.txt'
+    shell: 'mkdir -p data/ncit; cd data/ncit; wget https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.txt'
+
+
+rule download_disease_ontology:
+    output: 'data/disease_ontology/doid.json'
+    shell: '''\
+        mkdir -p data/disease_ontology;
+        cd data/disease_ontology;
+        wget https://github.com/DiseaseOntology/HumanDiseaseOntology/raw/main/src/ontology/releases/doid.json
+        '''
+
+
+rule download_hpo:
+    output: 'data/hpo/hp-base.json'
+    shell: 'mkdir -p data/hpo; cd data/hpo; wget https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2024-02-08/hp-base.json'
+
+
+rule download_clo:
+    output: 'data/cells/clo.owl'
+    shell: 'mkdir -p data/cells; cd data/cells; wget http://purl.obolibrary.org/obo/clo.owl'
+
+
+rule download_cellosaurus:
+    output: 'data/cells/cellosaurus.obo'
+    shell: 'mkdir -p data/cells; cd data/cells; wget https://ftp.expasy.org/databases/cellosaurus/cellosaurus.obo'
+
+
+rule download_ncbi_gene:
+    output: 'data/Homo_sapiens.gene_info.gz'
+    shell: 'cd data; wget https://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz'
+
+
+rule download_ncit:
+    output: 'data/ncit/Thesaurus.txt'
+    shell: '''\
+        mkdir -p data/ncit;
+        cd data/ncit;
+        wget https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus.FLAT.zip
+        unzip Thesaurus.FLAT.zip
+        rm *.zip*
+        '''
+
+
+rule preprocess_ncit:
+    output: 'data/ncit/Thesaurus.jsonl'
+    input: rules.download_ncit.output
+    shell: PYTHON + 'src/preprocessing/simplify_ncit.py {input} {output}'
+
+
+rule prepreprocess_cellosaurus:
+    output: 'data/cells/cellosaurus.jsonl'
+    input: rules.download_cellosaurus.output
+    run:
+        import obonet
+
+        from article_utils.util import dump_jsonl
+
+        graph = obonet.read_obo(input[0])
+        df = pd.DataFrame.from_records(
+            [{'id': node_id, **data} for node_id, data in graph.nodes(data=True)]
+        )
+        dump_jsonl(df, output[0])
+
+
+rule process_cells:
+    input: clo=rules.download_clo.output,
+        cellosaurus=rules.prepreprocess_cellosaurus.output,
+        ncit=rules.preprocess_ncit.output
+    output: 'data/cells/cells.jsonl'
+    shell: PYTHON + '''src/preprocessing/simplify_cells.py \
+        --clo {input.clo} \
+        --cellosaurus {input.cellosaurus} \
+        --ncit {input.ncit} \
+        {output}'''
+
+
+rule process_do:
+    input: do=rules.download_disease_ontology.output,
+        ncit=rules.preprocess_ncit.output
+    output: 'data/disease_ontology/doid.simple.jsonl'
+    shell: PYTHON + ' src/preprocessing/simplify_do.py {input.do} {input.ncit} {output}'
+
+
+rule process_hpo:
+    input: rules.download_hpo.output
+    output: 'data/hpo/hpo.simple.csv'
+    shell: PYTHON + ' src/preprocessing/simplify_hpo.py {input} {output}'
+
+
+rule process_civic_revisions:
+    output: 'results/civic/civic-dump.rev.jsonl.gz'
+    input: civic=rules.download_civic.output
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ' -m civic.process_revisions {input} {output}'
+
+
+rule augment_civic_document_metadata:
+    output: 'results/civic/civic-dump.rev.doc_meta.jsonl.gz'
+    input: civic=rules.process_civic_revisions.output, manuscripts=rules.upload_author_manuscript_listing.output
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ' -m civic.add_document_metadata {input.civic} {output} --article_db_file {params.db}'
+
+
+rule augment_civic_drug_aliases:
+    output: rules.augment_civic_document_metadata.output[0].replace('.jsonl.gz', '.drug_info.jsonl.gz')
+    input: civic=rules.augment_civic_document_metadata.output, drug_info=rules.preprocess_ncit.output
+    shell: PYTHON + ' -m civic.add_drug_info {input.civic} {input.drug_info} {output}'
+
+
+rule augment_civic_phenotype_alises:
+    output: rules.augment_civic_drug_aliases.output[0].replace('.jsonl.gz', '.pheno_info.jsonl.gz')
+    input: civic=rules.augment_civic_drug_aliases.output, phenotype_info=rules.process_hpo.output
+    shell: PYTHON + ' -m civic.add_phenotype_info {input.civic} {input.phenotype_info} {output}'
+
+
+rule augment_civic_gene_aliases:
+    output: rules.augment_civic_phenotype_alises.output[0].replace('.jsonl.gz', '.gene_info.jsonl.gz')
+    log: rules.augment_civic_phenotype_alises.output[0].replace('.jsonl', '.gene_info.jsonl') + '.log.txt'
+    input: civic=rules.augment_civic_phenotype_alises.output, gene_info=rules.download_ncbi_gene.output
+    shell: PYTHON + ' -m civic.add_gene_info {input.civic} {input.gene_info} {output} &> {log}'
+
+
+rule augment_civic_celline_aliases:
+    output: rules.augment_civic_gene_aliases.output[0].replace('.jsonl.gz', '.celline_info.jsonl.gz')
+    input: civic=rules.augment_civic_gene_aliases.output, cell_info=rules.process_cells.output
+    shell: PYTHON + ' -m civic.add_cells_info {input.civic} {input.cell_info} {output}'
+
+
+rule augment_civic_disease_aliases:
+    output: rules.augment_civic_celline_aliases.output[0].replace('.jsonl.gz', '.disease_info.jsonl.gz')
+    input: civic=rules.augment_civic_celline_aliases.output, disease=rules.process_do.output
+    shell: PYTHON + ' -m civic.add_disease_info {input.civic} {input.disease} {output}'
+
+
+
+rule generate_civic_claims:
+    output: 'results/civic/claims.jsonl.gz'
+    input: rules.augment_civic_disease_aliases.output
+    shell: PYTHON + ' -m civic.generate_claims {input} {output}'
+
+
+rule fetch_pubtator_for_civic_descriptions:
+    input: rules.augment_civic_disease_aliases.output
+    output: rules.augment_civic_disease_aliases.output[0].replace('.jsonl', '.pubtator-descriptions.jsonl')
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ' -m pubtator.api {input} {output} --article_db_file {params.db} \
+'
+
+
+rule fetch_pubtator_annotations:
+    input: rules.augment_civic_disease_aliases.output
+    output: 'results/civic/pubtator_annotations.jsonl.gz'
+    shell: PYTHON + ' -m pubtator.fetch {input} {output}'
+
+
+rule split_pubtator_annotations:
+    input: rules.fetch_pubtator_annotations.output
+    output: expand('results/civic/pubtator_annotations.subset-{subset}.jsonl', subset=range(config['PUBTATOR_SPLIT']))
+    run:
+        import pandas as pd
+        from article_utils.util import dump_jsonl
+
+        df = pd.read_json(input[0], lines=True, dtype=False)
+        n_rows = int(round(df.shape[0] / config['PUBTATOR_SPLIT']))
+        chunks = [df[i:i+n_rows] for i in range(0,df.shape[0],n_rows)]
+        for subset_i, chunk_df in enumerate(chunks):
+            dump_jsonl(chunk_df, f'results/civic/pubtator_annotations.subset-{subset_i}.jsonl')
+
+
+
+rule match_pubtator_annotations:
+    input: rules.upload_author_manuscript_listing.output, data='results/civic/pubtator_annotations.subset-{subset}.jsonl'
+    output: main='results/civic/pubtator_annotations.subset-{subset}.fulltext-matched.jsonl',
+        matches='results/civic/pubtator_annotations.subset-{subset}.matches.jsonl'
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ''' src/match_to_fulltext.py \
+        {input.data} \
+        {output.main} \
+        --article_db_file {params.db} \
+        --match_output {output.matches}
+        '''
+
+rule collect_pubtator_annotations:
+    input: expand(rules.match_pubtator_annotations.output.main, subset=range(config['PUBTATOR_SPLIT'])),
+    output: 'results/civic/pubtator_annotations.fulltext-matched.jsonl'
+    shell: 'cat {input} > {output}'
+
+rule upload_pubtotor_matches:
+    input: expand(rules.match_pubtator_annotations.output.matches,  subset=range(config['PUBTATOR_SPLIT']))
+    output: touch('results/civic/pubtator_matches.UPLOADED')
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ' -m article_utils.match_text {input} --db_file {params.db}'
+
+
+rule postprocess_pubtator_annotations:
+    input: annotations=rules.collect_pubtator_annotations.output,
+        do=rules.process_do.output,
+        cells=rules.process_cells.output
+    output:'results/civic/pubtator_annotations.fulltext-matched.filtered.jsonl'
+    shell: PYTHON + ' -m pubtator.postprocess {input.annotations} --disease_ontology {input.do} {output} --cells {input.cells}'
+
+
+rule parse_acronyms:
+    input: data=rules.augment_civic_disease_aliases.output,
+        listing=rules.upload_author_manuscript_listing.output,
+        genes=rules.download_ncbi_gene.output
+    output: multiext('results/civic/acronyms','.jsonl', '.errors.jsonl')
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ''' -m article_utils.acronyms \
+        {output} \
+        --article_db_file {params.db} \
+        --civic {input.data} \
+        --genes {input.genes}
+        '''
+
+
+rule extract_description_examples:
+    input: main=rules.fetch_pubtator_for_civic_descriptions.output,
+        do=rules.process_do.output,
+        clo=rules.process_cells.output,
+        acronyms=rules.parse_acronyms.output[0],
+    output:  rules.fetch_pubtator_for_civic_descriptions.output[0].replace('.jsonl', '.descriptions.build.jsonl')
+    shell: PYTHON + '''\
+         -m civic.extract_descriptions \
+         {input.main} {output} \
+         --do {input.do} \
+         --clo {input.clo} \
+         --acronyms {input.acronyms}'''
+
+
+rule download_hypothesis:
+    output: 'data/hypothesis-dump.{group_id}.jsonl'
+    shell: PYTHON + ' -m hypothesis.download {wildcards.group_id} {output}'
+
+
+rule parse_hypothesis_annotations:
+    input: data=rules.download_hypothesis.output,
+        civic=rules.augment_civic_disease_aliases.output,
+        author=rules.parse_acronyms.output
+    params:
+        db=lambda w: config['DB_FILE'],
+        neutral=lambda w: '--neutral' if w.group_id == GROUP_ID_MAPPING['neutral'] else ''
+    output: config['OUTPUT_DIR'] + '/hypothesis-dump.{group_id}.parsed.jsonl'
+    shell: PYTHON + ''' -m hypothesis.parse \
+        {input.data} \
+        {output} \
+        --civic_dump {input.civic} \
+        --article_db_file {params.db} {params.neutral} \
+        --min_user_selections ''' + str(config['MIN_USER_SELECTIONS'])
+
+
+rule match_hypothesis_annotations:
+    input: data=rules.parse_hypothesis_annotations.output
+    output: main=rules.parse_hypothesis_annotations.output[0].replace('.jsonl', '.fulltext-matched.jsonl'),
+        matches=rules.parse_hypothesis_annotations.output[0].replace('.jsonl', '.matches.jsonl')
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ''' src/match_to_fulltext.py \
+        {input.data} \
+        {output.main} \
+        --article_db_file {params.db} \
+        --match_output {output.matches}
+        '''
+
+
+rule upload_text_matches:
+    input: expand(rules.match_hypothesis_annotations.output.matches, group_id=list(GROUP_ID_MAPPING.values())),
+    output: touch('results/hypothesis_matches.UPLOADED')
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + ' -m article_utils.match_text {input} --db_file {params.db}'
+
+
+rule build_dataset:
+    input: data=rules.match_hypothesis_annotations.output.main,
+        civic_dump=rules.augment_civic_disease_aliases.output
+    output: rules.match_hypothesis_annotations.output.main.replace('.jsonl', '.build.jsonl.gz')
+    params:
+        args=lambda w: '--neutral' if w.group_id == GROUP_ID_MAPPING['neutral'] else ''
+    shell: PYTHON + ''' -m nli.build_dataset \
+        {input.data} {output} \
+        --civic_dump {input.civic_dump} \
+        {params.args}
+        '''
+
+rule output_sentence_level_evidence:
+    input: 'results/civic_nli/hypothesis-dump.JRwd19vg.parsed.fulltext-matched.build.jsonl.gz'
+    output: 'results/civic_nli/sentence_level_evidence.jsonl.gz'
+    shell: PYTHON + ' src/generate_passage_retrieval_dataset_form.py {input} {output}'
+
+
+def get_merge_inputs():
+    inputs = expand(rules.build_dataset.output, group_id=list(GROUP_ID_MAPPING.values()))
+    inputs.extend(rules.extract_description_examples.output)
+    return inputs
+
+
+rule merge_annotation_sets:
+    input: get_merge_inputs(),
+    output: os.path.join(config['OUTPUT_DIR'], 'merged.jsonl.gz')
+    params:
+        int_output=lambda w, output: output[0].replace('.jsonl.gz', '.jsonl')
+    shell: 'zcat {input} > {params.int_output}; gzip {params.int_output}'
+
+
+rule simulate_errors_disease_specificity:
+    input: main=rules.merge_annotation_sets.output,
+        do=rules.process_do.output
+    output: rules.merge_annotation_sets.output[0].replace('.jsonl.gz', '.dis_spec.jsonl.gz')
+    shell: PYTHON + 'src/nli/simulate_errors_disease_specificity.py {input.main} {output} --do {input.do}'
+
+
+rule simulate_errors_drug_specificity:
+    input: main=rules.simulate_errors_disease_specificity.output,
+        ncit=rules.preprocess_ncit.output,
+        civic=rules.augment_civic_disease_aliases.output
+    output: rules.simulate_errors_disease_specificity.output[0].replace('.jsonl.gz', '.drug_spec.jsonl.gz')
+    shell: PYTHON + 'src/nli/simulate_errors_drug_specificity.py {input.main} {output} --ncit {input.ncit} --civic_dump {input.civic}'
+
+
+rule simulate_errors_mutation_positions:
+    input: rules.simulate_errors_drug_specificity.output
+    output: rules.simulate_errors_drug_specificity.output[0].replace('.jsonl', '.mutate.jsonl')
+    shell: PYTHON + 'src/nli/simulate_errors_mutations.py {input} {output}'
+
+
+
+rule simulate_errors_flip_significance:
+    input: rules.simulate_errors_mutation_positions.output
+    output: rules.simulate_errors_mutation_positions.output[0].replace('.jsonl', '.flipped.jsonl')
+    params:
+        db=lambda w: config['DB_FILE'],
+    shell: PYTHON + ''' -m nli.simulate_errors_flip_significance {input} {output}'''
+
+
+
+rule partition_pubmed_articles:
+    input: rules.upload_author_manuscript_listing.output,
+        civic=rules.process_civic_revisions.output,
+        annotations=rules.merge_annotation_sets.output
+    output: PARTITIONING_FILE
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + f''' -m nli.assign_pubmed_to_partition \
+        --article_db_file {{params.db}} \
+        --civic_dump {{input.civic}} \
+        --annotations {{input.annotations}} \
+        {{output}} \
+        --dev_percent {config["DEV_PERCENT"]} \
+        --test_percent {config["TEST_PERCENT"]}
+        '''
+
+
+rule chunk_documents:
+    input: civic_dump=rules.augment_civic_disease_aliases.output,
+        acronyms=rules.parse_acronyms.output[0],
+        partitions=PARTITIONING_FILE,
+        pubtator=rules.postprocess_pubtator_annotations.output
+    output: 'results/sentence_similarity/document_chunks.jsonl.gz'
+    params:
+        db=lambda w: config['DB_FILE']
+    shell: PYTHON + f''' src/sentence_pairs/generate_document_chunks.py \
+        --output {{output}} \
+        --article_db_file {{params.db}} \
+        --civic_dump {{input.civic_dump}} \
+        --acronyms {{input.acronyms}} \
+        --chunk_size {config["CHUNK_SIZE"]} \
+        --chunk_overlap {config["CHUNK_OVERLAP"]} \
+        --pubtator {{input.pubtator}} \
+        --partitions {{input.partitions}}'''
+
+
+rule set_labels_and_reasoning:
+    input: data=rules.simulate_errors_flip_significance.output,
+        civic=rules.augment_civic_disease_aliases.output
+    output: rules.simulate_errors_flip_significance.output[0].replace('.jsonl', '.labels.jsonl')
+    shell: PYTHON + f''' -m nli.set_labels_and_reasoning \
+        {{input.data}} \
+        --civic_dump {{input.civic}} \
+        {{output}}
+        '''
+
+
+rule score_chunks:
+    input: document_chunks=rules.chunk_documents.output,
+        claims=rules.generate_civic_claims.output
+    output: 'results/civic_nli/similarity_scores.jsonl.gz'
+    shell: PYTHON + f''' -m sentence_pairs.score_sentence_pairs \
+        {{input.claims}} \
+        --document_chunks {{input.document_chunks}} \
+        {{output}}
+        '''
+
+
+rule compare_pmids:
+    input: data=rules.set_labels_and_reasoning.output,
+        chunks=rules.chunk_documents.output
+    output: 'results/civic_nli/disimilar_pmids.json'
+    shell: PYTHON + ''' -m nli.compare_pmids {input.data} {input.chunks} {output}'''
+
+
+rule simulate_errors_random_evidence_swap:
+    input: data=rules.set_labels_and_reasoning.output,
+        pmids=rules.compare_pmids.output,
+        partitioning=PARTITIONING_FILE,
+        chunks=rules.chunk_documents.output,
+        scores=rules.score_chunks.output
+    output: rules.set_labels_and_reasoning.output[0].replace('.jsonl', '.random-swap.jsonl')
+    shell: PYTHON + ''' -m nli.simulate_errors_random_evidence_swap \
+        {input.data} \
+        --disimilar_pmids {input.pmids} \
+        --scores {input.scores} \
+        --document_chunks {input.chunks} \
+        {output} \
+        --partitioning {input.partitioning}'''
+
+
+rule balance_dataset:
+    input: data=rules.simulate_errors_random_evidence_swap.output,
+        partitioning=PARTITIONING_FILE
+    wildcard_constraints:
+        goal_factor=r'((\d+(\.\d+)?)|max)'
+    output: 'results/civic_nli/data.goal-{goal_factor}.jsonl.gz'
+    params:
+        flags=lambda w: '' if w.goal_factor == 'max' else f' --maximization_factor {w.goal_factor}'
+    shell: PYTHON + f''' -m nli.balance_dataset \
+        {{input.data}} \
+        {{output}} \
+        --sampling_iterations 100 \
+        --partitioning {{input.partitioning}} {{params.flags}}
+        '''

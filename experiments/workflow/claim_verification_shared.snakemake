@@ -1,0 +1,514 @@
+import re
+import socket
+
+
+wildcard_constraints:
+    learning_config=r"\d+",
+    tuning_method=r"[^/]+",
+    template=r"\w+",
+    examples=r"\d+",
+    chat_template=r"(default|none)",
+    generation_config=r'\d+',
+    prompts_file=r'prompts.(\w+).(\d+)-shot.(\w+)',
+    embedding_mode=r'(default|random)',
+    embedding_mode_seed=r'(\d+)?',
+    ret_suffix=r'(-([a-z]-)+-L\d+)?'
+
+
+
+rule assign_examples:
+    input:
+        "data/{dataset}-{data_version}/data.jsonl.gz",
+    output:
+        "data/{dataset}-{data_version}/assignments.{partition}.jsonl.gz",
+    resources:
+        gpus=0,
+        mem_mb=128000,
+    params:
+        redundancy=1,
+        max_examples=lambda w: 30 if w.dataset != 'civicfactchunk' else 0
+    wildcard_constraints:
+        dataset=r'((?!(_f[01]\.|-L\d+)).)+'
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """python src/claim_verification/assign_examples.py {input} {output} \
+                    --partition {wildcards.partition} \
+                    --max_examples {params.max_examples} \
+                    --redundancy {params.redundancy}
+                    """
+        )
+
+rule assign_examples_time_split:
+    input:
+        train="data/{dataset}-{data_version}/data.jsonl.gz",
+        eval="data/{dataset}new-{data_version}/data.jsonl.gz",
+    output:
+        "data/{dataset}new-{data_version}/assignments.{partition}.jsonl.gz",
+    resources:
+        gpus=0,
+        mem_mb=128000,
+    params:
+        redundancy=1,
+        max_examples=lambda w: 30 if w.dataset != 'civicfactchunk' else 0
+    wildcard_constraints:
+        dataset=r'((?!(_f[01]\.|-L\d+)).)+'
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """python src/claim_verification/assign_examples.py {input.eval} {output} \
+                    --max_examples {params.max_examples} \
+                    --redundancy {params.redundancy} \
+                    --examples_databank {input.train}
+                    """
+        )
+
+
+rule create_subset_filter:
+    input: ref='data/{dataset}-{data_version}/chunk_retrieval_reference.jsonl.gz',
+        data='data/{dataset}-{data_version}/data.ft-valid-claims.jsonl.gz'
+    output: 'data/{dataset}-{data_version}/filters.{filter_name}.jsonl.gz'
+    params:
+        ref=lambda w, input: '' if w.filter_name == 'realclaims' else input.ref
+    wildcard_constraints:
+        filter_name=r'\w+'
+    shell: ACTIVATE_PYTHON + ' python src/create_{wildcards.filter_name}_subset.py {input.data} {params.ref} {output}'
+
+
+rule create_chunk_augmented_dataset:
+    input: chunks='data/civicfact-{data_version}/document_chunks.jsonl.gz',
+        data='data/civicfactxf1.0g8-{data_version}/data.jsonl.gz',
+        filterfile='data/civicfact-{data_version}/filters.nonabstract.jsonl.gz'
+    output: 'data/civicfactchunk-{data_version}/data.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/create_chunk_version.py {input.data} --document_chunks {input.chunks} {output} --filterfile {input.filterfile}'
+
+
+rule generate_llm_prompts:
+    input:
+        "data/{dataset}-{data_version}/assignments.{partition}.jsonl.gz",
+    output:
+        "data/{dataset}-{data_version}/prompts.{template}.{examples}-shot.{partition}.jsonl.gz",
+    resources:
+        gpus=0,
+        mem_mb=100000,
+    wildcard_constraints:
+        dataset=r'[^/]+'
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """python src/claim_verification/prepare_dataset.py {input} {output} \
+                        --examples {wildcards.examples} \
+                        --template {wildcards.template}
+                        """
+        )
+
+
+rule memory_estimates:
+    output:
+        "results/memory_estimates/{model_dir}.csv",
+    resources:
+        gpus=0,
+        memory_mb=4000,
+        time_limit=60,
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """\
+                    python src/claim_verification/memory_estimates.py {params.model_name} {output}
+                    """
+        )
+
+
+def pick_chat_template(w):
+    if w.chat_template == "none":
+        return w.chat_template
+    if w.model_dir == "medalpaca__medalpaca-7b":
+        return "chat-doctor"
+    if w.model_dir == "gradientai__Llama-3-8B-Instruct-262k":
+        return "llama-3-chat"
+    if "Phi-3" in w.model_dir:
+        return "phi-3"
+    if "Llama-3" in w.model_dir or "Llama3" in w.model_dir:
+        return "llama-3-chat"
+    if w.model_dir.startswith("mosaicml__mpt"):
+        return "mpt"
+    if 'DeepSeek-R1-Distill-Llama' in w.model_dir:
+        return 'llama-3-chat'
+    return w.chat_template
+
+
+rule pretokenize:
+    input:
+        "data/{data}/{prompts_file}.jsonl.gz",
+    output:
+        "results/claim_verification/pretokenize/{model_dir}/{data}/chat-{chat_template}/{prompts_file}.jsonl.gz",
+    wildcard_constraints:
+        data=r"[^/]+",
+        chat_template=r"(default|none)",
+    resources:
+        gpus=0,
+        mem_mb=32000,
+        time_limit=60,
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        chat_template=pick_chat_template,
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """python src/claim_verification/encoding_stats.py \
+                        {input} {output} \
+                        --model_path {params.model_name} \
+                        --chat_template {params.chat_template}"""
+        )
+
+
+def extract_model_size(model_name):
+    patterns = [
+        r'(?P<experts>\d+)x(?P<size>\d+)b',
+        r'-(?P<size>\d+)b-(?P<experts>\d+)e',
+        r"[-_x](?P<size>\d+)b[-_]",
+        r"[-_x](?P<size>\d+)b$",
+    ]
+    size = None
+    for patt in patterns:
+        m = re.search(patt, model_name, re.IGNORECASE)
+        if m:
+            groups = m.groupdict()
+            size = int(groups['size']) * int(groups.get('experts', 1))
+            break
+
+    if "Phi-3-medium" in model_name:
+        # https://huggingface.co/microsoft/Phi-3-medium-128k-instruct
+        return 14
+    if size is None:
+        return 7
+    return size
+
+
+def pick_eval_gpus(w):
+    model_size = extract_model_size(w.model_dir)
+    gpus = 1
+
+    if model_size > 100:
+        gpus = 8
+    elif model_size > 50:
+        gpus = 5
+    elif model_size > 30:
+        gpus = 4
+    elif model_size > 13:
+        gpus = 3
+    elif model_size > 8:
+        gpus = 2
+
+    if hasattr(w, 'data') and "ft-" in w.data:
+        # long context requires more GPU memory
+        gpus += 1
+
+    if socket.gethostname().startswith("hpc"):
+        if 'mixtral' in w.model_dir.lower():
+            return 2
+        return 1  # TODO: figure out why crc nodes ignoring 2nd GPU
+        # gpus = int(round(gpus / 2))
+        # # CRC cluster only supports 2GPUs per job rn
+        # return max([1, min([2, gpus])])
+    return gpus
+
+
+def pick_train_gpus(w, input):
+    model_size = extract_model_size(w.model_dir)
+    if model_size > 30:
+        gpus = 8
+    elif model_size > 13:
+        gpus = 6
+    else:
+        gpus = 3
+    if "factft" in w.data or 'verify' in w.data:
+        # longer context requires more GPU
+        gpus += 2
+
+    if socket.gethostname().startswith("hpc"):
+        gpus = int(round(gpus / 2))
+        return max([1, min([2, gpus])])  # CRC cluster only supports 2GPUs per job rn
+
+    return min([gpus, 8])
+
+
+def pick_compute_params(w, input, training=False):
+    model_size = extract_model_size(w.model_dir)
+
+    if training:
+        partition = "gpuPRO6000"
+        time_limit =  60 * 6
+        gpus = pick_train_gpus(w, input)
+    elif model_size > 50:
+        partition = "gpuPRO6000"  # higher memory GPUs
+        gpus = int(round(pick_eval_gpus(w) / 2))
+        if w.model_dir == 'mistralai__Mixtral-8x7B-Instruct-v0.1':
+            gpus = 3
+        if w.model_dir == 'meta-llama__Meta-Llama-3.1-70B-Instruct':
+            gpus = 2
+        if w.model_dir == 'meta-llama__Llama-4-Scout-17B-16E-Instruct':
+            gpus = 4
+            if '30-shot' in str(input) or 'civicfactft' in str(input):
+                gpus = 8
+
+        time_limit =  60 * 6
+    elif 'gemma-4-31B' in w.model_dir:
+        time_limit =  60 * 6
+        gpus = 4
+        partition = 'gpuPRO6000,gpuA6000'
+        if '30-shot' in str(input) or 'civicfactft' in str(input):
+            partition = 'gpuPRO6000'
+            gpus = 8
+        if '15-shot' in str(input):
+            partition = 'gpuPRO6000'
+            gpus = 6
+    else:
+        partition = "gpu3090,gpuA6000"
+        if training:
+            time_limit = 24 * 60 * 14
+        else:
+            time_limit = 24 * 60 * 7
+        gpus = pick_eval_gpus(w)
+
+    return {'gpus': gpus, 'partition': partition, 'time_limit': time_limit}
+
+
+
+def pick_context_length(wildcards):
+    if "mpt-7b" in wildcards.model_dir and "6-shot" in wildcards.prompts_file:
+        return "--context_length 4096"
+    return ""
+
+
+ACCERLATE_LAUNCH_CMD = """NCCL_IB_GID_INDEX=3
+NCCL_DEBUG=INFO
+MAIN_PORT=$( shuf -i 2000-65000 -n 1 )
+
+accelerate launch \
+    --config_file configs/accelerate-eval.yml \
+    --machine_rank $SLURM_PROCID \
+    --main_process_port $MAIN_PORT """
+
+
+
+rule evaluate_llm_model:
+    input:
+        data=rules.pretokenize.output,
+    output: main="results/claim_verification/evaluations/{model_dir}/{data}/chat-{chat_template}/gen-{generation_config}/{prompts_file}.jsonl.gz"
+    wildcard_constraints:
+        data=r"[^/]+",
+    resources:
+        gpus=lambda w, input: pick_compute_params(w, input)['gpus'],
+        mem_mb=lambda w: 200000 if extract_model_size(w.model_dir) >= 7 else 64000,
+        partition=lambda w, input: pick_compute_params(w, input)['partition'],
+        time_limit=lambda w, input: pick_compute_params(w, input)['time_limit'],
+        nodes=1,  # https://discuss.huggingface.co/t/how-to-run-30b-meta-model-on-two-nodes-with-accelerate/18055
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        context_length=pick_context_length,
+        gpu_usage_log=lambda w, output: os.path.join(os.path.dirname(output[0]), "gpu_usage"),
+        launch_cmd=lambda w: 'python' if socket.gethostname().startswith('gphost') else GPU_MONITOR_SCRIPT + ACCERLATE_LAUNCH_CMD
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """ {params.launch_cmd} \
+    src/claim_verification/evaluate_quant.py {input.data} {output.main} \
+    --generation_config configs/generation/config-{wildcards.generation_config}.json \
+    --model_path {params.model_name} {params.context_length} """
+        )
+
+
+rule train_llm_model:
+    input:
+        train="results/claim_verification/pretokenize/{model_dir}/{data}/chat-{chat_template}/prompts.{template}.{examples}-shot.train.jsonl.gz",
+        dev="results/claim_verification/pretokenize/{model_dir}/{data}/chat-{chat_template}/prompts.{template}.{examples}-shot.dev.jsonl.gz",
+    output:
+        main=directory(
+            "results/claim_verification/fine-tuning/config-{learning_config}/{tuning_method}/{data}/chat-{chat_template}/prompts.{template}.{examples}-shot.train.jsonl/{model_dir}/checkpoints/best_checkpoint"
+        )
+    resources:
+        gpus=lambda w, input: pick_compute_params(w, input, True)['gpus'],
+        mem_mb=lambda w: 120000 if extract_model_size(w.model_dir) >= 7 else 64000,
+        partition=lambda w, input: pick_compute_params(w, input, True)['partition'],
+        time_limit=lambda w, input: pick_compute_params(w, input, True)['time_limit'],
+        nodes=1,
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        output_dir=lambda w, output: os.path.dirname(output.main),
+        context_length=lambda w: "--context_length 2048" if "BioMistral" in w.model_dir else "",
+        gpu_usage_log=lambda w, output: os.path.join(os.path.dirname(output[0]), "gpu_usage")
+    shell:
+        (
+            GPU_MONITOR_SCRIPT + ACTIVATE_PYTHON
+            + """
+echo "{params.gpu_usage_log}";
+python src/claim_verification/fine_tune.py \
+    --train {input.train} \
+    --dev {input.dev} \
+    --model_path {params.model_name} \
+    --output {params.output_dir} \
+    --tuning_method {wildcards.tuning_method} {params.context_length} \
+    --config configs/train/claim_verification-{wildcards.learning_config}.json"""
+        )
+
+
+rule evaluate_ft_llm_model:
+    input:
+        data=rules.pretokenize.output,
+        model_dir="results/claim_verification/fine-tuning/config-{learning_config}/{tuning_method}/{ft_data}/chat-{chat_template}/{ft_prompts_file}/{model_dir}/checkpoints/best_checkpoint",
+    output: main="results/claim_verification/fine-tuning/config-{learning_config}/{tuning_method}/{ft_data}/chat-{chat_template}/{ft_prompts_file}/{model_dir}/evaluations/{data}/chat-{chat_template}/gen-{generation_config}/{prompts_file}.jsonl.gz"
+    wildcard_constraints:
+        data=r"[^/]+",
+    resources:
+        gpus=lambda w, input: pick_compute_params(w, input)['gpus'],
+        mem_mb=lambda w: 200000 if extract_model_size(w.model_dir) >= 7 else 64000,
+        partition=lambda w, input: pick_compute_params(w, input)['partition'],
+        time_limit=lambda w, input: pick_compute_params(w, input)['time_limit'],
+        nodes=1,  # https://discuss.huggingface.co/t/how-to-run-30b-meta-model-on-two-nodes-with-accelerate/18055
+    params:
+        context_length=pick_context_length,
+        gpu_usage_log=lambda w, output: os.path.join(os.path.dirname(output[0]), "gpu_usage"),
+        launch_cmd=lambda w: 'python' if socket.gethostname().startswith('gphost') else ACCERLATE_LAUNCH_CMD
+    shell:
+        (
+            GPU_MONITOR_SCRIPT + ACTIVATE_PYTHON
+            + """ {params.launch_cmd} \
+    src/claim_verification/evaluate_quant.py {input.data} {output.main} \
+    --generation_config configs/generation/config-{wildcards.generation_config}.json \
+    --model_path {input.model_dir} {params.context_length} """
+        )
+
+
+rule train_seqclass_model:
+    input:
+        "data/{train_dataset}-{data_version}/data.jsonl.gz",
+    output:
+        main=directory(
+            "results/claim_verification/fine-tuning/config-{config}/seqclass/{embedding_mode}{embedding_mode_seed}/{pairing_mode}/{train_dataset}-{data_version}/{model_dir}/checkpoints/best_checkpoint"
+        ),
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        checkpoints_dir=lambda w, output: os.path.dirname(output.main),
+        pairing_mode=lambda w: '--unpaired' if w.pairing_mode == 'unpaired' else '--passage_column evidence.flat',
+        embedding_mode=lambda w: '' if w.embedding_mode == 'default' else ' --random_embeddings',
+        seed=lambda w: '' if w.embedding_mode_seed == '' else ' --seed ' + w.embedding_mode_seed
+    resources:
+        gpus=1,
+        mem_mb=64000,
+        time_limit=24 * 60 * 90,
+        partition="gpu3090,gpuA6000",
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """ \
+            python src/claim_verification/fine_tune_seqclass.py \
+                    {input} {params.embedding_mode} \
+                    --output {params.checkpoints_dir} \
+                    {params.seed} \
+                    --model_path {params.model_name} {params.pairing_mode} \
+                    --config configs/train/seqclass-{wildcards.config}.json """
+        )
+
+
+rule eval_ft_seqclass_model:
+    input:
+        data="data/{eval_dataset}-{data_version}/data.jsonl.gz",
+        model=rules.train_seqclass_model.output.main,
+    output: "results/claim_verification/fine-tuning/config-{config}/seqclass/{embedding_mode}{embedding_mode_seed}/{pairing_mode}/{train_dataset}-{train_data_version}/{model_dir}/evaluations/{eval_dataset}-{data_version}/data.{partition}.jsonl.gz",
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        pairing_mode=lambda w: '--unpaired' if w.pairing_mode == 'unpaired' else '--passage_column evidence.flat'
+    resources:
+        gpus=1,
+        mem_mb=64000,
+        time_limit=24 * 60 * 90,
+        partition="gpu3090,gpuA6000"
+    shell:
+        (
+            ACTIVATE_PYTHON
+            + """ \
+            python src/claim_verification/eval_seqclass.py \
+                    {input.data} \
+                    --output {output} \
+                    --model_path {input.model} {params.pairing_mode} \
+                    --partition {wildcards.partition} """
+        )
+
+
+rule evaluate_api_model:
+    input: "data/{data}/{prompts_file}.jsonl.gz",
+    output: "results/claim_verification/api/evaluations/{model_dir}/{data}/chat-default/gen-{generation_config}/{prompts_file}.jsonl.gz",
+    wildcard_constraints:
+        data=r"[^/]+",
+    resources:
+        gpus=0
+    params:
+        model_name=lambda w: w.model_dir.split('__')[1],
+        api_key_var=lambda w: 'GEMINI_API_KEY' if w.model_dir.startswith('google__') else 'OPENAI_API_KEY'
+    shell: ACTIVATE_PYTHON + ' python src/api/openai_eval.py {input} {output} --model {params.model_name} --generation_config configs/generation/config-{wildcards.generation_config}.json --api_key_var {params.api_key_var} --batch_mode'
+
+
+rule postprocess_eval:
+    input:
+        "{prefix}/evaluations{prefix2}.jsonl.gz",
+    output:
+        "{prefix}/evaluations{prefix2}.processed.jsonl.gz",
+    wildcard_constraints:
+        prefix=r'results.*'
+    resources:
+        gpus=0
+    shell:
+        ACTIVATE_PYTHON + " python src/claim_verification/postprocess_evaluation.py {input} {output}"
+
+
+rule compute_label_accuracy:
+    input: "{prefix}/{dataset}-{data_version}/chat-{chat_template}/gen-{generation_config}/{file_prefix}.processed.jsonl.gz"
+    output: "{prefix}/{dataset}-{data_version}/chat-{chat_template}/gen-{generation_config}/{file_prefix}.processed.label_accuracy.jsonl.gz"
+    wildcard_constraints:
+        prefix=r'results.*',
+        file_prefix=r'[^/]+'
+    resources:
+        gpus=0
+    shell:
+        ACTIVATE_PYTHON + " python src/claim_verification/compute_label_accuracy.py {input} {output}"
+
+
+rule compute_label_stability:
+    input: "{prefix}/{dataset}-{data_version}/chat-{chat_template}/gen-{generation_config}/{file_prefix}.processed.jsonl.gz"
+    output: "{prefix}/{dataset}-{data_version}/chat-{chat_template}/gen-{generation_config}/{file_prefix}.processed.label_stability.jsonl.gz"
+    wildcard_constraints:
+        prefix=r'results.*',
+        file_prefix=r'[^/]+'
+    resources:
+        gpus=0
+    shell:
+        ACTIVATE_PYTHON + " python src/claim_verification/compute_label_stability.py {input} {output}"
+
+
+rule generate_explanation_prompts:
+    input: 'data/{dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/explanations/{dataset}-{data_version}/f{subsample}_s{random_seed}/prompts.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/api/create_explanation_prompts.py {input} {output} --random_seed {wildcards.random_seed} --subsample {wildcards.subsample}'
+
+
+rule evaluate_explanation_prompts:
+    input: 'results/explanations/{dataset}-{data_version}/f{subsample}_s{random_seed}/prompts.jsonl.gz'
+    output: 'results/explanations/{dataset}-{data_version}/f{subsample}_s{random_seed}/{model_dir}/gen-{generation_config}/prompts.jsonl.gz'
+    wildcard_constraints:
+        data=r"[^/]+",
+    resources:
+        gpus=0
+    params:
+        model_name=lambda w: w.model_dir.split('__')[1],
+        api_key_var=lambda w: 'GEMINI_API_KEY' if w.model_dir.startswith('google__') else 'OPENAI_API_KEY'
+    shell: ACTIVATE_PYTHON + ' python src/api/openai_eval.py {input} {output} --batch_mode --model {params.model_name} --generation_config configs/generation/config-{wildcards.generation_config}.json --api_key_var {params.api_key_var} '
+
+
+rule add_explanations_to_data:
+    input: explanations='results/explanations/civicfact-{data_version}/f{subsample}_s42/openai__gpt-5.2/gen-{generation_config}/prompts.jsonl.gz',
+        data='data/{dataset}-{data_version}/data.jsonl.gz'
+    output: 'data/{dataset}xf{subsample}g{generation_config}-{data_version}/data.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/add_explanations_to_dataset.py {input.data} {input.explanations} {output}'

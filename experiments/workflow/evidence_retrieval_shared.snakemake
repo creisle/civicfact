@@ -1,0 +1,305 @@
+"""
+Evidence retrieval and Passage Ranking related workflows
+"""
+
+
+# Preprocess data, only keep claims that will likely work when we have access to full source
+rule filter_ft_valid_claims_civicfact_data:
+    input: data='data/{dataset}-{data_version}/data.jsonl.gz',
+        document_chunks='data/civicfact-{data_version}/document_chunks.jsonl.gz'
+    output: 'data/{dataset}-{data_version}/data.ft-valid-claims.jsonl.gz'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/filter_civicfact_claims.py {input.data} {input.document_chunks} {output}'
+
+
+rule create_manual_passage_data:
+    input: fact_data=rules.filter_ft_valid_claims_civicfact_data.output[0],
+        document_chunks='data/civicfact-{data_version}/document_chunks.jsonl.gz'
+    output: 'data/{dataset}pairs-{data_version}/data.jsonl.gz'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/create_manual_passage_data.py {input.document_chunks} {input.fact_data} {output}'
+
+rule create_all_passage_data:
+    input: fact_data='data/{dataset}-{data_version}/data.jsonl.gz',
+        document_chunks='data/civicfact-{data_version}/document_chunks.jsonl.gz'
+    output: 'data/{dataset}pairs-{data_version}/data.jsonl.gz'
+    wildcard_constraints:
+        dataset=r'[^/]+new'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/create_manual_passage_data.py {input.document_chunks} {input.fact_data} {output}'
+
+
+rule create_ft_data_version:
+    input: fact_data=rules.filter_ft_valid_claims_civicfact_data.output[0],
+        document_chunks='data/civicfact-{data_version}/document_chunks.jsonl.gz'
+    output: 'data/{dataset}ft-{data_version}/data.jsonl.gz'
+    resources:
+        gpus=0,
+        time_limit=30
+    shell: ACTIVATE_PYTHON + ' python src/create_ft_dataset.py  {input.fact_data} {input.document_chunks} {output}'
+
+
+rule calculate_tfidf_similarity:
+    input: pairs='data/{eval_dataset}-{data_version}/data.jsonl.gz',
+        document_chunks='../thesis_work/builds/civicfact-{data_version}/document_chunks.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/tfidf/{eval_dataset}-{data_version}/qt{query_template}/{similarity_function}.{partition}.jsonl.gz'
+    resources:
+        gpus=0,
+        mem_mb=64000,
+        time_limit=24*60*2,
+        partition='gpu3090,gpuA6000'
+    params:
+        similarity_function=lambda w: 'euclidean' if w.similarity_function == 'data' else w.similarity_function
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_tfidf_similarity.py \
+        --pairs {input.pairs} \
+        --document_chunks {input.document_chunks} \
+        --output {output} \
+        --partition {wildcards.partition} \
+        --query_template {wildcards.query_template} \
+        --similarity_function {params.similarity_function}'''
+
+
+rule calculate_bm25_similarity:
+    input: 'data/{eval_dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/bm25-{method}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.jsonl.gz'
+    wildcard_constraints:
+        method=r'\w+'
+    resources:
+        gpus=0,
+        mem_mb=64000,
+        time_limit=24*60*2
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_bm25_similarity.py \
+        --pairs {input} \
+        --output {output} \
+        --partition {wildcards.partition} \
+        --query_template {wildcards.query_template} \
+        --method {wildcards.method}'''
+
+
+rule calculate_head_similarity:
+    input: 'data/{eval_dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/head/{eval_dataset}-{data_version}/qt0/data.{partition}.jsonl.gz'
+    wildcard_constraints:
+        method=r'\w+'
+    resources:
+        gpus=0,
+        mem_mb=64 * 1024,
+        time_limit=60*1
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_head_similarity.py \
+        --pairs {input} \
+        --output {output} \
+        --partition {wildcards.partition}'''
+
+
+rule calculate_random_similarity:
+    input: 'data/{eval_dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/random{random_seed}/{eval_dataset}-{data_version}/qt0/data.{partition}.jsonl.gz'
+    wildcard_constraints:
+        method=r'\w+'
+    resources:
+        gpus=0,
+        mem_mb=64 * 1024,
+        time_limit=60*1,
+        random_seed=r'\d+'
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_random_similarity.py \
+        --pairs {input} \
+        --output {output} \
+        --random_seed {wildcards.random_seed} \
+        --partition {wildcards.partition}'''
+
+
+################### PASSAGE RANKING
+
+rule ft_passage_ranking_model:
+    input: 'data/{train_dataset}-{data_version}/data.jsonl.gz'
+    output: directory('results/evidence_retrieval/cross/fine-tuning/similarity/config-{config}/{train_dataset}-{data_version}/qt{query_template}/{model_dir}/checkpoints/best_checkpoint')
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        checkpoints_dir=lambda w, output: os.path.dirname(output[0])
+    resources:
+        gpus=2,
+        mem_mb=64000,
+        time_limit=24*60*7,
+        partition='gpu3090,gpuA6000'
+    shell: JOB_MONITOR_SCRIPT + ACTIVATE_PYTHON + ''' \
+python src/evidence_retrieval/fine_tune_bert_reranker.py \
+        {input} \
+        --output {params.checkpoints_dir} \
+        --model_path {params.model_name} \
+        --query_template {wildcards.query_template} \
+        --config configs/train/passage_ranking-{wildcards.config}.json '''
+
+
+rule create_anchor_pairs:
+    input: data='data/{train_dataset}-{data_version}/data.jsonl.gz',
+        reference="data/{train_dataset}-{data_version}/chunk_retrieval_reference.jsonl.gz",
+        documents='data/{train_dataset}-{data_version}/document_chunks.jsonl.gz',
+    output:'results/evidence_retrieval/cross/fine-tuning/anchors/config-{config}/{train_dataset}-{data_version}/qt{query_template}/anchor_pairs.jsonl.gz'
+    resources:
+        gpus=0,
+        mem_mb=16000,
+        time_limit=2*60,
+    shell: ACTIVATE_PYTHON + ''' \
+python src/evidence_retrieval/generate_anchor_pairs_dataset.py \
+        --data {input.data} \
+        --reference {input.reference} \
+        --documents {input.documents} \
+        --output {output} \
+        --query_template {wildcards.query_template}  '''
+
+
+rule ft_crossencoder_ranking_model:
+    input: rules.create_anchor_pairs.output
+    output: directory('results/evidence_retrieval/cross/fine-tuning/anchors/config-{config}/{train_dataset}-{data_version}/qt{query_template}/{model_dir}/checkpoints/best_checkpoint')
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+        checkpoints_dir=lambda w, output: os.path.dirname(output[0])
+    resources:
+        gpus=1,
+        mem_mb=64000,
+        time_limit=24*60*7,
+        partition='gpuA6000'
+    shell:  ACTIVATE_PYTHON + ''' \
+python src/evidence_retrieval/fine_tune_crossencoder.py \
+        {input} \
+        --output {params.checkpoints_dir} \
+        --model_path {params.model_name} \
+        --config configs/train/passage_ranking-{wildcards.config}.json '''
+
+
+rule compute_crossencoding_similarity:
+    input: data='data/{eval_dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/evidence_retrieval/cross/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.jsonl.gz'
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir),
+    resources:
+        gpus=1,
+        time_limit=60*6
+    wildcard_constraints:
+        model_dir=r"(?!(Qwen))[^/]+"
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_crossencoding_similarity.py \
+        {input} \
+        --output {output} \
+        --model_path {params.model_name} \
+        --model_name {params.model_name} \
+        --query_template {wildcards.query_template} \
+        --partition {wildcards.partition} '''
+
+
+# qwen rernker needs more GPU memory
+rule compute_llm_crossencoding_similarity:
+    input: data='data/{eval_dataset}-{data_version}/data.jsonl.gz'
+    output: 'results/evidence_retrieval/cross/evaluations/{model_dir}/{eval_dataset}-{data_version}/qt{query_template}/data.{partition}.jsonl.gz'
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir)
+    resources:
+        gpus=1,
+        time_limit=60*24,
+        partition='gpuA6000'
+    wildcard_constraints:
+        model_dir=r"[^/]*Qwen[^/]*"
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_llm_crossencoding_similarity.py \
+        {input} \
+        --output {output} \
+        --model_path {params.model_name} \
+        --model_name {params.model_name} \
+        --query_template {wildcards.query_template} \
+        --partition {wildcards.partition} '''
+
+
+rule compute_ft_crossencoding_similarity:
+    input: data='data/{eval_dataset}-{eval_data_version}/data.jsonl.gz',
+        model="results/evidence_retrieval/cross/fine-tuning/{data_method}/config-{config}/{train_dataset}-{train_data_version}/qt{query_template}/{model_dir}/checkpoints/best_checkpoint"
+    output: 'results/evidence_retrieval/cross/fine-tuning/{data_method}/config-{config}/{train_dataset}-{train_data_version}/qt{query_template}/{model_dir}/evaluations/{eval_dataset}-{eval_data_version}/qt{query_template}/data.{partition}.jsonl.gz'
+    params:
+        model_name=lambda w: reverse_model_name(w.model_dir)  + '--ft--civicpairs-' + w.train_data_version
+    resources:
+        gpus=1,
+        mem_mb=64 * 1024,
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_crossencoding_similarity.py \
+        {input.data} \
+        --output {output} \
+        --model_path {input.model} \
+        --model_name {params.model_name} \
+        --query_template {wildcards.query_template} \
+        --partition {wildcards.partition}  '''
+
+
+rule convert_retrieval_to_verification:
+    input: 'results/evidence_retrieval/{prefix}.{partition}.jsonl.gz'
+    output: 'results/evidence_retrieval/{prefix}.{partition}.ver-{length}.jsonl.gz'
+    resources:
+        gpus=0
+    wildcard_constraints:
+        length=r'\d+'
+    params:
+        oracle=lambda w: '--ret_fail_ok' if 'oracle' in w.prefix else ''
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/convert_retrieval_to_verification.py \
+        {input} {output} --length {wildcards.length} {params.oracle}'''
+
+
+rule build_chunk_retrieval_reference:
+    input: data='data/{dataset}-{data_version}/data.jsonl.gz', chunks='data/{dataset}-{data_version}/document_chunks.jsonl.gz'
+    output: 'data/{dataset}-{data_version}/chunk_retrieval_reference.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/build_chunk_retrieval_reference.py {input.data} {input.chunks} {output}'
+
+
+rule calculate_head_oracle_similarity:
+    input: data='data/{eval_dataset}pairs-{data_version}/data.jsonl.gz', chunks='data/civicfact-{data_version}/chunk_retrieval_reference.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/head-oracle/{eval_dataset}pairs-{data_version}/qt0/data.{partition}.jsonl.gz'
+    wildcard_constraints:
+        method=r'\w+'
+    resources:
+        gpus=0,
+        mem_mb=64 * 1024,
+        time_limit=60*1
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_head_oracle_similarity.py \
+       --pairs {input.data} \
+        --reference {input.chunks} \
+        --output {output} \
+        --partition {wildcards.partition}'''
+
+
+rule calculate_oracle_similarity:
+    input: data='data/{eval_dataset}pairs-{data_version}/data.jsonl.gz', chunks='data/civicfact-{data_version}/chunk_retrieval_reference.jsonl.gz'
+    output: 'results/evidence_retrieval/bi/evaluations/oracle/{eval_dataset}pairs-{data_version}/qt0/data.{partition}.jsonl.gz'
+    wildcard_constraints:
+        method=r'\w+'
+    resources:
+        gpus=0,
+        mem_mb=64 * 1024,
+        time_limit=60*1
+    shell: ACTIVATE_PYTHON + ''' python src/evidence_retrieval/calculate_head_oracle_similarity.py \
+        --pairs {input.data} \
+        --reference {input.chunks} \
+        --oracle_only \
+        --output {output} \
+        --partition {wildcards.partition}'''
+
+
+
+rule compute_retrieval_accuracy:
+    input: data='results/evidence_retrieval/{prefix1}/{eval_dataset}-{data_version}/qt{query_template}/{similarity_function}.{partition}.jsonl.gz',
+        reference='data/civicfact-{data_version}/chunk_retrieval_reference.jsonl.gz'
+    wildcard_constraints:
+        similarity_function=r'\w+'
+    output: 'results/evidence_retrieval/{prefix1}/{eval_dataset}-{data_version}/qt{query_template}/{similarity_function}.{partition}.retrieval_accuracy.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/compute_retrieval_accuracy.py {input.data} --reference {input.reference} {output}'
+
+
+rule convert_combined_retrieval_output:
+    input: 'results/claim_verification/{prefix}/prompts.{name}.{partition}.jsonl.gz',
+    output: 'results/claim_verification/{prefix}/{name}/qt0/data.{partition}.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/claim_verification/convert_combined_retrieval_output.py {input} {output}'
+
+
+rule compute_combined_retrieval_accuracy:
+    input: data='results/claim_verification/{prefix1}-{data_version}/{prefix2}/data.{partition}.jsonl.gz', reference=expand(rules.build_chunk_retrieval_reference.output, dataset='civicfact', data_version='{data_version}')
+    output: 'results/claim_verification/{prefix1}-{data_version}/{prefix2}/data.{partition}.retrieval_accuracy.jsonl.gz'
+    shell: ACTIVATE_PYTHON + ' python src/evidence_retrieval/compute_retrieval_accuracy.py {input.data} --reference {input.reference} {output}'

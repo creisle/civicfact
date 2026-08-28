@@ -1,0 +1,42 @@
+{
+    "best_model_metric": "ndcg@10",
+    "compute_dtype": "float32",
+    "embedding_model": "sentence-transformers/static-retrieval-mrl-en-v1",
+    "eval_per_epoch": 2,
+    "hard_eval_corpus_all": true,
+    "loss_function": "CachedMultipleNegativesRankingLoss",
+    "hard_eval": {
+        "batch_size": 4096,
+        "include_positives": true,
+        "num_negatives": 30,
+        "use_faiss": true
+    },
+    "hard_train": {
+        "absolute_margin": 0,
+        "batch_size": 4096,
+        "num_negatives": 5,
+        "range_max": 100,
+        "range_min": 0,
+        "sampling_strategy": "top",
+        "use_faiss": true
+    },
+    "log_per_epoch": 10,
+    "save_per_epoch": 2,
+    "train": {
+        "bf16": true,
+        "eval_strategy": "steps",
+        "fp16": false,
+        "gradient_accumulation_steps": 8,
+        "gradient_checkpointing": true,
+        "learning_rate": 2e-5,
+        "load_best_model_at_end": true,
+        "logging_first_step": true,
+        "num_train_epochs": 5,
+        "per_device_eval_batch_size": 8,
+        "per_device_train_batch_size": 8,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "seed": 42,
+        "warmup_steps": 0.1
+    }
+}

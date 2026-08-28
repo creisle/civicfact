@@ -1,0 +1,31 @@
+site_name: CIViC NLI
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    # - navigation.sections
+    - navigation.instant
+    - toc.integrate
+repo_url: https://github.com/creisle/thesis_work
+repo_name: github
+site_dir: build-docs
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - awesome-pages
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "docs.hooks:generate_docs"
+nav:
+  - README.md
+  - ...
+extra_javascript:
+  - https://unpkg.com/ag-grid-community@30.2.1/dist/ag-grid-community.min.js
+  - js/table.js
+extra_css:
+  - custom.css

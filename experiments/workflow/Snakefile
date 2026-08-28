@@ -1,0 +1,94 @@
+include: "utils.snakemake"
+include: "evidence_retrieval_shared.snakemake"
+include: "claim_verification_shared.snakemake"
+
+import subprocess
+import socket
+import re
+import json
+
+from utils import parse_filepath_metadata
+
+ruleorder: create_ft_data_version > create_chunk_augmented_dataset > downsample_and_filter_data > downsample_data  > assign_examples > add_explanations_to_data > copy_data
+ruleorder: copy_verification_as_input_dataset > calculate_head_oracle_similarity > calculate_head_similarity > calculate_random_similarity > convert_combined_retrieval_output
+ruleorder: create_all_passage_data > create_manual_passage_data
+ruleorder: assign_examples_time_split > assign_examples
+
+SIMILARITY_FUNCTIONS = ['euclidean', 'cosine']
+
+IS_GSC_SERVER = bool(socket.gethostname() not in {'crcslurm', 'hpc1', 'hpc2', 'hpc3'})
+
+pathnames_file = workflow.source_path("../data/pathnames.json")
+with open(pathnames_file, 'r') as fh:
+    PATH_NICKNAMES = json.load(fh)
+
+
+FINAL_OUTPUTS = set() # 'results/claim_verification/cache_llm_responses.COMPLETE'}
+
+with open(workflow.source_path("experiments.json"), 'r') as fh:
+    experiments = json.load(fh)
+
+    for exp_name in experiments:
+        disable = experiments[exp_name].pop('disable', False)
+        if disable:
+            continue
+        gsc_run = experiments[exp_name].pop('gsc_server', True)
+        if not gsc_run and IS_GSC_SERVER:
+            continue
+        for data_version, path_builds in experiments[exp_name].items():
+            for path_build in path_builds:
+                if path_build.get('gsc_server_only') and not IS_GSC_SERVER:
+                    continue
+                if not path_build.get('disable'):
+                    FINAL_OUTPUTS.update(multi_expand(path_build['paths'], **path_build['expands']))
+
+## add any inputs needed for data copy if they exist in the pathnames mapping
+for filename in list(FINAL_OUTPUTS):
+    m = re.match(r'data/(?P<dataset>[^/-]+)-(?P<nickname>[^/]+)-L(\d+)-(?P<data_version>[^/-]+)/data.jsonl.gz', filename)
+    if m:
+        prefix = PATH_NICKNAMES[m.group('nickname')]
+        FINAL_OUTPUTS.update(expand(os.path.join(prefix, '{dataset}-{data_version}/data.{partition}.jsonl.gz'), partition=['train', 'dev'], **m.groupdict()))
+
+
+for eval_file in sorted(FINAL_OUTPUTS):
+    if 'claim_verification' in eval_file and 'evaluations' in eval_file:
+        if eval_file.endswith('processed.jsonl.gz'):
+            FINAL_OUTPUTS.add(eval_file.replace('.jsonl.gz', 'processed.label_accuracy.jsonl.gz'))
+            FINAL_OUTPUTS.add(eval_file.replace('.jsonl.gz', 'processed.label_stability.jsonl.gz'))
+        elif re.match(r'.*\.label_(accuracy|stability).jsonl.gz$', eval_file):
+            FINAL_OUTPUTS.add(eval_file.replace('label_accuracy.jsonl.gz', '').replace('label_stability.jsonl.gz', '') + 'jsonl.gz')
+
+## compute retrieval accuracy
+ret_files = []
+suffix = expand('{prefix}.{partition}.jsonl.gz', prefix=SIMILARITY_FUNCTIONS + ['data'], partition=['dev'])
+for filename in FINAL_OUTPUTS:
+    if filename.startswith('results/evidence_retrieval') and any([filename.endswith(s) for s in suffix]):
+        ret_files.append(filename)
+ret_files = [f.replace('jsonl.gz', 'retrieval_accuracy.jsonl.gz') for f in ret_files]
+FINAL_OUTPUTS.update(ret_files)
+
+FINAL_OUTPUTS = sorted(FINAL_OUTPUTS)
+
+
+rule all:
+    input: FINAL_OUTPUTS
+    resources:
+        gpus=0
+
+
+def get_data_for_copy(wildcards):
+    prefix = PATH_NICKNAMES[wildcards.nickname]
+    return expand(os.path.join(prefix, '{{dataset}}pairs-{{data_version}}/qt{{query_template}}/data.{{partition}}.ver-{{length}}.jsonl.gz'),  **wildcards)
+
+
+rule copy_verification_as_input_dataset:
+    input: verification_data=get_data_for_copy, assignments='data/{dataset}-{data_version}/assignments.{partition}.jsonl.gz'
+    output: 'data/{dataset}pairs-{nickname}-L{length}-qt{query_template}-{data_version}/assignments.{partition}.jsonl.gz'
+    wildcard_constraints:
+        dataset=r'[^-/_]+',
+        length=r'\d+',
+        nickname=r'([\w-]+-[\w-]+|head|oracle|random\d+)'
+    shell: ACTIVATE_PYTHON + ''' python src/copy_verification_as_input_dataset.py \
+        {input.verification_data} \
+        --assignments {input.assignments} \
+        {output}'''

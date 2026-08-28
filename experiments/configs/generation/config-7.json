@@ -1,0 +1,16 @@
+{
+    "device_map_type": "balanced_low_0",
+    "generation": {
+        "max_completion_tokens": null,
+        "reasoning_effort": "medium",
+        "temperature": 1
+    },
+    "min_new_tokens": null,
+    "quantization_config": {
+        "bnb_4bit_compute_dtype": "bfloat16",
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_use_double_quant": false,
+        "load_in_4bit": true
+    },
+    "system_prompt_file": "system_prompts/chatgpt.md"
+}

@@ -1,0 +1,1152 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="case-report">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Onco Targets Ther</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Onco Targets Ther</journal-id>
+      <journal-id journal-id-type="publisher-id">OncoTargets and Therapy</journal-id>
+      <journal-title-group>
+        <journal-title>OncoTargets and therapy</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1178-6930</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">27445490</article-id>
+      <article-id pub-id-type="pmc">4936809</article-id>
+      <article-id pub-id-type="doi">10.2147/OTT.S104398</article-id>
+      <article-id pub-id-type="publisher-id">ott-9-3997</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Case Report</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Combined treatment with everolimus and fulvestrant reversed anti-HER2 resistance in a patient with refractory advanced breast cancer: a case report</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sun</surname>
+            <given-names>Bing</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-ott-9-3997">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ding</surname>
+            <given-names>Lijuan</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-ott-9-3997">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Shikai</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-ott-9-3997">1</xref>
+          <xref ref-type="corresp" rid="c1-ott-9-3997"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meng</surname>
+            <given-names>Xiangying</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-ott-9-3997">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Song</surname>
+            <given-names>Santai</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-ott-9-3997">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ott-9-3997"><label>1</label>Department of Radiotherapy</aff>
+      <aff id="af2-ott-9-3997"><label>2</label>Department of Breast Cancer, Affiliated Hospital of Academy of Military Medical Sciences, Beijing, People&#x2019;s Republic of China</aff>
+      <author-notes>
+        <corresp id="c1-ott-9-3997">Correspondence: Shikai Wu, Department of Radiotherapy, Affiliated Hospital of Academy of Military Medical Sciences, No 8 Dongda Street, Fengtai District, Beijing 100071, People&#x2019;s Republic of China, Email <email>skywu4923@sina.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>7</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>9</volume>
+      <fpage>3997</fpage>
+      <lpage>4003</lpage>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 Sun et al. This work is published and licensed by Dove Medical Press Limited</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <license-p>The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution &#x2013; Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Everolimus, an inhibitor of the mammalian target of rapamycin, shows promising antitumor activity when combined with trastuzumab and chemotherapy for human epidermal growth factor receptor-2 (HER2)-positive breast cancer or when combined with endocrine agents for hormone receptor (HR)-positive tumors. However, data are limited regarding the effect of everolimus in combination with endocrine drugs in HER2-positive advanced breast cancer regardless of the HR status.</p>
+        </sec>
+        <sec>
+          <title>Case presentation</title>
+          <p>A 44-year-old female was diagnosed with recurrent HER2-positive breast cancer. The primary tumor was HR positive; however, the metastatic tumor was HR negative. The patient was resistant to classical chemotherapeutic agents and anti-HER2 treatment. Thus, the combination of everolimus and fulvestrant, a selective estrogen receptor downregulator, was chosen to reverse the resistance to anti-HER2 therapy. Indeed, the patient experienced long-term disease stabilization. Adverse events associated with the treatment were manageable by dose adjustments. We performed genetic testing of the metastatic tumor, which harbored a <italic>PIK3CA</italic> gene mutation but was positive for phosphatase and tensin homologue expression, which might result in resistance to the mammalian target of rapamycin inhibitor.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>This case study indicates that combined treatment with everolimus and fulvestrant might be a viable option for the treatment of metastatic breast cancer patients who are HER2 positive and carry a <italic>PIK3CA</italic> gene mutation but are resistant to anti-HER2 therapy and classical chemotherapeutic agents. Further prospective randomized trials are needed to confirm this finding.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>mTOR inhibitor</kwd>
+        <kwd><italic>PIK3CA</italic> gene</kwd>
+        <kwd>genetic testing</kwd>
+        <kwd>PI3K Akt mTOR pathway</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Everolimus is an inhibitor of mammalian target of rapamycin (mTOR) that is approved for the treatment for advanced hormone receptor (HR) positive (estrogen receptor [ER] and/or progesterone receptor [PR] positive), human epidermal growth factor receptor-2 (HER2)-negative breast cancer in postmenopausal women in combination with exemestane.</p>
+      <p>HER2 is overexpressed in 15%&#x2013;20% of all cases of invasive breast cancer and is associated with aggressive disease and poor prognosis. Trastuzumab is the first biological antibody targeting HER2 receptor and is approved for the treatment of HER2-positive tumors. The PI3K/Akt/mTOR signaling pathway is important for the oncogenic function of HER2. Poor responses and resistance to HER2-directed therapy have been associated with activation of the PI3K/Akt/mTOR pathway.<xref rid="b1-ott-9-3997" ref-type="bibr">1</xref>,<xref rid="b2-ott-9-3997" ref-type="bibr">2</xref> Several studies demonstrated that the combination of everolimus and trastuzumab with chemotherapy shows favorable clinical response and might restore sensitivity to trastuzumab in patients with HER2-positive breast cancer.<xref rid="b3-ott-9-3997" ref-type="bibr">3</xref>,<xref rid="b4-ott-9-3997" ref-type="bibr">4</xref> Preclinical studies also revealed that everolimus combined with the aromatase inhibitor letrozole or selective ER downregulator fulvestrant may restore sensitivity to hormonal therapy.<xref rid="b5-ott-9-3997" ref-type="bibr">5</xref> However, there are no clear data regarding the effect of everolimus combined with endocrine agents without HER2-targeted therapy or chemotherapy for HER2-positive breast cancer, regardless of the HR status. In this report, we present a case of a patient with HER2-positive refractory advanced breast cancer in whom long-term disease control was achieved upon treatment with everolimus and fulvestrant.</p>
+    </sec>
+    <sec>
+      <title>Case presentation</title>
+      <p>A 44-year-old Chinese female with left invasive ductal breast cancer underwent a modified radical mastectomy in April 2005. The pathological stage of her cancer was T2N0M0 with intermediate grade and lymphovascular invasion. The primary tumor was ER, PR, and HER2 positive and phosphatase and tensin homologue (PTEN) negative as determined by immunohistochemistry (IHC). The expression of ER and PR was scored according to the Allred score. HER2 status was scored as positive if &gt;30% of tumor cells showed strong (3+) membrane staining, and PTEN status was designated as positive if tumor cells showed positive staining by IHC. The patient was treated with CAF (cyclophosphamide, adriamycin, and fluorouracil) adjuvant chemotherapy for six cycles and tamoxifen for 2 years without radiotherapy or trastuzumab. Metastases to the supraclavicular and cervical lymph nodes and left chest wall relapse were found in December 2007. Thus, the disease-free survival was 32 months.</p>
+      <p>From December 2007 to August 2012, the patient underwent multiple-line rescue treatments including several cytotoxic agents, HER2-targeted therapies, and endocrine therapies used for breast cancer (<xref ref-type="table" rid="t1-ott-9-3997">Table 1</xref>). Pretreatment biopsy and pathology results were not available. The rescue treatment was started with chemotherapy, but this was switched to endocrine drugs due to the adverse effects of chemotherapy. The patient obtained clinical benefit from endocrine therapy. The recurrent tumor in the left supraclavicular lymph nodes was HR negative by IHC and HER2 positive by fluorescence in situ hybridization detection in two hospitals in May 2009. Then, chemotherapy and HER2-directed therapy as main choices were applied, and endocrine therapy was also used due to the intolerance or lack of response to chemotherapy. Among these regimens, two regimens provided clinical benefit, namely, anastrozole combined with goserelin for 11 months and exemestane plus lapatinib for 7 months during the earlier treatment. In contrast, a total of seven regimens containing trastuzumab and two regimens containing lapatinib all failed (<xref ref-type="table" rid="t1-ott-9-3997">Table 1</xref>).</p>
+      <p>After discussion of various therapeutic options including palliative care, in 2012, we decided to treat the patient with everolimus (5 mg/d orally) in combination with intramuscular fulvestrant (500 mg once/28 days). The response and side effects of the regimen are shown in <xref ref-type="table" rid="t2-ott-9-3997">Table 2</xref>. After 6 days, we increased the dose of everolimus to 10 mg/d for 34 days.<xref rid="b6-ott-9-3997" ref-type="bibr">6</xref>,<xref rid="b7-ott-9-3997" ref-type="bibr">7</xref> Measurable lung lesions diminished modestly as observed by computed tomography (CT) examination (<xref ref-type="fig" rid="f1-ott-9-3997">Figure 1</xref>). The changes in target lesions based on the maximum reduction of the sum of lesion diameters are shown in <xref ref-type="fig" rid="f2-ott-9-3997">Figure 2</xref>. Side effects included third-degree stomatitis and liver toxicity and second-degree hematologic toxicity. After discontinuation of everolimus for 10 days, the side effects were relieved and eventually disappeared. When the patient took 5 mg everolimus daily, the lung lesions increased slightly. We therefore increased the dose to 5 and 10 mg/d alternately, with an estimated daily dose of 7.5 mg, and the lesions diminished again. Subsequently, everolimus was reduced to 5 mg daily or treatment was discontinued due to fatigue and other adverse events. Treatment was resumed again at 5 and 10 mg/d alternatively and after approximately six months of treatment, the patient could tolerate the full dose (10 mg/d) of everolimus.</p>
+      <p>At the first appearance of tumor progression detected by CT on June 7, 2013, the patient&#x2019;s pleural effusion was extracted for pathologic examination and molecular profile testing (performed by Caris Life Sciences, Irving, TX, USA). The results confirmed that the tumor was a HR-negative, HER2-positive adenocarcinoma that contained a <italic>PIK3CA</italic> gene mutation and was positive for PTEN expression (<xref ref-type="table" rid="t3-ott-9-3997">Table 3</xref>). The patient continued everolimus treatment until disease progression was confirmed on June 24, 2013. The response was stable disease as evaluated by Response evaluation criteria in solid tumors, and progression-free survival (PFS) was 10 months. Thereafter, the patient was treated with trastuzumab, emtansine, and sorafenib, individually, with no measurable responses. The patient died on October 27, 2013, with overall survival time of 102 months. Written informed consent was obtained from the patient for publication of this Case Report and any accompanying images. This case report was approved by the Ethics Committee of Affiliated Hospital of Academy of Military Medical Sciences.</p>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>The patient described in this report was premenopausal and presented with a HR-positive tumor, which is quite common among Asian women with early breast cancer. She experienced tumor relapse, probably due to the lack of adjuvant trastuzumab treatment, which was not yet routinely used in the People&#x2019;s Republic of China in 2005. Receptor conversion has been confirmed in 18%&#x2013;54% of breast cancer patients.<xref rid="b8-ott-9-3997" ref-type="bibr">8</xref> Thus, biopsy of metastasized sites is likely to provide useful information that may influence the therapeutic strategy. In this case, the HR status was positive in the primary tumor but negative in the metastatic tumors.</p>
+      <p>In the early period of metastasis, endocrine drug-containing therapy achieved long-term tumor control, and the possible reasons are as follows: 1) the high heterogeneity of breast cancer, which suggests the presence of endocrine-sensitive cells; 2) the possible existence of variation in HR status in the metastatic stage (although we have no IHC data for the tumor prior to treatment); and 3) slow tumor progression and a light tumor load with only local lymph node metastases. Later, the patient became resistant to endocrine therapy combined with HER2-directed therapy, and the tumor was confirmed to be HR negative twice.</p>
+      <p>Preclinical studies revealed that everolimus combined with the aromatase inhibitor letrozole or selective ER downregulator fulvestrant could reverse Akt-mediated resistance and restore sensitivity to hormonal therapy.<xref rid="b5-ott-9-3997" ref-type="bibr">5</xref> In a Phase II study, 31 patients with ER-positive metastatic breast cancer who had progressed while treated with an aromatase inhibitor received everolimus in combination with fulvestrant.<xref rid="b9-ott-9-3997" ref-type="bibr">9</xref> The EFECT trial served as the historical control for the effect of single-agent fulvestrant, with a median time to progression of 3.7 months.<xref rid="b10-ott-9-3997" ref-type="bibr">10</xref> The clinical benefit rate was 49%, and the median time to progression of everolimus plus fulvestrant was 7.4 months (95% confidence interval, 1.9&#x2013;12.1). Although two patients with HER2-positive disease were included in the EFECT trial, their responses were not reported.</p>
+      <p>Inhibition of the PI3K/Akt/mTOR pathway in breast cancer is a novel and valid choice for ER-positive and/or HER2-positive tumors. The patient described in this study was resistant to ~20 lines of therapy; therefore, the combination of everolimus and fulvestrant was chosen to reverse the resistance to anti-HER2 therapy. Everolimus has been evaluated in several Phase I/II clinical studies in unselected or HER2-negative metastatic breast cancer patients and exhibited modest results as a single agent with an overall response rate ranging from 0% to 21.2%.<xref rid="b11-ott-9-3997" ref-type="bibr">11</xref>&#x2013;<xref rid="b13-ott-9-3997" ref-type="bibr">13</xref> Studies confirmed that important cross talk exists between the ER and HER2 pathways. Because the efficacy of everolimus combined with HER2-directed agents was better in patients with ER-negative cancer than in patients with ER-positive cancer,<xref rid="b4-ott-9-3997" ref-type="bibr">4</xref> we speculated that inhibition of both the PI3K/Akt/mTOR pathway by everolimus and the ER pathway by fulvestrant could result in strong antitumor activity.</p>
+      <p>We demonstrated that the recurrent tumor was HR negative and HER2 positive, had a <italic>PIK3CA</italic> mutation in exon 20, and expressed PTEN as shown by IHC. Studies have indicated that tumors with <italic>PIK3CA</italic> mutations and loss of PTEN exhibit PI3K/Akt/mTOR pathway activation and respond to mTOR inhibitors.<xref rid="b4-ott-9-3997" ref-type="bibr">4</xref>,<xref rid="b14-ott-9-3997" ref-type="bibr">14</xref> Therefore, the present case demonstrated that the clinical benefit might be due to the <italic>PIK3CA</italic> somatic mutation. Because PTEN leads to downregulation of the <italic>PIK3CA</italic>/Akt pathway, the tumor may become resistant to mTOR inhibitor treatment.</p>
+      <p>Everolimus is recommended at a dose of 5 mg/d when combined with chemotherapy and at a dose of 10 mg/d when combined with endocrine agents.<xref rid="b4-ott-9-3997" ref-type="bibr">4</xref>,<xref rid="b11-ott-9-3997" ref-type="bibr">11</xref>,<xref rid="b12-ott-9-3997" ref-type="bibr">12</xref> The most common adverse events associated with everolimus are stomatitis, rash, fatigue, and diarrhea.<xref rid="b6-ott-9-3997" ref-type="bibr">6</xref>,<xref rid="b15-ott-9-3997" ref-type="bibr">15</xref> Most of the toxicities experienced by our patient were Grade 1 or 2; however, the patient experienced Grade 3 stomatitis and liver toxicity soon after the dose of everolimus was increased to 10 mg/d. The toxicities were reduced to Grade 1 after the dose was lowered to 5 mg/d or treatment was discontinued. After approximately 6 months of treatment, the patient experienced tolerable toxicities on the full dose of everolimus.</p>
+      <p>The response improved with increased everolimus dosage, and the tumor size slightly increased with dosage reduction. These findings suggest the existence of a dose&#x2013;effect relationship. However, the pharmacokinetics of everolimus with or without any agents has not been evaluated for a large population of Asian patients.<xref rid="b16-ott-9-3997" ref-type="bibr">16</xref> Although early studies indicated that age, sex, and weight have no effect on pharmacokinetics parameters, the best dose of everolimus for the population with a low body surface area is uncertain. In subgroup analyses of BOLERO-2, everolimus plus exemestane improved PFS by 8.48 months in Asian patients and 7.33 months among non-Asian patients.<xref rid="b15-ott-9-3997" ref-type="bibr">15</xref> Although we can only speculate that such good efficacy is associated with the use of a high dose, the present case indicated that the appropriate dose intensity for everolimus might be 5&#x2013;7.5 mg/d in the initial stage for Asian women and patients who have received multiple-line therapies with low weight and poor performance status.</p>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>This case indicates that everolimus in combination with fulvestrant has promising antitumor activity in HER2-positive breast tumors that harbor <italic>PIK3CA</italic> mutations, regardless of the HR status. The adverse events associated with everolimus could be well managed by dose reduction or discontinuation of everolimus. Genetic testing of metastatic tumor revealed the activation of the PI3K/Akt/mTOR pathway, and the response was in accordance with the results of genetic testing. The appropriate dose of everolimus in Asian metastatic breast cancer patients deserves further study. Further prospective randomized trials are needed to confirm the findings in this particular patient.</p>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p>
+          <bold>Disclosure</bold>
+        </p>
+        <p>The authors report no conflicts of interest in this work.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-ott-9-3997">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berns</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Horlings</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Hennessy</surname>
+              <given-names>BT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A functional genetic approach identifies the PI3K pathway as a major determinant of trastuzumab resistance in breast cancer</article-title>
+          <source>Cancer Cell</source>
+          <year>2007</year>
+          <volume>12</volume>
+          <issue>4</issue>
+          <fpage>395</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="pmid">17936563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-ott-9-3997">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esteva</surname>
+              <given-names>FJ</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PTEN, PIK3CA, p-AKT, and p-p70S6K status: association with trastuzumab response and survival in patients with HER2-positive metastatic breast cancer</article-title>
+          <source>Am J Pathol</source>
+          <year>2010</year>
+          <volume>177</volume>
+          <issue>4</issue>
+          <fpage>1647</fpage>
+          <lpage>1656</lpage>
+          <pub-id pub-id-type="pmid">20813970</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-ott-9-3997">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hurvitz</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Dalenc</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Campone</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A phase 2 study of everolimus combined with trastuzumab and paclitaxel in patients with HER2-overexpressing advanced breast cancer that progressed during prior trastuzumab and taxane therapy</article-title>
+          <source>Breast Cancer Res Treat</source>
+          <year>2013</year>
+          <volume>141</volume>
+          <issue>3</issue>
+          <fpage>437</fpage>
+          <lpage>446</lpage>
+          <pub-id pub-id-type="pmid">24101324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-ott-9-3997">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andre</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Regan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ozguroglu</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Everolimus for women with trastuzumab-resistant, HER2-positive, advanced breast cancer (BOLERO-3): a randomised, double-blind, placebo-controlled phase 3 trial</article-title>
+          <source>Lancet Oncol</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <issue>6</issue>
+          <fpage>580</fpage>
+          <lpage>591</lpage>
+          <pub-id pub-id-type="pmid">24742739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-ott-9-3997">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beeram</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>QT</given-names>
+            </name>
+            <name>
+              <surname>Tekmal</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Middleton</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>DeGraffenried</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <article-title>Akt-induced endocrine therapy resistance is reversed by inhibition of mTOR signaling</article-title>
+          <source>Ann Oncol</source>
+          <year>2007</year>
+          <volume>18</volume>
+          <issue>8</issue>
+          <fpage>1323</fpage>
+          <lpage>1328</lpage>
+          <pub-id pub-id-type="pmid">17693645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-ott-9-3997">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baselga</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Campone</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Piccart</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Everolimus in postmenopausal hormone-receptor-positive advanced breast cancer</article-title>
+          <source>N Engl J Med</source>
+          <year>2012</year>
+          <volume>366</volume>
+          <issue>6</issue>
+          <fpage>520</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="pmid">22149876</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-ott-9-3997">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bachelot</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bourgier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Cropet</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Randomized phase II trial of everolimus in combination with tamoxifen in patients with hormone receptor-positive, human epidermal growth factor receptor 2-negative metastatic breast cancer with prior exposure to aromatase inhibitors: a GINECO study</article-title>
+          <source>J Clin Oncol</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <issue>22</issue>
+          <fpage>2718</fpage>
+          <lpage>2724</lpage>
+          <pub-id pub-id-type="pmid">22565002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-ott-9-3997">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arslan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Sari</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Aksoy</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Altundag</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Variation in hormone receptor and HER-2 status between primary and metastatic breast cancer: review of the literature</article-title>
+          <source>Expert Opin Ther Targets</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>21</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="pmid">21105765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-ott-9-3997">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Massarweh</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Romond</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Black</surname>
+              <given-names>EP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A phase II study of combined fulvestrant and everolimus in patients with metastatic estrogen receptor (ER)-positive breast cancer after aromatase inhibitor (AI) failure</article-title>
+          <source>Breast Cancer Res Treat</source>
+          <year>2014</year>
+          <volume>143</volume>
+          <issue>2</issue>
+          <fpage>325</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="pmid">24327334</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-ott-9-3997">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chia</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gradishar</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Mauriac</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Double-blind, randomized placebo controlled trial of fulvestrant compared with exemestane after prior nonsteroidal aromatase inhibitor therapy in postmenopausal women with hormone receptor-positive, advanced breast cancer: results from EFECT</article-title>
+          <source>J Clin Oncol</source>
+          <year>2008</year>
+          <volume>26</volume>
+          <issue>10</issue>
+          <fpage>1664</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="pmid">18316794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-ott-9-3997">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellard</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Clemons</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gelmon</surname>
+              <given-names>KA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Randomized phase II study comparing two schedules of everolimus in patients with recurrent/metastatic breast cancer: NCIC Clinical Trials Group IND.163</article-title>
+          <source>J Clin Oncol</source>
+          <year>2009</year>
+          <volume>27</volume>
+          <issue>27</issue>
+          <fpage>4536</fpage>
+          <lpage>4541</lpage>
+          <pub-id pub-id-type="pmid">19687332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-ott-9-3997">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tabernero</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Rojo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Calvo</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dose- and schedule-dependent inhibition of the mammalian target of rapamycin pathway with everolimus: a phase I tumor pharmacodynamic study in patients with advanced solid tumors</article-title>
+          <source>J Clin Oncol</source>
+          <year>2008</year>
+          <volume>26</volume>
+          <issue>10</issue>
+          <fpage>1603</fpage>
+          <lpage>1610</lpage>
+          <pub-id pub-id-type="pmid">18332469</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-ott-9-3997">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maass</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Harbeck</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Mundhenke</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Everolimus as treatment for breast cancer patients with bone metastases only: results of the phase II RADAR study</article-title>
+          <source>J Cancer Res Clin Oncol</source>
+          <year>2013</year>
+          <volume>139</volume>
+          <issue>12</issue>
+          <fpage>2047</fpage>
+          <lpage>2056</lpage>
+          <pub-id pub-id-type="pmid">24072232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-ott-9-3997">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>CH</given-names>
+            </name>
+            <name>
+              <surname>Wyszomierski</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Tseng</surname>
+              <given-names>LM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Preclinical testing of clinically applicable strategies for overcoming trastuzumab resistance caused by PTEN deficiency</article-title>
+          <source>Clin Cancer Res</source>
+          <year>2007</year>
+          <volume>13</volume>
+          <issue>19</issue>
+          <fpage>5883</fpage>
+          <lpage>5888</lpage>
+          <pub-id pub-id-type="pmid">17908983</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-ott-9-3997">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Iwata</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Efficacy of everolimus with exemestane versus exemestane alone in Asian patients with HER2-negative, hormone-receptor-positive breast cancer in BOLERO-2</article-title>
+          <source>Breast Cancer</source>
+          <year>2014</year>
+          <volume>21</volume>
+          <issue>6</issue>
+          <fpage>703</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="pmid">23404211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-ott-9-3997">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirchner</surname>
+              <given-names>GI</given-names>
+            </name>
+            <name>
+              <surname>Meier-Wiedenbach</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Manns</surname>
+              <given-names>MP</given-names>
+            </name>
+          </person-group>
+          <article-title>Clinical pharmacokinet-ics of everolimus</article-title>
+          <source>Clin Pharmacokinet</source>
+          <year>2004</year>
+          <volume>43</volume>
+          <issue>2</issue>
+          <fpage>83</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">14748618</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-ott-9-3997" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Chest computed tomography images showing the response to everolimus combined with fulvestrant.</p>
+        <p><bold>Notes:</bold> Compared to lung lesions at baseline (<bold>A</bold>) lesions at the level of main bronchus and (<bold>B</bold>) lesions at the level of right middle bronchus and left lower lobar bronchus, (<bold>C</bold> and <bold>D</bold>) show a modest decrease in the size of the metastatic bilateral lung lesions treated with 1 month of orally administered 10 mg/d everolimus plus fulvestrant.</p>
+      </caption>
+      <graphic xlink:href="ott-9-3997Fig1"/>
+    </fig>
+    <fig id="f2-ott-9-3997" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>Response to everolimus treatment.</p>
+      </caption>
+      <graphic xlink:href="ott-9-3997Fig2"/>
+    </fig>
+    <table-wrap id="t1-ott-9-3997" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>History of treatment in the metastatic setting</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Time</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Emerging sites of metastatic disease</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Rescued treatment regimens</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Period<xref ref-type="table-fn" rid="tfn1-ott-9-3997">a</xref></th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Response<break/>(month)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Dec 25, 2007</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Left chest wall, left supra- and subclavicular, and cervical lymph nodes</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Capecitabine 1,000 mg/m<sup>2</sup> PO twice daily on days 1&#x2013;14 and docetaxel 80 mg/m<sup>2</sup> IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 cycle</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jan 18 &#x2013; Mar 2, 2008</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Docetaxel 80 mg/m<sup>2</sup> IV and trastuzumab 440 mg IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mar 5 &#x2013; Apr 17, 2008</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Bilateral axillary lymph nodes</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Docetaxel 80 mg/m<sup>2</sup> IV, carboplatin 366 mg/m<sup>2</sup> IV, and trastuzumab 330 mg IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, TTF =1 month for AEs</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">May 25, 2008 &#x2013; Apr 23, 2009</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Anastrozole 1 mg PO daily and goserelin 3.6 mg SC every 28 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =11 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">May 7, 2009</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Excision biopsy of left supraclavicular lymph node</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Hormone receptors were negative by IHC, HER2 was positive by FI</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SH</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">May 19 &#x2013; Jul 6, 2009</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Exemestane 2.5 mg PO daily and rescued radiotherapy (left supra- and subclavicular region with 70.8 Gy in 38 fractions)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.5 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PR</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">May 18 &#x2013; Jul 15, 2009</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Paclitaxol 40 mg/m<sup>2</sup> IV weekly</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8 weeks</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jul 24, 2009 &#x2013; Mar 9, 2010</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Bilateral lung</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Exemestane 2.5 mg PO daily and lapatinib 1,250 mg PO daily</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">The best response was unknown, PFS =7 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mar 10 &#x2013; Apr 22, 2010</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Gemcitabine 1,000 mg/m<sup>2</sup> IV and lobaplatin 33 mg/m<sup>2</sup> IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Apr 23 &#x2013; Jul 29, 2010</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Vinorelbine 25 mg/m<sup>2</sup> IV weekly for 2 weeks followed by 1 week rest</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, TTF =3 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">May 11, 2010 &#x2013; Mar 15, 2011</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Cytokine-induced killer cell immunotherapy, every 2 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sep 2 &#x2013; Oct 11, 2010</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Capecitabine 1,000 mg/m<sup>2</sup> PO twice daily on days 1&#x2013;14</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Oct 12, 2010</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Vp-16 100 mg/m<sup>2</sup> PO daily on days 1&#x2013;14</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 cycle</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">TTF =0.5 month</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Nov 10, 2010 &#x2013; Mar 10, 2011</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Trastuzumab 440 mg IV on day 1 and megestrol 160 mg PO daily</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =4 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Apr 8 &#x2013; Sep 5, 2011</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mediastinal and bilateral hilar lymph nodes, ninth thoracic vertebra</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Nab-Paclitaxel 260 mg/m<sup>2</sup> IV and trastuzumab 440 mg IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =5 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sep 19 &#x2013; Oct 30, 2011</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Liver</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Pemetrexed 500 mg/m<sup>2</sup> IV and trastuzumab 440 mg IV on day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Nov 9 &#x2013; Dec 17, 2011</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Intracranial</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Whole-brain radiotherapy with Dt 40 Gy in 20 fractions</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 month</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PR</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Nov 11, 2011 &#x2013; Feb 29, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Capecitabine 1,000 mg/m<sup>2</sup> PO twice daily days 1&#x2013;14 and Lapatinib 1,000 mg PO daily</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =3.5 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Feb 21 &#x2013; Mar 12, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Vinorelbine and trastuzumab</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 cycle</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mar 12 &#x2013; Apr 22, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Toremifene and trastuzumab</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Apr 27 &#x2013; Aug 15, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Docetaxel and avastin (9.1 mg/kg)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =4 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Aug 25, 2012 &#x2013; Jun 24, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Everolimus and fulvestrant</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =10 months</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jun 7, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Pleura fluid extraction</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Adenocarcinoma by pathology, tumor genetic testing</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jun 27, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Core needle biopsy of liver lesions</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">A few suspicious cells which are difficult for diagnosis</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jun 26 &#x2013; Jul 16, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Trastuzumab emtansine 3.6 mg/kg IV day 1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 cycle</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Aug 1 &#x2013; Aug 20, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sorafenib 200 mg PO twice daily for 20 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3 weeks</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Aug 20 &#x2013; Oct 27, 2013 (Death)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Palliative treatment</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">PD</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn1-ott-9-3997">
+          <label>a</label>
+          <p>Cycled every 21 days. From the date of diagnosis to March 2011, the patient was treated in other hospitals in the People&#x2019;s Republic of China, and thus, several responses to regimens were unknown (shown as &#x201C;&#x2013;&#x201D;). Then, the patient received rescue treatment in our hospital (Hospital of Academy of Military Medical Sciences) from April 2011 to August 2013.</p>
+        </fn>
+        <fn id="tfn2-ott-9-3997">
+          <p><bold>Abbreviations:</bold> SD, stable disease; PR, partial response; HER2, human epidermal growth factor receptor-2; IHC, immunohistochemistry; FISH, fluorescence in situ hybridization; PD, progressive disease; TTF, time to treatment failure; PFS, progression-free survival; PO, per os; IV, intravenous; SC, subcutaneous; Gy, grays; AE, adverse event; IHC, immunohistochemistry.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t2-ott-9-3997" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p>Treatment and side effects of everolimus combined with fulvestrant</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Time</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Dose of everolimus</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Response</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Side effect<xref ref-type="table-fn" rid="tfn3-ott-9-3997">a</xref></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Aug 25 &#x2013; Aug 30, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 mg/d for 6 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Aug 31 &#x2013; Oct 3, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10 mg/d for 34 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Third-degree stomatitis;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Third-degree liver toxicity (AST 359 U/L, ALT 632 U/L);</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree thrombocytopenia;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree leukopenia</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Oct 4 &#x2013; Oct 12, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Drug withdrawal</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">The side effects were relieved to 0 or first-degree grade with discontinuation of everolimus for 10 days.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Oct 13 &#x2013; Nov 6, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 mg/d</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree leukopenia;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree increased AST and ALT</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Nov 7 &#x2013; Dec 31, 2012</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 and 10 mg/d alternately</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree fatigue;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree palpitation;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree increased AST;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree increased ALT</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jan 1 &#x2013; Jan 25, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 mg/d</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree increased AST and ALT</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jan 26 &#x2013; Feb 8, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 and 10 mg/d alternately</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree fatigue</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Feb 8 &#x2013; Feb 17, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Drug withdrawal during holiday</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree fatigue</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Feb 17 &#x2013; Mar 10, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5 and 10 mg/d alternately</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree fatigue;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree decreased appetite;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree stomatitis;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree nausea;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree hypokalemia</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mar 10 &#x2013; Jun 24, 2013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10 mg/d</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD, PFS =10 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree fatigue;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Second-degree decreased appetite;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree stomatitis;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree increased AST and ALT;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree nausea;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree hypokalemia;</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">First-degree hypocalcemia</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn3-ott-9-3997">
+          <label>a</label>
+          <p>Side effects were graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events, Version 3.0.</p>
+        </fn>
+        <fn id="tfn4-ott-9-3997">
+          <p><bold>Abbreviations:</bold> ALT, alanine aminotransferase; AST, aspartate aminotransferase; PFS, progression-free survival; SD, stable disease.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t3-ott-9-3997" position="float">
+      <label>Table 3</label>
+      <caption>
+        <p>Tumor genetic testing results (metastatic pleura fluid)</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Gene</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Method</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Result</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>ER</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">IHC</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Negative</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2212;, 0%</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>PR</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">IHC</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Negative</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x2212;, 0%</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>HER-2</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">CISH</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Amplified</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">signal counts: 14.54</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">IHC</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Positive</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+++, 90%</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>PIK3CA</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Next Gen SEQ</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Pathogenic</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">H1047R mutation</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>PTEN</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">IHC</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Positive</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+, 60%</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>TOP2A</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">FISH</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Not amplified</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">copy number: 1.07</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>C-KIT</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Next Gen SEQ</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wild-type</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <italic>BRAF</italic>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Next Gen SEQ</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wild-type</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn5-ott-9-3997">
+          <p>&#x2212; indicates negative value; +++ indicates highly positive value; + indicates positive value.</p>
+        </fn>
+        <fn id="tfn6-ott-9-3997">
+          <p><bold>Abbreviations:</bold> IHC, immunohistochemistry; Next Gen SEQ, next generation sequencing; CISH, chromogenic in situ hybridization; FISH, fluorescence in situ hybridization; N/A, not applicable.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>
