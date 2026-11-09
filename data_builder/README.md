@@ -1,5 +1,6 @@
 # CIViC-Fact Claim Verification Dataset
 
+- [Using the Released Dataset](#using-the-released-dataset)
 - [Data Format](#data-format)
   - [Evidence](#evidence)
   - [Claim](#claim)
@@ -11,7 +12,16 @@
 - [Workflow](#workflow)
 - [Data License](#data-license)
 
-The CIViC-Fact data set is a companion dataset to the CIViC database. For the purposes of this dataset which consider each "Evidence Item" from CIViC to be a claim. We provide evidence for each claim via selected excerpts of text from the article the claim was derived from. These selections were collected by a group of expert curators using the web tool hypothes.is. An example is given below. Here the pertinent fields of the claim are shown as a table (tab-delimited in the data files) and any relevant excerpts are concatenated via ellipsis. The dataset is published in JSONL format.
+CIViC-Fact is a companion dataset to the CIViC knowledgebase that links structured cancer variant interpretations to evidence from their source publications. Each CIViC Evidence Item is treated as a claim, with relevant sentence-level evidence manually selected by expert curators using hypothes.is.
+
+The released dataset provides two complementary resources in compressed JSONL format:
+
+- **`data.jsonl.gz`** contains claim/evidence pairs for claim verification, including original and generated examples with reference labels (`SUPPORTS`, `REVISIONS`, or `NEI`).
+- **`retrieval.jsonl.gz`** contains structured CIViC claims paired with manually annotated evidence spans, including their locations within the source publications.
+
+Claims are represented as structured JSON objects, while evidence spans are stored with associated metadata. The `claim.flat` and `evidence.flat` fields provide text representations for model input, with multiple evidence excerpts concatenated using ellipsis delimiters.
+
+The following example illustrates the relationship between a CIViC claim and its supporting evidence. For readability, only selected claim fields are shown in tabular form; the released data uses the structured JSON representation described below.
 
 claim
 
@@ -27,14 +37,76 @@ There are several steps in pre-processing the data we have done to both clean an
 
 The data builds themselves are found under the builds directory versioned by the date they were generated
 
+
+## Using the Released Dataset
+
+The CIViC-Fact dataset is available in compressed JSONL format. The dataset used in this study is [v2026.06.09](https://github.com/creisle/civicfact/releases/tag/v2026.06.09).
+
+Two files are provided under `builds/civicfact-2026.06.09/`:
+
+- **`data.jsonl.gz`**: Claim/evidence pairs for claim verification, including manually curated and synthetically generated examples, reference labels (`SUPPORTS`, `REVISIONS`, `NEI`), and train/development/test assignments.
+- **`retrieval.jsonl.gz`**: Original structured CIViC claims linked to manually annotated sentence-level evidence, including annotation metadata and evidence locations. Use this file to examine the evidence provenance or construct passage-retrieval evaluations.
+
+### Loading the data
+
+After cloning the repository, either dataset can be loaded with Python's standard library:
+
+```python
+import gzip
+import json
+from pathlib import Path
+
+build_dir = Path("data_builder/builds/civicfact-2026.06.09")
+
+
+def load_jsonl(filename):
+    with gzip.open(build_dir / filename, "rt", encoding="utf-8") as file:
+        return [json.loads(line) for line in file]
+
+
+data = load_jsonl("data.jsonl.gz")
+retrieval = load_jsonl("retrieval.jsonl.gz")
+```
+
+For claim verification, select examples by their `partition` field:
+
+```python
+train = [row for row in data if row["partition"] == "train"]
+dev = [row for row in data if row["partition"] == "dev"]
+test = [row for row in data if row["partition"] == "test"]
+
+example = train[0]
+print(example["claim.flat"])
+print(example["evidence.flat"])
+print(example["gold_label_name"])
+```
+
+Records with `partition = "unassigned"` are not included in the benchmark training, development, or test partitions.
+
+For the original evidence annotations, access the structured claim and its annotated evidence spans:
+
+```python
+example = retrieval[0]
+
+print(example["claim"]["content"])
+
+for span in example["evidence"]:
+    print(span["content"])
+    print(span["meta"]["section"])
+    print(span["meta"]["start"], span["meta"]["end"])
+```
+
+Evidence metadata includes the source document section, text offsets, and hypothes.is annotation identifiers. See [Data Format](#data-format) for additional fields.
+
+
 ## Data Format
 
-A description of each field in the data files
+The following fields describe the claim-verification records in `data.jsonl.gz`. The `retrieval.jsonl.gz` dataset contains a subset of these fields, focused on original CIViC claims and manually annotated evidence rather than generated claim/evidence pairs.
 
 If the claim maps directly to a CIViC evidence item, then the following fields are copied directly from that CIViC evidence item to include in the data file for posterity at the time of the build
 
 - civic.description
-- civic.evidenceItem
+- civic.claim `dict`: The original structured CIViC claim, before any modifications used for data augmentation
 - civic.flagged `bool`
 - civic.id
 - civic.status `str`: ACCEPTED, REJECTED, or SUBMITTED
@@ -49,29 +121,30 @@ Fields that directly relate to the article metadata are below
 
 Remaining Fields
 
-- claim `List[TEXT]`: The tabular claim from civic as a structured element containing metadata
-- claim.flat `str`: The flattened claim
+- claim `dict`: The structured claim used for verification, containing `content`, `meta`, and `type`
+- claim.flat `str`: The structured claim serialized as a formatted JSON string
 - claim.generated `bool`: If this field is true, the claim was generated as part of data augmentation and does not necessiarly map to a particular item in CIViC
-- claim.id: generated id unique to this claim
+- claim.id `str`: Identifier of the claim; may match the original CIViC Evidence Item ID
 - claim.source `str`: The source the claim was dervived from, generally CIViC for non-augmented data
 - conversation: A representation of the comment history from hypothes.is
-- display_id `UUID`: generated UUID
-- evidence `List[EVIDENCE]`: The evidence as a structured element containing metadata
+- display_id `str`: UUID identifying the displayed example
+- evidence `List[dict]`: Evidence spans, each containing `content`, `meta`, and `type`
 - evidence.flat `str`: The flattened evidence
 - evidence.generated `bool`: If true, the evidence was not selected by a human curator via hypothes.is but is augmented data
-- evidence.id `int`: generated id unique to this combination of evidence
+- evidence.id `str`: Identifier of the evidence selection; may contain multiple concatenated hypothes.is annotation IDs
 - evidence.selection_method `str`: how evidence was selected
 - evidence.source `str`: The source used to get the article content
-- example `str`: When there are multiple possible sets of exceprts that could be evidence for a particular claim we differentiate possible different combinations with an example number
+- example `str | int | null`: Identifier distinguishing alternative evidence selections for a claim, where applicable
 - flagged `bool`: If this claim/evidence pair was flagged either in civic or hypothesis. Indicates a possible error in the data and should be reviewed or used more carefully
 - generated `bool`: True when the data was generated as part of data augmentation
 - gold_label_name `str`: One of three possible labels: SUPPORTS, REVISIONS, or NEI indicating the stance of the evidence toward the claim
 - hypothesis.tag: Tags from the original hypothesis file
 - hypothesis.username `str`: The name of the user who curated the hypothes.is selections
-- id `UUID`: generated UUID
-- in_table: True if the evidence selection falls in a table
+- id `str`: UUID identifying the claim/evidence pair
+- in_table `bool`: Indicates whether the evidence selection is associated with a table
 - original_example `UUID`: Links to another row if this is an augmented data point. This will point to the row it was dervived from
-- partition `str`: The partition of the dataset this row belongs to. train, dev, test, or unassigned.
+- partition `str`: Benchmark partition (`train`, `dev`, `test`, or `unassigned`); use this field when selecting evaluation splits
+- pmid.partition `str`: Partition assigned to the source publication; this may differ from `partition`, which determines whether the claim/evidence pair is included in the benchmark splits
 - reviews `List[REVIEW]`: A structured object containing reviews and their explanations of the stance of the evidence for this claim/evidence pair
 
 ### Evidence
@@ -104,40 +177,40 @@ An example of an evidence chunk object is given below
 
 ### Claim
 
-The claim object follows a similar structure to the evidence object. An example is shown below. By default, all claim objects in the CIViC-Fact dataset are tabular. Tabular content is represented as a list of tuples where each evidence object represents a single row and each row is composed of (col,value) tuples.
+Claims are represented as structured JSON objects with three fields:
+
+- `content`: A dictionary containing the structured CIViC claim fields, such as molecular profile, disease, evidence type, significance, therapies, and evidence direction.
+- `meta`: Additional metadata, including synonyms and ontology cross-references for entities in the claim.
+- `type`: Identifies the object as a claim.
+
+An example from the released dataset is shown below (synonym metadata abbreviated for readability):
 
 ```json
 {
-  "content": [
-    ["molecularProfile", "ERBB2 H878Y"],
-    ["evidenceType", "PREDICTIVE"],
-    ["significance", "resistance"],
-    ["therapies", "Lapatinib"],
-    ["diseases", "Cancer"]
-  ],
+  "content": {
+    "disease": "Colorectal Cancer",
+    "evidenceDirection": "DOES_NOT_SUPPORT",
+    "evidenceType": "PROGNOSTIC",
+    "molecularProfile": "KRAS G12 OR KRAS G13D",
+    "significance": "poor outcome",
+    "variantOrigin": "SOMATIC"
+  },
   "meta": {
     "synonyms": [
       {
-        "name": "Lapatinib",
-        "synonyms": [
-          "GSK572016", "GW 2016", "GW2016", "GW572016",
-        ],
-        "type": "therapy",
-        "xrefs": "NCI:C26653"
-      },
-      {
-        "name": "ERBB2",
-        "synonyms": [
-          "CD340", "HER-2", "HER-2/neu", "HER2", "c-ERB-2", "c-ERB2",
-        ],
-        "type": "gene",
-        "xrefs": "entrezId:2064"
+        "name": "KRAS G12",
+        "synonyms": ["GLY12"],
+        "type": "variant"
       }
     ]
   },
-  "type": "table"
+  "type": "claim"
 }
 ```
+
+The `claim.flat` field contains the structured claim serialized as a formatted JSON string, which can be used directly as model input.
+
+In `data.jsonl.gz`, the `claim` field represents the claim used for verification, which may differ from the original CIViC claim when examples have been generated or modified. The `civic.claim` field retains the original structured claim where available.
 
 ## Data Preprocessing
 
@@ -147,11 +220,13 @@ Text selected through hypothesis often includes formatting marks or loss of whit
 
 ### Data Augmentation
 
-In order to augment the dataset for LLM training we have expanded the dataset in several ways
+To expand the claim-verification dataset, we generated additional claim/evidence pairs representing different curation scenarios:
 
-1. CIViC evidence item descriptions are used as further examples of "evidence" for their claim
-2. The NEI class is supplemented with claims generated based on NER entities from putator plus randomly selected exceprts from the same paper
-3. The REFUTES class is augments by altering claims to their opposite. For example a claim/evidence pair with a label of SUPPORTS the significance of sensitivity can be changed to be an expected REFUTES label by modifying the significance of the claim to be resistance instead of sensitivity
+1. **CIViC descriptions:** Written Evidence Item descriptions were paired with their corresponding structured claims. Descriptions were assessed for sufficient evidence using PubTator and regular-expression matching; insufficient descriptions were labelled `NEI`.
+2. **Generated claims:** Plausible claims were constructed using diseases, variants, and therapies identified in source publications with PubTator, combined with randomly assigned evidence types and significance values. These claims were paired with passages retrieved from the same publication using SPECTER.
+3. **Claim modifications:** Existing claims were modified to generate `REVISIONS` examples, including changes to disease specificity, therapy terms, molecular profiles, and other structured fields. The original claim provides the expected correction.
+
+The current dataset uses three reference labels: `SUPPORTS`, `REVISIONS`, and `NEI`. Earlier releases used `REFUTES` in place of `REVISIONS`; these labels are not directly interchangeable.
 
 ## Getting Started Building the Dataset (Developers)
 
@@ -181,4 +256,4 @@ The general workflow to generate the CIViC-Fact claim verification and evidence 
 
 ## Data License
 
-The CIViC-Fact dataset does not introduce any new licensing terms. Instead, it inherits the license of the source article from which each claim/evidence pair is derived. Source articles come from PMC (Open Access subset, author-uploaded manuscripts, or the historical OCR subset) or from PubMed (when only abstracts are used). Each entry includes a "document.license" field, which specifies the applicable license so users can determine whether and how a document may be reused (e.g., commercial users must exclude entries with CC BY-NC or CC BY-NC-SA licenses). To use the dataset in full without filtering, users should assume the most restrictive license applies. For build v2025.03.25, this is CC BY-NC-SA.
+The CIViC-Fact dataset does not introduce any new licensing terms. Instead, it inherits the license of the source article from which each claim/evidence pair is derived. Source articles come from PMC (Open Access subset, author-uploaded manuscripts, or the historical OCR subset) or from PubMed (when only abstracts are used). Each entry includes a "document.license" field, which specifies the applicable license so users can determine whether and how a document may be reused (e.g., commercial users must exclude entries with CC BY-NC or CC BY-NC-SA licenses). To use the dataset in full without filtering, users should assume the most restrictive license applies. For build v2026.06.09, this is CC BY-NC-SA.
