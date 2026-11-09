@@ -23,49 +23,6 @@ mv $working_dir/$archive_name .
 
 cp $working_dir/results/civic_nli/data.goal-3.jsonl.gz data.jsonl.gz
 cp $working_dir/data/civic-dump.jsonl civic-dump.jsonl
-cp $working_dir/results/civic_nli/sentence_level_evidence.jsonl.gz retreival.jsonl.gz
+cp $working_dir/results/civic_nli/sentence_level_evidence.jsonl.gz retrieval.jsonl.gz
 gzip civic-dump.jsonl
 cp $working_dir/results/sentence_similarity/document_chunks.jsonl.gz document_chunks.jsonl.gz
-
-
-### archive civicpairs data
-
-# version_dir="$working_dir/builds/civicpairs-$last_modified_date"
-# if [ -d "$version_dir" ]; then
-#     echo "A build with this date already exists: $version_dir"
-#     exit 1
-# fi
-
-# echo "creating: ${version_dir}"
-# mkdir -p $version_dir
-# cd $version_dir
-
-# cp $working_dir/results/sentence_similarity/document_chunks.jsonl.gz document_chunks.jsonl.gz
-# cp $working_dir/results/civic/claims.jsonl.gz claims.jsonl.gz
-# cp $working_dir/results/sentence_similarity/pairs.jsonl.gz data.jsonl.gz
-
-
-# copy the fulltext datafile to a sep directory
-
-# version_dir="$working_dir/builds/civicfactft-$last_modified_date"
-# echo "creating: ${version_dir}"
-# mkdir -p $version_dir
-# cd $version_dir
-# cp $working_dir/results/civic_nli/merged.all-reviews.flipped.fulltext.jsonl data.jsonl
-# gzip data.jsonl
-
-# copy the nl datafile to a sep directory
-
-# version_dir="$working_dir/builds/civicfactnl-$last_modified_date"
-# echo "creating: ${version_dir}"
-# mkdir -p $version_dir
-# cd $version_dir
-# cp $working_dir/results/civic_nli/merged.all-reviews.flipped.partitioned.nl.jsonl data.jsonl
-# gzip data.jsonl
-
-# version_dir="$working_dir/builds/civicfactisa-$last_modified_date"
-# echo "creating: ${version_dir}"
-# mkdir -p $version_dir
-# cd $version_dir
-# cp $working_dir/results/civic_nli/merged.all-reviews.flipped.partitioned.isa.jsonl data.jsonl
-# gzip data.jsonl
